@@ -1,0 +1,184 @@
+<?php
+/**
+ * Rename some stanford_pages so that they align with menus
+ */
+
+$patch = array(
+  array(
+    'url'   => 'academics/undergraduate-program',
+    'title' => 'Undergraduate Program',
+  ),
+  array(
+    'url'   => 'academics/graduate-programs',
+    'title' => 'Graduate Programs',
+  ),
+  array(
+    'url'   => 'about/about-us',
+    'title' => 'About Us',
+  ),
+  array(
+    'url'   => 'about/contact',
+    'title' => 'Contact',
+  ),
+  array(
+    'url'   => '404',
+    'title' => 'Page Not Found',
+  ),
+  array(
+    'url'   => 'academics/academics-overview',
+    'title' => 'Academics Overview',
+  ),
+  array(
+    'url'   => 'home',
+    'title' => 'Home',
+  ),
+  array(
+    'url'   => 'events',
+    'title' => 'Events',
+  ),
+  array(
+    'url'   => 'people',
+    'title' => 'People',
+  ),
+  array(
+    'url'   => 'courses',
+    'title' => 'Courses',
+  ),
+  array(
+    'url'   => 'news/recent-news',
+    'title' => 'Recent News',
+  ),
+  array(
+    'url'   => 'academics',
+    'title' => 'Academics',
+  ),
+  array(
+    'url'   => 'academics/undergraduate-program/major',
+    'title' => 'Major',
+  ),
+  array(
+    'url'   => 'academics/graduate-programs/doctoral-program',
+    'title' => 'Doctoral Program',
+  ),
+  array(
+    'url'   => 'academics/undergraduate-program/honors',
+    'title' => 'Honors',
+  ),
+  array(
+    'url'   => 'academics/graduate-programs/doctoral-program/requirements',
+    'title' => 'Requirements',
+  ),
+  array(
+    'url'   => 'academics/undergraduate-program/coterminal-masters',
+    'title' => 'Coterminal Masters',
+  ),
+  array(
+    'url'   => 'about/location',
+    'title' => 'Location',
+  ),
+  array(
+    'url'   => 'academics/graduate-programs/doctoral-program/how-apply',
+    'title' => 'How to Apply',
+  ),
+  array(
+    'url'   => 'academics/graduate-programs/masters-program',
+    'title' => 'Masters Program',
+  ),
+  array(
+    'url'   => 'academics/graduate-programs/masters-program/how-apply',
+    'title' => 'How to Apply',
+  ),
+  array(
+    'url'   => 'academics/undergraduate-program/peer-advisors',
+    'title' => 'Peer Advisors',
+  ),
+  array(
+    'url'   => 'academics/graduate-programs/masters-program/requirements',
+    'title' => 'Requirements',
+  ),
+  array(
+    'url'   => 'about/giving',
+    'title' => 'Giving',
+  ),
+  array(
+    'url'   => 'news/department-newsletter',
+    'title' => 'Department Newsletter',
+  ),
+  array(
+    'url'   => 'news/subscribe',
+    'title' => 'Subscribe',
+  ),
+  array(
+    'url'   => 'events/past-events',
+    'title' => 'Past Events',
+  ),
+  array(
+    'url'   => 'about',
+    'title' => 'About',
+  ),
+  array(
+    'url'   => 'news',
+    'title' => 'News',
+  ),
+  array(
+    'url'   => 'academics/undergraduate-program/how-declare',
+    'title' => 'How to Declare',
+  ),
+  array(
+    'url'   => 'academics/undergraduate-program/preparing-graduate',
+    'title' => 'Preparing to Graduate',
+  ),
+  array(
+    'url'   => 'events/upcoming-events',
+    'title' => 'Upcoming Events',
+  ),
+  array(
+    'url'   => 'about/affiliated-programs',
+    'title' => 'Affiliated Programs',
+  ),
+  array(
+    'url'   => 'academics/undergraduate-program/forms',
+    'title' => 'Forms',
+  ),
+  array(
+    'url'   => 'academics/undergraduate-program/resources',
+    'title' => 'Resources',
+  ),
+  array(
+    'url'   => 'academics/graduate-programs/graduate-admissions',
+    'title' => 'Graduate Admissions',
+  ),
+  array(
+    'url'   => 'academics/graduate-programs/forms',
+    'title' => 'Forms',
+  ),
+  array(
+    'url'   => 'academics/graduate-programs/resources',
+    'title' => 'Resources',
+  ),
+  array(
+    'url'   => 'academics/graduate-programs/job-placement',
+    'title' => 'Job Placement',
+  ),
+);
+
+$many = count($patch);
+
+$q = db_select('node', 'n')
+  ->fields('n', array('nid'))
+  ->condition('type', 'stanford_page')
+  ->limit($count)
+  ->execute();
+
+$i = 0;
+while ($o = $q->fetchAssoc()) {
+  $node = node_load($o['nid']);
+  $node->title = $patch[$i]['title'];
+  $node->url = $patch[$i]['url'];
+  node_save($node);
+  $i++;
+}
+
+
+
+

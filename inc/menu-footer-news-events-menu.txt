@@ -1,0 +1,5 @@
+Department Newsletter {"url":"news\/department-newsletter"}
+Recent News {"url":"news\/recent-news"}
+Subscribe {"url":"news\/subscribe"}
+Upcoming Events {"url":"events\/upcoming-events"}
+

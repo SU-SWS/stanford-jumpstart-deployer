@@ -1,0 +1,5 @@
+Overview {"url":"academics\/academics-overview"}
+Undergraduate Program {"url":"academics\/undergraduate-program"}
+Graduate Programs {"url":"academics\/graduate-programs"}
+Courses {"url":"courses"}
+

@@ -1,0 +1,43 @@
+Home {"url":"<front>"}
+Academics {"url":"academics"}
+-Overview {"url":"academics\/academics-overview"}
+-Undergraduate Program {"url":"academics\/undergraduate-program"}
+--Major {"url":"academics\/undergraduate-program\/major"}
+--Minor {"url":"academics\/undergraduate-program\/minor"}
+--Honors {"url":"academics\/undergraduate-program\/honors"}
+--Coterminal Masters {"url":"academics\/undergraduate-program\/coterminal-masters"}
+--How to Declare {"url":"academics\/undergraduate-program\/how-declare"}
+--Preparing to Graduate {"url":"academics\/undergraduate-program\/preparing-graduate"}
+--Peer Advisors {"url":"academics\/undergraduate-program\/peer-advisors"}
+--Forms {"url":"academics\/undergraduate-program\/forms"}
+--Resources {"url":"academics\/undergraduate-program\/resources"}
+-Graduate Programs {"url":"academics\/graduate-programs"}
+--Doctoral Program {"url":"academics\/graduate-programs\/doctoral-program"}
+---Requirements {"url":"academics\/graduate-programs\/doctoral-program\/requirements"}
+---How to Apply {"url":"academics\/graduate-programs\/doctoral-program\/how-apply"}
+--Masters Program {"url":"academics\/graduate-programs\/masters-program"}
+---Requirements {"url":"academics\/graduate-programs\/masters-program\/requirements"}
+---How to Apply {"url":"academics\/graduate-programs\/masters-program\/how-apply"}
+--Graduate Admissions {"url":"academics\/graduate-programs\/graduate-admissions"}
+--Forms {"url":"academics\/graduate-programs\/forms"}
+--Resources {"url":"academics\/graduate-programs\/resources"}
+--Job Placement {"url":"academics\/graduate-programs\/job-placement"}
+Courses {"url":"courses"}
+People {"url":"people"}
+-Faculty {"url":"people\/faculty"}
+-Graduate Students {"url":"people\/students"}
+-Staff {"url":"people\/staff"}
+Publications {"url":"publications"}
+News {"url":"news"}
+-Recent News {"url":"news\/recent-news"}
+-Newsletter {"url":"news\/department-newsletter"}
+-Subscribe {"url":"news\/subscribe"}
+Events {"url":"events"}
+-Upcoming Events {"url":"events\/upcoming-events"}
+-Past Events {"url":"events\/past-events"}
+About {"url":"about"}
+-About Us {"url":"about\/about-us"}
+-Location {"url":"about\/location"}
+-Contact {"url":"about\/contact"}
+-Affiliated Programs {"url":"about\/affiliated-programs"}
+-Make a Gift {"url":"about\/giving"}
