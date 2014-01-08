@@ -105,6 +105,7 @@ function install_local_resources {
   git clone git@github.com:SU-SWS/Stanford-Drupal-Profile.git -b 7.x-1.x-dev
   git clone git@bitbucket.org:sherakama/stanford_jumpstart_profile.git -b 7.x-1.x
   mv 'Stanford-Drupal-Profile' 'stanford'
+  mv 'stanford_jumpstart_profile' 'stanford_jumpstart'
 
   return 1
 }
