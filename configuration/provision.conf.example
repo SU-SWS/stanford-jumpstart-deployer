@@ -26,16 +26,4 @@ conf_server_group="staff"
 conf_server_mode="0755"
 
 #DRUSH CONFIGURATION
-#For content in JSA we need to remotely deploy. You need
-#to set up a drush alias for jsa-content website
-#create a aliases.drushrc.php under your home folder's .drush folder
-#eg: ~/.drush/aliases.drushrc.php
-#add a new alias
-#eg:
-# $aliases['jsa.content'] = array(
-#   'remote-host' => 'publish1.stanford.edu',
-#   'remote-user' => 'myusername',
-#   'root' => '/var/www/ds_jsa-content/public_html',
-#   'uri' => 'sites.stanford.edu/jsa-content',
-# );
-# conf_drush_jsa_alias="@jsa.content"
+
