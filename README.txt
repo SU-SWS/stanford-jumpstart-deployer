@@ -1,3 +1,9 @@
 This 7.x-3.x-dev branch is for bleeding-edge development on Jumpstart and Jumpstart Academic
 
-The "remote" origin for this cloned repo is at /afs/ir/group/webservices/dev/jumpstart. Use git to push and pull to/from that directory.
+To start clone this repository and copy both deploy.conf.example to deploy.conf and provision.conf.example to provision.conf.
+
+[this repo]/configuration/deploy.conf
+[this repo]/configuration/provision.conf
+
+Then simply run and follow the promts:
+sh deploy.sh

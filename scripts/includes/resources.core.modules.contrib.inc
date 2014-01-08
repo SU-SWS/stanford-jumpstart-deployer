@@ -66,6 +66,7 @@ block_class-7.x-1.2-beta1
 context-7.x-3.0-beta6
 custom_breadcrumbs-7.x-1.0-alpha1
 entity-7.x-1.1
+file_entity-7.x-2.0-alpha3
 field_collection-7.x-1.0-beta4
 google_analytics-7.x-1.2
 menu_block-7.x-2.3

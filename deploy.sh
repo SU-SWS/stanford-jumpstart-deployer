@@ -7,9 +7,9 @@ pushd `dirname $0` > /dev/null
 SCRIPTPATH=`pwd -P`
 
 #Include Configuration Files
-source ../configuration/deploy.conf
-source includes/resources.conf.inc
-source includes/resources.gather.inc
+source configuration/deploy.conf
+source scripts/includes/resources.conf.inc
+source scripts/includes/resources.gather.inc
 
 # Gather some data from the user into what and where we are building
 # Sites has special deployment practices. Local should install everything.

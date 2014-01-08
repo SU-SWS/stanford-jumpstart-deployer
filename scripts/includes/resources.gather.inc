@@ -102,10 +102,11 @@ function install_local_resources {
 
   #Install Installation Profiles
   cd "$installation_path/profiles"
-  git clone git@github.com:SU-SWS/Stanford-Drupal-Profile.git -b 7.x-1.x-dev
-  git clone git@bitbucket.org:sherakama/stanford_jumpstart_profile.git -b 7.x-1.x
+  install_clone_git_branches $resource_git_profiles_file
+
   mv 'Stanford-Drupal-Profile' 'stanford'
-  mv 'stanford_jumpstart_profile' 'stanford_jumpstart'
+  mv 'stanford-jumpstart-profile' 'stanford_sites_jumpstart'
+  mv 'stanford-jumpstart-academic-profile' 'stanford_sites_jumpstart_academic'
 
   return 1
 }
