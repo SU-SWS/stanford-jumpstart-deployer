@@ -22,3 +22,10 @@ resources_libraries_git_file=$SCRIPTPATH"/scripts/includes/resources.libraries.g
 
 #Profiles
 resource_git_profiles_file=$SCRIPTPATH"/scripts/includes/resources.profiles.git.inc"
+
+
+# Small helper function.
+function die {
+  echo "$@" 1>&2 ;
+  exit 1;
+}

@@ -19,29 +19,44 @@ read installation_type
 echo "Is this a \"Jumpstart Academic Site\"? ( y | n )"
 read installation_jsa
 
-# Server drupal root
-echo "Where should this site be installed. Please provide absolute system path. eg: /var/www"
-read installation_path
-
 # Gather all the things!
 if [[ $installation_type == "sites" ]]; then
-
-  echo Enter requester SUNetID
-  read sunetid
-  echo Enter requester Full Name
-  read fullname
   echo Enter site shortname \(e.g., \"jumpstart-foo\" for sites.stanford.edu/jumpstart-foo\)
   read shortname
+  # Sites specific pathing.
+  installation_path="/var/www/ds_$shortname/public_html/sites/default"
 
-  install_sites_resources_directories
+  # Include after setting variables.
+  source scripts/includes/sites.inc
+
+  # Check to see if install path exists.
+  proceed=$(install_sites_resources_directories)
+
+  # Check to see everything is in place.
+  if [[ $proceed == 0 ]]; then
+    die "Please Try Again"
+  fi
+
   install_sites_resources
   install_sites_links
   install_patches_via_git $resource_patches_contrib_file "modules/contrib"
 
 else
+  # Server drupal root
+  echo "Where should this site be installed. Please provide absolute system path. eg: /var/www"
+  read installation_path
 
-  #Local sites tasks.
-  install_local_resources_directories
+  #Local sites tasks. Include after all variables set.
+  source scripts/includes/sites.inc
+
+  # check to see if install path exists and directories were created.
+  proceed=$(install_local_resources_directories)
+
+  # Check to see everything is in place.
+  if [[ $proceed == 0 ]]; then
+    die "Please Try Again"
+  fi
+
   install_local_resources
   install_patches_via_git $resource_patches_contrib_file "sites/all/modules/contrib"
 

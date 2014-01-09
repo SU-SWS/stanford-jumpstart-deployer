@@ -1,4 +1,0 @@
-Faculty {"url":"people\/faculty"}
-Graduate Students {"url":"people\/graduate-students"}
-Staff {"url":"people\/staff"}
-
