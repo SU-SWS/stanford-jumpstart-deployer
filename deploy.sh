@@ -47,7 +47,7 @@ else
   read installation_path
 
   #Local sites tasks. Include after all variables set.
-  source scripts/includes/sites.inc
+  source scripts/includes/local.inc
 
   # check to see if install path exists and directories were created.
   proceed=$(install_local_resources_directories)
