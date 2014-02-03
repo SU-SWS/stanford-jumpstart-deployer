@@ -1,0 +1,10 @@
+Version 7.x-1.x
+---------------------------------------------------------------
+Initial Jumpstart and Jumpstart Academic deployment with install profiles.
+
+
+Version 7.x-2.x
+---------------------------------------------------------------
+
+February 2, 2014:
+- Update all features to features 2.x
