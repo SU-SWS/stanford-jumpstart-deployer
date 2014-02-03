@@ -191,19 +191,19 @@ projects[stanford_events_importer][subdir] = "stanford"
 projects[stanford_wysiwyg][type] = module
 projects[stanford_wysiwyg][download][type] = git
 projects[stanford_wysiwyg][download][url] = git@github.com:SU-SWS/stanford_wysiwyg.git
-projects[stanford_wysiwyg][download][branch] = "7.x-1.x-dev"
+projects[stanford_wysiwyg][download][branch] = "7.x-2.x-dev"
 projects[stanford_wysiwyg][subdir] = "stanford"
 
 projects[stanford_video][type] = module
 projects[stanford_video][download][type] = git
 projects[stanford_video][download][url] = git@github.com:SU-SWS/stanford_video.git
-projects[stanford_video][download][branch] = "7.x-1.x-dev"
+projects[stanford_video][download][branch] = "7.x-2.x-dev"
 projects[stanford_video][subdir] = "stanford"
 
 projects[stanford_courses][type] = module
 projects[stanford_courses][download][type] = git
 projects[stanford_courses][download][url] = git@github.com:SU-SWS/stanford_courses.git
-projects[stanford_courses][download][branch] = "7.x-2.x-dev"
+projects[stanford_courses][download][branch] = "7.x-3.x-dev"
 projects[stanford_courses][subdir] = "stanford"
 
 projects[webauth][type] = module
@@ -221,31 +221,31 @@ projects[stanford_jumpstart][subdir] = "stanford"
 projects[stanford_image][type] = module
 projects[stanford_image][download][type] = git
 projects[stanford_image][download][url] = git@github.com:SU-SWS/stanford_image.git
-projects[stanford_image][download][branch] = "7.x-2.x-dev"
+projects[stanford_image][download][branch] = "7.x-3.x-dev"
 projects[stanford_image][subdir] = "stanford"
 
 projects[stanford_image_styles][type] = module
 projects[stanford_image_styles][download][type] = git
 projects[stanford_image_styles][download][url] = git@github.com:SU-SWS/stanford_image_styles.git
-projects[stanford_image_styles][download][branch] = "7.x-1.x-dev"
+projects[stanford_image_styles][download][branch] = "7.x-2.x-dev"
 projects[stanford_image_styles][subdir] = "stanford"
 
 projects[stanford_metatag_nobots][type] = module
 projects[stanford_metatag_nobots][download][type] = git
 projects[stanford_metatag_nobots][download][url] = git@github.com:SU-SWS/stanford_metatag_nobots.git
-projects[stanford_metatag_nobots][download][branch] = "7.x-1.x-dev"
+projects[stanford_metatag_nobots][download][branch] = "7.x-2.x-dev"
 projects[stanford_metatag_nobots][subdir] = "stanford"
 
 projects[stanford_bean_types][type] = module
 projects[stanford_bean_types][download][type] = git
 projects[stanford_bean_types][download][url] = git@github.com:SU-SWS/stanford_bean_types.git
-projects[stanford_bean_types][download][branch] = "7.x-1.x-dev-install"
+projects[stanford_bean_types][download][branch] = "7.x-2.x"
 projects[stanford_bean_types][subdir] = "stanford"
 
 projects[stanford_page][type] = module
 projects[stanford_page][download][type] = git
 projects[stanford_page][download][url] = git@github.com:SU-SWS/stanford_page.git
-projects[stanford_page][download][branch] = "7.x-1.x-dev"
+projects[stanford_page][download][branch] = "7.x-2.x-dev"
 projects[stanford_page][subdir] = "stanford"
 
 projects[webauth_extras][type] = module
