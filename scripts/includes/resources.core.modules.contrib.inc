@@ -15,7 +15,7 @@ bean-7.x-1.2
 bundle_copy-7.x-1.1
 context_inline_editor-7.x-1.0-beta1
 delta-7.x-3.0-beta11
-features-7.x-1.0
+features-7.x-2.0
 filefield_paths-7.x-1.0-beta3
 job_scheduler-7.x-2.0-alpha3
 metatag-7.x-1.0-beta7
