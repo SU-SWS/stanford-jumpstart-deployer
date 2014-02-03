@@ -1,7 +1,7 @@
 core = 7.x
 
 api = 2
-projects[drupal][version] = "7.19"
+projects[drupal][version] = "7.26"
 
 ; Contributed modules
 ; -------------------
@@ -40,7 +40,7 @@ projects[context_inline_editor][version] = "1.0-beta1"
 projects[context_inline_editor][subdir] = "contrib"
 projects[delta][version] = "3.0-beta11"
 projects[delta][subdir] = "contrib"
-projects[features][version] = "1.0"
+projects[features][version] = "2.0"
 projects[features][subdir] = "contrib"
 projects[filefield_paths][version] = "1.0-beta3"
 projects[filefield_paths][subdir] = "contrib"

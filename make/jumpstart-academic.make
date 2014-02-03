@@ -1,6 +1,6 @@
 core = 7.x
 api = 2
-projects[drupal][version] = "7.19"
+projects[drupal][version] = "7.26"
 
 ; Contributed modules
 ; -------------------
@@ -199,7 +199,7 @@ projects[stanford_sites_helper][subdir] = "stanford"
 projects[stanford_events_importer][type] = module
 projects[stanford_events_importer][download][type] = "git"
 projects[stanford_events_importer][download][url] = "git@github.com:SU-SWS/stanford_events_importer.git"
-projects[stanford_events_importer][download][branch] = "7.x-2.x"
+projects[stanford_events_importer][download][branch] = "7.x-3.x"
 projects[stanford_events_importer][subdir] = "stanford"
 
 projects[stanford_wysiwyg][type] = module
