@@ -39,7 +39,7 @@ projects[context_inline_editor][version] = "1.0-beta1"
 projects[context_inline_editor][subdir] = "contrib"
 projects[delta][version] = "3.0-beta11"
 projects[delta][subdir] = "contrib"
-projects[features][version] = "1.0"
+projects[features][version] = "2.0"
 projects[features][subdir] = "contrib"
 projects[filefield_paths][version] = "1.0-beta3"
 projects[filefield_paths][subdir] = "contrib"
@@ -205,19 +205,19 @@ projects[stanford_events_importer][subdir] = "stanford"
 projects[stanford_wysiwyg][type] = module
 projects[stanford_wysiwyg][download][type] = git
 projects[stanford_wysiwyg][download][url] = git@github.com:SU-SWS/stanford_wysiwyg.git
-projects[stanford_wysiwyg][download][branch] = "7.x-1.x-dev"
+projects[stanford_wysiwyg][download][branch] = "7.x-2.x-dev"
 projects[stanford_wysiwyg][subdir] = "stanford"
 
 projects[stanford_video][type] = module
 projects[stanford_video][download][type] = git
 projects[stanford_video][download][url] = git@github.com:SU-SWS/stanford_video.git
-projects[stanford_video][download][branch] = "7.x-1.x-dev"
+projects[stanford_video][download][branch] = "7.x-2.x-dev"
 projects[stanford_video][subdir] = "stanford"
 
 projects[stanford_courses][type] = module
 projects[stanford_courses][download][type] = git
 projects[stanford_courses][download][url] = git@github.com:SU-SWS/stanford_courses.git
-projects[stanford_courses][download][branch] = "7.x-2.x-dev"
+projects[stanford_courses][download][branch] = "7.x-3.x-dev"
 projects[stanford_courses][subdir] = "stanford"
 
 projects[webauth][type] = module
@@ -235,31 +235,31 @@ projects[stanford_jumpstart][subdir] = "stanford"
 projects[stanford_image][type] = module
 projects[stanford_image][download][type] = git
 projects[stanford_image][download][url] = git@github.com:SU-SWS/stanford_image.git
-projects[stanford_image][download][branch] = "7.x-2.x-dev"
+projects[stanford_image][download][branch] = "7.x-3.x-dev"
 projects[stanford_image][subdir] = "stanford"
 
 projects[stanford_image_styles][type] = module
 projects[stanford_image_styles][download][type] = git
 projects[stanford_image_styles][download][url] = git@github.com:SU-SWS/stanford_image_styles.git
-projects[stanford_image_styles][download][branch] = "7.x-1.x-dev"
+projects[stanford_image_styles][download][branch] = "7.x-2.x-dev"
 projects[stanford_image_styles][subdir] = "stanford"
 
 projects[stanford_metatag_nobots][type] = module
 projects[stanford_metatag_nobots][download][type] = git
 projects[stanford_metatag_nobots][download][url] = git@github.com:SU-SWS/stanford_metatag_nobots.git
-projects[stanford_metatag_nobots][download][branch] = "7.x-1.x-dev"
+projects[stanford_metatag_nobots][download][branch] = "7.x-2.x-dev"
 projects[stanford_metatag_nobots][subdir] = "stanford"
 
 projects[stanford_bean_types][type] = module
 projects[stanford_bean_types][download][type] = git
 projects[stanford_bean_types][download][url] = git@github.com:SU-SWS/stanford_bean_types.git
-projects[stanford_bean_types][download][branch] = "7.x-1.x-dev-install"
+projects[stanford_bean_types][download][branch] = "7.x-2.x-dev"
 projects[stanford_bean_types][subdir] = "stanford"
 
 projects[stanford_page][type] = module
 projects[stanford_page][download][type] = git
 projects[stanford_page][download][url] = git@github.com:SU-SWS/stanford_page.git
-projects[stanford_page][download][branch] = "7.x-1.x-dev"
+projects[stanford_page][download][branch] = "7.x-2.x-dev"
 projects[stanford_page][subdir] = "stanford"
 
 projects[webauth_extras][type] = module
@@ -275,19 +275,19 @@ projects[webauth_extras][subdir] = "stanford"
 projects[stanford_person_views][type] = module
 projects[stanford_person_views][download][type] = git
 projects[stanford_person_views][download][url] = git@github.com:SU-SWS/stanford_person_views.git
-projects[stanford_person_views][download][branch] = "7.x-1.x-dev"
+projects[stanford_person_views][download][branch] = "7.x-2.x-dev"
 projects[stanford_person_views][subdir] = "stanford"
 
 projects[stanford_person][type] = module
 projects[stanford_person][download][type] = git
 projects[stanford_person][download][url] = git@github.com:SU-SWS/stanford_person.git
-projects[stanford_person][download][branch] = "7.x-3.x-dev"
+projects[stanford_person][download][branch] = "7.x-4.x-dev"
 projects[stanford_person][subdir] = "stanford"
 
 projects[stanford_date_formats][type] = module
 projects[stanford_date_formats][download][type] = git
 projects[stanford_date_formats][download][url] = git@github.com:SU-SWS/stanford_date_formats.git
-projects[stanford_date_formats][download][branch] = "7.x-1.x-dev"
+projects[stanford_date_formats][download][branch] = "7.x-2.x-dev"
 projects[stanford_date_formats][subdir] = "stanford"
 
 projects[stanford_events_views][type] = module
@@ -299,25 +299,25 @@ projects[stanford_events_views][subdir] = "stanford"
 projects[stanford_news][type] = module
 projects[stanford_news][download][type] = git
 projects[stanford_news][download][url] = git@github.com:SU-SWS/stanford_news.git
-projects[stanford_news][download][branch] = "7.x-2.x-dev"
+projects[stanford_news][download][branch] = "7.x-3.x-dev"
 projects[stanford_news][subdir] = "stanford"
 
 projects[stanford_publication][type] = module
 projects[stanford_publication][download][type] = git
 projects[stanford_publication][download][url] = git@github.com:SU-SWS/stanford_publication.git
-projects[stanford_publication][download][branch] = "7.x-1.x-dev"
+projects[stanford_publication][download][branch] = "7.x-2.x-dev"
 projects[stanford_publication][subdir] = "stanford"
 
 projects[stanford_manage_content][type] = module
 projects[stanford_manage_content][download][type] = git
 projects[stanford_manage_content][download][url] = git@github.com:SU-SWS/stanford_manage_content.git
-projects[stanford_manage_content][download][branch] = "7.x-2.x-dev"
+projects[stanford_manage_content][download][branch] = "7.x-3.x-dev"
 projects[stanford_manage_content][subdir] = "stanford"
 
 projects[stanford_course_views][type] = module
 projects[stanford_course_views][download][type] = git
 projects[stanford_course_views][download][url] = git@github.com:SU-SWS/stanford_course_views.git
-projects[stanford_course_views][download][branch] = "7.x-1.x-dev"
+projects[stanford_course_views][download][branch] = "7.x-2.x-dev"
 projects[stanford_course_views][subdir] = "stanford"
 
 ; Stanford themes - Github
