@@ -1,6 +1,6 @@
 core = 7.x
 api = 2
-projects[drupal][version] = "7.19"
+projects[drupal][version] = "7.26"
 
 ; Contributed modules
 ; -------------------
