@@ -11,7 +11,7 @@ rules-7.x-2.2
 transliteration-7.x-3.1
 workbench-7.x-1.2
 admin_menu-7.x-3.0-rc4
-bean-7.x-1.2
+bean-7.x-1.7
 bundle_copy-7.x-1.1
 context_inline_editor-7.x-1.0-beta1
 delta-7.x-3.0-beta11
@@ -40,7 +40,7 @@ advanced_help-7.x-1.0
 better_formats-7.x-1.0-beta1
 computed_field-7.x-1.0-beta1
 css_injector-7.x-1.7
-ds-7.x-2.2
+ds-7.x-2.6
 feeds_tamper-7.x-1.0-beta5
 geophp-7.x-1.7
 libraries-7.x-2.1
@@ -52,7 +52,7 @@ wysiwyg-7.x-2.2
 auto_nodetitle-7.x-1.0
 biblio-7.x-1.0-rc4
 content_access-7.x-1.2-beta1
-ctools-7.x-1.2
+ctools-7.x-1.3
 email-7.x-1.2
 feeds_xpathparser-7.x-1.0-beta3
 globalredirect-7.x-1.5
@@ -63,9 +63,9 @@ taxonomy_manager-7.x-1.0-rc2
 wysiwyg_filter-7.x-1.6-rc2
 backup_migrate-7.x-2.4
 block_class-7.x-1.2-beta1
-context-7.x-3.0-beta6
+context-7.x-3.2
 custom_breadcrumbs-7.x-1.0-alpha1
-entity-7.x-1.1
+entity-7.x-1.3
 file_entity-7.x-2.0-alpha3
 field_collection-7.x-1.0-beta4
 google_analytics-7.x-1.2
