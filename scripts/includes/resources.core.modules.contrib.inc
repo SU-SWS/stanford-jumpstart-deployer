@@ -20,7 +20,7 @@ filefield_paths-7.x-1.0-beta3
 job_scheduler-7.x-2.0-alpha3
 metatag-7.x-1.0-beta7
 pathauto-7.x-1.2
-services-7.x-3.5
+services-7.x-3.6
 views-7.x-3.7
 workbench_access-7.x-1.2
 admin_views-7.x-1.0
