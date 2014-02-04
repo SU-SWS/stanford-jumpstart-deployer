@@ -274,6 +274,12 @@ projects[webauth_extras][download][url] = git@github.com:Stanford/webauth_extras
 projects[webauth_extras][download][branch] = "master"
 projects[webauth_extras][subdir] = "stanford"
 
+projects[stanford_date_timepicker][type] = module
+projects[stanford_date_timepicker][download][type] = git
+projects[stanford_date_timepicker][download][url] = git@github.com:SU-SWS/stanford_date_timepicker.git
+projects[stanford_date_timepicker][download][branch] = "7.x-1.x"
+projects[stanford_date_timepicker][subdir] = "stanford"
+
 
 ; Stanford Jumpstart Academic Modules - Github
 ; --------------------------------------------
