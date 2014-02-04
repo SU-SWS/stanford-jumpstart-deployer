@@ -158,6 +158,10 @@ projects[token][version] = "1.5"
 projects[token][subdir] = "contrib"
 projects[webform][version] = "3.19"
 projects[webform][subdir] = "contrib"
+projects[context_http_headers][version] = "1.0"
+projects[context_http_headers][subdir] = "contrib"
+projects[context_useragent][version] = "1.x-dev"
+projects[context_useragent][subdir] = "contrib"
 
 ; Contributed themes
 ; ------------------

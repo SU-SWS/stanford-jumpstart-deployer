@@ -171,6 +171,12 @@ projects[imagecache_actions][version] = "1.4"
 projects[imagecache_actions][subdir] = "contrib"
 projects[uuid_features][version] = "1.x-dev"
 projects[uuid_features][subdir] = "contrib"
+projects[context_http_headers][version] = "1.0"
+projects[context_http_headers][subdir] = "contrib"
+projects[context_useragent][version] = "1.x-dev"
+projects[context_useragent][subdir] = "contrib"
+projects[deploy][version] = "2.0-alpha2"
+projects[deploy][subdir] = "contrib"
 
 
 ; Contributed themes
@@ -287,7 +293,7 @@ projects[stanford_person][subdir] = "stanford"
 projects[stanford_date_formats][type] = module
 projects[stanford_date_formats][download][type] = git
 projects[stanford_date_formats][download][url] = git@github.com:SU-SWS/stanford_date_formats.git
-projects[stanford_date_formats][download][branch] = "7.x-2.x-dev"
+projects[stanford_date_formats][download][branch] = "7.x-1.x-dev"
 projects[stanford_date_formats][subdir] = "stanford"
 
 projects[stanford_events_views][type] = module
