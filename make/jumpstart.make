@@ -271,32 +271,32 @@ projects[stanford_date_timepicker][subdir] = "stanford"
 projects[stanfordmodern][type] = theme
 projects[stanfordmodern][download][type] = git
 projects[stanfordmodern][download][url] = git@github.com:su-ddd/stanfordmodern.git
-projects[stanfordmodern][download][tag] = "7.x-1.42"
+projects[stanfordmodern][download][branch] = "7.x-1.42"
 
 projects[stanford_basic][type] = theme
 projects[stanford_basic][download][type] = git
 projects[stanford_basic][download][url] = git@github.com:su-ddd/stanford_basic.git
-projects[stanford_basic][download][tag] = "7.x-1.4"
+projects[stanford_basic][download][branch] = "7.x-1.4"
 
 projects[open_framework][type] = theme
 projects[open_framework][download][type] = git
 projects[open_framework][download][url] = git@github.com:SU-SWS/open_framework.git
-projects[open_framework][download][branch] = "7.x-2.x"
+projects[open_framework][download][branch] = "7.x-2.06"
 
 projects[stanford_framework][type] = theme
 projects[stanford_framework][download][type] = git
 projects[stanford_framework][download][url] = git@github.com:SU-SWS/stanford_framework.git
-projects[stanford_framework][download][tag] = "7.x-2.03"
+projects[stanford_framework][download][branch] = "7.x-2.03"
 
 projects[stanford_jordan][type] = theme
 projects[stanford_jordan][download][type] = git
 projects[stanford_jordan][download][url] = git@github.com:SU-SWS/stanford_jordan.git
-projects[stanford_jordan][download][tag] = "7.x-2.0"
+projects[stanford_jordan][download][branch] = "7.x-2.01"
 
 projects[stanford_wilbur][type] = theme
 projects[stanford_wilbur][download][type] = git
 projects[stanford_wilbur][download][url] = git@github.com:SU-SWS/stanford_wilbur.git
-projects[stanford_wilbur][download][branch] = "7.x-2.x"
+projects[stanford_wilbur][download][branch] = "7.x-2.01"
 
 projects[stanford_seven][type] = theme
 projects[stanford_seven][download][type] = git
