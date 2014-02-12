@@ -282,11 +282,11 @@ projects[stanford_date_timepicker][subdir] = "stanford"
 ; Stanford Jumpstart Academic Modules - Github
 ; --------------------------------------------
 
-projects[stanford_person_views][type] = module
-projects[stanford_person_views][download][type] = git
-projects[stanford_person_views][download][url] = git@github.com:SU-SWS/stanford_person_views.git
-projects[stanford_person_views][download][branch] = "7.x-2.x-dev"
-projects[stanford_person_views][subdir] = "stanford"
+; projects[stanford_person_views][type] = module
+; projects[stanford_person_views][download][type] = git
+; projects[stanford_person_views][download][url] = git@github.com:SU-SWS/stanford_person_views.git
+; projects[stanford_person_views][download][branch] = "7.x-2.x-dev"
+; projects[stanford_person_views][subdir] = "stanford"
 
 projects[stanford_person][type] = module
 projects[stanford_person][download][type] = git
@@ -300,11 +300,11 @@ projects[stanford_date_formats][download][url] = git@github.com:SU-SWS/stanford_
 projects[stanford_date_formats][download][branch] = "7.x-1.x-dev"
 projects[stanford_date_formats][subdir] = "stanford"
 
-projects[stanford_events_views][type] = module
-projects[stanford_events_views][download][type] = git
-projects[stanford_events_views][download][url] = git@github.com:SU-SWS/stanford_events_views.git
-projects[stanford_events_views][download][branch] = "7.x-1.x-dev"
-projects[stanford_events_views][subdir] = "stanford"
+; projects[stanford_events_views][type] = module
+; projects[stanford_events_views][download][type] = git
+; projects[stanford_events_views][download][url] = git@github.com:SU-SWS/stanford_events_views.git
+; projects[stanford_events_views][download][branch] = "7.x-1.x-dev"
+; projects[stanford_events_views][subdir] = "stanford"
 
 projects[stanford_news][type] = module
 projects[stanford_news][download][type] = git
