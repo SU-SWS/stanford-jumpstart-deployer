@@ -392,6 +392,10 @@ libraries[proj4js][download][url] = "http://download.osgeo.org/proj4js/proj4js-1
 libraries[proj4js][directory_name] = "proj4js"
 libraries[proj4js][destination] = "../../sites/all/libraries"
 
+libraries[simplepie][download][type] = "file"
+libraries[simplepie][download][url] = "http://simplepie.org/downloads/simplepie_1.3.1.compiled.php"
+libraries[simplepie][download][filename] = "simplepie.compiled.php"
+
 
 ; Profiles
 ; --------
