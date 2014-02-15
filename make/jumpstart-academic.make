@@ -175,6 +175,8 @@ projects[context_useragent][version] = "1.x-dev"
 projects[context_useragent][subdir] = "contrib"
 projects[deploy][version] = "2.0-alpha2"
 projects[deploy][subdir] = "contrib"
+projects[entity_dependency][version] = "1.0-alpha1"
+projects[entity_dependency][subdir] = "contrib"
 
 
 ; Contributed themes
