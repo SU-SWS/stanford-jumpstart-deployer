@@ -1,4 +1,5 @@
 core = 7.x
+
 api = 2
 projects[drupal][version] = "7.26"
 
@@ -157,26 +158,10 @@ projects[token][version] = "1.5"
 projects[token][subdir] = "contrib"
 projects[webform][version] = "3.19"
 projects[webform][subdir] = "contrib"
-projects[feeds_tamper][version] = "1.x-dev"
-projects[feeds_tamper][subdir] = "contrib"
-projects[feeds][version] = "2.0-alpha8"
-projects[feeds][subdir] = "contrib"
-projects[uuid][version] = "1.x-dev"
-projects[uuid][subdir] = "contrib"
-projects[menu_import][version] = "1.x-dev"
-projects[menu_import][subdir] = "contrib"
-projects[imagecache_actions][version] = "1.4"
-projects[imagecache_actions][subdir] = "contrib"
-projects[uuid_features][version] = "1.x-dev"
-projects[uuid_features][subdir] = "contrib"
 projects[context_http_headers][version] = "1.0"
 projects[context_http_headers][subdir] = "contrib"
 projects[context_useragent][version] = "1.x-dev"
 projects[context_useragent][subdir] = "contrib"
-projects[deploy][version] = "2.0-alpha2"
-projects[deploy][subdir] = "contrib"
-projects[entity_dependency][version] = "1.0-alpha1"
-projects[entity_dependency][subdir] = "contrib"
 
 ; Contributed themes
 ; ------------------
@@ -184,6 +169,7 @@ projects[entity_dependency][subdir] = "contrib"
 projects[cube][version] = "1.3"
 projects[rubik][version] = "4.0-beta8"
 projects[tao][version] = "3.0-beta4"
+
 
 ; Stanford Modules - GitHub
 ; -------------------------
@@ -203,7 +189,7 @@ projects[stanford_sites_helper][subdir] = "stanford"
 projects[stanford_events_importer][type] = module
 projects[stanford_events_importer][download][type] = "git"
 projects[stanford_events_importer][download][url] = "git@github.com:SU-SWS/stanford_events_importer.git"
-projects[stanford_events_importer][download][branch] = "7.x-3.x"
+projects[stanford_events_importer][download][branch] = "7.x-2.x"
 projects[stanford_events_importer][subdir] = "stanford"
 
 projects[stanford_wysiwyg][type] = module
@@ -278,44 +264,6 @@ projects[stanford_date_timepicker][download][url] = git@github.com:SU-SWS/stanfo
 projects[stanford_date_timepicker][download][branch] = "7.x-1.x"
 projects[stanford_date_timepicker][subdir] = "stanford"
 
-; Stanford Jumpstart Academic Modules - Github
-; --------------------------------------------
-
-projects[stanford_person][type] = module
-projects[stanford_person][download][type] = git
-projects[stanford_person][download][url] = git@github.com:SU-SWS/stanford_person.git
-projects[stanford_person][download][branch] = "7.x-4.x-dev"
-projects[stanford_person][subdir] = "stanford"
-
-projects[stanford_date_formats][type] = module
-projects[stanford_date_formats][download][type] = git
-projects[stanford_date_formats][download][url] = git@github.com:SU-SWS/stanford_date_formats.git
-projects[stanford_date_formats][download][branch] = "7.x-1.x-dev"
-projects[stanford_date_formats][subdir] = "stanford"
-
-projects[stanford_news][type] = module
-projects[stanford_news][download][type] = git
-projects[stanford_news][download][url] = git@github.com:SU-SWS/stanford_news.git
-projects[stanford_news][download][branch] = "7.x-3.x-dev"
-projects[stanford_news][subdir] = "stanford"
-
-projects[stanford_publication][type] = module
-projects[stanford_publication][download][type] = git
-projects[stanford_publication][download][url] = git@github.com:SU-SWS/stanford_publication.git
-projects[stanford_publication][download][branch] = "7.x-2.x-dev"
-projects[stanford_publication][subdir] = "stanford"
-
-projects[stanford_manage_content][type] = module
-projects[stanford_manage_content][download][type] = git
-projects[stanford_manage_content][download][url] = git@github.com:SU-SWS/stanford_manage_content.git
-projects[stanford_manage_content][download][branch] = "7.x-3.x-dev"
-projects[stanford_manage_content][subdir] = "stanford"
-
-projects[stanford_course_views][type] = module
-projects[stanford_course_views][download][type] = git
-projects[stanford_course_views][download][url] = git@github.com:SU-SWS/stanford_course_views.git
-projects[stanford_course_views][download][branch] = "7.x-2.x-dev"
-projects[stanford_course_views][subdir] = "stanford"
 
 ; Stanford themes - Github
 ; ------------------------
@@ -355,9 +303,9 @@ projects[stanford_seven][download][type] = git
 projects[stanford_seven][download][url] = git@github.com:SU-SWS/stanford_seven.git
 projects[stanford_seven][download][branch] = "7.x-1.x"
 
+
 ; Libraries
 ; ---------
-
 libraries[ckeditor][download][type] = "get"
 libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%203.6.6.1/ckeditor_3.6.6.1.zip"
 libraries[ckeditor][directory_name] = "ckeditor"
@@ -378,31 +326,28 @@ libraries[proj4js][download][url] = "http://download.osgeo.org/proj4js/proj4js-1
 libraries[proj4js][directory_name] = "proj4js"
 libraries[proj4js][destination] = "../../sites/all/libraries"
 
-libraries[simplepie][download][type] = "file"
-libraries[simplepie][download][url] = "http://simplepie.org/downloads/simplepie_1.3.1.compiled.php"
-libraries[simplepie][download][filename] = "simplepie.compiled.php"
 
 ; Profiles
 ; --------
 
-projects[stanford][type] = profile
-projects[stanford][download][type] = git
-projects[stanford][download][url] = git@github.com:SU-SWS/Stanford-Drupal-Profile.git
-projects[stanford][download][branch] = "7.x-1.x-dev"
+projects[stanford][type] = "profile"
+projects[stanford][download][type] = "git"
+projects[stanford][download][url] = "git@github.com:SU-SWS/Stanford-Drupal-Profile.git"
+projects[stanford][download][branch] = 7.x-1.x-dev
 
-projects[stanford_sites_jumpstart][type] = profile
-projects[stanford_sites_jumpstart][download][type] = git
-projects[stanford_sites_jumpstart][download][url] = git@github.com:SU-SWS/stanford_sites_jumpstart.git
-projects[stanford_sites_jumpstart][download][branch] = "7.x-3.x-dev"
+projects[stanford_sites_jumpstart][type] = "profile"
+projects[stanford_sites_jumpstart][download][type] = "git"
+projects[stanford_sites_jumpstart][download][url] = "git@github.com:SU-SWS/stanford_sites_jumpstart.git"
+projects[stanford_sites_jumpstart][download][branch] = 7.x-3.x-dev
 
-projects[stanford_sites_jumpstart_academic][type] = profile
-projects[stanford_sites_jumpstart_academic][download][type] = git
-projects[stanford_sites_jumpstart_academic][download][url] = git@github.com:SU-SWS/Stanford-Sites-Jumpstart-Academic.git
-projects[stanford_sites_jumpstart_academic][download][branch] = "7.x-1.x"
+projects[stanford_sites_jumpstart_personal][type] = "profile"
+projects[stanford_sites_jumpstart_personal][download][type] = "git"
+projects[stanford_sites_jumpstart_personal][download][url] = "git@github.com:SU-SWS/stanford_sites_jumpstart_personal.git"
+projects[stanford_sites_jumpstart_personal][download][branch] = 7.x-1.x
+
 
 ; Patches
 ; -------
-
 projects[wysiwyg][patch][] = "https://drupal.org/files/wysiwyg-non-empty-tags.550428.79.patch"
 
 
