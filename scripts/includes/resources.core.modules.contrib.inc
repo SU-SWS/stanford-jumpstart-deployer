@@ -23,7 +23,7 @@ pathauto-7.x-1.2
 services-7.x-3.6
 views-7.x-3.7
 workbench_access-7.x-1.2
-admin_views-7.x-1.0
+admin_views-7.x-1.2
 better_exposed_filters-7.x-3.0-beta3
 calendar-7.x-3.4
 context_respect-7.x-1.1
