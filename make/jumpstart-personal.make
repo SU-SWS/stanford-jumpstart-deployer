@@ -252,6 +252,12 @@ projects[stanford_page][download][url] = git@github.com:SU-SWS/stanford_page.git
 projects[stanford_page][download][branch] = "7.x-2.x-dev"
 projects[stanford_page][subdir] = "stanford"
 
+projects[stanford_personal][type] = module
+projects[stanford_personal][download][type] = git
+projects[stanford_personal][download][url] = git@github.com:SU-SWS/stanford_personal.git
+projects[stanford_personal][download][branch] = "7.x-1.x-dev"
+projects[stanford_personal][subdir] = "stanford"
+
 projects[webauth_extras][type] = module
 projects[webauth_extras][download][type] = git
 projects[webauth_extras][download][url] = git@github.com:Stanford/webauth_extras.git
