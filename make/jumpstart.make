@@ -333,12 +333,17 @@ libraries[proj4js][destination] = "../../sites/all/libraries"
 projects[stanford][type] = "profile"
 projects[stanford][download][type] = "git"
 projects[stanford][download][url] = "git@github.com:SU-SWS/Stanford-Drupal-Profile.git"
-projects[stanford][download][branch] = 7.x-1.x-dev
+projects[stanford][download][branch] = "7.x-1.x-dev"
+
+projects[stanford_sites_abstract][type] = "profile"
+projects[stanford_sites_abstract][download][type] = "git"
+projects[stanford_sites_abstract][download][url] = "git@github.com:SU-SWS/stanford_sites_abstract.git"
+projects[stanford_sites_abstract][download][branch] = "7.x-1.x"
 
 projects[stanford_sites_jumpstart][type] = "profile"
 projects[stanford_sites_jumpstart][download][type] = "git"
 projects[stanford_sites_jumpstart][download][url] = "git@github.com:SU-SWS/stanford_sites_jumpstart.git"
-projects[stanford_sites_jumpstart][download][branch] = 7.x-3.x-dev
+projects[stanford_sites_jumpstart][download][branch] = "7.x-3.x-dev"
 
 ; Patches
 ; -------

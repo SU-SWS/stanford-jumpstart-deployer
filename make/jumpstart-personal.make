@@ -162,6 +162,8 @@ projects[context_http_headers][version] = "1.0"
 projects[context_http_headers][subdir] = "contrib"
 projects[context_useragent][version] = "1.x-dev"
 projects[context_useragent][subdir] = "contrib"
+projects[uuid][version] = "1.x-dev"
+projects[uuid][subdir] = "contrib"
 
 ; Contributed themes
 ; ------------------
@@ -345,6 +347,11 @@ projects[stanford][type] = "profile"
 projects[stanford][download][type] = "git"
 projects[stanford][download][url] = "git@github.com:SU-SWS/Stanford-Drupal-Profile.git"
 projects[stanford][download][branch] = 7.x-1.x-dev
+
+projects[stanford_sites_abstract][type] = "profile"
+projects[stanford_sites_abstract][download][type] = "git"
+projects[stanford_sites_abstract][download][url] = "git@github.com:SU-SWS/stanford_sites_abstract.git"
+projects[stanford_sites_abstract][download][branch] = "7.x-1.x"
 
 projects[stanford_sites_jumpstart][type] = "profile"
 projects[stanford_sites_jumpstart][download][type] = "git"
