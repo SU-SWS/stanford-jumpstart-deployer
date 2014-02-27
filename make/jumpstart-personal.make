@@ -311,6 +311,11 @@ projects[stanford_seven][download][type] = git
 projects[stanford_seven][download][url] = git@github.com:SU-SWS/stanford_seven.git
 projects[stanford_seven][download][branch] = "7.x-1.x"
 
+projects[stanford_light][type] = theme
+projects[stanford_light][download][type] = git
+projects[stanford_light][download][url] = git@github.com:SU-SWS/stanford_light.git
+projects[stanford_light][download][branch] = "master"
+
 
 ; Libraries
 ; ---------
