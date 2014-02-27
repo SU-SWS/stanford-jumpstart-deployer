@@ -272,6 +272,12 @@ projects[stanford_date_timepicker][download][url] = git@github.com:SU-SWS/stanfo
 projects[stanford_date_timepicker][download][branch] = "7.x-1.x"
 projects[stanford_date_timepicker][subdir] = "stanford"
 
+projects[cap_drupal][type] = module
+projects[cap_drupal][download][type] = git
+projects[cap_drupal][download][url] = git@github.com:Stanford/CAP_drupal.git
+projects[cap_drupal][download][branch] = "master"
+projects[cap_drupal][subdir] = "stanford"
+
 
 ; Stanford themes - Github
 ; ------------------------
