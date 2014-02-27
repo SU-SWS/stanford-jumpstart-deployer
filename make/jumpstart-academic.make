@@ -407,7 +407,7 @@ projects[stanford_sites_jumpstart][download][branch] = "7.x-3.x-dev"
 
 projects[stanford_sites_jumpstart_academic][type] = profile
 projects[stanford_sites_jumpstart_academic][download][type] = git
-projects[stanford_sites_jumpstart_academic][download][url] = git@github.com:SU-SWS/Stanford-Sites-Jumpstart-Academic.git
+projects[stanford_sites_jumpstart_academic][download][url] = git@github.com:SU-SWS/stanford_sites_jumpstart_academic.git
 projects[stanford_sites_jumpstart_academic][download][branch] = "7.x-1.x"
 
 ; Patches
