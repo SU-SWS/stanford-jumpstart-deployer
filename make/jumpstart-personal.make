@@ -220,11 +220,11 @@ projects[webauth][download][url] = git@github.com:Stanford/WMD.git
 projects[webauth][download][branch] = "master"
 projects[webauth][subdir] = "stanford"
 
-projects[stanford_jumpstart][type] = module
-projects[stanford_jumpstart][download][type] = git
-projects[stanford_jumpstart][download][url] = git@github.com:SU-SWS/stanford_jumpstart.git
-projects[stanford_jumpstart][download][branch] = "3.x-profile"
-projects[stanford_jumpstart][subdir] = "stanford"
+# projects[stanford_jumpstart][type] = module
+# projects[stanford_jumpstart][download][type] = git
+# projects[stanford_jumpstart][download][url] = git@github.com:SU-SWS/stanford_jumpstart.git
+# projects[stanford_jumpstart][download][branch] = "3.x-profile"
+# projects[stanford_jumpstart][subdir] = "stanford"
 
 projects[stanford_image][type] = module
 projects[stanford_image][download][type] = git
@@ -366,10 +366,10 @@ projects[stanford_sites_abstract][download][type] = "git"
 projects[stanford_sites_abstract][download][url] = "git@github.com:SU-SWS/stanford_sites_abstract.git"
 projects[stanford_sites_abstract][download][branch] = "7.x-1.x"
 
-projects[stanford_sites_jumpstart][type] = "profile"
-projects[stanford_sites_jumpstart][download][type] = "git"
-projects[stanford_sites_jumpstart][download][url] = "git@github.com:SU-SWS/stanford_sites_jumpstart.git"
-projects[stanford_sites_jumpstart][download][branch] = 7.x-3.x-dev
+# projects[stanford_sites_jumpstart][type] = "profile"
+# projects[stanford_sites_jumpstart][download][type] = "git"
+# projects[stanford_sites_jumpstart][download][url] = "git@github.com:SU-SWS/stanford_sites_jumpstart.git"
+# projects[stanford_sites_jumpstart][download][branch] = 7.x-3.x-dev
 
 projects[stanford_sites_jumpstart_personal][type] = "profile"
 projects[stanford_sites_jumpstart_personal][download][type] = "git"
