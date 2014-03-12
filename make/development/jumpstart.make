@@ -6,8 +6,6 @@ projects[drupal][version] = "7.26"
 ; Contributed modules
 ; -------------------
 
-projects[backup_migrate_files][version] = "1.x-dev"
-projects[backup_migrate_files][subdir] = "contrib"
 projects[block_titlelink][version] = "1.3"
 projects[block_titlelink][subdir] = "contrib"
 projects[context_accordion][version] = "1.0"
@@ -22,8 +20,6 @@ projects[insert][version] = "1.2"
 projects[insert][subdir] = "contrib"
 projects[menu_position][version] = "1.1"
 projects[menu_position][subdir] = "contrib"
-projects[menu_import][version] = "1.5"
-projects[menu_import][subdir] = "contrib"
 projects[openlayers][version] = "2.0-beta7"
 projects[openlayers][subdir] = "contrib"
 projects[rules][version] = "2.2"
@@ -152,8 +148,6 @@ projects[google_analytics][version] = "1.2"
 projects[google_analytics][subdir] = "contrib"
 projects[menu_block][version] = "2.3"
 projects[menu_block][subdir] = "contrib"
-projects[nodeformcols][version] = "1.x-dev"
-projects[nodeformcols][subdir] = "contrib"
 projects[relation][version] = "1.0-rc3"
 projects[relation][subdir] = "contrib"
 projects[token][version] = "1.5"
@@ -162,10 +156,28 @@ projects[webform][version] = "3.19"
 projects[webform][subdir] = "contrib"
 projects[context_http_headers][version] = "1.0"
 projects[context_http_headers][subdir] = "contrib"
+
+; Contrib Dev Versions
+; Because Dev Versions can change we want to target the specific commit hash
+; that this build works with.
+
+projects[nodeformcols][version] = "1.x-dev"
+projects[nodeformcols][subdir] = "contrib"
+projects[nodeformcols][download][type] = "git"
+projects[nodeformcols][download][url] = "http://git.drupal.org/project/nodeformcols.git"
+projects[nodeformcols][download][revision] = "6acfa65569c5a89b6dde5cf9184855bcaf4e1805"
+
+projects[backup_migrate_files][version] = "1.x-dev"
+projects[backup_migrate_files][subdir] = "contrib"
+projects[backup_migrate_files][download][type] = "git"
+projects[backup_migrate_files][download][url] = "http://git.drupal.org/project/backup_migrate_files.git"
+projects[backup_migrate_files][download][revision] = "51562f652b6935ce005dddddd2529b4f7392998e"
+
 projects[context_useragent][version] = "1.x-dev"
 projects[context_useragent][subdir] = "contrib"
-projects[uuid][version] = "1.x-dev"
-projects[uuid][subdir] = "contrib"
+projects[context_useragent][download][type] = "git"
+projects[context_useragent][download][url] = "http://git.drupal.org/project/context_useragent.git"
+projects[context_useragent][download][revision] = "8949c6d4ee7a462b49e1b08dfd7dc60f1fa7e8e8"
 
 ; Contributed themes
 ; ------------------
@@ -181,7 +193,7 @@ projects[tao][version] = "3.0-beta4"
 projects[stanford_sites_systemtools][type] = "module"
 projects[stanford_sites_systemtools][download][type] = "git"
 projects[stanford_sites_systemtools][download][url] = "git@github.com:SU-SWS/SU-IT-Services.git"
-projects[stanford_sites_systemtools][download][tag] = "7.x-1.1-beta1"
+projects[stanford_sites_systemtools][download][tag] = "7.x-1.x"
 projects[stanford_sites_systemtools][subdir] = "stanford"
 
 projects[stanford_sites_helper][type] = "module"
@@ -190,139 +202,122 @@ projects[stanford_sites_helper][download][url] = "git@github.com:SU-SWS/stanford
 projects[stanford_sites_helper][download][branch] = "7.x-1.x"
 projects[stanford_sites_helper][subdir] = "stanford"
 
-projects[stanford_events_importer][type] = module
+projects[stanford_events_importer][type] = "module"
 projects[stanford_events_importer][download][type] = "git"
 projects[stanford_events_importer][download][url] = "git@github.com:SU-SWS/stanford_events_importer.git"
 projects[stanford_events_importer][download][branch] = "7.x-2.x"
 projects[stanford_events_importer][subdir] = "stanford"
 
-projects[stanford_wysiwyg][type] = module
-projects[stanford_wysiwyg][download][type] = git
-projects[stanford_wysiwyg][download][url] = git@github.com:SU-SWS/stanford_wysiwyg.git
+projects[stanford_wysiwyg][type] = "module"
+projects[stanford_wysiwyg][download][type] = "git"
+projects[stanford_wysiwyg][download][url] = "git@github.com:SU-SWS/stanford_wysiwyg.git"
 projects[stanford_wysiwyg][download][branch] = "7.x-2.x-dev"
 projects[stanford_wysiwyg][subdir] = "stanford"
 
-projects[stanford_video][type] = module
-projects[stanford_video][download][type] = git
-projects[stanford_video][download][url] = git@github.com:SU-SWS/stanford_video.git
+projects[stanford_video][type] = "module"
+projects[stanford_video][download][type] = "git"
+projects[stanford_video][download][url] = "git@github.com:SU-SWS/stanford_video.git"
 projects[stanford_video][download][branch] = "7.x-2.x-dev"
 projects[stanford_video][subdir] = "stanford"
 
-projects[stanford_courses][type] = module
-projects[stanford_courses][download][type] = git
-projects[stanford_courses][download][url] = git@github.com:SU-SWS/stanford_courses.git
+projects[stanford_courses][type] = "module"
+projects[stanford_courses][download][type] = "git"
+projects[stanford_courses][download][url] = "git@github.com:SU-SWS/stanford_courses.git"
 projects[stanford_courses][download][branch] = "7.x-3.x-dev"
 projects[stanford_courses][subdir] = "stanford"
 
-projects[webauth][type] = module
-projects[webauth][download][type] = git
-projects[webauth][download][url] = git@github.com:Stanford/WMD.git
+projects[webauth][type] = "module"
+projects[webauth][download][type] = "git"
+projects[webauth][download][url] = "git@github.com:Stanford/WMD.git"
 projects[webauth][download][branch] = "master"
 projects[webauth][subdir] = "stanford"
 
-# projects[stanford_jumpstart][type] = module
-# projects[stanford_jumpstart][download][type] = git
-# projects[stanford_jumpstart][download][url] = git@github.com:SU-SWS/stanford_jumpstart.git
-# projects[stanford_jumpstart][download][branch] = "3.x-profile"
-# projects[stanford_jumpstart][subdir] = "stanford"
+projects[stanford_jumpstart][type] = "module"
+projects[stanford_jumpstart][download][type] = "git"
+projects[stanford_jumpstart][download][url] = "git@github.com:SU-SWS/stanford_jumpstart.git"
+projects[stanford_jumpstart][download][branch] = "3.x-profile"
+projects[stanford_jumpstart][subdir] = "stanford"
 
-projects[stanford_image][type] = module
-projects[stanford_image][download][type] = git
-projects[stanford_image][download][url] = git@github.com:SU-SWS/stanford_image.git
+projects[stanford_image][type] = "module"
+projects[stanford_image][download][type] = "git"
+projects[stanford_image][download][url] = "git@github.com:SU-SWS/stanford_image.git"
 projects[stanford_image][download][branch] = "7.x-3.x-dev"
 projects[stanford_image][subdir] = "stanford"
 
-projects[stanford_image_styles][type] = module
-projects[stanford_image_styles][download][type] = git
-projects[stanford_image_styles][download][url] = git@github.com:SU-SWS/stanford_image_styles.git
+projects[stanford_image_styles][type] = "module"
+projects[stanford_image_styles][download][type] = "git"
+projects[stanford_image_styles][download][url] = "git@github.com:SU-SWS/stanford_image_styles.git"
 projects[stanford_image_styles][download][branch] = "7.x-3.x-dev"
 projects[stanford_image_styles][subdir] = "stanford"
 
-projects[stanford_metatag_nobots][type] = module
-projects[stanford_metatag_nobots][download][type] = git
-projects[stanford_metatag_nobots][download][url] = git@github.com:SU-SWS/stanford_metatag_nobots.git
+projects[stanford_metatag_nobots][type] = "module"
+projects[stanford_metatag_nobots][download][type] = "git"
+projects[stanford_metatag_nobots][download][url] = "git@github.com:SU-SWS/stanford_metatag_nobots.git"
 projects[stanford_metatag_nobots][download][branch] = "7.x-2.x-dev"
 projects[stanford_metatag_nobots][subdir] = "stanford"
 
-projects[stanford_bean_types][type] = module
-projects[stanford_bean_types][download][type] = git
-projects[stanford_bean_types][download][url] = git@github.com:SU-SWS/stanford_bean_types.git
+projects[stanford_bean_types][type] = "module"
+projects[stanford_bean_types][download][type] = "git"
+projects[stanford_bean_types][download][url] = "git@github.com:SU-SWS/stanford_bean_types.git"
 projects[stanford_bean_types][download][branch] = "7.x-2.x-dev"
 projects[stanford_bean_types][subdir] = "stanford"
 
-projects[stanford_page][type] = module
-projects[stanford_page][download][type] = git
-projects[stanford_page][download][url] = git@github.com:SU-SWS/stanford_page.git
+projects[stanford_page][type] = "module"
+projects[stanford_page][download][type] = "git"
+projects[stanford_page][download][url] = "git@github.com:SU-SWS/stanford_page.git"
 projects[stanford_page][download][branch] = "7.x-2.x-dev"
 projects[stanford_page][subdir] = "stanford"
 
-projects[stanford_personal][type] = module
-projects[stanford_personal][download][type] = git
-projects[stanford_personal][download][url] = git@github.com:SU-SWS/stanford_personal.git
-projects[stanford_personal][download][branch] = "7.x-1.x-dev"
-projects[stanford_personal][subdir] = "stanford"
-
-projects[webauth_extras][type] = module
-projects[webauth_extras][download][type] = git
-projects[webauth_extras][download][url] = git@github.com:Stanford/webauth_extras.git
+projects[webauth_extras][type] = "module"
+projects[webauth_extras][download][type] = "git"
+projects[webauth_extras][download][url] = "git@github.com:Stanford/webauth_extras.git"
 projects[webauth_extras][download][branch] = "master"
 projects[webauth_extras][subdir] = "stanford"
 
-projects[stanford_date_timepicker][type] = module
-projects[stanford_date_timepicker][download][type] = git
-projects[stanford_date_timepicker][download][url] = git@github.com:SU-SWS/stanford_date_timepicker.git
+projects[stanford_date_timepicker][type] = "module"
+projects[stanford_date_timepicker][download][type] = "git"
+projects[stanford_date_timepicker][download][url] = "git@github.com:SU-SWS/stanford_date_timepicker.git"
 projects[stanford_date_timepicker][download][branch] = "7.x-1.x"
 projects[stanford_date_timepicker][subdir] = "stanford"
-
-projects[cap_drupal][type] = module
-projects[cap_drupal][download][type] = git
-projects[cap_drupal][download][url] = git@github.com:Stanford/CAP_drupal.git
-projects[cap_drupal][download][branch] = "master"
-projects[cap_drupal][subdir] = "stanford"
 
 
 ; Stanford themes - Github
 ; ------------------------
 
-projects[stanfordmodern][type] = theme
-projects[stanfordmodern][download][type] = git
-projects[stanfordmodern][download][url] = git@github.com:su-ddd/stanfordmodern.git
-projects[stanfordmodern][download][branch] = "7.x-1.42"
+projects[stanfordmodern][type] = "theme"
+projects[stanfordmodern][download][type] = "git"
+projects[stanfordmodern][download][url] = "git@github.com:su-ddd/stanfordmodern.git"
+projects[stanfordmodern][download][branch] = "7.x-1.x"
 
-projects[stanford_basic][type] = theme
-projects[stanford_basic][download][type] = git
-projects[stanford_basic][download][url] = git@github.com:su-ddd/stanford_basic.git
-projects[stanford_basic][download][branch] = "7.x-1.4"
+projects[stanford_basic][type] = "theme"
+projects[stanford_basic][download][type] = "git"
+projects[stanford_basic][download][url] = "git@github.com:su-ddd/stanford_basic.git"
+projects[stanford_basic][download][branch] = "7.x-1.x"
 
-projects[open_framework][type] = theme
-projects[open_framework][download][type] = git
-projects[open_framework][download][url] = git@github.com:SU-SWS/open_framework.git
-projects[open_framework][download][branch] = "7.x-2.06"
+projects[open_framework][type] = "theme"
+projects[open_framework][download][type] = "git"
+projects[open_framework][download][url] = "git@github.com:SU-SWS/open_framework.git"
+projects[open_framework][download][branch] = "7.x-2.x"
 
-projects[stanford_framework][type] = theme
-projects[stanford_framework][download][type] = git
-projects[stanford_framework][download][url] = git@github.com:SU-SWS/stanford_framework.git
-projects[stanford_framework][download][branch] = "7.x-2.03"
+projects[stanford_framework][type] = "theme"
+projects[stanford_framework][download][type] = "git"
+projects[stanford_framework][download][url] = "git@github.com:SU-SWS/stanford_framework.git"
+projects[stanford_framework][download][branch] = "7.x-2.x"
 
-projects[stanford_jordan][type] = theme
-projects[stanford_jordan][download][type] = git
-projects[stanford_jordan][download][url] = git@github.com:SU-SWS/stanford_jordan.git
-projects[stanford_jordan][download][branch] = "7.x-2.01"
+projects[stanford_jordan][type] = "theme"
+projects[stanford_jordan][download][type] = "git"
+projects[stanford_jordan][download][url] = "git@github.com:SU-SWS/stanford_jordan.git"
+projects[stanford_jordan][download][branch] = "7.x-2.x"
 
-projects[stanford_wilbur][type] = theme
-projects[stanford_wilbur][download][type] = git
-projects[stanford_wilbur][download][url] = git@github.com:SU-SWS/stanford_wilbur.git
-projects[stanford_wilbur][download][branch] = "7.x-2.01"
+projects[stanford_wilbur][type] = "theme"
+projects[stanford_wilbur][download][type] = "git"
+projects[stanford_wilbur][download][url] = "git@github.com:SU-SWS/stanford_wilbur.git"
+projects[stanford_wilbur][download][branch] = "7.x-2.x"
 
-projects[stanford_seven][type] = theme
-projects[stanford_seven][download][type] = git
-projects[stanford_seven][download][url] = git@github.com:SU-SWS/stanford_seven.git
+projects[stanford_seven][type] = "theme"
+projects[stanford_seven][download][type] = "git"
+projects[stanford_seven][download][url] = "git@github.com:SU-SWS/stanford_seven.git"
 projects[stanford_seven][download][branch] = "7.x-1.x"
-
-projects[stanford_light][type] = theme
-projects[stanford_light][download][type] = git
-projects[stanford_light][download][url] = git@github.com:SU-SWS/stanford_light.git
-projects[stanford_light][download][branch] = "master"
 
 
 ; Libraries
@@ -347,11 +342,6 @@ libraries[proj4js][download][url] = "http://download.osgeo.org/proj4js/proj4js-1
 libraries[proj4js][directory_name] = "proj4js"
 libraries[proj4js][destination] = "../../sites/all/libraries"
 
-libraries[stanford_sites_content_importer][download][type] = "git"
-libraries[stanford_sites_content_importer][download][url] = "git@github.com:SU-SWS/stanford_sites_content_importer"
-libraries[stanford_sites_content_importer][download][branch] = "7.x-1.x"
-libraries[stanford_sites_content_importer][destination] = "../../sites/all/libraries"
-
 
 ; Profiles
 ; --------
@@ -359,23 +349,17 @@ libraries[stanford_sites_content_importer][destination] = "../../sites/all/libra
 projects[stanford][type] = "profile"
 projects[stanford][download][type] = "git"
 projects[stanford][download][url] = "git@github.com:SU-SWS/Stanford-Drupal-Profile.git"
-projects[stanford][download][branch] = 7.x-1.x-dev
+projects[stanford][download][branch] = "7.x-1.x-dev"
 
 projects[stanford_sites_abstract][type] = "profile"
 projects[stanford_sites_abstract][download][type] = "git"
 projects[stanford_sites_abstract][download][url] = "git@github.com:SU-SWS/stanford_sites_abstract.git"
 projects[stanford_sites_abstract][download][branch] = "7.x-1.x"
 
-# projects[stanford_sites_jumpstart][type] = "profile"
-# projects[stanford_sites_jumpstart][download][type] = "git"
-# projects[stanford_sites_jumpstart][download][url] = "git@github.com:SU-SWS/stanford_sites_jumpstart.git"
-# projects[stanford_sites_jumpstart][download][branch] = 7.x-3.x-dev
-
-projects[stanford_sites_jumpstart_personal][type] = "profile"
-projects[stanford_sites_jumpstart_personal][download][type] = "git"
-projects[stanford_sites_jumpstart_personal][download][url] = "git@github.com:SU-SWS/stanford_sites_jumpstart_personal.git"
-projects[stanford_sites_jumpstart_personal][download][branch] = 7.x-1.x
-
+projects[stanford_sites_jumpstart][type] = "profile"
+projects[stanford_sites_jumpstart][download][type] = "git"
+projects[stanford_sites_jumpstart][download][url] = "git@github.com:SU-SWS/stanford_sites_jumpstart.git"
+projects[stanford_sites_jumpstart][download][branch] = "7.x-3.x-dev"
 
 ; Patches
 ; -------
