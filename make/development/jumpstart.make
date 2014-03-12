@@ -235,7 +235,7 @@ projects[webauth][subdir] = "stanford"
 projects[stanford_jumpstart][type] = "module"
 projects[stanford_jumpstart][download][type] = "git"
 projects[stanford_jumpstart][download][url] = "git@github.com:SU-SWS/stanford_jumpstart.git"
-projects[stanford_jumpstart][download][branch] = "3.x-profile"
+projects[stanford_jumpstart][download][branch] = "7.x-3.x-dev"
 projects[stanford_jumpstart][subdir] = "stanford"
 
 projects[stanford_image][type] = "module"

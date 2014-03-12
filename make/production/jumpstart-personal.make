@@ -250,12 +250,6 @@ projects[webauth][download][url] = "git@github.com:Stanford/WMD.git"
 projects[webauth][download][branch] = "master"
 projects[webauth][subdir] = "stanford"
 
-# projects[stanford_jumpstart][type] = "module"
-# projects[stanford_jumpstart][download][type] = "git"
-# projects[stanford_jumpstart][download][url] = git@github.com:SU-SWS/stanford_jumpstart.git
-# projects[stanford_jumpstart][download][branch] = "3.x-profile"
-# projects[stanford_jumpstart][subdir] = "stanford"
-
 projects[stanford_image][type] = "module"
 projects[stanford_image][download][type] = "git"
 projects[stanford_image][download][url] = "git@github.com:SU-SWS/stanford_image.git"
