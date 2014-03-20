@@ -1,0 +1,11 @@
+#!/bin/bash
+# Configuration settings for your environment
+
+# DRUPAL -----------------------------------------------------------------------
+#enter a specific drupal version or leave blank to let drush decide. eg: "drupal-7.24"
+conf_drupal_version=
+
+
+# LOG --------------------------------------------------------------------------
+enable_log=false
+log_file_path=/var/logs/jumpstart.log
