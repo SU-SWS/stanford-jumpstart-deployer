@@ -116,7 +116,7 @@ projects[ctools][version] = "1.3"
 projects[ctools][subdir] = "contrib"
 projects[email][version] = "1.2"
 projects[email][subdir] = "contrib"
-projects[feeds_xpathparser][version] = "1.0-beta3"
+projects[feeds_xpathparser][version] = "1.0-beta4"
 projects[feeds_xpathparser][subdir] = "contrib"
 projects[globalredirect][version] = "1.5"
 projects[globalredirect][subdir] = "contrib"
@@ -193,7 +193,7 @@ projects[tao][version] = "3.0-beta4"
 projects[stanford_sites_systemtools][type] = "module"
 projects[stanford_sites_systemtools][download][type] = "git"
 projects[stanford_sites_systemtools][download][url] = "git@github.com:SU-SWS/SU-IT-Services.git"
-projects[stanford_sites_systemtools][download][tag] = "7.x-1.x"
+projects[stanford_sites_systemtools][download][branch] = "7.x-1.x"
 projects[stanford_sites_systemtools][subdir] = "stanford"
 
 projects[stanford_sites_helper][type] = "module"
@@ -363,9 +363,11 @@ projects[stanford_sites_jumpstart][download][branch] = "7.x-3.x-dev"
 
 ; Patches
 ; -------
+
 projects[wysiwyg][patch][] = "https://drupal.org/files/wysiwyg-non-empty-tags.550428.79.patch"
 
-
+; https://drupal.org/node/1267966
+projects[pathauto][patch][] = "https://drupal.org/files/pathauto_admin.patch"
 
 
 
