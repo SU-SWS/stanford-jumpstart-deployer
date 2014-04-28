@@ -4,7 +4,7 @@ api = 2
 ; Core and Contrib includes.
 ; ------------------------
 
-includes[] = "../contrib.make"
+includes[] = "core/contrib.make"
 
 projects[context_http_headers][version] = "1.0"
 projects[context_http_headers][subdir] = "contrib"
@@ -47,7 +47,7 @@ projects[context_useragent][download][revision] = "8949c6d4ee7a462b49e1b08dfd7dc
 ; Stanford Modules - GitHub
 ; -------------------------
 
-includes[] = "../core-stanford.make"
+includes[] = "core/core-stanford.make"
 
 projects[stanford_jumpstart][type] = "module"
 projects[stanford_jumpstart][download][type] = "git"
@@ -132,7 +132,7 @@ projects[stanford_wilbur][download][branch] = "7.x-2.01"
 ; Libraries
 ; ---------
 
-includes[] = "../core-libraries.make"
+includes[] = "core/core-libraries.make"
 
 libraries[stanford_sites_content_importer][download][type] = "git"
 libraries[stanford_sites_content_importer][download][url] = "git@github.com:SU-SWS/stanford_sites_content_importer"
@@ -142,7 +142,7 @@ libraries[stanford_sites_content_importer][destination] = "../../sites/all/libra
 ; Profiles
 ; --------
 
-includes[] = "../core-profiles.make"
+includes[] = "core/core-profiles.make"
 
 projects[stanford_sites_abstract][type] = "profile"
 projects[stanford_sites_abstract][download][type] = "git"
@@ -162,7 +162,7 @@ projects[stanford_sites_jumpstart_academic][download][branch] = "7.x-1.0-alpha2"
 ; Patches
 ; -------
 
-includes[] = "../core-patches.make"
+includes[] = "core/core-patches.make"
 
 
 
