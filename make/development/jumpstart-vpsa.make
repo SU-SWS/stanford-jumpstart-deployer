@@ -125,6 +125,11 @@ projects[stanford_sites_abstract][download][type] = "git"
 projects[stanford_sites_abstract][download][url] = "git@github.com:SU-SWS/stanford_sites_abstract.git"
 projects[stanford_sites_abstract][download][branch] = "7.x-1.x"
 
+projects[stanford_sites_jumpstart][type] = "profile"
+projects[stanford_sites_jumpstart][download][type] = "git"
+projects[stanford_sites_jumpstart][download][url] = "git@github.com:SU-SWS/stanford_sites_jumpstart.git"
+projects[stanford_sites_jumpstart][download][branch] = "7.x-3.x-dev"
+
 projects[stanford_sites_jumpstart_vpsa][type] = "profile"
 projects[stanford_sites_jumpstart_vpsa][download][type] = "git"
 projects[stanford_sites_jumpstart_vpsa][download][url] = "git@github.com:SU-SWS/stanford_sites_jumpstart_vpsa.git"
