@@ -60,11 +60,11 @@ projects[stanford_jumpstart][download][url] = "git@github.com:SU-SWS/stanford_ju
 projects[stanford_jumpstart][download][branch] = "7.x-4.x"
 projects[stanford_jumpstart][subdir] = "stanford"
 
-projects[stanford_jumpstart][type] = "module"
-projects[stanford_jumpstart][download][type] = "git"
-projects[stanford_jumpstart][download][url] = "git@github.com:SU-SWS/stanford_jumpstart_vpsa.git"
-projects[stanford_jumpstart][download][branch] = "7.x-1.x"
-projects[stanford_jumpstart][subdir] = "stanford"
+projects[stanford_jumpstart_vpsa][type] = "module"
+projects[stanford_jumpstart_vpsa][download][type] = "git"
+projects[stanford_jumpstart_vpsa][download][url] = "git@github.com:SU-SWS/stanford_jumpstart_vpsa.git"
+projects[stanford_jumpstart_vpsa][download][branch] = "7.x-1.x"
+projects[stanford_jumpstart_vpsa][subdir] = "stanford"
 
 projects[stanford_metatag_nobots][type] = "module"
 projects[stanford_metatag_nobots][download][type] = "git"
