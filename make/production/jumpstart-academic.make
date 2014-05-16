@@ -161,7 +161,7 @@ projects[stanford_sites_jumpstart][download][branch] = "7.x-3.0-alpha2"
 projects[stanford_sites_jumpstart_academic][type] = "profile"
 projects[stanford_sites_jumpstart_academic][download][type] = "git"
 projects[stanford_sites_jumpstart_academic][download][url] = "git@github.com:SU-SWS/stanford_sites_jumpstart_academic.git"
-projects[stanford_sites_jumpstart_academic][download][branch] = "7.x-1.0-alpha2"
+projects[stanford_sites_jumpstart_academic][download][branch] = "7.x-1.1-alpha1"
 
 ; Patches
 ; -------
