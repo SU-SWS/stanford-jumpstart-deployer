@@ -27,3 +27,8 @@ libraries[proj4js][destination] = "../../sites/all/libraries"
 libraries[simplepie][download][type] = "file"
 libraries[simplepie][download][url] = "http://simplepie.org/downloads/simplepie_1.3.1.compiled.php"
 libraries[simplepie][download][filename] = "simplepie.compiled.php"
+
+libraries[stanford_sites_content_importer][download][type] = "git"
+libraries[stanford_sites_content_importer][download][url] = "git@github.com:SU-SWS/stanford_sites_content_importer"
+libraries[stanford_sites_content_importer][download][branch] = "7.x-1.0-alpha2"
+libraries[stanford_sites_content_importer][destination] = "libraries"
