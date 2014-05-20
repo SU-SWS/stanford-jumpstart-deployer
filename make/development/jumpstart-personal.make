@@ -79,6 +79,12 @@ projects[webauth_extras][download][url] = "git@github.com:Stanford/webauth_extra
 projects[webauth_extras][download][branch] = "master"
 projects[webauth_extras][subdir] = "stanford"
 
+projects[stanford_person][type] = "module"
+projects[stanford_person][download][type] = "git"
+projects[stanford_person][download][url] = "git@github.com:SU-SWS/stanford_person.git"
+projects[stanford_person][download][branch] = "7.x-4.x-dev"
+projects[stanford_person][subdir] = "stanford"
+
 projects[stanford_personal][type] = "module"
 projects[stanford_personal][download][type] = "git"
 projects[stanford_personal][download][url] = "git@github.com:SU-SWS/stanford_personal.git"
