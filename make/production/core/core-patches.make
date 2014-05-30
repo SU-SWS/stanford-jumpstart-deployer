@@ -12,3 +12,6 @@ projects[context_useragent][patch][] = "https://drupal.org/files/issues/context_
 
 ; https://drupal.org/node/1661722 - PHP notice
 projects[context_http_headers][patches][] = "https://drupal.org/files/issues/context_http_headers-undefined-fix-1661722-2.patch"
+
+; https://drupal.org/node/927566 & https://drupal.org/node/860974 | Menu Links will not import/revert
+projects[features][patches][] = "https://drupal.org/files/issues/features-parent_identifier-927566-79.patch"
