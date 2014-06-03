@@ -107,7 +107,7 @@ projects[stanford_news][subdir] = "stanford"
 ; ----------------------------------
 
 projects[stanford_events_importer][download][branch] = "7.x-3.x-jsvpsa"
-
+projects[stanford_wysiwyg][download][branch] = "7.x-2.x-jsvpsa"
 
 
 ; Stanford themes - Github
