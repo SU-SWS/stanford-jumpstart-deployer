@@ -81,7 +81,7 @@ projects[stanford_bean_types][subdir] = "stanford"
 projects[stanford_page][type] = "module"
 projects[stanford_page][download][type] = "git"
 projects[stanford_page][download][url] = "git@github.com:SU-SWS/stanford_page.git"
-projects[stanford_page][download][branch] = "7.x-2.x-dev"
+projects[stanford_page][download][branch] = "7.x-2.x-jsvpsa"
 projects[stanford_page][subdir] = "stanford"
 
 projects[webauth_extras][type] = "module"
@@ -99,7 +99,7 @@ projects[stanford_manage_content][subdir] = "stanford"
 projects[stanford_news][type] = "module"
 projects[stanford_news][download][type] = "git"
 projects[stanford_news][download][url] = "git@github.com:SU-SWS/stanford_news.git"
-projects[stanford_news][download][branch] = "7.x-3.x-dev"
+projects[stanford_news][download][branch] = "7.x-3.x-jsvpsa"
 projects[stanford_news][subdir] = "stanford"
 
 
@@ -107,6 +107,7 @@ projects[stanford_news][subdir] = "stanford"
 ; ----------------------------------
 
 projects[stanford_events_importer][download][branch] = "7.x-3.x-jsvpsa"
+projects[stanford_slides][download][branch] = "7.x-3.x-jsvpsa"
 
 
 ; Stanford themes - Github
