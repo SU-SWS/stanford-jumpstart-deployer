@@ -10,8 +10,6 @@ projects[context_http_headers][version] = "1.0"
 projects[context_http_headers][subdir] = "contrib"
 projects[imagecache_actions][version] = "1.4"
 projects[imagecache_actions][subdir] = "contrib"
-projects[deploy][version] = "2.0-alpha2"
-projects[deploy][subdir] = "contrib"
 projects[entity_dependency][version] = "1.0-alpha1"
 projects[entity_dependency][subdir] = "contrib"
 
