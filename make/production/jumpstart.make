@@ -53,13 +53,10 @@ projects[context_useragent][download][revision] = "8949c6d4ee7a462b49e1b08dfd7dc
 
 includes[] = "core/core-stanford.make"
 
-// Needs older version until new installation profile is up.
-projects[stanford_jumpstart][download][tag] = "7.x-4.0-alpha1"
-
 projects[stanford_jumpstart][type] = "module"
 projects[stanford_jumpstart][download][type] = "git"
 projects[stanford_jumpstart][download][url] = "git@github.com:SU-SWS/stanford_jumpstart.git"
-projects[stanford_jumpstart][download][tag] = "7.x-4.1"
+projects[stanford_jumpstart][download][tag] = "7.x-4.0-alpha1"
 projects[stanford_jumpstart][subdir] = "stanford"
 
 projects[stanford_metatag_nobots][type] = "module"
