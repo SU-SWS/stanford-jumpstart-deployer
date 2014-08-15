@@ -56,7 +56,7 @@ includes[] = "core/core-stanford.make"
 projects[stanford_jumpstart][type] = "module"
 projects[stanford_jumpstart][download][type] = "git"
 projects[stanford_jumpstart][download][url] = "git@github.com:SU-SWS/stanford_jumpstart.git"
-projects[stanford_jumpstart][download][tag] = "7.x-4.1"
+projects[stanford_jumpstart][download][tag] = "7.x-4.0-alpha1"
 projects[stanford_jumpstart][subdir] = "stanford"
 
 projects[stanford_metatag_nobots][type] = "module"
