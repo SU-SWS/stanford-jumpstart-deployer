@@ -7,7 +7,7 @@ libraries[ckeditor][directory_name] = "ckeditor"
 libraries[ckeditor][destination] = "libraries"
 
 libraries[jquery_cycle][download][type] = "get"
-libraries[jquery_cycle][download][url] = "http://malsup.github.com/jquery.cycle.all.js"
+libraries[jquery_cycle][download][url] = "https://raw.githubusercontent.com/SU-SWS/stanford_sites_libraries/master/jquery.cycle/jquery.cycle.all.js"
 libraries[jquery_cycle][directory_name] = "jquery.cycle"
 libraries[jquery_cycle][destination] = "libraries"
 
@@ -17,7 +17,7 @@ libraries[jw_player][directory_name] = "jwplayer"
 libraries[jw_player][destination] = "libraries"
 
 libraries[proj4js][download][type] = "get"
-libraries[proj4js][download][url] = "http://download.osgeo.org/proj4js/proj4js-1.0.3.zip"
+libraries[proj4js][download][url] = "http://download.osgeo.org/proj4js/proj4js-1.1.0.zip"
 libraries[proj4js][directory_name] = "proj4js"
 libraries[proj4js][destination] = "libraries"
 
