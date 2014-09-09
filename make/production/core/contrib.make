@@ -37,8 +37,6 @@ projects[insert][version] = "1.3"
 projects[insert][subdir] = "contrib"
 projects[menu_position][version] = "1.1"
 projects[menu_position][subdir] = "contrib"
-projects[openlayers][version] = "2.0-beta9"
-projects[openlayers][subdir] = "contrib"
 projects[rules][version] = "2.7"
 projects[rules][subdir] = "contrib"
 projects[transliteration][version] = "3.2"
@@ -195,6 +193,12 @@ projects[xmlsitemap][subdir] = "contrib"
 ; projects[backup_migrate_files][download][type] = "git"
 ; projects[backup_migrate_files][download][url] = "http://git.drupal.org/project/backup_migrate_files.git"
 ; projects[backup_migrate_files][download][revision] = "51562f652b6935ce005dddddd2529b4f7392998e"
+
+projects[openlayers][version] = "2.x-dev"
+projects[openlayers][subdir] = "contrib"
+projects[openlayers][download][type] = "git"
+projects[openlayers][download][url] = "http://git.drupal.org/project/openlayers.git"
+projects[openlayers][download][revision] = "8e1e5e17acaca713dc977b291fd409b0b42e7bdb"
 
 ; Contributed themes
 ; ------------------
