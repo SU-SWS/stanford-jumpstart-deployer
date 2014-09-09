@@ -50,13 +50,13 @@ includes[] = "core/core-stanford.make"
 projects[stanford_jumpstart][type] = "module"
 projects[stanford_jumpstart][download][type] = "git"
 projects[stanford_jumpstart][download][url] = "git@github.com:SU-SWS/stanford_jumpstart.git"
-projects[stanford_jumpstart][download][tag] = "7.x-4.1"
+projects[stanford_jumpstart][download][tag] = "7.x-4.2"
 projects[stanford_jumpstart][subdir] = "stanford"
 
 projects[stanford_jumpstart_academic][type] = "module"
 projects[stanford_jumpstart_academic][download][type] = "git"
 projects[stanford_jumpstart_academic][download][url] = "git@github.com:SU-SWS/stanford_jumpstart_academic.git"
-projects[stanford_jumpstart_academic][download][branch] = "7.x-4.0-alpha2"
+projects[stanford_jumpstart_academic][download][branch] = "7.x-4.2"
 projects[stanford_jumpstart_academic][subdir] = "stanford"
 
 projects[stanford_metatag_nobots][type] = "module"
@@ -76,12 +76,6 @@ projects[stanford_page][download][type] = "git"
 projects[stanford_page][download][url] = "git@github.com:SU-SWS/stanford_page.git"
 projects[stanford_page][download][tag] = "7.x-2.0-alpha3"
 projects[stanford_page][subdir] = "stanford"
-
-projects[webauth_extras][type] = "module"
-projects[webauth_extras][download][type] = "git"
-projects[webauth_extras][download][url] = "git@github.com:Stanford/webauth_extras.git"
-projects[webauth_extras][download][branch] = "master"
-projects[webauth_extras][subdir] = "stanford"
 
 
 ; Stanford Jumpstart Academic Modules - Github
@@ -156,12 +150,12 @@ projects[stanford_sites_abstract][download][branch] = "7.x-1.0-alpha3"
 projects[stanford_sites_jumpstart][type] = "profile"
 projects[stanford_sites_jumpstart][download][type] = "git"
 projects[stanford_sites_jumpstart][download][url] = "git@github.com:SU-SWS/stanford_sites_jumpstart.git"
-projects[stanford_sites_jumpstart][download][branch] = "7.x-3.1"
+projects[stanford_sites_jumpstart][download][branch] = "7.x-4.2"
 
 projects[stanford_sites_jumpstart_academic][type] = "profile"
 projects[stanford_sites_jumpstart_academic][download][type] = "git"
 projects[stanford_sites_jumpstart_academic][download][url] = "git@github.com:SU-SWS/stanford_sites_jumpstart_academic.git"
-projects[stanford_sites_jumpstart_academic][download][branch] = "7.x-1.1-alpha3"
+projects[stanford_sites_jumpstart_academic][download][branch] = "7.x-4.2"
 
 ; Patches
 ; -------

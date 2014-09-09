@@ -71,12 +71,6 @@ projects[stanford_page][download][url] = "git@github.com:SU-SWS/stanford_page.gi
 projects[stanford_page][download][branch] = "7.x-2.x-dev"
 projects[stanford_page][subdir] = "stanford"
 
-projects[webauth_extras][type] = "module"
-projects[webauth_extras][download][type] = "git"
-projects[webauth_extras][download][url] = "git@github.com:Stanford/webauth_extras.git"
-projects[webauth_extras][download][branch] = "master"
-projects[webauth_extras][subdir] = "stanford"
-
 projects[stanford_person][type] = "module"
 projects[stanford_person][download][type] = "git"
 projects[stanford_person][download][url] = "git@github.com:SU-SWS/stanford_person.git"
@@ -131,7 +125,7 @@ projects[stanford_sites_abstract][download][branch] = "7.x-1.x"
 projects[stanford_sites_jumpstart_personal][type] = "profile"
 projects[stanford_sites_jumpstart_personal][download][type] = "git"
 projects[stanford_sites_jumpstart_personal][download][url] = "git@github.com:SU-SWS/stanford_sites_jumpstart_personal.git"
-projects[stanford_sites_jumpstart_personal][download][branch] = "7.x-1.x"
+projects[stanford_sites_jumpstart_personal][download][branch] = "7.x-4.x"
 
 
 ; Patches

@@ -43,6 +43,12 @@ projects[webauth][download][url] = "git@github.com:Stanford/WMD.git"
 projects[webauth][download][branch] = "master"
 projects[webauth][subdir] = "stanford"
 
+projects[webauth_extras][type] = "module"
+projects[webauth_extras][download][type] = "git"
+projects[webauth_extras][download][url] = "git@github.com:Stanford/webauth_extras.git"
+projects[webauth_extras][download][branch] = "master"
+projects[webauth_extras][subdir] = "stanford"
+
 projects[stanford_image][type] = "module"
 projects[stanford_image][download][type] = "git"
 projects[stanford_image][download][url] = "git@github.com:SU-SWS/stanford_image.git"
