@@ -91,7 +91,7 @@ projects[stanford_news][subdir] = "stanford"
 projects[stanford_jumpstart_plus][type] = "module"
 projects[stanford_jumpstart_plus][download][type] = "git"
 projects[stanford_jumpstart_plus][download][url] = "git@github.com:SU-SWS/stanford_jumpstart_plus.git"
-projects[stanford_jumpstart_plus][download][branch] = "7.x-4.x-dev"
+projects[stanford_jumpstart_plus][download][branch] = "7.x-4.x"
 projects[stanford_jumpstart_plus][subdir] = "stanford"
 
 projects[stanford_landing_page][type] = "module"
@@ -150,7 +150,7 @@ projects[stanford_sites_jumpstart][download][branch] = "7.x-4.x-dev"
 projects[stanford_sites_jumpstart_plus][type] = "profile"
 projects[stanford_sites_jumpstart_plus][download][type] = "git"
 projects[stanford_sites_jumpstart_plus][download][url] = "git@github.com:SU-SWS/stanford_sites_jumpstart_plus.git"
-projects[stanford_sites_jumpstart_plus][download][branch] = "7.x-4.x-dev"
+projects[stanford_sites_jumpstart_plus][download][branch] = "7.x-4.x"
 
 ; Patches
 ; -------
