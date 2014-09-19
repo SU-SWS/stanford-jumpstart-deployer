@@ -77,12 +77,11 @@ projects[stanford_bean_types][download][url] = "git@github.com:SU-SWS/stanford_b
 projects[stanford_bean_types][download][branch] = "7.x-2.x-dev"
 projects[stanford_bean_types][subdir] = "stanford"
 
-projects[stanford_page][type] = "module"
-projects[stanford_page][download][type] = "git"
-projects[stanford_page][download][url] = "git@github.com:SU-SWS/stanford_page.git"
-projects[stanford_page][download][branch] = "7.x-2.x-dev"
-projects[stanford_page][subdir] = "stanford"
-
+projects[stanford_jumpstart_home][type] = "module"
+projects[stanford_jumpstart_home][download][type] = "git"
+projects[stanford_jumpstart_home][download][url] = "git@github.com:SU-SWS/stanford_jumpstart_home.git"
+projects[stanford_jumpstart_home][download][branch] = "7.x-1.x"
+projects[stanford_jumpstart_home][subdir] = "stanford"
 
 ; Stanford Jumpstart Academic Modules - Github
 ; --------------------------------------------
@@ -111,6 +110,12 @@ projects[stanford_manage_content][download][url] = "git@github.com:SU-SWS/stanfo
 projects[stanford_manage_content][download][branch] = "7.x-3.x-dev"
 projects[stanford_manage_content][subdir] = "stanford"
 
+projects[stanford_landing_page][type] = "module"
+projects[stanford_landing_page][download][type] = "git"
+projects[stanford_landing_page][download][url] = "git@github.com:SU-SWS/stanford_landing_page.git"
+projects[stanford_landing_page][download][branch] = "7.x-1.x"
+projects[stanford_landing_page][subdir] = "stanford"
+
 
 ; Stanford themes - Github
 ; ------------------------
@@ -122,15 +127,10 @@ projects[stanfordmodern][download][type] = "git"
 projects[stanfordmodern][download][url] = "git@github.com:su-ddd/stanfordmodern.git"
 projects[stanfordmodern][download][branch] = "7.x-1.x"
 
-projects[stanford_jordan][type] = "theme"
-projects[stanford_jordan][download][type] = "git"
-projects[stanford_jordan][download][url] = "git@github.com:SU-SWS/stanford_jordan.git"
-projects[stanford_jordan][download][branch] = "7.x-2.x"
-
-projects[stanford_wilbur][type] = "theme"
-projects[stanford_wilbur][download][type] = "git"
-projects[stanford_wilbur][download][url] = "git@github.com:SU-SWS/stanford_wilbur.git"
-projects[stanford_wilbur][download][branch] = "7.x-2.x"
+projects[stanford_light][type] = "theme"
+projects[stanford_light][download][type] = "git"
+projects[stanford_light][download][url] = "git@github.com:SU-SWS/stanford_light.git"
+projects[stanford_light][download][branch] = "master"
 
 
 ; Libraries
