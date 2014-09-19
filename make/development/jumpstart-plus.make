@@ -94,6 +94,12 @@ projects[stanford_jumpstart_home][download][url] = "git@github.com:SU-SWS/stanfo
 projects[stanford_jumpstart_home][download][branch] = "7.x-1.x"
 projects[stanford_jumpstart_home][subdir] = "stanford"
 
+projects[stanford_landing_page][type] = "module"
+projects[stanford_landing_page][download][type] = "git"
+projects[stanford_landing_page][download][url] = "git@github.com:SU-SWS/stanford_landing_page.git"
+projects[stanford_landing_page][download][branch] = "7.x-1.x"
+projects[stanford_landing_page][subdir] = "stanford"
+
 
 ; Stanford themes - Github
 ; ------------------------

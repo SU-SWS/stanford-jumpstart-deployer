@@ -70,18 +70,6 @@ projects[stanford_bean_types][download][url] = "git@github.com:SU-SWS/stanford_b
 projects[stanford_bean_types][download][branch] = "7.x-2.x-dev"
 projects[stanford_bean_types][subdir] = "stanford"
 
-projects[stanford_page][type] = "module"
-projects[stanford_page][download][type] = "git"
-projects[stanford_page][download][url] = "git@github.com:SU-SWS/stanford_page.git"
-projects[stanford_page][download][branch] = "7.x-2.x-dev"
-projects[stanford_page][subdir] = "stanford"
-
-projects[stanford_landing_page][type] = "module"
-projects[stanford_landing_page][download][type] = "git"
-projects[stanford_landing_page][download][url] = "git@github.com:SU-SWS/stanford_landing_page.git"
-projects[stanford_landing_page][download][branch] = "7.x-1.x"
-projects[stanford_landing_page][subdir] = "stanford"
-
 projects[stanford_manage_content][type] = "module"
 projects[stanford_manage_content][download][type] = "git"
 projects[stanford_manage_content][download][url] = "git@github.com:SU-SWS/stanford_manage_content.git"
@@ -94,6 +82,11 @@ projects[stanford_jumpstart_home][download][url] = "git@github.com:SU-SWS/stanfo
 projects[stanford_jumpstart_home][download][branch] = "7.x-1.x"
 projects[stanford_jumpstart_home][subdir] = "stanford"
 
+projects[stanford_landing_page][type] = "module"
+projects[stanford_landing_page][download][type] = "git"
+projects[stanford_landing_page][download][url] = "git@github.com:SU-SWS/stanford_landing_page.git"
+projects[stanford_landing_page][download][branch] = "7.x-1.x"
+projects[stanford_landing_page][subdir] = "stanford"
 
 ; Stanford themes - Github
 ; ------------------------

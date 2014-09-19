@@ -110,6 +110,12 @@ projects[stanford_manage_content][download][url] = "git@github.com:SU-SWS/stanfo
 projects[stanford_manage_content][download][branch] = "7.x-3.x-dev"
 projects[stanford_manage_content][subdir] = "stanford"
 
+projects[stanford_landing_page][type] = "module"
+projects[stanford_landing_page][download][type] = "git"
+projects[stanford_landing_page][download][url] = "git@github.com:SU-SWS/stanford_landing_page.git"
+projects[stanford_landing_page][download][branch] = "7.x-1.x"
+projects[stanford_landing_page][subdir] = "stanford"
+
 
 ; Stanford themes - Github
 ; ------------------------
