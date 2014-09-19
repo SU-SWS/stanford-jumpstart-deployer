@@ -89,6 +89,8 @@ projects[cap_drupal][subdir] = "stanford"
 
 ; Found in core-stanford.make
 
+projects[stanford_framework][download][branch] = "7.x-2.x"
+
 projects[stanford_light][type] = "theme"
 projects[stanford_light][download][type] = "git"
 projects[stanford_light][download][url] = "git@github.com:SU-SWS/stanford_light.git"

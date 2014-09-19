@@ -100,9 +100,10 @@ projects[stanford_jumpstart_home][subdir] = "stanford"
 
 ; Found in core-stanford.make
 
-projects[open_framework][download][branch] = "7.x-2.x"
-projects[stanford_framework][download][branch] = "7.x-3.x"
-
+projects[stanfordmodern][type] = "theme"
+projects[stanfordmodern][download][type] = "git"
+projects[stanfordmodern][download][url] = "git@github.com:su-ddd/stanfordmodern.git"
+projects[stanfordmodern][download][branch] = "7.x-1.x"
 
 ; Libraries
 ; ---------
