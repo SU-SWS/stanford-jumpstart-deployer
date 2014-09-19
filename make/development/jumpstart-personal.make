@@ -65,12 +65,6 @@ projects[stanford_bean_types][download][url] = "git@github.com:SU-SWS/stanford_b
 projects[stanford_bean_types][download][branch] = "7.x-2.x-dev"
 projects[stanford_bean_types][subdir] = "stanford"
 
-projects[stanford_page][type] = "module"
-projects[stanford_page][download][type] = "git"
-projects[stanford_page][download][url] = "git@github.com:SU-SWS/stanford_page.git"
-projects[stanford_page][download][branch] = "7.x-2.x-dev"
-projects[stanford_page][subdir] = "stanford"
-
 projects[stanford_person][type] = "module"
 projects[stanford_person][download][type] = "git"
 projects[stanford_person][download][url] = "git@github.com:SU-SWS/stanford_person.git"

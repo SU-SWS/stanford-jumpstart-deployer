@@ -77,12 +77,11 @@ projects[stanford_bean_types][download][url] = "git@github.com:SU-SWS/stanford_b
 projects[stanford_bean_types][download][branch] = "7.x-2.x-dev"
 projects[stanford_bean_types][subdir] = "stanford"
 
-projects[stanford_page][type] = "module"
-projects[stanford_page][download][type] = "git"
-projects[stanford_page][download][url] = "git@github.com:SU-SWS/stanford_page.git"
-projects[stanford_page][download][branch] = "7.x-2.x-dev"
-projects[stanford_page][subdir] = "stanford"
-
+projects[stanford_jumpstart_home][type] = "module"
+projects[stanford_jumpstart_home][download][type] = "git"
+projects[stanford_jumpstart_home][download][url] = "git@github.com:SU-SWS/stanford_jumpstart_home.git"
+projects[stanford_jumpstart_home][download][branch] = "7.x-1.x"
+projects[stanford_jumpstart_home][subdir] = "stanford"
 
 ; Stanford Jumpstart Academic Modules - Github
 ; --------------------------------------------
