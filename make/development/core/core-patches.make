@@ -21,3 +21,6 @@ projects[views][patch][] = "https://www.drupal.org/files/views-fix-destination-l
 
 ; https://www.drupal.org/node/1687794 | WYSIWYG Filter - Validation occurs on disabled filter
 projects[wysiwyg_filter][patch][] = "https://www.drupal.org/files/wysiwyg_filter-1687794-1-skip-validation-if-filter-disabled.patch"
+
+; https://www.drupal.org/node/2332181 | Add update hook for date_views variables
+projects[date][patch][] = https://www.drupal.org/files/issues/date-date_views_update_hook-2332181-8.patch
