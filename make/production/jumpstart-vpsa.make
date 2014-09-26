@@ -61,13 +61,13 @@ includes[] = "core/core-stanford.make"
 projects[stanford_jumpstart][type] = "module"
 projects[stanford_jumpstart][download][type] = "git"
 projects[stanford_jumpstart][download][url] = "git@github.com:SU-SWS/stanford_jumpstart.git"
-projects[stanford_jumpstart][download][branch] = "7.x-4.2"
+projects[stanford_jumpstart][download][branch] = "7.x-4.3-alpha1"
 projects[stanford_jumpstart][subdir] = "stanford"
 
 projects[stanford_jumpstart_vpsa][type] = "module"
 projects[stanford_jumpstart_vpsa][download][type] = "git"
 projects[stanford_jumpstart_vpsa][download][url] = "git@github.com:SU-SWS/stanford_jumpstart_vpsa.git"
-projects[stanford_jumpstart_vpsa][download][branch] = "7.x-4.x"
+projects[stanford_jumpstart_vpsa][download][branch] = "7.x-4.3-alpha1"
 projects[stanford_jumpstart_vpsa][subdir] = "stanford"
 
 projects[stanford_metatag_nobots][type] = "module"
@@ -79,7 +79,7 @@ projects[stanford_metatag_nobots][subdir] = "stanford"
 projects[stanford_bean_types][type] = "module"
 projects[stanford_bean_types][download][type] = "git"
 projects[stanford_bean_types][download][url] = "git@github.com:SU-SWS/stanford_bean_types.git"
-projects[stanford_bean_types][download][branch] = "7.x-2.0"
+projects[stanford_bean_types][download][branch] = "7.x-2.1"
 projects[stanford_bean_types][subdir] = "stanford"
 
 projects[stanford_page][type] = "module"
@@ -91,7 +91,7 @@ projects[stanford_page][subdir] = "stanford"
 projects[stanford_manage_content][type] = "module"
 projects[stanford_manage_content][download][type] = "git"
 projects[stanford_manage_content][download][url] = "git@github.com:SU-SWS/stanford_manage_content.git"
-projects[stanford_manage_content][download][branch] = "7.x-3.0"
+projects[stanford_manage_content][download][branch] = "7.x-3.2"
 projects[stanford_manage_content][subdir] = "stanford"
 
 projects[stanford_news][type] = "module"
@@ -106,9 +106,6 @@ projects[stanford_news][subdir] = "stanford"
 
 projects[stanford_events_importer][download][branch] = "7.x-3.x-jsvpsa"
 projects[stanford_slides][download][branch] = "7.x-3.x-jsvpsa"
-projects[stanford_news][download][branch] = "7.x-3.x-jsvpsa"
-projects[stanford_courses][download][branch] = "7.x-3.0"
-; projects[stanford_slides][download][branch] = "7.x-3.x-jsvpsa"
 
 
 
@@ -121,16 +118,6 @@ projects[stanfordmodern][type] = "theme"
 projects[stanfordmodern][download][type] = "git"
 projects[stanfordmodern][download][url] = "git@github.com:su-ddd/stanfordmodern.git"
 projects[stanfordmodern][download][branch] = "7.x-1.x"
-
-projects[stanford_jordan][type] = "theme"
-projects[stanford_jordan][download][type] = "git"
-projects[stanford_jordan][download][url] = "git@github.com:SU-SWS/stanford_jordan.git"
-projects[stanford_jordan][download][branch] = "7.x-2.x"
-
-projects[stanford_wilbur][type] = "theme"
-projects[stanford_wilbur][download][type] = "git"
-projects[stanford_wilbur][download][url] = "git@github.com:SU-SWS/stanford_wilbur.git"
-projects[stanford_wilbur][download][branch] = "7.x-2.x"
 
 ; Libraries
 ; ---------
@@ -155,12 +142,12 @@ projects[stanford_sites_abstract][download][branch] = "7.x-4.x"
 projects[stanford_sites_jumpstart][type] = "profile"
 projects[stanford_sites_jumpstart][download][type] = "git"
 projects[stanford_sites_jumpstart][download][url] = "git@github.com:SU-SWS/stanford_sites_jumpstart.git"
-projects[stanford_sites_jumpstart][download][branch] = "7.x-4.2"
+projects[stanford_sites_jumpstart][download][branch] = "7.x-4.3-alpha1"
 
 projects[stanford_sites_jumpstart_vpsa][type] = "profile"
 projects[stanford_sites_jumpstart_vpsa][download][type] = "git"
 projects[stanford_sites_jumpstart_vpsa][download][url] = "git@github.com:SU-SWS/stanford_sites_jumpstart_vpsa.git"
-projects[stanford_sites_jumpstart_vpsa][download][branch] = "7.x-4.x"
+projects[stanford_sites_jumpstart_vpsa][download][branch] = "7.x-4.2-dev+1"
 
 ; Patches
 ; -------
