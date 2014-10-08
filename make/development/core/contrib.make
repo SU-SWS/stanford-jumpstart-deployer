@@ -19,6 +19,8 @@ projects[drupal][version] = "7.31"
 
 projects[block_titlelink][version] = "1.3"
 projects[block_titlelink][subdir] = "contrib"
+projects[cbc][version] = "1.0"
+projects[cbc][subdir] = "contrib"
 projects[context_accordion][version] = "1.0"
 projects[context_accordion][subdir] = "contrib"
 projects[context_list][version] = "1.1"
