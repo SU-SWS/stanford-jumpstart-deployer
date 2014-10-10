@@ -93,11 +93,6 @@ projects[stanford_landing_page][subdir] = "stanford"
 
 ; Found in core-stanford.make
 
-projects[stanfordmodern][type] = "theme"
-projects[stanfordmodern][download][type] = "git"
-projects[stanfordmodern][download][url] = "git@github.com:su-ddd/stanfordmodern.git"
-projects[stanfordmodern][download][branch] = "7.x-1.x"
-
 projects[stanford_light][type] = "theme"
 projects[stanford_light][download][type] = "git"
 projects[stanford_light][download][url] = "git@github.com:SU-SWS/stanford_light.git"
