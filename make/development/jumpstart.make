@@ -6,9 +6,6 @@ api = 2
 
 includes[] = "core/contrib.make"
 
-projects[context_http_headers][version] = "1.0"
-projects[context_http_headers][subdir] = "contrib"
-
 ; Contrib Dev Versions
 ; Because Dev Versions can change we want to target the specific commit hash
 ; that this build works with.
