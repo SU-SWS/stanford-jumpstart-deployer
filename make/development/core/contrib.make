@@ -95,6 +95,8 @@ projects[jw_player][version] = "1.0-alpha1"
 projects[jw_player][subdir] = "contrib"
 projects[module_filter][version] = "1.8"
 projects[module_filter][subdir] = "contrib"
+projects[openlayers][version] = "2.0-beta9"
+projects[openlayers][subdir] = "contrib"
 projects[pathologic][version] = "2.12"
 projects[pathologic][subdir] = "contrib"
 projects[site_verify][version] = "1.1"
@@ -205,12 +207,6 @@ projects[css_injector][subdir] = "contrib"
 projects[css_injector][download][type] = "git"
 projects[css_injector][download][url] = "http://git.drupal.org/project/css_injector.git"
 projects[css_injector][download][revision] = "41bee7e4421ecfc52a6b673eef6fcde875282a2b"
-
-projects[openlayers][version] = "2.x-dev"
-projects[openlayers][subdir] = "contrib"
-projects[openlayers][download][type] = "git"
-projects[openlayers][download][url] = "http://git.drupal.org/project/openlayers.git"
-projects[openlayers][download][revision] = "8e1e5e17acaca713dc977b291fd409b0b42e7bdb"
 
 ; Contributed themes
 ; ------------------
