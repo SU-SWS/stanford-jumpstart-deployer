@@ -95,8 +95,11 @@ projects[jw_player][version] = "1.0-alpha1"
 projects[jw_player][subdir] = "contrib"
 projects[module_filter][version] = "1.8"
 projects[module_filter][subdir] = "contrib"
-projects[openlayers][version] = "2.0-beta9"
-projects[openlayers][subdir] = "contrib"
+; Do not download openlayers. 2.0-beta9 includes a .make file that references a library that
+; fails to download. Downloading the -dev version gets around that issue, but leaves us
+; with a one-off of openlayers in sites/default/modules/contrib. We don't want that.
+; projects[openlayers][version] = "2.0-beta9"
+; projects[openlayers][subdir] = "contrib"
 projects[pathologic][version] = "2.12"
 projects[pathologic][subdir] = "contrib"
 projects[site_verify][version] = "1.1"
