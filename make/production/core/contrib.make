@@ -183,6 +183,8 @@ projects[smart_trim][version] = "1.4"
 projects[smart_trim][subdir] = "contrib"
 projects[xmlsitemap][version] = "2.0"
 projects[xmlsitemap][subdir] = "contrib"
+projects[imagecache_actions][version] = "1.4"
+projects[imagecache_actions][subdir] = "contrib"
 
 ; Contrib Dev Versions
 ; Because Dev Versions can change we want to target the specific commit hash
