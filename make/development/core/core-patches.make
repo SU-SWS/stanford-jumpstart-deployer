@@ -24,3 +24,6 @@ projects[wysiwyg_filter][patch][] = "https://www.drupal.org/files/wysiwyg_filter
 
 ; https://www.drupal.org/node/2332181 | Add update hook for date_views variables
 projects[date][patch][] = https://www.drupal.org/files/issues/date-date_views_update_hook-2332181-8.patch
+
+; https://www.drupal.org/node/2369945 | Drush Make - Spyc Library URL Broken
+projects[services][patch][] = https://www.drupal.org/files/issues/services.spyc_make-2369946-2.patch
