@@ -1,11 +1,21 @@
 ## Drush Make Files
 -----------------------------------------
 
-In the make directory there are 3 other directories. In the development folder you will find a deployer that 
-points to all development versions of everything. In the production folder you will find the latest tagged 
-release of each product. In the tags folder you will find older versions of each product.
+## _core
+The core set of contrib and custom files for all products
 
-Developer Tip:
-If you want to build a site with a make file and preserve the git repositories use --working-copy when building.
+## academic
+The Jumpstart Academic Project
 
-eg: drush make jumpstart.make /path-to-webserver/site-name --working-copy 
+## jumpstart
+The Jumpstart Vanilla Project
+
+## personal
+The Jumpstart Personal Project
+
+## plus
+The Jumpstart Plus Project
+
+## vpsa
+The Jumpstart VPSA (SA) Project
+

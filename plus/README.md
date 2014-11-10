@@ -1,5 +1,5 @@
-# JSV
-Jumpstart Vanilla
+# JS+
+Jumpstart Plus
 
 ## _dev
 A development version only build

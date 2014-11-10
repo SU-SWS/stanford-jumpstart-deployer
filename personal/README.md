@@ -1,5 +1,5 @@
-# JSV
-Jumpstart Vanilla
+# JSP
+Jumpstart Personal
 
 ## _dev
 A development version only build
