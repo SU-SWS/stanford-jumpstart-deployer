@@ -79,6 +79,12 @@ projects[stanford_slides][download][url] = "git@github.com:SU-SWS/stanford_slide
 projects[stanford_slides][download][branch] = "7.x-3.x-dev"
 projects[stanford_slides][subdir] = "stanford"
 
+projects[stanford_ssp][type] = "module"
+projects[stanford_ssp][download][type] = "git"
+projects[stanford_ssp][download][url] = "git@github.com:SU-SWS/stanford_ssp.git"
+projects[stanford_ssp][download][branch] = "7.x-3.x-dev"
+projects[stanford_ssp][subdir] = "stanford"
+
 projects[stanford_carousel][type] = "module"
 projects[stanford_carousel][download][type] = "git"
 projects[stanford_carousel][download][url] = "git@github.com:SU-SWS/stanford_carousel.git"
