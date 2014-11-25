@@ -184,6 +184,8 @@ projects[webform][version] = "4.0"
 projects[webform][subdir] = "contrib"
 projects[nodeformcols][version] = "1.0"
 projects[nodeformcols][subdir] = "contrib"
+projects[simplesamlphp_auth][version] = "2.0-alpha2"
+projects[simplesamlphp_auth][subdir] = "contrib"
 projects[smart_trim][version] = "1.4"
 projects[smart_trim][subdir] = "contrib"
 projects[xmlsitemap][version] = "2.0"
@@ -210,6 +212,12 @@ projects[css_injector][subdir] = "contrib"
 projects[css_injector][download][type] = "git"
 projects[css_injector][download][url] = "http://git.drupal.org/project/css_injector.git"
 projects[css_injector][download][revision] = "41bee7e4421ecfc52a6b673eef6fcde875282a2b"
+
+projects[s3fs][version] = "2.x-dev"
+projects[s3fs][subdir] = "contrib"
+projects[s3fs][download][type] = "git"
+projects[s3fs][download][url] = "http://git.drupal.org/project/s3fs.git"
+projects[s3fs][download][revision] = "6a5431c8358f45c5cf59ad1d4804aa1628cc0371"
 
 ; Contributed themes
 ; ------------------
