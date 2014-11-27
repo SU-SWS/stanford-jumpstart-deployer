@@ -4,14 +4,7 @@ api = 2
 ; Drupal Version
 ; -------------------------------------------------------------------------------
 
-projects[drupal][version] = "7.32"
-
-; -------------------------------------------------------------------------------
-; Removed contrib modules
-; -------------------------------------------------------------------------------
-
-; projects[context_inline_editor][version] = "1.0-beta1"
-; projects[backup_migrate_files][version] = "1.x-dev"
+projects[drupal][version] = "7.34"
 
 ; -------------------------------------------------------------------------------
 ; Contributed modules
@@ -49,7 +42,7 @@ projects[workbench][version] = "1.2"
 projects[workbench][subdir] = "contrib"
 projects[admin_menu][version] = "3.0-rc4"
 projects[admin_menu][subdir] = "contrib"
-projects[bean][version] = "1.7"
+projects[bean][version] = "1.8"
 projects[bean][subdir] = "contrib"
 projects[bundle_copy][version] = "1.1"
 projects[bundle_copy][subdir] = "contrib"
@@ -65,7 +58,7 @@ projects[metatag][version] = "1.0-rc2"
 projects[metatag][subdir] = "contrib"
 projects[pathauto][version] = "1.2"
 projects[pathauto][subdir] = "contrib"
-projects[services][version] = "3.7"
+projects[services][version] = "3.11"
 projects[services][subdir] = "contrib"
 projects[views][version] = "3.8"
 projects[views][subdir] = "contrib"
