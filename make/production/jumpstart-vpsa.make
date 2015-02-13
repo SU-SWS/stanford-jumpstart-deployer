@@ -44,6 +44,11 @@ projects[field_collection][download][type] = "git"
 projects[field_collection][download][url] = "http://git.drupal.org/project/field_collection.git"
 projects[field_collection][download][revision] = "9b507ac41c14f590f620c57ff0a766c4363f1a17"
 
+projects[workbench_moderation][version] = "1.x-dev"
+projects[workbench_moderation][subdir] = "contrib"
+projects[workbench_moderation][download][type] = "git"
+projects[workbench_moderation][download][url] = "http://git.drupal.org/project/workbench_moderation.git"
+projects[workbench_moderation][download][revision] = "5c2769ac58b4fc28b1c103444b9584af118e522e"
 
 ; Contributed themes
 ; ------------------
