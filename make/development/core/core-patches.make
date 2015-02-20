@@ -19,6 +19,9 @@ projects[features][patch][] = "https://drupal.org/files/issues/features-parent_i
 ; https://www.drupal.org/node/1036962 | Edit link destination incorrect when using AJAX-enabled views
 projects[views][patch][] = "https://www.drupal.org/files/views-fix-destination-link-for-ajax-1036962-29.patch"
 
+; https://www.drupal.org/node/1819538 | More link disappears when time-based views cache is enabled
+projects[views][patch][] = "https://www.drupal.org/files/issues/views-more_link_disappears_with_caching-1819538-6.patch"
+
 ; https://www.drupal.org/node/1687794 | WYSIWYG Filter - Validation occurs on disabled filter
 projects[wysiwyg_filter][patch][] = "https://www.drupal.org/files/wysiwyg_filter-1687794-1-skip-validation-if-filter-disabled.patch"
 
