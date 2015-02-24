@@ -13,6 +13,9 @@ projects[context_useragent][patch][] = "https://drupal.org/files/issues/context_
 ; https://drupal.org/node/1661722 - PHP notice
 projects[context_http_headers][patch][] = "https://drupal.org/files/issues/context_http_headers-undefined-fix-1661722-2.patch"
 
+; https://www.drupal.org/node/2160385 - PHP notices after clicking "Edit rule"
+projects[css_injector][patch][] = "https://www.drupal.org/files/issues/css_injector-bad_crid_protection-2160385-10.patch"
+
 ; https://drupal.org/node/927566 & https://drupal.org/node/860974 | Menu Links will not import/revert
 projects[features][patch][] = "https://drupal.org/files/issues/features-parent_identifier-927566-79.patch"
 
