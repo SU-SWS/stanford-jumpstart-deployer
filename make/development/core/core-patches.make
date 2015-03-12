@@ -30,6 +30,3 @@ projects[wysiwyg_filter][patch][] = "https://www.drupal.org/files/wysiwyg_filter
 
 ; https://www.drupal.org/node/2332181 | Add update hook for date_views variables
 projects[date][patch][] = https://www.drupal.org/files/issues/date-date_views_update_hook-2332181-8.patch
-
-; https://www.drupal.org/node/1773890 | Editing a rule with a deleted parent menu link causes fatal error
-projects[menu_position][patch][] = https://www.drupal.org/files/1773890-deleted-parent-item.patch
