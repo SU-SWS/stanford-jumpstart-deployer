@@ -32,8 +32,6 @@ projects[field_group][version] = "1.4"
 projects[field_group][subdir] = "contrib"
 projects[insert][version] = "1.3"
 projects[insert][subdir] = "contrib"
-projects[menu_position][version] = "1.1"
-projects[menu_position][subdir] = "contrib"
 projects[rules][version] = "2.7"
 projects[rules][subdir] = "contrib"
 projects[transliteration][version] = "3.2"
@@ -182,6 +180,12 @@ projects[xmlsitemap][subdir] = "contrib"
 ; Contrib Dev Versions
 ; Because Dev Versions can change we want to target the specific commit hash
 ; that this build works with.
+
+projects[menu_position][version] = "1.x-dev"
+projects[menu_position][subdir] = "contrib"
+projects[menu_position][download][type] = "git"
+projects[menu_position][download][url] = "http://git.drupal.org/project/menu_position.git"
+projects[menu_position][download][revision] = "b76a5dea1809b54fd5f822c03b2475b1ee679b31"
 
 projects[context_respect][version] = "1.x-dev"
 projects[context_respect][subdir] = "contrib"
