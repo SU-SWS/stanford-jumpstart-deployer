@@ -95,6 +95,12 @@ projects[stanford_page][download][url] = "git@github.com:SU-SWS/stanford_page.gi
 projects[stanford_page][download][branch] = "7.x-2.0"
 projects[stanford_page][subdir] = "stanford"
 
+projects[stanford_easy_wysiwyg_css][type] = "module"
+projects[stanford_easy_wysiwyg_css][download][type] = "git"
+projects[stanford_easy_wysiwyg_css][download][url] = "git@github.com:SU-SWS/stanford_easy_wysiwyg_css.git"
+projects[stanford_easy_wysiwyg_css][download][branch] = "7.x-1.0"
+projects[stanford_easy_wysiwyg_css][subdir] = "stanford"
+
 ; Stanford themes - Github
 ; -----------------
 
