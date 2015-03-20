@@ -12,7 +12,7 @@ libraries[jquery_cycle][directory_name] = "jquery.cycle"
 libraries[jquery_cycle][destination] = "libraries"
 
 libraries[jw_player][download][type] = "get"
-libraries[jw_player][download][url] = "https://raw.githubusercontent.com/SU-SWS/stanford_sites_libraries/jwplayer5/jwplayer.zip"
+libraries[jw_player][download][url] = "https://github.com/SU-SWS/stanford_sites_libraries/blob/jwplayer5/jwplayer.zip?raw=true"
 libraries[jw_player][directory_name] = "jwplayer"
 libraries[jw_player][destination] = "libraries"
 
@@ -30,3 +30,8 @@ libraries[stanford_sites_content_importer][download][type] = "git"
 libraries[stanford_sites_content_importer][download][url] = "git@github.com:SU-SWS/stanford_sites_content_importer"
 libraries[stanford_sites_content_importer][download][branch] = "7.x-1.x"
 libraries[stanford_sites_content_importer][destination] = "libraries"
+
+libraries[colorbox][download][type] = "get"
+libraries[colorbox][download][url] = "https://github.com/jackmoore/colorbox/archive/1.5.14.zip"
+libraries[colorbox][directory_name] = "colorbox"
+libraries[colorbox][destination] = "libraries"

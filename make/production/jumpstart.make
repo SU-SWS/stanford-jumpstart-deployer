@@ -22,13 +22,6 @@ projects[context_useragent][download][type] = "git"
 projects[context_useragent][download][url] = "http://git.drupal.org/project/context_useragent.git"
 projects[context_useragent][download][revision] = "8949c6d4ee7a462b49e1b08dfd7dc60f1fa7e8e8"
 
-projects[uuid_features][version] = "1.x-dev"
-projects[uuid_features][subdir] = "contrib"
-projects[uuid_features][download][type] = "git"
-projects[uuid_features][download][url] = "http://git.drupal.org/project/uuid_features.git"
-projects[uuid_features][download][revision] = "aa514d66385735e0bc73157935d9ff4edbca5cf2"
-
-
 ; Contributed themes
 ; ------------------
 
@@ -43,7 +36,7 @@ includes[] = "core/core-stanford.make"
 projects[stanford_jumpstart][type] = "module"
 projects[stanford_jumpstart][download][type] = "git"
 projects[stanford_jumpstart][download][url] = "git@github.com:SU-SWS/stanford_jumpstart.git"
-projects[stanford_jumpstart][download][tag] = "7.x-4.3"
+projects[stanford_jumpstart][download][tag] = "7.x-4.4"
 projects[stanford_jumpstart][subdir] = "stanford"
 
 projects[stanford_metatag_nobots][type] = "module"
@@ -55,7 +48,7 @@ projects[stanford_metatag_nobots][subdir] = "stanford"
 projects[stanford_bean_types][type] = "module"
 projects[stanford_bean_types][download][type] = "git"
 projects[stanford_bean_types][download][url] = "git@github.com:SU-SWS/stanford_bean_types.git"
-projects[stanford_bean_types][download][tag] = "7.x-2.3"
+projects[stanford_bean_types][download][tag] = "7.x-2.4"
 projects[stanford_bean_types][subdir] = "stanford"
 
 projects[stanford_manage_content][type] = "module"
@@ -67,13 +60,13 @@ projects[stanford_manage_content][subdir] = "stanford"
 projects[stanford_jumpstart_home][type] = "module"
 projects[stanford_jumpstart_home][download][type] = "git"
 projects[stanford_jumpstart_home][download][url] = "git@github.com:SU-SWS/stanford_jumpstart_home.git"
-projects[stanford_jumpstart_home][download][branch] = "7.x-1.0"
+projects[stanford_jumpstart_home][download][branch] = "7.x-1.2"
 projects[stanford_jumpstart_home][subdir] = "stanford"
 
 projects[stanford_landing_page][type] = "module"
 projects[stanford_landing_page][download][type] = "git"
 projects[stanford_landing_page][download][url] = "git@github.com:SU-SWS/stanford_landing_page.git"
-projects[stanford_landing_page][download][branch] = "7.x-1.0"
+projects[stanford_landing_page][download][branch] = "7.x-1.1"
 projects[stanford_landing_page][subdir] = "stanford"
 
 ; Stanford themes - Github
@@ -84,7 +77,7 @@ projects[stanford_landing_page][subdir] = "stanford"
 projects[stanford_light][type] = "theme"
 projects[stanford_light][download][type] = "git"
 projects[stanford_light][download][url] = "git@github.com:SU-SWS/stanford_light.git"
-projects[stanford_light][download][branch] = "master"
+projects[stanford_light][download][branch] = "7.x-1.x-dev+74"
 
 ; Libraries
 ; ---------
@@ -104,7 +97,7 @@ projects[stanford_sites_abstract][download][branch] = "7.x-4.2-dev+1"
 projects[stanford_sites_jumpstart][type] = "profile"
 projects[stanford_sites_jumpstart][download][type] = "git"
 projects[stanford_sites_jumpstart][download][url] = "git@github.com:SU-SWS/stanford_sites_jumpstart.git"
-projects[stanford_sites_jumpstart][download][branch] = "7.x-4.3"
+projects[stanford_sites_jumpstart][download][branch] = "7.x-4.4"
 
 ; Patches
 ; -------

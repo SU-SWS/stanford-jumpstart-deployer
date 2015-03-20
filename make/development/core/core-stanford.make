@@ -1,6 +1,9 @@
 core = 7.x
 api = 2
 
+; Stanford Modules - GitHub
+; -------------------------
+
 projects[stanford_sites_systemtools][type] = "module"
 projects[stanford_sites_systemtools][download][type] = "git"
 projects[stanford_sites_systemtools][download][url] = "git@github.com:SU-SWS/SU-IT-Services.git"
