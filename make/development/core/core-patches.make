@@ -11,10 +11,12 @@ projects[pathauto][patch][] = "https://drupal.org/files/pathauto_admin.patch"
 projects[context_useragent][patch][] = "https://drupal.org/files/issues/context_useragent-undefined_offset_error-1326998-3.patch"
 
 ; https://drupal.org/node/1661722 - PHP notice
-projects[context_http_headers][patch][] = "https://drupal.org/files/issues/context_http_headers-undefined-fix-1661722-2.patch"
+; Patched in --dev
+; projects[context_http_headers][patch][] = "https://drupal.org/files/issues/context_http_headers-undefined-fix-1661722-2.patch"
 
 ; https://www.drupal.org/node/2160385 - PHP notices after clicking "Edit rule"
-projects[css_injector][patch][] = "https://www.drupal.org/files/issues/css_injector-bad_crid_protection-2160385-10.patch"
+; Patched in --dev
+; projects[css_injector][patch][] = "https://www.drupal.org/files/issues/css_injector-bad_crid_protection-2160385-10.patch"
 
 ; https://drupal.org/node/927566 & https://drupal.org/node/860974 | Menu Links will not import/revert
 projects[features][patch][] = "https://drupal.org/files/issues/features-parent_identifier-927566-79.patch"
@@ -29,4 +31,5 @@ projects[views][patch][] = "https://www.drupal.org/files/issues/views-more_link_
 projects[wysiwyg_filter][patch][] = "https://www.drupal.org/files/wysiwyg_filter-1687794-1-skip-validation-if-filter-disabled.patch"
 
 ; https://www.drupal.org/node/2332181 | Add update hook for date_views variables
+; Patch commited to 2.9-beta2
 projects[date][patch][] = https://www.drupal.org/files/issues/date-date_views_update_hook-2332181-8.patch

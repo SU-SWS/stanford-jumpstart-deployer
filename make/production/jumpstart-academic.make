@@ -6,6 +6,9 @@ api = 2
 
 includes[] = "core/contrib.make"
 
+projects[entity_dependency][version] = "1.0-alpha1"
+projects[entity_dependency][subdir] = "contrib"
+
 ; Contrib Dev Versions
 ; Because Dev Versions can change we want to target the specific commit hash
 ; that this build works with.
@@ -21,6 +24,12 @@ projects[uuid_features][subdir] = "contrib"
 projects[uuid_features][download][type] = "git"
 projects[uuid_features][download][url] = "http://git.drupal.org/project/uuid_features.git"
 projects[uuid_features][download][revision] = "aa514d66385735e0bc73157935d9ff4edbca5cf2"
+
+projects[menu_import][version] = "1.x-dev"
+projects[menu_import][subdir] = "contrib"
+projects[menu_import][download][type] = "git"
+projects[menu_import][download][url] = "http://git.drupal.org/project/menu_import.git"
+projects[menu_import][download][revision] = "7f67708a8c6bc00b2f66ef028b808e27cf05ddbb"
 
 projects[context_useragent][version] = "1.x-dev"
 projects[context_useragent][subdir] = "contrib"
@@ -43,31 +52,25 @@ includes[] = "core/core-stanford.make"
 projects[stanford_jumpstart][type] = "module"
 projects[stanford_jumpstart][download][type] = "git"
 projects[stanford_jumpstart][download][url] = "git@github.com:SU-SWS/stanford_jumpstart.git"
-projects[stanford_jumpstart][download][tag] = "7.x-4.3"
+projects[stanford_jumpstart][download][tag] = "7.x-4.4"
 projects[stanford_jumpstart][subdir] = "stanford"
 
 projects[stanford_jumpstart_academic][type] = "module"
 projects[stanford_jumpstart_academic][download][type] = "git"
 projects[stanford_jumpstart_academic][download][url] = "git@github.com:SU-SWS/stanford_jumpstart_academic.git"
-projects[stanford_jumpstart_academic][download][branch] = "7.x-4.3"
+projects[stanford_jumpstart_academic][download][branch] = "7.x-4.4"
 projects[stanford_jumpstart_academic][subdir] = "stanford"
-
-projects[stanford_metatag_nobots][type] = "module"
-projects[stanford_metatag_nobots][download][type] = "git"
-projects[stanford_metatag_nobots][download][url] = "git@github.com:SU-SWS/stanford_metatag_nobots.git"
-projects[stanford_metatag_nobots][download][tag] = "7.x-3.0"
-projects[stanford_metatag_nobots][subdir] = "stanford"
 
 projects[stanford_bean_types][type] = "module"
 projects[stanford_bean_types][download][type] = "git"
 projects[stanford_bean_types][download][url] = "git@github.com:SU-SWS/stanford_bean_types.git"
-projects[stanford_bean_types][download][tag] = "7.x-2.3"
+projects[stanford_bean_types][download][tag] = "7.x-2.4"
 projects[stanford_bean_types][subdir] = "stanford"
 
 projects[stanford_jumpstart_home][type] = "module"
 projects[stanford_jumpstart_home][download][type] = "git"
 projects[stanford_jumpstart_home][download][url] = "git@github.com:SU-SWS/stanford_jumpstart_home.git"
-projects[stanford_jumpstart_home][download][branch] = "7.x-1.0"
+projects[stanford_jumpstart_home][download][branch] = "7.x-1.2"
 projects[stanford_jumpstart_home][subdir] = "stanford"
 
 ; Stanford Jumpstart Academic Modules - Github
@@ -85,6 +88,12 @@ projects[stanford_news][download][url] = "git@github.com:SU-SWS/stanford_news.gi
 projects[stanford_news][download][tag] = "7.x-3.0"
 projects[stanford_news][subdir] = "stanford"
 
+projects[stanford_event_series][type] = "module"
+projects[stanford_event_series][download][type] = "git"
+projects[stanford_event_series][download][url] = "git@github.com:SU-SWS/stanford_event_series.git"
+projects[stanford_event_series][download][branch] = "7.x-1.0"
+projects[stanford_event_series][subdir] = "stanford"
+
 projects[stanford_publication][type] = "module"
 projects[stanford_publication][download][type] = "git"
 projects[stanford_publication][download][url] = "git@github.com:SU-SWS/stanford_publication.git"
@@ -100,7 +109,7 @@ projects[stanford_manage_content][subdir] = "stanford"
 projects[stanford_landing_page][type] = "module"
 projects[stanford_landing_page][download][type] = "git"
 projects[stanford_landing_page][download][url] = "git@github.com:SU-SWS/stanford_landing_page.git"
-projects[stanford_landing_page][download][branch] = "7.x-1.0"
+projects[stanford_landing_page][download][branch] = "7.x-1.1"
 projects[stanford_landing_page][subdir] = "stanford"
 
 
@@ -112,12 +121,12 @@ projects[stanford_landing_page][subdir] = "stanford"
 projects[stanfordmodern][type] = "theme"
 projects[stanfordmodern][download][type] = "git"
 projects[stanfordmodern][download][url] = "git@github.com:su-ddd/stanfordmodern.git"
-projects[stanfordmodern][download][branch] = "7.x-1.42"
+projects[stanfordmodern][download][branch] = "7.x-1.6"
 
 projects[stanford_light][type] = "theme"
 projects[stanford_light][download][type] = "git"
 projects[stanford_light][download][url] = "git@github.com:SU-SWS/stanford_light.git"
-projects[stanford_light][download][branch] = "7.x-1.x-dev+69"
+projects[stanford_light][download][branch] = "7.x-1.x-dev+74"
 
 
 ; Libraries
@@ -127,8 +136,8 @@ includes[] = "core/core-libraries.make"
 
 libraries[stanford_sites_content_importer][download][type] = "git"
 libraries[stanford_sites_content_importer][download][url] = "git@github.com:SU-SWS/stanford_sites_content_importer"
-libraries[stanford_sites_content_importer][download][branch] = "7.x-1.0"
-libraries[stanford_sites_content_importer][destination] = "../../sites/all/libraries"
+libraries[stanford_sites_content_importer][download][branch] = "7.x-1.1"
+libraries[stanford_sites_content_importer][destination] = "libraries"
 
 ; Profiles
 ; --------
@@ -143,12 +152,12 @@ projects[stanford_sites_abstract][download][branch] = "7.x-4.2-dev+1"
 projects[stanford_sites_jumpstart][type] = "profile"
 projects[stanford_sites_jumpstart][download][type] = "git"
 projects[stanford_sites_jumpstart][download][url] = "git@github.com:SU-SWS/stanford_sites_jumpstart.git"
-projects[stanford_sites_jumpstart][download][branch] = "7.x-4.3"
+projects[stanford_sites_jumpstart][download][branch] = "7.x-4.4"
 
 projects[stanford_sites_jumpstart_academic][type] = "profile"
 projects[stanford_sites_jumpstart_academic][download][type] = "git"
 projects[stanford_sites_jumpstart_academic][download][url] = "git@github.com:SU-SWS/stanford_sites_jumpstart_academic.git"
-projects[stanford_sites_jumpstart_academic][download][branch] = "7.x-4.3"
+projects[stanford_sites_jumpstart_academic][download][branch] = "7.x-4.4"
 
 ; Patches
 ; -------

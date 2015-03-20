@@ -1,7 +1,6 @@
 core = 7.x
 api = 2
 
-
 ; Stanford Modules - GitHub
 ; -------------------------
 
@@ -20,7 +19,7 @@ projects[stanford_sites_helper][subdir] = "stanford"
 projects[stanford_events_importer][type] = "module"
 projects[stanford_events_importer][download][type] = "git"
 projects[stanford_events_importer][download][url] = "git@github.com:SU-SWS/stanford_events_importer.git"
-projects[stanford_events_importer][download][branch] = "7.x-3.0-alpha7"
+projects[stanford_events_importer][download][branch] = "7.x-3.1"
 projects[stanford_events_importer][subdir] = "stanford"
 
 projects[stanford_wysiwyg][type] = "module"
@@ -32,19 +31,19 @@ projects[stanford_wysiwyg][subdir] = "stanford"
 projects[stanford_video][type] = "module"
 projects[stanford_video][download][type] = "git"
 projects[stanford_video][download][url] = "git@github.com:SU-SWS/stanford_video.git"
-projects[stanford_video][download][tag] = "7.x-2.0"
+projects[stanford_video][download][tag] = "7.x-2.1"
 projects[stanford_video][subdir] = "stanford"
 
 projects[stanford_courses][type] = "module"
 projects[stanford_courses][download][type] = "git"
 projects[stanford_courses][download][url] = "git@github.com:SU-SWS/stanford_courses.git"
-projects[stanford_courses][download][tag] = "7.x-3.1"
+projects[stanford_courses][download][tag] = "7.x-3.5"
 projects[stanford_courses][subdir] = "stanford"
 
 projects[webauth][type] = "module"
 projects[webauth][download][type] = "git"
 projects[webauth][download][url] = "git@github.com:Stanford/WMD.git"
-projects[webauth][download][branch] = "7.x-3.3"
+projects[webauth][download][branch] = "7.x-3.4"
 projects[webauth][subdir] = "stanford"
 
 projects[webauth_extras][type] = "module"
@@ -56,7 +55,7 @@ projects[webauth_extras][subdir] = "stanford"
 projects[stanford_image][type] = "module"
 projects[stanford_image][download][type] = "git"
 projects[stanford_image][download][url] = "git@github.com:SU-SWS/stanford_image.git"
-projects[stanford_image][download][tag] = "7.x-3.1"
+projects[stanford_image][download][tag] = "7.x-3.2"
 projects[stanford_image][subdir] = "stanford"
 
 projects[stanford_image_styles][type] = "module"
@@ -74,7 +73,7 @@ projects[stanford_date_formats][subdir] = "stanford"
 projects[stanford_date_timepicker][type] = "module"
 projects[stanford_date_timepicker][download][type] = "git"
 projects[stanford_date_timepicker][download][url] = "git@github.com:SU-SWS/stanford_date_timepicker.git"
-projects[stanford_date_timepicker][download][tag] = "7.x-1.0"
+projects[stanford_date_timepicker][download][tag] = "7.x-1.2"
 projects[stanford_date_timepicker][subdir] = "stanford"
 
 projects[stanford_slides][type] = "module"
@@ -94,6 +93,18 @@ projects[stanford_page][download][type] = "git"
 projects[stanford_page][download][url] = "git@github.com:SU-SWS/stanford_page.git"
 projects[stanford_page][download][branch] = "7.x-2.0"
 projects[stanford_page][subdir] = "stanford"
+
+projects[stanford_easy_wysiwyg_css][type] = "module"
+projects[stanford_easy_wysiwyg_css][download][type] = "git"
+projects[stanford_easy_wysiwyg_css][download][url] = "git@github.com:SU-SWS/stanford_easy_wysiwyg_css.git"
+projects[stanford_easy_wysiwyg_css][download][branch] = "7.x-1.0"
+projects[stanford_easy_wysiwyg_css][subdir] = "stanford"
+
+projects[stanford_metatag_nobots][type] = "module"
+projects[stanford_metatag_nobots][download][type] = "git"
+projects[stanford_metatag_nobots][download][url] = "git@github.com:SU-SWS/stanford_metatag_nobots.git"
+projects[stanford_metatag_nobots][download][tag] = "7.x-3.0"
+projects[stanford_metatag_nobots][subdir] = "stanford"
 
 ; Stanford themes - Github
 ; -----------------

@@ -1,6 +1,9 @@
 core = 7.x
 api = 2
 
+; Stanford Modules - GitHub
+; -------------------------
+
 projects[stanford_sites_systemtools][type] = "module"
 projects[stanford_sites_systemtools][download][type] = "git"
 projects[stanford_sites_systemtools][download][url] = "git@github.com:SU-SWS/SU-IT-Services.git"
@@ -96,6 +99,12 @@ projects[stanford_easy_wysiwyg_css][download][type] = "git"
 projects[stanford_easy_wysiwyg_css][download][url] = "git@github.com:SU-SWS/stanford_easy_wysiwyg_css.git"
 projects[stanford_easy_wysiwyg_css][download][branch] = "7.x-1.x"
 projects[stanford_easy_wysiwyg_css][subdir] = "stanford"
+
+projects[stanford_metatag_nobots][type] = "module"
+projects[stanford_metatag_nobots][download][type] = "git"
+projects[stanford_metatag_nobots][download][url] = "git@github.com:SU-SWS/stanford_metatag_nobots.git"
+projects[stanford_metatag_nobots][download][branch] = "7.x-3.x-dev"
+projects[stanford_metatag_nobots][subdir] = "stanford"
 
 ; Stanford themes - Github
 ; ------------------------

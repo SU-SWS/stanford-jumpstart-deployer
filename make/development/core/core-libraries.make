@@ -30,3 +30,8 @@ libraries[stanford_sites_content_importer][download][type] = "git"
 libraries[stanford_sites_content_importer][download][url] = "git@github.com:SU-SWS/stanford_sites_content_importer"
 libraries[stanford_sites_content_importer][download][branch] = "7.x-1.x"
 libraries[stanford_sites_content_importer][destination] = "libraries"
+
+libraries[colorbox][download][type] = "get"
+libraries[colorbox][download][url] = "https://github.com/jackmoore/colorbox/archive/1.5.14.zip"
+libraries[colorbox][directory_name] = "colorbox"
+libraries[colorbox][destination] = "libraries"
