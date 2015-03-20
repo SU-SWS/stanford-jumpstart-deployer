@@ -6,8 +6,6 @@ api = 2
 
 includes[] = "core/contrib.make"
 
-projects[context_http_headers][version] = "1.0"
-projects[context_http_headers][subdir] = "contrib"
 projects[entity_dependency][version] = "1.0-alpha1"
 projects[entity_dependency][subdir] = "contrib"
 

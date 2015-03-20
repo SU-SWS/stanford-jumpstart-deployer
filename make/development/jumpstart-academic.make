@@ -6,8 +6,6 @@ api = 2
 
 includes[] = "core/contrib.make"
 
-projects[context_http_headers][version] = "1.0"
-projects[context_http_headers][subdir] = "contrib"
 projects[entity_dependency][version] = "1.0-alpha1"
 projects[entity_dependency][subdir] = "contrib"
 
@@ -66,7 +64,7 @@ projects[stanford_jumpstart_academic][subdir] = "stanford"
 projects[stanford_metatag_nobots][type] = "module"
 projects[stanford_metatag_nobots][download][type] = "git"
 projects[stanford_metatag_nobots][download][url] = "git@github.com:SU-SWS/stanford_metatag_nobots.git"
-projects[stanford_metatag_nobots][download][branch] = "7.x-2.x-dev"
+projects[stanford_metatag_nobots][download][branch] = "7.x-3.x-dev"
 projects[stanford_metatag_nobots][subdir] = "stanford"
 
 projects[stanford_bean_types][type] = "module"
@@ -145,7 +143,7 @@ includes[] = "core/core-libraries.make"
 libraries[stanford_sites_content_importer][download][type] = "git"
 libraries[stanford_sites_content_importer][download][url] = "git@github.com:SU-SWS/stanford_sites_content_importer"
 libraries[stanford_sites_content_importer][download][branch] = "7.x-1.x"
-libraries[stanford_sites_content_importer][destination] = "../../sites/all/libraries"
+libraries[stanford_sites_content_importer][destination] = "libraries"
 
 ; Profiles
 ; --------
