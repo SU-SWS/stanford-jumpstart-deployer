@@ -97,7 +97,7 @@ projects[stanford_news][subdir] = "stanford"
 projects[stanford_event_series][type] = "module"
 projects[stanford_event_series][download][type] = "git"
 projects[stanford_event_series][download][url] = "git@github.com:SU-SWS/stanford_event_series.git"
-projects[stanford_event_series][download][branch] = "7.x-1.x"
+projects[stanford_event_series][download][branch] = "7.x-1.0"
 projects[stanford_event_series][subdir] = "stanford"
 
 projects[stanford_publication][type] = "module"
