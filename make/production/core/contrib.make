@@ -217,6 +217,7 @@ projects[context_list][download][revision] = "6d81d058c0fa2aa38f5c86f129b8221469
 
 projects[social_share][type] = "module"
 projects[social_share][download][type] = "git"
+projects[social_share][subdir] = "contrib"
 projects[social_share][download][url] = "http://git.drupal.org/project/social-share.git"
 projects[social_share][download][tag] = "7.x-2.1"
 
