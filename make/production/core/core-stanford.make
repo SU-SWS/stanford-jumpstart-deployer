@@ -100,6 +100,12 @@ projects[stanford_easy_wysiwyg_css][download][url] = "git@github.com:SU-SWS/stan
 projects[stanford_easy_wysiwyg_css][download][branch] = "7.x-1.0"
 projects[stanford_easy_wysiwyg_css][subdir] = "stanford"
 
+projects[stanford_metatag_nobots][type] = "module"
+projects[stanford_metatag_nobots][download][type] = "git"
+projects[stanford_metatag_nobots][download][url] = "git@github.com:SU-SWS/stanford_metatag_nobots.git"
+projects[stanford_metatag_nobots][download][tag] = "7.x-3.0"
+projects[stanford_metatag_nobots][subdir] = "stanford"
+
 ; Stanford themes - Github
 ; -----------------
 

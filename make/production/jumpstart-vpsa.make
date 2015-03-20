@@ -73,12 +73,6 @@ projects[stanford_jumpstart_vpsa][download][url] = "git@github.com:SU-SWS/stanfo
 projects[stanford_jumpstart_vpsa][download][branch] = "7.x-4.3"
 projects[stanford_jumpstart_vpsa][subdir] = "stanford"
 
-projects[stanford_metatag_nobots][type] = "module"
-projects[stanford_metatag_nobots][download][type] = "git"
-projects[stanford_metatag_nobots][download][url] = "git@github.com:SU-SWS/stanford_metatag_nobots.git"
-projects[stanford_metatag_nobots][download][branch] = "7.x-3.0"
-projects[stanford_metatag_nobots][subdir] = "stanford"
-
 projects[stanford_bean_types][type] = "module"
 projects[stanford_bean_types][download][type] = "git"
 projects[stanford_bean_types][download][url] = "git@github.com:SU-SWS/stanford_bean_types.git"
