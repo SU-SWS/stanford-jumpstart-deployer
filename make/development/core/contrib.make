@@ -210,6 +210,7 @@ projects[context_http_headers][download][url] = "http://git.drupal.org/project/c
 projects[context_http_headers][download][revision] = "cb07de891efbbc2c5aaffe0d6f3648822a9a4dfd"
 
 projects[context_list][type] = "module"
+projects[context_list][subdir] = "contrib"
 projects[context_list][version] = "1.x-dev"
 projects[context_list][download][type] = "git"
 projects[context_list][download][url] = "http://git.drupal.org/project/context_list.git"
