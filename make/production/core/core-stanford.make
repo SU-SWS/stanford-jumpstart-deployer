@@ -106,6 +106,18 @@ projects[stanford_metatag_nobots][download][url] = "git@github.com:SU-SWS/stanfo
 projects[stanford_metatag_nobots][download][tag] = "7.x-3.0"
 projects[stanford_metatag_nobots][subdir] = "stanford"
 
+projects[stanford_capx][type] = "module"
+projects[stanford_capx][download][type] = "git"
+projects[stanford_capx][download][url] = "git@github.com:SU-SWS/stanford_capx.git"
+projects[stanford_capx][download][branch] = "7.x-1.1"
+projects[stanford_capx][subdir] = "stanford"
+
+projects[stanford_person][type] = "module"
+projects[stanford_person][download][type] = "git"
+projects[stanford_person][download][url] = "git@github.com:SU-SWS/stanford_person.git"
+projects[stanford_person][download][branch] = "7.x-4.1"
+projects[stanford_person][subdir] = "stanford"
+
 ; Stanford themes - Github
 ; -----------------
 

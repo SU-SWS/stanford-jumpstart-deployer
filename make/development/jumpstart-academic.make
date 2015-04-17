@@ -76,12 +76,6 @@ projects[stanford_jumpstart_home][subdir] = "stanford"
 ; Stanford Jumpstart Academic Modules - Github
 ; --------------------------------------------
 
-projects[stanford_person][type] = "module"
-projects[stanford_person][download][type] = "git"
-projects[stanford_person][download][url] = "git@github.com:SU-SWS/stanford_person.git"
-projects[stanford_person][download][branch] = "7.x-4.x-dev"
-projects[stanford_person][subdir] = "stanford"
-
 projects[stanford_news][type] = "module"
 projects[stanford_news][download][type] = "git"
 projects[stanford_news][download][url] = "git@github.com:SU-SWS/stanford_news.git"
