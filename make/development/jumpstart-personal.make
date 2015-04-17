@@ -61,12 +61,6 @@ projects[stanford_jumpstart][download][url] = "git@github.com:SU-SWS/stanford_ju
 projects[stanford_jumpstart][download][branch] = "7.x-4.x-dev"
 projects[stanford_jumpstart][subdir] = "stanford"
 
-projects[stanford_person][type] = "module"
-projects[stanford_person][download][type] = "git"
-projects[stanford_person][download][url] = "git@github.com:SU-SWS/stanford_person.git"
-projects[stanford_person][download][branch] = "7.x-4.x-dev"
-projects[stanford_person][subdir] = "stanford"
-
 projects[stanford_personal][type] = "module"
 projects[stanford_personal][download][type] = "git"
 projects[stanford_personal][download][url] = "git@github.com:SU-SWS/stanford_personal.git"
