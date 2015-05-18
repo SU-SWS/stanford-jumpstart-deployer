@@ -7,7 +7,7 @@ api = 2
 projects[stanford_sites_systemtools][type] = "module"
 projects[stanford_sites_systemtools][download][type] = "git"
 projects[stanford_sites_systemtools][download][url] = "git@github.com:SU-SWS/SU-IT-Services.git"
-projects[stanford_sites_systemtools][download][branch] = "7.x-1.x"
+projects[stanford_sites_systemtools][download][branch] = "7.x-1.2"
 projects[stanford_sites_systemtools][subdir] = "stanford"
 
 projects[stanford_sites_helper][type] = "module"
