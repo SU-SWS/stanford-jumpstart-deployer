@@ -4,7 +4,8 @@ api = 2
 ; Contributed modules
 ; -------------------
 
-includes[] = "core/contrib.make"
+includes[stanford] = "https://raw.githubusercontent.com/SU-SWS/Stanford-Drupal-Profile/cfa257516f183740f5d3c51897aa8e9e5b8ac404/make/stanford.make"
+includes[dept] = "https://raw.githubusercontent.com/SU-SWS/Stanford-Drupal-Profile/cfa257516f183740f5d3c51897aa8e9e5b8ac404/make/dept.make"
 
 ; Contrib Dev Versions
 ; Because Dev Versions can change we want to target the specific commit hash
@@ -31,7 +32,7 @@ projects[context_useragent][download][revision] = "8949c6d4ee7a462b49e1b08dfd7dc
 ; Stanford Modules - GitHub
 ; -------------------------
 
-includes[] = "core/core-stanford.make"
+; includes[] = "core/core-stanford.make"
 
 projects[stanford_jumpstart][type] = "module"
 projects[stanford_jumpstart][download][type] = "git"
@@ -76,12 +77,12 @@ projects[stanford_light][download][branch] = "master"
 ; Libraries
 ; ---------
 
-includes[] = "core/core-libraries.make"
+; includes[] = "core/core-libraries.make"
 
 ; Profiles
 ; --------
 
-includes[] = "core/core-profiles.make"
+; includes[] = "core/core-profiles.make"
 
 projects[stanford_sites_abstract][type] = "profile"
 projects[stanford_sites_abstract][download][type] = "git"
