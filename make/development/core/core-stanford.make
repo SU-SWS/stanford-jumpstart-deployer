@@ -25,7 +25,7 @@ projects[stanford_events_importer][subdir] = "stanford"
 projects[stanford_wysiwyg][type] = "module"
 projects[stanford_wysiwyg][download][type] = "git"
 projects[stanford_wysiwyg][download][url] = "git@github.com:SU-SWS/stanford_wysiwyg.git"
-projects[stanford_wysiwyg][download][branch] = "7.x-2.x-dev"
+projects[stanford_wysiwyg][download][branch] = "7.x-2.3"
 projects[stanford_wysiwyg][subdir] = "stanford"
 
 projects[stanford_video][type] = "module"
