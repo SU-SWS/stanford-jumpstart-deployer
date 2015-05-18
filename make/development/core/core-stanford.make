@@ -13,7 +13,7 @@ projects[stanford_sites_systemtools][subdir] = "stanford"
 projects[stanford_sites_helper][type] = "module"
 projects[stanford_sites_helper][download][type] = "git"
 projects[stanford_sites_helper][download][url] = "git@github.com:SU-SWS/stanford_sites_helper.git"
-projects[stanford_sites_helper][download][branch] = "7.x-1.x"
+projects[stanford_sites_helper][download][branch] = "7.x-1.4"
 projects[stanford_sites_helper][subdir] = "stanford"
 
 projects[stanford_events_importer][type] = "module"
