@@ -6,9 +6,6 @@ api = 2
 
 includes[] = "core/contrib.make"
 
-projects[entity_dependency][version] = "1.0-alpha1"
-projects[entity_dependency][subdir] = "contrib"
-
 ; Contrib Dev Versions
 ; Because Dev Versions can change we want to target the specific commit hash
 ; that this build works with.
@@ -18,12 +15,6 @@ projects[uuid][subdir] = "contrib"
 projects[uuid][download][type] = "git"
 projects[uuid][download][url] = "http://git.drupal.org/project/uuid.git"
 projects[uuid][download][revision] = "45d745c48a20f6a3cfc12f3a634b81f21a519a0a"
-
-projects[menu_import][version] = "1.x-dev"
-projects[menu_import][subdir] = "contrib"
-projects[menu_import][download][type] = "git"
-projects[menu_import][download][url] = "http://git.drupal.org/project/menu_import.git"
-projects[menu_import][download][revision] = "7f67708a8c6bc00b2f66ef028b808e27cf05ddbb"
 
 projects[context_useragent][version] = "1.x-dev"
 projects[context_useragent][subdir] = "contrib"
