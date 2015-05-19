@@ -48,7 +48,7 @@ projects[workbench_moderation][version] = "1.x-dev"
 projects[workbench_moderation][subdir] = "contrib"
 projects[workbench_moderation][download][type] = "git"
 projects[workbench_moderation][download][url] = "http://git.drupal.org/project/workbench_moderation.git"
-projects[workbench_moderation][download][revision] = "5c2769ac58b4fc28b1c103444b9584af118e522e"
+projects[workbench_moderation][download][revision] = "296ce873c751f31ec5b059ba9899004c0a97e4ec"
 
 ; Contributed themes
 ; ------------------
@@ -96,6 +96,12 @@ projects[stanford_news][download][type] = "git"
 projects[stanford_news][download][url] = "git@github.com:SU-SWS/stanford_news.git"
 projects[stanford_news][download][branch] = "7.x-3.x-jsvpsa"
 projects[stanford_news][subdir] = "stanford"
+
+projects[stanford_landing_page][type] = "module"
+projects[stanford_landing_page][download][type] = "git"
+projects[stanford_landing_page][download][url] = "git@github.com:SU-SWS/stanford_landing_page.git"
+projects[stanford_landing_page][download][branch] = "7.x-1.x"
+projects[stanford_landing_page][subdir] = "stanford"
 
 
 ; Overrides from the core make files
