@@ -8,8 +8,6 @@ includes[] = "core/contrib.make"
 
 projects[context_http_headers][version] = "1.0"
 projects[context_http_headers][subdir] = "contrib"
-projects[entity_dependency][version] = "1.0-alpha1"
-projects[entity_dependency][subdir] = "contrib"
 projects[field_formatter_settings][version] = "1.1"
 projects[field_formatter_settings][subdir] = "contrib"
 projects[simple_field_formatter][version] = "2.0-beta2"
