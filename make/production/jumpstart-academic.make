@@ -55,7 +55,7 @@ projects[stanford_bean_types][subdir] = "stanford"
 projects[stanford_jumpstart_home][type] = "module"
 projects[stanford_jumpstart_home][download][type] = "git"
 projects[stanford_jumpstart_home][download][url] = "git@github.com:SU-SWS/stanford_jumpstart_home.git"
-projects[stanford_jumpstart_home][download][branch] = "7.x-1.2"
+projects[stanford_jumpstart_home][download][branch] = "7.x-1.3"
 projects[stanford_jumpstart_home][subdir] = "stanford"
 
 ; Stanford Jumpstart Academic Modules - Github
