@@ -1,13 +1,16 @@
 core = 7.x
 api = 2
 
+; Modules, themes, libraries, and patches from Stanford Drupal Profile
+; --------------------------------------------------------------------
+
+includes[stanford_profile] = "https://raw.githubusercontent.com/SU-SWS/Stanford-Drupal-Profile/7.x-2.x/make/stanford.make"
+includes[stanford_themes] = "https://raw.githubusercontent.com/SU-SWS/Stanford-Drupal-Profile/7.x-2.x/make/stanford-themes.make"
+includes[stanford_libraries] = "https://raw.githubusercontent.com/SU-SWS/Stanford-Drupal-Profile/7.x-2.x/make/libraries.make"
+includes[stanford_patches] = "https://raw.githubusercontent.com/SU-SWS/Stanford-Drupal-Profile/7.x-2.x/make/patches.make"
+
 ; Contributed modules
 ; -------------------
-
-includes[] = "core/contrib.make"
-
-projects[entity_dependency][version] = "1.0-alpha1"
-projects[entity_dependency][subdir] = "contrib"
 
 ; Contrib Dev Versions
 ; Because Dev Versions can change we want to target the specific commit hash
@@ -19,41 +22,14 @@ projects[uuid][download][type] = "git"
 projects[uuid][download][url] = "http://git.drupal.org/project/uuid.git"
 projects[uuid][download][revision] = "45d745c48a20f6a3cfc12f3a634b81f21a519a0a"
 
-projects[uuid_features][version] = "1.x-dev"
-projects[uuid_features][subdir] = "contrib"
-projects[uuid_features][download][type] = "git"
-projects[uuid_features][download][url] = "http://git.drupal.org/project/uuid_features.git"
-projects[uuid_features][download][revision] = "aa514d66385735e0bc73157935d9ff4edbca5cf2"
-
-projects[menu_import][version] = "1.x-dev"
-projects[menu_import][subdir] = "contrib"
-projects[menu_import][download][type] = "git"
-projects[menu_import][download][url] = "http://git.drupal.org/project/menu_import.git"
-projects[menu_import][download][revision] = "7f67708a8c6bc00b2f66ef028b808e27cf05ddbb"
-
-projects[context_useragent][version] = "1.x-dev"
-projects[context_useragent][subdir] = "contrib"
-projects[context_useragent][download][type] = "git"
-projects[context_useragent][download][url] = "http://git.drupal.org/project/context_useragent.git"
-projects[context_useragent][download][revision] = "8949c6d4ee7a462b49e1b08dfd7dc60f1fa7e8e8"
-
-
 ; Contributed themes
 ; ------------------
 
-; Found in contrib.make
+; Found in remote stanford.make
 
 
 ; Stanford Modules - GitHub
 ; -------------------------
-
-includes[] = "core/core-stanford.make"
-
-projects[stanford_bean_types][type] = "module"
-projects[stanford_bean_types][download][type] = "git"
-projects[stanford_bean_types][download][url] = "git@github.com:SU-SWS/stanford_bean_types.git"
-projects[stanford_bean_types][download][branch] = "7.x-2.x-dev"
-projects[stanford_bean_types][subdir] = "stanford"
 
 projects[stanford_jumpstart][type] = "module"
 projects[stanford_jumpstart][download][type] = "git"
@@ -77,18 +53,10 @@ projects[cap_drupal][subdir] = "stanford"
 ; Stanford themes - Github
 ; ------------------------
 
-; Found in core-stanford.make
-
-projects[stanford_light][type] = "theme"
-projects[stanford_light][download][type] = "git"
-projects[stanford_light][download][url] = "git@github.com:SU-SWS/stanford_light.git"
-projects[stanford_light][download][branch] = "master"
-
+; Found in remote stanford-themes.make
 
 ; Libraries
 ; ---------
-
-includes[] = "core/core-libraries.make"
 
 libraries[stanford_sites_content_importer][download][type] = "git"
 libraries[stanford_sites_content_importer][download][url] = "git@github.com:SU-SWS/stanford_sites_content_importer"
@@ -98,8 +66,6 @@ libraries[stanford_sites_content_importer][destination] = "libraries"
 
 ; Profiles
 ; --------
-
-includes[] = "core/core-profiles.make"
 
 projects[stanford_sites_abstract][type] = "profile"
 projects[stanford_sites_abstract][download][type] = "git"

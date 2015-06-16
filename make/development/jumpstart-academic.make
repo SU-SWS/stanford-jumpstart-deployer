@@ -1,10 +1,16 @@
 core = 7.x
 api = 2
 
+; Modules, themes, libraries, and patches from Stanford Drupal Profile
+; --------------------------------------------------------------------
+
+includes[stanford_profile] = "https://raw.githubusercontent.com/SU-SWS/Stanford-Drupal-Profile/7.x-2.x/make/stanford.make"
+includes[stanford_themes] = "https://raw.githubusercontent.com/SU-SWS/Stanford-Drupal-Profile/7.x-2.x/make/stanford-themes.make"
+includes[stanford_libraries] = "https://raw.githubusercontent.com/SU-SWS/Stanford-Drupal-Profile/7.x-2.x/make/libraries.make"
+includes[stanford_patches] = "https://raw.githubusercontent.com/SU-SWS/Stanford-Drupal-Profile/7.x-2.x/make/patches.make"
+
 ; Contributed modules
 ; -------------------
-
-includes[] = "core/contrib.make"
 
 projects[entity_dependency][version] = "1.0-alpha1"
 projects[entity_dependency][subdir] = "contrib"
@@ -41,13 +47,10 @@ projects[context_useragent][download][revision] = "8949c6d4ee7a462b49e1b08dfd7dc
 ; Contributed themes
 ; ------------------
 
-; Found in contrib.make
-
+; Found in remote stanford.make
 
 ; Stanford Modules - GitHub
 ; -------------------------
-
-includes[] = "core/core-stanford.make"
 
 projects[stanford_jumpstart][type] = "module"
 projects[stanford_jumpstart][download][type] = "git"
@@ -110,23 +113,10 @@ projects[stanford_landing_page][subdir] = "stanford"
 ; Stanford themes - Github
 ; ------------------------
 
-; Found in core-stanford.make
-
-projects[stanfordmodern][type] = "theme"
-projects[stanfordmodern][download][type] = "git"
-projects[stanfordmodern][download][url] = "git@github.com:su-ddd/stanfordmodern.git"
-projects[stanfordmodern][download][branch] = "7.x-1.x"
-
-projects[stanford_light][type] = "theme"
-projects[stanford_light][download][type] = "git"
-projects[stanford_light][download][url] = "git@github.com:SU-SWS/stanford_light.git"
-projects[stanford_light][download][branch] = "master"
-
+; Found in remote stanford-themes.make
 
 ; Libraries
 ; ---------
-
-includes[] = "core/core-libraries.make"
 
 libraries[stanford_sites_content_importer][download][type] = "git"
 libraries[stanford_sites_content_importer][download][url] = "git@github.com:SU-SWS/stanford_sites_content_importer"
@@ -135,8 +125,6 @@ libraries[stanford_sites_content_importer][destination] = "libraries"
 
 ; Profiles
 ; --------
-
-includes[] = "core/core-profiles.make"
 
 projects[stanford_sites_abstract][type] = "profile"
 projects[stanford_sites_abstract][download][type] = "git"

@@ -1,15 +1,19 @@
 core = 7.x
 api = 2
 
+; Modules, themes, libraries, and patches from Stanford Drupal Profile
+; --------------------------------------------------------------------
+
+includes[stanford_profile] = "https://raw.githubusercontent.com/SU-SWS/Stanford-Drupal-Profile/7.x-2.x/make/stanford.make"
+includes[stanford_themes] = "https://raw.githubusercontent.com/SU-SWS/Stanford-Drupal-Profile/7.x-2.x/make/stanford-themes.make"
+includes[stanford_libraries] = "https://raw.githubusercontent.com/SU-SWS/Stanford-Drupal-Profile/7.x-2.x/make/libraries.make"
+includes[stanford_patches] = "https://raw.githubusercontent.com/SU-SWS/Stanford-Drupal-Profile/7.x-2.x/make/patches.make"
+
 ; Contributed modules
 ; -------------------
 
-includes[] = "core/contrib.make"
-
 projects[context_http_headers][version] = "1.0"
 projects[context_http_headers][subdir] = "contrib"
-projects[entity_dependency][version] = "1.0-alpha1"
-projects[entity_dependency][subdir] = "contrib"
 projects[field_formatter_settings][version] = "1.1"
 projects[field_formatter_settings][subdir] = "contrib"
 projects[simple_field_formatter][version] = "2.0-beta2"
@@ -26,18 +30,6 @@ projects[uuid][download][type] = "git"
 projects[uuid][download][url] = "http://git.drupal.org/project/uuid.git"
 projects[uuid][download][revision] = "45d745c48a20f6a3cfc12f3a634b81f21a519a0a"
 
-projects[uuid_features][version] = "1.x-dev"
-projects[uuid_features][subdir] = "contrib"
-projects[uuid_features][download][type] = "git"
-projects[uuid_features][download][url] = "http://git.drupal.org/project/uuid_features.git"
-projects[uuid_features][download][revision] = "aa514d66385735e0bc73157935d9ff4edbca5cf2"
-
-projects[context_useragent][version] = "1.x-dev"
-projects[context_useragent][subdir] = "contrib"
-projects[context_useragent][download][type] = "git"
-projects[context_useragent][download][url] = "http://git.drupal.org/project/context_useragent.git"
-projects[context_useragent][download][revision] = "8949c6d4ee7a462b49e1b08dfd7dc60f1fa7e8e8"
-
 projects[field_collection][version] = "1.x"
 projects[field_collection][subdir] = "contrib"
 projects[field_collection][download][type] = "git"
@@ -53,13 +45,11 @@ projects[workbench_moderation][download][revision] = "5c2769ac58b4fc28b1c103444b
 ; Contributed themes
 ; ------------------
 
-; Found in contrib.make
+; Found in remote stanford.make
 
 
 ; Stanford Modules - GitHub
 ; -------------------------
-
-includes[] = "core/core-stanford.make"
 
 projects[stanford_jumpstart][type] = "module"
 projects[stanford_jumpstart][download][type] = "git"
@@ -131,8 +121,6 @@ projects[stanford_wilbur][download][branch] = "7.x-2.x"
 ; Libraries
 ; ---------
 
-includes[] = "core/core-libraries.make"
-
 libraries[stanford_sites_content_importer][download][type] = "git"
 libraries[stanford_sites_content_importer][download][url] = "git@github.com:SU-SWS/stanford_sites_content_importer"
 libraries[stanford_sites_content_importer][download][branch] = "7.x-1.x"
@@ -140,8 +128,6 @@ libraries[stanford_sites_content_importer][destination] = "libraries"
 
 ; Profiles
 ; --------
-
-includes[] = "core/core-profiles.make"
 
 projects[stanford_sites_abstract][type] = "profile"
 projects[stanford_sites_abstract][download][type] = "git"
