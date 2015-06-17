@@ -18,11 +18,8 @@ projects[simple_field_formatter][subdir] = "contrib"
 ; Because Dev Versions can change we want to target the specific commit hash
 ; that this build works with.
 
-projects[uuid][version] = "1.x-dev"
+projects[uuid][version] = "1.0-alpha6"
 projects[uuid][subdir] = "contrib"
-projects[uuid][download][type] = "git"
-projects[uuid][download][url] = "http://git.drupal.org/project/uuid.git"
-projects[uuid][download][revision] = "45d745c48a20f6a3cfc12f3a634b81f21a519a0a"
 
 projects[context_useragent][version] = "1.x-dev"
 projects[context_useragent][subdir] = "contrib"
