@@ -17,7 +17,7 @@ includes[core_libraries] = "core/core-libraries.make"
 ; -------------------------
 
 ; Dev versions of the stanford projects on github.
-include[stanford_profile_dev] = core/stanford-profile-dev.make
+includes[stanford_profile_dev] = core/stanford-profile-dev.make
 
 ; Contributed themes
 ; ------------------
