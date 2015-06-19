@@ -31,12 +31,6 @@ projects[stanford_jumpstart_academic][download][url] = "git@github.com:SU-SWS/st
 projects[stanford_jumpstart_academic][download][branch] = "7.x-4.x"
 projects[stanford_jumpstart_academic][subdir] = "stanford"
 
-projects[stanford_bean_types][type] = "module"
-projects[stanford_bean_types][download][type] = "git"
-projects[stanford_bean_types][download][url] = "git@github.com:SU-SWS/stanford_bean_types.git"
-projects[stanford_bean_types][download][branch] = "7.x-2.x-dev"
-projects[stanford_bean_types][subdir] = "stanford"
-
 projects[stanford_jumpstart_home][type] = "module"
 projects[stanford_jumpstart_home][download][type] = "git"
 projects[stanford_jumpstart_home][download][url] = "git@github.com:SU-SWS/stanford_jumpstart_home.git"

@@ -29,12 +29,6 @@ projects[stanford_jumpstart][download][url] = "git@github.com:SU-SWS/stanford_ju
 projects[stanford_jumpstart][download][branch] = "7.x-4.x-dev"
 projects[stanford_jumpstart][subdir] = "stanford"
 
-projects[stanford_bean_types][type] = "module"
-projects[stanford_bean_types][download][type] = "git"
-projects[stanford_bean_types][download][url] = "git@github.com:SU-SWS/stanford_bean_types.git"
-projects[stanford_bean_types][download][branch] = "7.x-2.x-dev"
-projects[stanford_bean_types][subdir] = "stanford"
-
 projects[stanford_manage_content][type] = "module"
 projects[stanford_manage_content][download][type] = "git"
 projects[stanford_manage_content][download][url] = "git@github.com:SU-SWS/stanford_manage_content.git"
