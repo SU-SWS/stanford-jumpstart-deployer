@@ -36,3 +36,6 @@ projects[date][patch][] = https://www.drupal.org/files/issues/date-date_views_up
 
 ; https://www.drupal.org/node/2471911 Form validation fails with "the directory is not writable" when public file system is remote
 projects[css_injector][patch][] = "https://www.drupal.org/files/issues/css_injector-remove_drupal_realpath-2471911-2.patch"
+
+; https://www.drupal.org/node/2221307 | Patch allows for field groups to be rendered in ds custom block regions
+projects[ds][patch][] = "https://www.drupal.org/files/issues/ds_extras_field_group_not_rendered-2221307-18.patch"

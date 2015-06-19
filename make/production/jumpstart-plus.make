@@ -10,11 +10,8 @@ includes[] = "core/contrib.make"
 ; Because Dev Versions can change we want to target the specific commit hash
 ; that this build works with.
 
-projects[uuid][version] = "1.x-dev"
+projects[uuid][version] = "1.0-alpha6"
 projects[uuid][subdir] = "contrib"
-projects[uuid][download][type] = "git"
-projects[uuid][download][url] = "http://git.drupal.org/project/uuid.git"
-projects[uuid][download][revision] = "45d745c48a20f6a3cfc12f3a634b81f21a519a0a"
 
 projects[context_useragent][version] = "1.x-dev"
 projects[context_useragent][subdir] = "contrib"
@@ -66,7 +63,7 @@ projects[stanford_jumpstart_plus][subdir] = "stanford"
 projects[stanford_jumpstart_home][type] = "module"
 projects[stanford_jumpstart_home][download][type] = "git"
 projects[stanford_jumpstart_home][download][url] = "git@github.com:SU-SWS/stanford_jumpstart_home.git"
-projects[stanford_jumpstart_home][download][branch] = "7.x-1.2"
+projects[stanford_jumpstart_home][download][branch] = "7.x-1.3"
 projects[stanford_jumpstart_home][subdir] = "stanford"
 
 projects[stanford_landing_page][type] = "module"

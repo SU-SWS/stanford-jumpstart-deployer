@@ -6,11 +6,15 @@ api = 2
 
 includes[stanford_profile] = "https://raw.githubusercontent.com/SU-SWS/Stanford-Drupal-Profile/7.x-2.x/make/stanford.make"
 includes[stanford_themes] = "https://raw.githubusercontent.com/SU-SWS/Stanford-Drupal-Profile/7.x-2.x/make/stanford-themes.make"
+
 includes[stanford_libraries] = "https://raw.githubusercontent.com/SU-SWS/Stanford-Drupal-Profile/7.x-2.x/make/libraries.make"
-includes[stanford_patches] = "https://raw.githubusercontent.com/SU-SWS/Stanford-Drupal-Profile/7.x-2.x/make/patches.make"
+includes[core_libraries] = "core/core-libraries.make"
 
 ; Contributed modules
 ; -------------------
+
+; Dev versions of the stanford projects on github.
+include[stanford_profile_dev] = core/stanford-profile-dev.make
 
 projects[context_http_headers][version] = "1.0"
 projects[context_http_headers][subdir] = "contrib"
@@ -23,12 +27,6 @@ projects[simple_field_formatter][subdir] = "contrib"
 ; Contrib Dev Versions
 ; Because Dev Versions can change we want to target the specific commit hash
 ; that this build works with.
-
-projects[uuid][version] = "1.x-dev"
-projects[uuid][subdir] = "contrib"
-projects[uuid][download][type] = "git"
-projects[uuid][download][url] = "http://git.drupal.org/project/uuid.git"
-projects[uuid][download][revision] = "45d745c48a20f6a3cfc12f3a634b81f21a519a0a"
 
 projects[field_collection][version] = "1.x"
 projects[field_collection][subdir] = "contrib"
@@ -153,4 +151,6 @@ projects[stanford_sites_jumpstart_vpsa][download][branch] = "7.x-4.x"
 ; Patches
 ; -------
 
-includes[] = "core/core-patches.make"
+includes[stanford_patches] = "https://raw.githubusercontent.com/SU-SWS/Stanford-Drupal-Profile/7.x-2.x/make/patches.make"
+includes[core_patches] = "core/core-patches.make"
+
