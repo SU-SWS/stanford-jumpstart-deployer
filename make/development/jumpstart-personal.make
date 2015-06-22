@@ -1,41 +1,29 @@
 core = 7.x
 api = 2
 
+; Modules, themes, libraries, and patches from Stanford Drupal Profile
+; --------------------------------------------------------------------
+
+includes[stanford_profile] = "https://raw.githubusercontent.com/SU-SWS/Stanford-Drupal-Profile/7.x-2.x/make/stanford.make"
+includes[stanford_themes] = "https://raw.githubusercontent.com/SU-SWS/Stanford-Drupal-Profile/7.x-2.x/make/stanford-themes.make"
+
+includes[stanford_libraries] = "https://raw.githubusercontent.com/SU-SWS/Stanford-Drupal-Profile/7.x-2.x/make/libraries.make"
+includes[core_libraries] = "core/core-libraries.make"
+
 ; Contributed modules
 ; -------------------
-
-includes[] = "core/contrib.make"
-
-; Contrib Dev Versions
-; Because Dev Versions can change we want to target the specific commit hash
-; that this build works with.
-
-projects[uuid][version] = "1.0-alpha6"
-projects[uuid][subdir] = "contrib"
-
-projects[context_useragent][version] = "1.x-dev"
-projects[context_useragent][subdir] = "contrib"
-projects[context_useragent][download][type] = "git"
-projects[context_useragent][download][url] = "http://git.drupal.org/project/context_useragent.git"
-projects[context_useragent][download][revision] = "8949c6d4ee7a462b49e1b08dfd7dc60f1fa7e8e8"
-
-
-; Contributed themes
-; ------------------
-
-; Found in contrib.make
-
 
 ; Stanford Modules - GitHub
 ; -------------------------
 
-includes[] = "core/core-stanford.make"
+; Dev versions of the stanford projects on github.
+includes[stanford_profile_dev] = core/stanford-profile-dev.make
 
-projects[stanford_bean_types][type] = "module"
-projects[stanford_bean_types][download][type] = "git"
-projects[stanford_bean_types][download][url] = "git@github.com:SU-SWS/stanford_bean_types.git"
-projects[stanford_bean_types][download][branch] = "7.x-2.x-dev"
-projects[stanford_bean_types][subdir] = "stanford"
+; Contributed themes
+; ------------------
+
+; Stanford Modules - GitHub
+; -------------------------
 
 projects[stanford_jumpstart][type] = "module"
 projects[stanford_jumpstart][download][type] = "git"
@@ -59,18 +47,10 @@ projects[cap_drupal][subdir] = "stanford"
 ; Stanford themes - Github
 ; ------------------------
 
-; Found in core-stanford.make
-
-projects[stanford_light][type] = "theme"
-projects[stanford_light][download][type] = "git"
-projects[stanford_light][download][url] = "git@github.com:SU-SWS/stanford_light.git"
-projects[stanford_light][download][branch] = "master"
-
+; Found in remote stanford-themes.make
 
 ; Libraries
 ; ---------
-
-includes[] = "core/core-libraries.make"
 
 libraries[stanford_sites_content_importer][download][type] = "git"
 libraries[stanford_sites_content_importer][download][url] = "git@github.com:SU-SWS/stanford_sites_content_importer"
@@ -80,8 +60,6 @@ libraries[stanford_sites_content_importer][destination] = "libraries"
 
 ; Profiles
 ; --------
-
-includes[] = "core/core-profiles.make"
 
 projects[stanford_sites_abstract][type] = "profile"
 projects[stanford_sites_abstract][download][type] = "git"
@@ -93,16 +71,7 @@ projects[stanford_sites_jumpstart_personal][download][type] = "git"
 projects[stanford_sites_jumpstart_personal][download][url] = "git@github.com:SU-SWS/stanford_sites_jumpstart_personal.git"
 projects[stanford_sites_jumpstart_personal][download][branch] = "7.x-4.x"
 
-
-; Patches
-; -------
-
-includes[] = "core/core-patches.make"
-
-
-
-
-
-
-
+; Patches last.
+includes[stanford_patches] = "https://raw.githubusercontent.com/SU-SWS/Stanford-Drupal-Profile/7.x-2.x/make/patches.make"
+includes[core_patches] = "core/core-patches.make"
 

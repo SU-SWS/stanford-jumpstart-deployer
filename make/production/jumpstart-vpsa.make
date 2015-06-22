@@ -1,10 +1,14 @@
 core = 7.x
 api = 2
 
-; Contributed modules
-; -------------------
+; Modules, themes, libraries, and patches from Stanford Drupal Profile
+; --------------------------------------------------------------------
 
-includes[] = "core/contrib.make"
+includes[stanford_profile] = "https://raw.githubusercontent.com/SU-SWS/Stanford-Drupal-Profile/7.x-2.x/make/stanford.make"
+includes[stanford_themes] = "https://raw.githubusercontent.com/SU-SWS/Stanford-Drupal-Profile/7.x-2.x/make/stanford-themes.make"
+
+includes[stanford_libraries] = "https://raw.githubusercontent.com/SU-SWS/Stanford-Drupal-Profile/7.x-2.x/make/libraries.make"
+includes[core_libraries] = "core/core-libraries.make"
 
 projects[context_http_headers][version] = "1.0"
 projects[context_http_headers][subdir] = "contrib"
@@ -17,15 +21,6 @@ projects[simple_field_formatter][subdir] = "contrib"
 ; Contrib Dev Versions
 ; Because Dev Versions can change we want to target the specific commit hash
 ; that this build works with.
-
-projects[uuid][version] = "1.0-alpha6"
-projects[uuid][subdir] = "contrib"
-
-projects[context_useragent][version] = "1.x-dev"
-projects[context_useragent][subdir] = "contrib"
-projects[context_useragent][download][type] = "git"
-projects[context_useragent][download][url] = "http://git.drupal.org/project/context_useragent.git"
-projects[context_useragent][download][revision] = "8949c6d4ee7a462b49e1b08dfd7dc60f1fa7e8e8"
 
 projects[field_collection][version] = "1.x"
 projects[field_collection][subdir] = "contrib"
@@ -48,8 +43,6 @@ projects[workbench_moderation][download][revision] = "5c2769ac58b4fc28b1c103444b
 ; Stanford Modules - GitHub
 ; -------------------------
 
-includes[] = "core/core-stanford.make"
-
 projects[stanford_jumpstart][type] = "module"
 projects[stanford_jumpstart][download][type] = "git"
 projects[stanford_jumpstart][download][url] = "git@github.com:SU-SWS/stanford_jumpstart.git"
@@ -62,16 +55,11 @@ projects[stanford_jumpstart_vpsa][download][url] = "git@github.com:SU-SWS/stanfo
 projects[stanford_jumpstart_vpsa][download][branch] = "7.x-4.3"
 projects[stanford_jumpstart_vpsa][subdir] = "stanford"
 
-projects[stanford_bean_types][type] = "module"
-projects[stanford_bean_types][download][type] = "git"
-projects[stanford_bean_types][download][url] = "git@github.com:SU-SWS/stanford_bean_types.git"
-projects[stanford_bean_types][download][branch] = "7.x-2.3"
-projects[stanford_bean_types][subdir] = "stanford"
-
 projects[stanford_page][type] = "module"
 projects[stanford_page][download][type] = "git"
 projects[stanford_page][download][url] = "git@github.com:SU-SWS/stanford_page.git"
 projects[stanford_page][download][branch] = "7.x-2.x-jsvpsa"
+projects[stanford_page][download][tag] = FALSE
 projects[stanford_page][subdir] = "stanford"
 
 projects[stanford_manage_content][type] = "module"
@@ -84,6 +72,7 @@ projects[stanford_news][type] = "module"
 projects[stanford_news][download][type] = "git"
 projects[stanford_news][download][url] = "git@github.com:SU-SWS/stanford_news.git"
 projects[stanford_news][download][branch] = "7.x-3.x-jsvpsa"
+projects[stanford_news][download][tag] = FALSE
 projects[stanford_news][subdir] = "stanford"
 
 
@@ -91,7 +80,9 @@ projects[stanford_news][subdir] = "stanford"
 ; ----------------------------------
 
 projects[stanford_events_importer][download][branch] = "7.x-3.x-jsvpsa"
+projects[stanford_events_importer][download][tag] = FALSE
 projects[stanford_slides][download][branch] = "7.x-3.x-jsvpsa"
+projects[stanford_slides][download][tag] = FALSE
 
 
 
@@ -110,20 +101,8 @@ projects[stanford_wilbur][download][type] = "git"
 projects[stanford_wilbur][download][url] = "git@github.com:SU-SWS/stanford_wilbur.git"
 projects[stanford_wilbur][download][branch] = "7.x-2.1"
 
-; Libraries
-; ---------
-
-includes[] = "core/core-libraries.make"
-
-libraries[stanford_sites_content_importer][download][type] = "git"
-libraries[stanford_sites_content_importer][download][url] = "git@github.com:SU-SWS/stanford_sites_content_importer"
-libraries[stanford_sites_content_importer][download][branch] = "7.x-1.x"
-libraries[stanford_sites_content_importer][destination] = "libraries"
-
 ; Profiles
 ; --------
-
-includes[] = "core/core-profiles.make"
 
 projects[stanford_sites_abstract][type] = "profile"
 projects[stanford_sites_abstract][download][type] = "git"
@@ -143,4 +122,5 @@ projects[stanford_sites_jumpstart_vpsa][download][branch] = "7.x-4.3"
 ; Patches
 ; -------
 
-includes[] = "core/core-patches.make"
+includes[stanford_patches] = "https://raw.githubusercontent.com/SU-SWS/Stanford-Drupal-Profile/7.x-2.x/make/patches.make"
+includes[core_patches] = "core/core-patches.make"

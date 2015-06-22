@@ -44,6 +44,6 @@ libraries[colorbox][destination] = "libraries"
 
 libraries[icalcreator][download][type] = "git"
 libraries[icalcreator][download][url] = "https://github.com/iCalcreator/iCalcreator.git"
-libraries[icalcreator][download][commit] = "e3dbec2cb3bb91a8bde989e467567ae8831a4026"
+libraries[icalcreator][download][revision] = "e3dbec2cb3bb91a8bde989e467567ae8831a4026"
 libraries[icalcreator][directory_name] = "iCalcreator"
 libraries[icalcreator][destination] = "libraries"
