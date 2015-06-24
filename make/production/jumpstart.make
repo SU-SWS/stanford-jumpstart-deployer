@@ -19,6 +19,12 @@ includes[core_libraries] = "core/core-libraries.make"
 ; Stanford Modules - GitHub
 ; -------------------------
 
+projects[stanford_easy_wysiwyg_css][type] = "module"
+projects[stanford_easy_wysiwyg_css][download][type] = "git"
+projects[stanford_easy_wysiwyg_css][download][url] = "git@github.com:SU-SWS/stanford_easy_wysiwyg_css.git"
+projects[stanford_easy_wysiwyg_css][download][tag] = "7.x-1.0"
+projects[stanford_easy_wysiwyg_css][subdir] = "stanford"
+
 projects[stanford_jumpstart][type] = "module"
 projects[stanford_jumpstart][download][type] = "git"
 projects[stanford_jumpstart][download][url] = "git@github.com:SU-SWS/stanford_jumpstart.git"
