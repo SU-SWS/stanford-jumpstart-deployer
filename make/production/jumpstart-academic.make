@@ -46,7 +46,7 @@ projects[stanford_person][subdir] = "stanford"
 projects[stanford_news][type] = "module"
 projects[stanford_news][download][type] = "git"
 projects[stanford_news][download][url] = "git@github.com:SU-SWS/stanford_news.git"
-projects[stanford_news][download][tag] = "7.x-3.0"
+projects[stanford_news][download][tag] = "7.x-3.1"
 projects[stanford_news][subdir] = "stanford"
 
 projects[stanford_event_series][type] = "module"
