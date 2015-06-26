@@ -38,7 +38,7 @@ projects[stanford_manage_content][subdir] = "stanford"
 projects[stanford_news][type] = "module"
 projects[stanford_news][download][type] = "git"
 projects[stanford_news][download][url] = "git@github.com:SU-SWS/stanford_news.git"
-projects[stanford_news][download][branch] = "7.x-3.0"
+projects[stanford_news][download][branch] = "7.x-3.1"
 projects[stanford_news][subdir] = "stanford"
 
 projects[stanford_jumpstart_plus][type] = "module"
