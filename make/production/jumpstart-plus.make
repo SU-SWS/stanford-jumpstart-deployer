@@ -17,16 +17,10 @@ includes[core_libraries] = "core/core-libraries.make"
 ; Stanford Modules - GitHub
 ; -------------------------
 
-projects[stanford_easy_wysiwyg_css][type] = "module"
-projects[stanford_easy_wysiwyg_css][download][type] = "git"
-projects[stanford_easy_wysiwyg_css][download][url] = "git@github.com:SU-SWS/stanford_easy_wysiwyg_css.git"
-projects[stanford_easy_wysiwyg_css][download][tag] = "7.x-1.0"
-projects[stanford_easy_wysiwyg_css][subdir] = "stanford"
-
 projects[stanford_jumpstart][type] = "module"
 projects[stanford_jumpstart][download][type] = "git"
 projects[stanford_jumpstart][download][url] = "git@github.com:SU-SWS/stanford_jumpstart.git"
-projects[stanford_jumpstart][download][branch] = "7.x-4.4"
+projects[stanford_jumpstart][download][branch] = "7.x-4.5"
 projects[stanford_jumpstart][subdir] = "stanford"
 
 projects[stanford_manage_content][type] = "module"
@@ -44,7 +38,7 @@ projects[stanford_news][subdir] = "stanford"
 projects[stanford_jumpstart_plus][type] = "module"
 projects[stanford_jumpstart_plus][download][type] = "git"
 projects[stanford_jumpstart_plus][download][url] = "git@github.com:SU-SWS/stanford_jumpstart_plus.git"
-projects[stanford_jumpstart_plus][download][branch] = "7.x-4.4"
+projects[stanford_jumpstart_plus][download][branch] = "7.x-4.5"
 projects[stanford_jumpstart_plus][subdir] = "stanford"
 
 projects[stanford_jumpstart_home][type] = "module"
@@ -56,7 +50,7 @@ projects[stanford_jumpstart_home][subdir] = "stanford"
 projects[stanford_landing_page][type] = "module"
 projects[stanford_landing_page][download][type] = "git"
 projects[stanford_landing_page][download][url] = "git@github.com:SU-SWS/stanford_landing_page.git"
-projects[stanford_landing_page][download][branch] = "7.x-1.1"
+projects[stanford_landing_page][download][branch] = "7.x-1.2"
 projects[stanford_landing_page][subdir] = "stanford"
 
 
@@ -75,12 +69,12 @@ projects[stanford_sites_abstract][download][branch] = "7.x-4.2-dev+1"
 projects[stanford_sites_jumpstart][type] = "profile"
 projects[stanford_sites_jumpstart][download][type] = "git"
 projects[stanford_sites_jumpstart][download][url] = "git@github.com:SU-SWS/stanford_sites_jumpstart.git"
-projects[stanford_sites_jumpstart][download][branch] = "7.x-4.4"
+projects[stanford_sites_jumpstart][download][branch] = "7.x-4.5"
 
 projects[stanford_sites_jumpstart_plus][type] = "profile"
 projects[stanford_sites_jumpstart_plus][download][type] = "git"
 projects[stanford_sites_jumpstart_plus][download][url] = "git@github.com:SU-SWS/stanford_sites_jumpstart_plus.git"
-projects[stanford_sites_jumpstart_plus][download][branch] = "7.x-4.4"
+projects[stanford_sites_jumpstart_plus][download][branch] = "7.x-4.5"
 
 ; Patches
 ; -------
