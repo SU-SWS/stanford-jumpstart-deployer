@@ -37,12 +37,6 @@ projects[stanford_jumpstart_home][download][url] = "git@github.com:SU-SWS/stanfo
 projects[stanford_jumpstart_home][download][branch] = "7.x-1.3"
 projects[stanford_jumpstart_home][subdir] = "stanford"
 
-projects[stanford_person][type] = "module"
-projects[stanford_person][download][type] = "git"
-projects[stanford_person][download][url] = "git@github.com:SU-SWS/stanford_person.git"
-projects[stanford_person][download][tag] = "7.x-4.0"
-projects[stanford_person][subdir] = "stanford"
-
 projects[stanford_news][type] = "module"
 projects[stanford_news][download][type] = "git"
 projects[stanford_news][download][url] = "git@github.com:SU-SWS/stanford_news.git"
