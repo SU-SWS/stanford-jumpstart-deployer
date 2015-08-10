@@ -96,8 +96,10 @@ projects[stanford_landing_page][subdir] = "stanford"
 ; ----------------------------------
 
 projects[stanford_events_importer][download][branch] = "7.x-3.x-jsvpsa"
-projects[stanford_slides][download][branch] = "7.x-3.x-jsvpsa"
+projects[stanford_events_importer][download][tag] = FALSE
 
+projects[stanford_slides][download][branch] = "7.x-3.x-jsvpsa"
+projects[stanford_slides][download][tag] = FALSE
 
 ; Stanford themes - Github
 ; ------------------------
