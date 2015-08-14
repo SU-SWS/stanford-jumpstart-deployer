@@ -6,7 +6,6 @@ api = 2
 
 includes[stanford_profile] = "https://raw.githubusercontent.com/SU-SWS/Stanford-Drupal-Profile/7.x-2.x/make/stanford.make"
 includes[stanford_themes] = "https://raw.githubusercontent.com/SU-SWS/Stanford-Drupal-Profile/7.x-2.x/make/stanford-themes.make"
-
 includes[stanford_libraries] = "https://raw.githubusercontent.com/SU-SWS/Stanford-Drupal-Profile/7.x-2.x/make/libraries.make"
 includes[core_libraries] = "core/core-libraries.make"
 
@@ -16,23 +15,16 @@ includes[core_libraries] = "core/core-libraries.make"
 ; Dev versions of the stanford projects on github.
 includes[stanford_profile_dev] = core/stanford-profile-dev.make
 
-projects[context_http_headers][version] = "1.0"
-projects[context_http_headers][subdir] = "contrib"
 projects[field_formatter_settings][version] = "1.1"
 projects[field_formatter_settings][subdir] = "contrib"
-projects[simple_field_formatter][version] = "2.0-beta2"
+
+projects[simple_field_formatter][version] = "2.0-beta4"
 projects[simple_field_formatter][subdir] = "contrib"
 
 
 ; Contrib Dev Versions
 ; Because Dev Versions can change we want to target the specific commit hash
 ; that this build works with.
-
-projects[field_collection][version] = "1.x"
-projects[field_collection][subdir] = "contrib"
-projects[field_collection][download][type] = "git"
-projects[field_collection][download][url] = "http://git.drupal.org/project/field_collection.git"
-projects[field_collection][download][revision] = "9b507ac41c14f590f620c57ff0a766c4363f1a17"
 
 projects[workbench_moderation][version] = "1.x-dev"
 projects[workbench_moderation][subdir] = "contrib"
@@ -66,12 +58,6 @@ projects[stanford_jumpstart_vpsa][download][type] = "git"
 projects[stanford_jumpstart_vpsa][download][url] = "git@github.com:SU-SWS/stanford_jumpstart_vpsa.git"
 projects[stanford_jumpstart_vpsa][download][branch] = "7.x-4.x"
 projects[stanford_jumpstart_vpsa][subdir] = "stanford"
-
-projects[stanford_page][type] = "module"
-projects[stanford_page][download][type] = "git"
-projects[stanford_page][download][url] = "git@github.com:SU-SWS/stanford_page.git"
-projects[stanford_page][download][branch] = "7.x-2.x-jsvpsa"
-projects[stanford_page][subdir] = "stanford"
 
 projects[stanford_manage_content][type] = "module"
 projects[stanford_manage_content][download][type] = "git"
