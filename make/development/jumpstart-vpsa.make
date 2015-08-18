@@ -91,12 +91,18 @@ projects[stanford_landing_page][download][url] = "git@github.com:SU-SWS/stanford
 projects[stanford_landing_page][download][branch] = "7.x-1.x"
 projects[stanford_landing_page][subdir] = "stanford"
 
+projects[stanford_affiliate_organization][type] = "module"
+projects[stanford_affiliate_organization][download][type] = "git"
+projects[stanford_affiliate_organization][download][url] = "git@github.com:SU-SWS/stanford_affiliate_organization.git"
+projects[stanford_affiliate_organization][download][branch] = "7.x-1.x"
+projects[stanford_affiliate_organization][subdir] = "stanford"
 
 projects[stanford_fellowship][type] = "module"
 projects[stanford_fellowship][download][type] = "git"
 projects[stanford_fellowship][download][url] = "git@github.com:irinaz/stanford_fellowship.git"
 projects[stanford_fellowship][download][branch] = "7.x-1.x"
 projects[stanford_fellowship][subdir] = "stanford"
+
 
 
 
