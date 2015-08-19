@@ -82,12 +82,12 @@ projects[stanford_sites_abstract][download][branch] = "7.x-4.2-dev+1"
 projects[stanford_sites_jumpstart][type] = "profile"
 projects[stanford_sites_jumpstart][download][type] = "git"
 projects[stanford_sites_jumpstart][download][url] = "git@github.com:SU-SWS/stanford_sites_jumpstart.git"
-projects[stanford_sites_jumpstart][download][branch] = "7.x-4.5"
+projects[stanford_sites_jumpstart][download][branch] = "7.x-4.5-dev+1"
 
 projects[stanford_sites_jumpstart_academic][type] = "profile"
 projects[stanford_sites_jumpstart_academic][download][type] = "git"
 projects[stanford_sites_jumpstart_academic][download][url] = "git@github.com:SU-SWS/stanford_sites_jumpstart_academic.git"
-projects[stanford_sites_jumpstart_academic][download][branch] = "7.x-4.5"
+projects[stanford_sites_jumpstart_academic][download][branch] = "7.x-4.5-dev+1"
 
 ; Patches
 ; -------
