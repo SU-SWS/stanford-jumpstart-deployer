@@ -85,11 +85,9 @@ projects[stanford_affiliate_organization][subdir] = "stanford"
 
 projects[stanford_fellowship][type] = "module"
 projects[stanford_fellowship][download][type] = "git"
-projects[stanford_fellowship][download][url] = "git@github.com:irinaz/stanford_fellowship.git"
+projects[stanford_fellowship][download][url] = "git@github.com:SU-SWS/stanford_fellowship.git"
 projects[stanford_fellowship][download][branch] = "7.x-1.x"
 projects[stanford_fellowship][subdir] = "stanford"
-
-
 
 
 ; Overrides from the core make files
