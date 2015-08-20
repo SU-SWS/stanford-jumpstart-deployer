@@ -4,6 +4,12 @@
 ; Inherit all of the wonderfulness that is jumpstart academic.
 includes[jsa] = "jumpstart-academic.make"
 
+; Contributed modules
+; -------------------
+
+projects[always_visible][subdir] = "contrib"
+projects[always_visible][version] = "7.x-1.x-dev"
+
 ; JSE Profiles
 ; ------------------------------------------------------------------------------
 
