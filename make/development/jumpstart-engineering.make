@@ -11,12 +11,12 @@ projects[context_http_headers][download][url] = "http://git.drupal.org/project/c
 
 projects[always_visible][download][type] = "git"
 projects[always_visible][subdir] = "contrib"
-projects[always_visible][version] = "7.x-1.x-dev"
+projects[always_visible][version] = "1.x-dev"
 projects[always_visible][download][revision] = "a6c2dac352a6bb658644f66a3bd96b6e5805a6c1"
 projects[always_visible][download][url] = "git://git.drupal.org/project/always_visible.git"
 projects[menu_attributes][type] = "module"
 projects[menu_attributes][subdir] = "contrib"
-projects[menu_attributes][version] = "7.x-1.0-rc3"
+projects[menu_attributes][version] = "1.0-rc3"
 
 ; JSE Profiles
 ; ------------------------------------------------------------------------------
