@@ -7,8 +7,10 @@ includes[jsa] = "jumpstart-academic.make"
 ; Contributed modules
 ; -------------------
 
+projects[always_visible][type] = "module"
 projects[always_visible][subdir] = "contrib"
 projects[always_visible][version] = "7.x-1.x-dev"
+projects[menu_attributes][type] = "module"
 projects[menu_attributes][subdir] = "contrib"
 projects[menu_attributes][version] = "7.x-1.0-rc3"
 
