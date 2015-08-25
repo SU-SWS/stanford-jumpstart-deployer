@@ -25,8 +25,14 @@ projects[menu_attributes][version] = "1.0-rc3"
 projects[stanford_private_page][type] = "module"
 projects[stanford_private_page][download][type] = "git"
 projects[stanford_private_page][download][url] = "git@github.com:SU-SWS/stanford_private_page.git"
-projects[stanford_private_page][download][branch] = "SOE-301"
+projects[stanford_private_page][download][branch] = "7.x-1.x"
 projects[stanford_private_page][subdir] = "stanford"
+
+projects[stanford_related_content][type] = "module"
+projects[stanford_related_content][download][type] = "git"
+projects[stanford_related_content][download][url] = "git@github.com:SU-SWS/stanford_related_content.git"
+projects[stanford_related_content][download][branch] = "7.x-1.x"
+projects[stanford_related_content][subdir] = "stanford"
 
 ; JSE Profiles
 ; ------------------------------------------------------------------------------
