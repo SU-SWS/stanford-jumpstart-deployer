@@ -107,7 +107,7 @@ projects[stanford_wilbur][download][branch] = "7.x-2.1"
 projects[stanford_sites_abstract][type] = "profile"
 projects[stanford_sites_abstract][download][type] = "git"
 projects[stanford_sites_abstract][download][url] = "git@github.com:SU-SWS/stanford_sites_abstract.git"
-projects[stanford_sites_abstract][download][branch] = "7.x-4.x"
+projects[stanford_sites_abstract][download][branch] = "7.x-4.2-dev+1"
 
 projects[stanford_sites_jumpstart][type] = "profile"
 projects[stanford_sites_jumpstart][download][type] = "git"
