@@ -9,8 +9,6 @@ includes[stanford_themes] = "https://raw.githubusercontent.com/SU-SWS/Stanford-D
 includes[stanford_patches] = "https://raw.githubusercontent.com/SU-SWS/Stanford-Drupal-Profile/7.x-2.2-rc1/make/patches.make"
 includes[stanford_libraries] = "https://raw.githubusercontent.com/SU-SWS/Stanford-Drupal-Profile/7.x-2.2-rc1/make/libraries.make"
 
-projects[context_http_headers][version] = "1.0"
-projects[context_http_headers][subdir] = "contrib"
 projects[field_formatter_settings][version] = "1.1"
 projects[field_formatter_settings][subdir] = "contrib"
 projects[simple_field_formatter][version] = "2.0-beta2"
