@@ -8,7 +8,6 @@ includes[stanford_profile] = "https://raw.githubusercontent.com/SU-SWS/Stanford-
 includes[stanford_themes] = "https://raw.githubusercontent.com/SU-SWS/Stanford-Drupal-Profile/7.x-2.2-rc1/make/stanford-themes.make"
 includes[stanford_patches] = "https://raw.githubusercontent.com/SU-SWS/Stanford-Drupal-Profile/7.x-2.2-rc1/make/patches.make"
 includes[stanford_libraries] = "https://raw.githubusercontent.com/SU-SWS/Stanford-Drupal-Profile/7.x-2.2-rc1/make/libraries.make"
-includes[core_libraries] = "core/core-libraries.make"
 
 projects[context_http_headers][version] = "1.0"
 projects[context_http_headers][subdir] = "contrib"
@@ -84,7 +83,10 @@ projects[stanford_events_importer][download][tag] = FALSE
 projects[stanford_slides][download][branch] = "7.x-3.x-jsvpsa"
 projects[stanford_slides][download][tag] = FALSE
 
+; Libraries
+; ---------
 
+includes[core_libraries] = "core/core-libraries.make"
 
 ; Stanford themes - Github
 ; ------------------------
@@ -122,5 +124,4 @@ projects[stanford_sites_jumpstart_vpsa][download][branch] = "7.x-4.3-dev+1"
 ; Patches
 ; -------
 
-includes[stanford_patches] = "https://raw.githubusercontent.com/SU-SWS/Stanford-Drupal-Profile/7.x-2.0-dev+5/make/patches.make"
 includes[core_patches] = "core/core-patches.make"
