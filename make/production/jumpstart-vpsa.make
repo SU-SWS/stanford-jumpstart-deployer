@@ -4,14 +4,11 @@ api = 2
 ; Modules, themes, libraries, and patches from Stanford Drupal Profile
 ; --------------------------------------------------------------------
 
-includes[stanford_profile] = "https://raw.githubusercontent.com/SU-SWS/Stanford-Drupal-Profile/7.x-2.0-dev+5/make/stanford.make"
-includes[stanford_themes] = "https://raw.githubusercontent.com/SU-SWS/Stanford-Drupal-Profile/7.x-2.0-dev+5/make/stanford-themes.make"
+includes[stanford_profile] = "https://raw.githubusercontent.com/SU-SWS/Stanford-Drupal-Profile/7.x-2.2-rc1/make/stanford.make"
+includes[stanford_themes] = "https://raw.githubusercontent.com/SU-SWS/Stanford-Drupal-Profile/7.x-2.2-rc1/make/stanford-themes.make"
+includes[stanford_patches] = "https://raw.githubusercontent.com/SU-SWS/Stanford-Drupal-Profile/7.x-2.2-rc1/make/patches.make"
+includes[stanford_libraries] = "https://raw.githubusercontent.com/SU-SWS/Stanford-Drupal-Profile/7.x-2.2-rc1/make/libraries.make"
 
-includes[stanford_libraries] = "https://raw.githubusercontent.com/SU-SWS/Stanford-Drupal-Profile/7.x-2.0-dev+5/make/libraries.make"
-includes[core_libraries] = "core/core-libraries.make"
-
-projects[context_http_headers][version] = "1.0"
-projects[context_http_headers][subdir] = "contrib"
 projects[field_formatter_settings][version] = "1.1"
 projects[field_formatter_settings][subdir] = "contrib"
 projects[simple_field_formatter][version] = "2.0-beta2"
@@ -84,7 +81,10 @@ projects[stanford_events_importer][download][tag] = FALSE
 projects[stanford_slides][download][branch] = "7.x-3.x-jsvpsa"
 projects[stanford_slides][download][tag] = FALSE
 
+; Libraries
+; ---------
 
+includes[core_libraries] = "core/core-libraries.make"
 
 ; Stanford themes - Github
 ; ------------------------
@@ -107,7 +107,7 @@ projects[stanford_wilbur][download][branch] = "7.x-2.1"
 projects[stanford_sites_abstract][type] = "profile"
 projects[stanford_sites_abstract][download][type] = "git"
 projects[stanford_sites_abstract][download][url] = "git@github.com:SU-SWS/stanford_sites_abstract.git"
-projects[stanford_sites_abstract][download][branch] = "7.x-4.x"
+projects[stanford_sites_abstract][download][branch] = "7.x-4.2-dev+1"
 
 projects[stanford_sites_jumpstart][type] = "profile"
 projects[stanford_sites_jumpstart][download][type] = "git"
@@ -122,5 +122,4 @@ projects[stanford_sites_jumpstart_vpsa][download][branch] = "7.x-4.3-dev+1"
 ; Patches
 ; -------
 
-includes[stanford_patches] = "https://raw.githubusercontent.com/SU-SWS/Stanford-Drupal-Profile/7.x-2.0-dev+5/make/patches.make"
 includes[core_patches] = "core/core-patches.make"
