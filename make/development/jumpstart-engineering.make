@@ -7,8 +7,6 @@ includes[jsa] = "jumpstart-academic.make"
 ; Contributed modules
 ; -------------------
 
-projects[context_http_headers][download][url] = "http://git.drupal.org/project/context_http_headers.git"
-
 projects[always_visible][type] = "module"
 projects[always_visible][download][type] = "git"
 projects[always_visible][subdir] = "contrib"
