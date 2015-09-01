@@ -117,12 +117,6 @@ projects[stanford_jordan][download][type] = "git"
 projects[stanford_jordan][download][url] = "git@github.com:SU-SWS/stanford_jordan.git"
 projects[stanford_jordan][download][branch] = "7.x-2.x"
 
-projects[stanford_wilbur][type] = "theme"
-projects[stanford_wilbur][download][type] = "git"
-projects[stanford_wilbur][download][url] = "git@github.com:SU-SWS/stanford_wilbur.git"
-projects[stanford_wilbur][download][branch] = "7.x-2.x"
-
-
 ; Libraries
 ; ---------
 
