@@ -8,10 +8,10 @@ includes[jsa] = "jumpstart-academic.make"
 ; -------------------
 
 projects[always_visible][type] = "module"
-projects[always_visible][download][type] = "git"
 projects[always_visible][subdir] = "contrib"
+projects[always_visible][download][type] = "git"
 projects[always_visible][download][revision] = "a6c2dac352a6bb658644f66a3bd96b6e5805a6c1"
-projects[always_visible][download][url] = "git://git.drupal.org/project/always_visible.git"
+projects[always_visible][download][url] = "http://git.drupal.org/project/always_visible.git"
 
 projects[menu_attributes][type] = "module"
 projects[menu_attributes][subdir] = "contrib"
