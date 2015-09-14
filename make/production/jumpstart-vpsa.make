@@ -72,6 +72,12 @@ projects[stanford_news][download][branch] = "7.x-3.x-jsvpsa"
 projects[stanford_news][download][tag] = FALSE
 projects[stanford_news][subdir] = "stanford"
 
+projects[stanford_subsites][type] = "module"
+projects[stanford_subsites][download][type] = "git"
+projects[stanford_subsites][download][url] = "git@github.com:SU-SWS/stanford_subsites.git"
+projects[stanford_subsites][download][branch] = "7.x-2.0"
+projects[stanford_subsites][subdir] = "stanford"
+
 
 ; Overrides from the core make files
 ; ----------------------------------
