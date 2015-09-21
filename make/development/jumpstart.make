@@ -25,6 +25,9 @@ projects[context_useragent][download][revision] = "8949c6d4ee7a462b49e1b08dfd7dc
 ; Contributed themes
 ; ------------------
 
+; Temporary until core gets updated
+projects[stanford_framework][download][tag] = "7.x-3.2-dev+8"
+
 ; Found in remote stanford.make
 
 

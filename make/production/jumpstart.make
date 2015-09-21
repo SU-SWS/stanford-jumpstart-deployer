@@ -12,6 +12,13 @@ includes[stanford_libraries] = "https://raw.githubusercontent.com/SU-SWS/Stanfor
 ; Contributed themes
 ; ------------------
 
+
+; Temporary until core gets updated
+projects[stanford_framework][download][tag] = "7.x-3.2-dev+8"
+
+
+7.x-3.2-dev+8
+
 ; Found in contrib.make
 
 
