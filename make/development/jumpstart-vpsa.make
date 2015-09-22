@@ -56,6 +56,10 @@ projects[webauth][download][tag] = FALSE
 projects[webauth][download][branch] = "master"
 projects[webauth_extras][download][tag] = FALSE
 projects[webauth_extras][download][branch] = "master"
+projects[stanford_framework][download][tag] = FALSE
+projects[stanford_framework][download][branch] = "7.x-3.x"
+projects[open_framework][download][tag] = FALSE
+projects[open_framework][download][branch] = "7.x-2.x"
 
 ; Contributed modules
 ; -------------------
@@ -165,8 +169,6 @@ projects[stanford_slides][download][tag] = FALSE
 ; ------------------------
 
 ; Found in core-stanford.make
-
-projects[stanford_framework][download][branch] = "7.x-2.x"
 
 projects[stanfordmodern][type] = "theme"
 projects[stanfordmodern][download][type] = "git"
