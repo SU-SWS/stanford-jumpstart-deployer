@@ -75,6 +75,9 @@ projects[stanford_news][subdir] = "stanford"
 projects[stanford_page][download][branch] = "7.x-2.x-jsvpsa"
 projects[stanford_page][download][tag] = FALSE
 
+projects[stanford_person][download][branch] = "7.x-5.x-jsvpsa"
+projects[stanford_person][download][tag] = FALSE
+
 projects[stanford_landing_page][type] = "module"
 projects[stanford_landing_page][download][type] = "git"
 projects[stanford_landing_page][download][url] = "git@github.com:SU-SWS/stanford_landing_page.git"
