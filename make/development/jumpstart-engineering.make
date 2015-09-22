@@ -3,7 +3,6 @@
 
 ; Inherit all of the wonderfulness that is jumpstart academic.
 includes[jsa] = "jumpstart-academic.make"
-includes[stanford_profile_dev] = "core/stanford-profile-dev.make"
 
 ; Contributed modules
 ; -------------------
@@ -49,5 +48,6 @@ projects[stanford_jumpstart_engineering][download][type] = "git"
 projects[stanford_jumpstart_engineering][download][url] = "git@github.com:SU-SOE/stanford_jumpstart_engineering.git"
 projects[stanford_jumpstart_engineering][download][branch] = "7.x-1.x"
 projects[stanford_jumpstart_engineering][subdir] = "stanford"
+
 
 
