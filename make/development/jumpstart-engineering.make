@@ -3,6 +3,7 @@
 
 ; Inherit all of the wonderfulness that is jumpstart academic.
 includes[jsa] = "jumpstart-academic.make"
+includes[stanford_profile_dev] = "core/stanford-profile-dev.make"
 
 ; Contributed modules
 ; -------------------
