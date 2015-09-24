@@ -49,5 +49,11 @@ projects[stanford_jumpstart_engineering][download][url] = "git@github.com:SU-SOE
 projects[stanford_jumpstart_engineering][download][branch] = "7.x-1.x"
 projects[stanford_jumpstart_engineering][subdir] = "stanford"
 
+projects[stanford_jumpstart_home][type] = "module"
+projects[stanford_jumpstart_home][download][type] = "git"
+projects[stanford_jumpstart_home][download][url] = "git@github.com:SU-SOE/stanford_jumpstart_home.git"
+projects[stanford_jumpstart_home][download][branch] = "7.x-1.x"
+projects[stanford_jumpstart_home][subdir] = "stanford"
+
 
 
