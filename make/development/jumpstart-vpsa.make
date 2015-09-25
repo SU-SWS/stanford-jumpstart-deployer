@@ -153,7 +153,7 @@ projects[stanford_subsites][subdir] = "stanford"
 projects[stanford_gallery][type] = "module"
 projects[stanford_gallery][download][type] = "git"
 projects[stanford_gallery][download][url] = "git@github.com:SU-SWS/stanford_gallery.git"
-projects[stanford_gallery][download][branch] = "7.x-1.x"
+projects[stanford_gallery][download][branch] = "7.x-2.x"
 projects[stanford_gallery][subdir] = "stanford"
 
 ; Overrides from the core make files
