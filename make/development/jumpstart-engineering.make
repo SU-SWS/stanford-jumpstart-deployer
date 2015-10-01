@@ -55,5 +55,8 @@ projects[stanford_jumpstart_home][download][url] = "git@github.com:SU-SOE/stanfo
 projects[stanford_jumpstart_home][download][branch] = "7.x-1.x"
 projects[stanford_jumpstart_home][subdir] = "stanford"
 
-
-
+; Temporary until core gets updated
+projects[stanford_framework][download][type] = "git"
+projects[stanford_framework][download][url] = "git@github.com:SU-SWS/stanford_framework.git"
+projects[stanford_framework][download][tag] = FALSE
+projects[stanford_framework][download][branch] = "7.x-3.x"
