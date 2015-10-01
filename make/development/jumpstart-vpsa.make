@@ -70,6 +70,8 @@ projects[field_formatter_settings][subdir] = "contrib"
 projects[simple_field_formatter][version] = "2.0-beta4"
 projects[simple_field_formatter][subdir] = "contrib"
 
+projects[chosen][version] = "2.0-beta4"
+projects[chosen][subdir] = "contrib"
 
 ; Contrib Dev Versions
 ; Because Dev Versions can change we want to target the specific commit hash
@@ -187,6 +189,11 @@ libraries[stanford_sites_content_importer][download][type] = "git"
 libraries[stanford_sites_content_importer][download][url] = "git@github.com:SU-SWS/stanford_sites_content_importer"
 libraries[stanford_sites_content_importer][download][branch] = "7.x-1.x"
 libraries[stanford_sites_content_importer][destination] = "libraries"
+
+libraries[chosen][download][type] = "get"
+libraries[chosen][download][url] = "https://github.com/harvesthq/chosen/releases/download/v1.1.0/chosen_v1.1.0.zip"
+libraries[chosen][directory_name] = "chosen"
+libraries[chosen][destination] = "libraries"
 
 ; Profiles
 ; --------
