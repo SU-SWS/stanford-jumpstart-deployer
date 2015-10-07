@@ -98,6 +98,12 @@ projects[stanford_easy_wysiwyg_css][download][url] = "git@github.com:SU-SWS/stan
 projects[stanford_easy_wysiwyg_css][download][branch] = "7.x-1.x"
 projects[stanford_easy_wysiwyg_css][subdir] = "stanford"
 
+projects[stanford_faq][type] = "module"
+projects[stanford_faq][download][type] = "git"
+projects[stanford_faq][download][url] = "git@github.com:SU-SWS/stanford_faq.git"
+projects[stanford_faq][download][branch] = "7.x-4.x-dev"
+projects[stanford_faq][subdir] = "stanford"
+
 projects[stanford_jumpstart][type] = "module"
 projects[stanford_jumpstart][download][type] = "git"
 projects[stanford_jumpstart][download][url] = "git@github.com:SU-SWS/stanford_jumpstart.git"
