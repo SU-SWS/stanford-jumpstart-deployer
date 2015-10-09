@@ -73,6 +73,9 @@ projects[simple_field_formatter][subdir] = "contrib"
 projects[chosen][version] = "2.0-beta4"
 projects[chosen][subdir] = "contrib"
 
+projects[faq][version] = "1.1"
+projects[faq][subdir] = "contrib"
+
 ; Contrib Dev Versions
 ; Because Dev Versions can change we want to target the specific commit hash
 ; that this build works with.
