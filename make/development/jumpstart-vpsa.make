@@ -76,6 +76,9 @@ projects[chosen][subdir] = "contrib"
 projects[faq][version] = "1.1"
 projects[faq][subdir] = "contrib"
 
+projects[bigmenu][version] = "1.3"
+projects[bigmenu][subdir] = "contrib"
+
 ; Contrib Dev Versions
 ; Because Dev Versions can change we want to target the specific commit hash
 ; that this build works with.
