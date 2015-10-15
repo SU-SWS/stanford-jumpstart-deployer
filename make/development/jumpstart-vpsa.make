@@ -146,6 +146,12 @@ projects[stanford_page][download][tag] = FALSE
 projects[stanford_person][download][branch] = "7.x-5.x-jsvpsa"
 projects[stanford_person][download][tag] = FALSE
 
+projects[stanford_private_page][type] = "module"
+projects[stanford_private_page][download][type] = "git"
+projects[stanford_private_page][download][url] = "git@github.com:SU-SWS/stanford_private_page.git"
+projects[stanford_private_page][download][branch] = "7.x-1.x"
+projects[stanford_private_page][subdir] = "stanford"
+
 projects[stanford_landing_page][type] = "module"
 projects[stanford_landing_page][download][type] = "git"
 projects[stanford_landing_page][download][url] = "git@github.com:SU-SWS/stanford_landing_page.git"
