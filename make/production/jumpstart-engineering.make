@@ -29,7 +29,8 @@ projects[stanford_private_page][subdir] = "stanford"
 projects[stanford_related_content][type] = "module"
 projects[stanford_related_content][download][type] = "git"
 projects[stanford_related_content][download][url] = "git@github.com:SU-SWS/stanford_related_content.git"
-projects[stanford_related_content][download][branch] = "7.x-1.0"
+;projects[stanford_related_content][download][branch] = "7.x-1.0-alpha"
+projects[stanford_related_content][download][branch] = "7.x-1.x"
 projects[stanford_related_content][subdir] = "stanford"
 
 ; JSE Profiles
@@ -52,7 +53,7 @@ projects[stanford_jumpstart_engineering][subdir] = "stanford"
 projects[stanford_jumpstart_home][type] = "module"
 projects[stanford_jumpstart_home][download][type] = "git"
 projects[stanford_jumpstart_home][download][url] = "git@github.com:SU-SOE/stanford_jumpstart_home.git"
-projects[stanford_jumpstart_home][download][branch] = "7.x-1.0"
+projects[stanford_jumpstart_home][download][branch] = "7.x-1.4"
 projects[stanford_jumpstart_home][subdir] = "stanford"
 
 ; Temporary until core gets updated
