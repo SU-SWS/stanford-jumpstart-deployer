@@ -89,6 +89,12 @@ projects[workbench_moderation][download][type] = "git"
 projects[workbench_moderation][download][url] = "http://git.drupal.org/project/workbench_moderation.git"
 projects[workbench_moderation][download][revision] = "296ce873c751f31ec5b059ba9899004c0a97e4ec"
 
+projects[always_visible][type] = "module"
+projects[always_visible][subdir] = "contrib"
+projects[always_visible][download][type] = "git"
+projects[always_visible][download][revision] = "a6c2dac352a6bb658644f66a3bd96b6e5805a6c1"
+projects[always_visible][download][url] = "http://git.drupal.org/project/always_visible.git"
+
 ; Contributed themes
 ; ------------------
 
