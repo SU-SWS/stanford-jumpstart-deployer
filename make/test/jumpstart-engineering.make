@@ -66,3 +66,19 @@ projects[open_framework][download][type] = "git"
 projects[open_framework][download][url] = "git@github.com:SU-SWS/open_framework.git"
 projects[open_framework][download][tag] = 7.x-2.4+11-dev
 ;projects[open_framework][download][branch] = "7.x-2.x"
+
+; JSA Modules
+; ------------------------------------------------------------------------------
+
+projects[stanford_image_styles][type] = "module"
+projects[stanford_image_styles][download][type] = "git"
+projects[stanford_image_styles][download][url] = "git@github.com:SU-SWS/stanford_image_styles.git"
+projects[stanford_image_styles][download][branch] = "7.x-3.2"
+projects[stanford_image_styles][subdir] = "stanford"
+
+projects[stanford_image][type] = "module"
+projects[stanford_image][download][type] = "git"
+projects[stanford_image][download][url] = "git@github.com:SU-SWS/stanford_image.git"
+projects[stanford_image][download][branch] = "7.x-3.4"
+projects[stanford_image][subdir] = "stanford"
+
