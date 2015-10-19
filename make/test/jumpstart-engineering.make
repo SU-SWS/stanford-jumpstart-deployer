@@ -95,3 +95,6 @@ projects[stanford_image][subdir] = "stanford"
 
 projects[stanford_event_series][download][branch] = FALSE
 projects[stanford_event_series][download][tag] = 7.x-1.1
+
+projects[stanford_capx][download][tag] = 7.x-1.3-php54 
+projects[stanford_capx][download][branch] = FALSE
