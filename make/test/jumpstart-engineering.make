@@ -75,11 +75,11 @@ projects[open_framework][download][tag] = 7.x-2.4+11-dev
 ; JSA Modules
 ; ------------------------------------------------------------------------------
 
-projects[stanford_stanford_bean_types][type] = "module"
-projects[stanford_stanford_bean_types][download][type] = "git"
-projects[stanford_stanford_bean_types][download][url] = "git@github.com:SU-SWS/stanford_bean_types.git"
-projects[stanford_stanford_bean_types][download][tag] = 7.x-2.6
-projects[stanford_stanford_bean_types][subdir] = "stanford"
+projects[stanford_bean_types][type] = "module"
+projects[stanford_bean_types][download][type] = "git"
+projects[stanford_bean_types][download][url] = "git@github.com:SU-SWS/stanford_bean_types.git"
+projects[stanford_bean_types][download][tag] = 7.x-2.6
+projects[stanford_bean_types][subdir] = "stanford"
 
 projects[stanford_image_styles][type] = "module"
 projects[stanford_image_styles][download][type] = "git"
@@ -93,3 +93,5 @@ projects[stanford_image][download][url] = "git@github.com:SU-SWS/stanford_image.
 projects[stanford_image][download][tag] = 7.x-3.4
 projects[stanford_image][subdir] = "stanford"
 
+projects[stanford_event_series][download][branch] = FALSE
+projects[stanford_event_series][download][tag] = 7.x-1.1
