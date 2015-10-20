@@ -36,6 +36,7 @@ projects[stanford_related_content][subdir] = "stanford"
 ; ------------------------------------------------------------------------------
 
 // Override until JSA comes up to speed.
+projects[stanford_sites_abstract][download][branch] = FALSE
 projects[stanford_sites_abstract][download][tag] = "7.x-4.2+4-dev"
 projects[stanford_sites_jumpstart][download][tag] = "7.x-4.5+4-dev"
 projects[stanford_sites_jumpstart_academic][download][tag] = "7.x-4.5+4-dev"
