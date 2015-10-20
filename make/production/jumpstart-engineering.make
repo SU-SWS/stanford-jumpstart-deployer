@@ -83,5 +83,5 @@ projects[stanford_jumpstart][download][tag] = "7.x-4.5+18-dev"
 projects[stanford_landing_page][download][tag] = "7.x-1.3"
 projects[stanford_manage_content][download][tag] = "7.x-3.3+6-dev"
 projects[stanford_person][download][tag] = "7.x-5.0-beta3"
-projects[stanford_video][doanload][tag] = "7.x-2.1+5-dev"
+projects[stanford_video][download][tag] = "7.x-2.1+5-dev"
 
