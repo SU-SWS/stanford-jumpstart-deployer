@@ -29,7 +29,7 @@ projects[stanford_private_page][subdir] = "stanford"
 projects[stanford_related_content][type] = "module"
 projects[stanford_related_content][download][type] = "git"
 projects[stanford_related_content][download][url] = "git@github.com:SU-SWS/stanford_related_content.git"
-projects[stanford_related_content][download][tag] = "7.x-1.x"
+projects[stanford_related_content][download][tag] = "7.x-1.0-alpha1"
 projects[stanford_related_content][subdir] = "stanford"
 
 ; JSE Profiles
