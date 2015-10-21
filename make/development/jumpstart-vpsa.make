@@ -79,6 +79,9 @@ projects[faq][subdir] = "contrib"
 projects[bigmenu][version] = "1.3"
 projects[bigmenu][subdir] = "contrib"
 
+; Override until Stanford-Drupal-Profile gets up to speed.
+projects[pathauto][version] = "1.3"
+
 ; Contrib Dev Versions
 ; Because Dev Versions can change we want to target the specific commit hash
 ; that this build works with.

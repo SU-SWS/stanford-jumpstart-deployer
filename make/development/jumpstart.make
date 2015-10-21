@@ -66,9 +66,6 @@ projects[context_useragent][download][type] = "git"
 projects[context_useragent][download][url] = "http://git.drupal.org/project/context_useragent.git"
 projects[context_useragent][download][revision] = "8949c6d4ee7a462b49e1b08dfd7dc60f1fa7e8e8"
 
-; Override until Stanford-Drupal-Profile gets up to speed.
-projects[pathauto][version] = "1.3"
-
 ; Contributed themes
 ; ------------------
 
