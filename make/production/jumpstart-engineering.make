@@ -44,7 +44,7 @@ projects[stanford_sites_jumpstart_academic][download][tag] = "7.x-4.5+4-dev"
 projects[stanford_sites_jumpstart_engineering][type] = "profile"
 projects[stanford_sites_jumpstart_engineering][download][type] = "git"
 projects[stanford_sites_jumpstart_engineering][download][url] = "git@github.com:SU-SOE/stanford_sites_jumpstart_engineering.git"
-projects[stanford_sites_jumpstart_engineering][download][tag] = "7.x-1.0+1-dev"
+projects[stanford_sites_jumpstart_engineering][download][tag] = "7.x-1.0+10-dev"
 
 ; JSE Modules
 ; ------------------------------------------------------------------------------
@@ -52,7 +52,7 @@ projects[stanford_sites_jumpstart_engineering][download][tag] = "7.x-1.0+1-dev"
 projects[stanford_jumpstart_engineering][type] = "module"
 projects[stanford_jumpstart_engineering][download][type] = "git"
 projects[stanford_jumpstart_engineering][download][url] = "git@github.com:SU-SOE/stanford_jumpstart_engineering.git"
-projects[stanford_jumpstart_engineering][download][tag] = "7.x-1.0"
+projects[stanford_jumpstart_engineering][download][tag] = "7.x-1.0+2-dev"
 projects[stanford_jumpstart_engineering][subdir] = "stanford"
 
 projects[stanford_jumpstart_home][type] = "module"
