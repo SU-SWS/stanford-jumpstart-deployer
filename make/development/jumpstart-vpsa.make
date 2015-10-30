@@ -6,7 +6,6 @@ api = 2
 
 includes[stanford_profile] = "https://raw.githubusercontent.com/SU-SWS/Stanford-Drupal-Profile/7.x-2.x/make/stanford.make"
 includes[stanford_themes] = "https://raw.githubusercontent.com/SU-SWS/Stanford-Drupal-Profile/7.x-2.x/make/stanford-themes.make"
-includes[stanford_patches] = "https://raw.githubusercontent.com/SU-SWS/Stanford-Drupal-Profile/7.x-2.x/make/patches.make"
 includes[stanford_libraries] = "https://raw.githubusercontent.com/SU-SWS/Stanford-Drupal-Profile/7.x-2.x/make/libraries.make"
 includes[core_libraries] = "core/core-libraries.make"
 
@@ -32,6 +31,8 @@ projects[stanford_date_timepicker][download][tag] = FALSE
 projects[stanford_date_timepicker][download][branch] = "7.x-1.x"
 projects[stanford_events_importer][download][tag] = FALSE
 projects[stanford_events_importer][download][branch] = "7.x-3.x"
+projects[stanford_easy_wysiwyg_css][download][branch] = "7.x-1.x"
+projects[stanford_easy_wysiwyg_css][download][tag] = FALSE
 projects[stanford_image][download][tag] = FALSE
 projects[stanford_image][download][branch] = "7.x-3.x-dev"
 projects[stanford_image_styles][download][tag] = FALSE
@@ -79,8 +80,8 @@ projects[faq][subdir] = "contrib"
 projects[bigmenu][version] = "1.3"
 projects[bigmenu][subdir] = "contrib"
 
-; Override until Stanford-Drupal-Profile gets up to speed.
-projects[pathauto][version] = "1.3"
+projects[field_collection][version] = "1.0-beta10"
+projects[field_collection][subdir] = "contrib"
 
 ; Contrib Dev Versions
 ; Because Dev Versions can change we want to target the specific commit hash
@@ -90,7 +91,7 @@ projects[workbench_moderation][version] = "1.x-dev"
 projects[workbench_moderation][subdir] = "contrib"
 projects[workbench_moderation][download][type] = "git"
 projects[workbench_moderation][download][url] = "http://git.drupal.org/project/workbench_moderation.git"
-projects[workbench_moderation][download][revision] = "296ce873c751f31ec5b059ba9899004c0a97e4ec"
+projects[workbench_moderation][download][revision] = "56d8d1dc595058396cd06358e7c7cdc9f4c5e168"
 
 projects[always_visible][type] = "module"
 projects[always_visible][subdir] = "contrib"
@@ -106,12 +107,6 @@ projects[always_visible][download][url] = "http://git.drupal.org/project/always_
 
 ; Stanford Modules - GitHub
 ; -------------------------
-
-projects[stanford_easy_wysiwyg_css][type] = "module"
-projects[stanford_easy_wysiwyg_css][download][type] = "git"
-projects[stanford_easy_wysiwyg_css][download][url] = "git@github.com:SU-SWS/stanford_easy_wysiwyg_css.git"
-projects[stanford_easy_wysiwyg_css][download][branch] = "7.x-1.x"
-projects[stanford_easy_wysiwyg_css][subdir] = "stanford"
 
 projects[stanford_faq][type] = "module"
 projects[stanford_faq][download][type] = "git"
@@ -214,6 +209,7 @@ projects[stanford_jordan][download][branch] = "7.x-2.x"
 
 libraries[stanford_sites_content_importer][download][type] = "git"
 libraries[stanford_sites_content_importer][download][url] = "git@github.com:SU-SWS/stanford_sites_content_importer"
+libraries[stanford_sites_content_importer][download][tag] = FALSE
 libraries[stanford_sites_content_importer][download][branch] = "7.x-1.x"
 libraries[stanford_sites_content_importer][destination] = "libraries"
 
