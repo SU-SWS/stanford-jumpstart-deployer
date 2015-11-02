@@ -79,6 +79,24 @@ projects[stanford_jumpstart][download][url] = "git@github.com:SU-SWS/stanford_ju
 projects[stanford_jumpstart][download][branch] = "7.x-4.x-dev"
 projects[stanford_jumpstart][subdir] = "stanford"
 
+projects[stanford_jumpstart_home][type] = "module"
+projects[stanford_jumpstart_home][download][type] = "git"
+projects[stanford_jumpstart_home][download][url] = "git@github.com:SU-SWS/stanford_jumpstart_home.git"
+projects[stanford_jumpstart_home][download][branch] = "7.x-1.x"
+projects[stanford_jumpstart_home][subdir] = "stanford"
+
+projects[stanford_jumpstart_plus][type] = "module"
+projects[stanford_jumpstart_plus][download][type] = "git"
+projects[stanford_jumpstart_plus][download][url] = "git@github.com:SU-SWS/stanford_jumpstart_plus.git"
+projects[stanford_jumpstart_plus][download][branch] = "7.x-4.x"
+projects[stanford_jumpstart_plus][subdir] = "stanford"
+
+projects[stanford_landing_page][type] = "module"
+projects[stanford_landing_page][download][type] = "git"
+projects[stanford_landing_page][download][url] = "git@github.com:SU-SWS/stanford_landing_page.git"
+projects[stanford_landing_page][download][branch] = "7.x-1.x"
+projects[stanford_landing_page][subdir] = "stanford"
+
 projects[stanford_manage_content][type] = "module"
 projects[stanford_manage_content][download][type] = "git"
 projects[stanford_manage_content][download][url] = "git@github.com:SU-SWS/stanford_manage_content.git"
@@ -91,23 +109,11 @@ projects[stanford_news][download][url] = "git@github.com:SU-SWS/stanford_news.gi
 projects[stanford_news][download][branch] = "7.x-3.x-dev"
 projects[stanford_news][subdir] = "stanford"
 
-projects[stanford_jumpstart_plus][type] = "module"
-projects[stanford_jumpstart_plus][download][type] = "git"
-projects[stanford_jumpstart_plus][download][url] = "git@github.com:SU-SWS/stanford_jumpstart_plus.git"
-projects[stanford_jumpstart_plus][download][branch] = "7.x-4.x"
-projects[stanford_jumpstart_plus][subdir] = "stanford"
-
-projects[stanford_jumpstart_home][type] = "module"
-projects[stanford_jumpstart_home][download][type] = "git"
-projects[stanford_jumpstart_home][download][url] = "git@github.com:SU-SWS/stanford_jumpstart_home.git"
-projects[stanford_jumpstart_home][download][branch] = "7.x-1.x"
-projects[stanford_jumpstart_home][subdir] = "stanford"
-
-projects[stanford_landing_page][type] = "module"
-projects[stanford_landing_page][download][type] = "git"
-projects[stanford_landing_page][download][url] = "git@github.com:SU-SWS/stanford_landing_page.git"
-projects[stanford_landing_page][download][branch] = "7.x-1.x"
-projects[stanford_landing_page][subdir] = "stanford"
+projects[stanford_gallery][type] = "module"
+projects[stanford_gallery][download][type] = "git"
+projects[stanford_gallery][download][url] = "git@github.com:SU-SWS/stanford_gallery.git"
+projects[stanford_gallery][download][branch] = "7.x-2.x-dev"
+projects[stanford_gallery][subdir] = "stanford"
 
 
 ; Stanford themes - Github
