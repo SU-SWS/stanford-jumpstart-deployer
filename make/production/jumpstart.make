@@ -13,11 +13,13 @@ includes[stanford_libraries] = "https://raw.githubusercontent.com/SU-SWS/Stanfor
 ; -------------------------
 
 ; Tmp until Stanford-Drupal-Profile gets updated
+; ----
 projects[stanford_bean_types][download][tag] = "7.x-2.7"
 projects[stanford_capx][download][tag] = "7.x-1.3-php54"
 projects[stanford_courses][download][tag] = "7.x-3.8"
 projects[stanford_image][download][tag] = "7.x-3.4+11-dev"
 projects[stanford_image_styles][download][tag] = "7.x-3.3"
+projects[stanford_carousel][download][tag] = "7.x-2.2"
 
 projects[stanford_jumpstart][type] = "module"
 projects[stanford_jumpstart][download][type] = "git"
