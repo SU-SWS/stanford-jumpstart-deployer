@@ -21,6 +21,12 @@ projects[stanford_image][download][tag] = "7.x-3.4+11-dev"
 projects[stanford_image_styles][download][tag] = "7.x-3.3"
 projects[stanford_carousel][download][tag] = "7.x-2.2"
 
+projects[stanford_gallery][type] = "module"
+projects[stanford_gallery][download][type] = "git"
+projects[stanford_gallery][download][url] = "git@github.com:SU-SWS/stanford_gallery.git"
+projects[stanford_gallery][download][tag] = "7.x-2.1"
+projects[stanford_gallery][subdir] = "stanford"
+
 projects[stanford_jumpstart][type] = "module"
 projects[stanford_jumpstart][download][type] = "git"
 projects[stanford_jumpstart][download][url] = "git@github.com:SU-SWS/stanford_jumpstart.git"
