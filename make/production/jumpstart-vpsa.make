@@ -182,7 +182,7 @@ libraries[chosen][destination] = "libraries"
 projects[stanford_sites_abstract][type] = "profile"
 projects[stanford_sites_abstract][download][type] = "git"
 projects[stanford_sites_abstract][download][url] = "git@github.com:SU-SWS/stanford_sites_abstract.git"
-projects[stanford_sites_abstract][download][tag] = "7.x-4.2+4-dev"
+projects[stanford_sites_abstract][download][tag] = "7.x-4.3"
 
 projects[stanford_sites_jumpstart][type] = "profile"
 projects[stanford_sites_jumpstart][download][type] = "git"
