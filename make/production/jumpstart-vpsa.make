@@ -65,6 +65,7 @@ projects[stanford_carousel][download][tag] = "7.x-2.2"
 
 projects[stanford_courses][download][tag] = "7.x-3.7"
 
+projects[stanford_events_importer][download][url] = "git@github.com:SU-VPSA/stanford_events_importer.git"
 projects[stanford_events_importer][download][tag] = "7.x-3.3-jsvpsa"
 
 projects[stanford_faq][type] = "module"
@@ -115,12 +116,14 @@ projects[stanford_manage_content][subdir] = "stanford"
 
 projects[stanford_news][type] = "module"
 projects[stanford_news][download][type] = "git"
-projects[stanford_news][download][url] = "git@github.com:SU-SWS/stanford_news.git"
+projects[stanford_news][download][url] = "git@github.com:SU-VPSA/stanford_news.git"
 projects[stanford_news][download][tag] = "7.x-3.2-jsvpsa"
 projects[stanford_news][subdir] = "stanford"
 
+projects[stanford_page][download][url] = "git@github.com:SU-VPSA/stanford_page.git"
 projects[stanford_page][download][tag] = "7.x-2.2-jsvpsa"
 
+projects[stanford_person][download][url] = "git@github.com:SU-VPSA/stanford_person.git"
 projects[stanford_person][download][tag] = "7.x-5.0-jsvpsa"
 
 projects[stanford_private_page][type] = "module"
@@ -129,6 +132,7 @@ projects[stanford_private_page][download][url] = "git@github.com:SU-SWS/stanford
 projects[stanford_private_page][download][tag] = "7.x-1.0"
 projects[stanford_private_page][subdir] = "stanford"
 
+projects[stanford_slides][download][url] = "git@github.com:SU-VPSA/stanford_slides.git"
 projects[stanford_slides][download][tag] = "7.x-3.0-jsvpsa"
 
 projects[stanford_subsites][type] = "module"
@@ -178,7 +182,7 @@ libraries[chosen][destination] = "libraries"
 projects[stanford_sites_abstract][type] = "profile"
 projects[stanford_sites_abstract][download][type] = "git"
 projects[stanford_sites_abstract][download][url] = "git@github.com:SU-SWS/stanford_sites_abstract.git"
-projects[stanford_sites_abstract][download][tag] = "7.x-4.2+4-dev"
+projects[stanford_sites_abstract][download][tag] = "7.x-4.3"
 
 projects[stanford_sites_jumpstart][type] = "profile"
 projects[stanford_sites_jumpstart][download][type] = "git"

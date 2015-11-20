@@ -134,13 +134,15 @@ projects[stanford_manage_content][subdir] = "stanford"
 
 projects[stanford_news][type] = "module"
 projects[stanford_news][download][type] = "git"
-projects[stanford_news][download][url] = "git@github.com:SU-SWS/stanford_news.git"
+projects[stanford_news][download][url] = "git@github.com:SU-VPSA/stanford_news.git"
 projects[stanford_news][download][branch] = "7.x-3.x-jsvpsa"
 projects[stanford_news][subdir] = "stanford"
 
+projects[stanford_page][download][url] = "git@github.com:SU-VPSA/stanford_page.git"
 projects[stanford_page][download][branch] = "7.x-2.x-jsvpsa"
 projects[stanford_page][download][tag] = FALSE
 
+projects[stanford_person][download][url] = "git@github.com:SU-VPSA/stanford_person.git"
 projects[stanford_person][download][branch] = "7.x-5.x-jsvpsa"
 projects[stanford_person][download][tag] = FALSE
 
@@ -183,9 +185,11 @@ projects[stanford_gallery][subdir] = "stanford"
 ; Overrides from the core make files
 ; ----------------------------------
 
+projects[stanford_events_importer][download][url] = "git@github.com:SU-VPSA/stanford_events_importer.git"
 projects[stanford_events_importer][download][branch] = "7.x-3.x-jsvpsa"
 projects[stanford_events_importer][download][tag] = FALSE
 
+projects[stanford_slides][download][url] = "git@github.com:SU-VPSA/stanford_slides.git"
 projects[stanford_slides][download][branch] = "7.x-3.x-jsvpsa"
 projects[stanford_slides][download][tag] = FALSE
 
