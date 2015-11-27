@@ -336,7 +336,7 @@ projects[stanford_easy_wysiwyg_css][download][url] = "git@github.com:SU-SWS/stan
 projects[stanford_easy_wysiwyg_css][download][branch] = "7.x-1.x"
 
 ; Jumpstart
---------------------------------------------------------------------------------
+; --------------------------------------------------------------------------------
 
 projects[stanford_jumpstart][type] = "module"
 projects[stanford_jumpstart][subdir] = "stanford"
