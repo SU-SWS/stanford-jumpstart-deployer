@@ -213,6 +213,19 @@ projects[social_share][download][type] = "git"
 projects[social_share][download][url] = "http://git.drupal.org/project/social-share.git"
 projects[social_share][download][tag] = "7.x-2.1"
 
+projects[context_http_headers][type] = "module"
+projects[context_http_headers][subdir] = "contrib"
+projects[context_http_headers][download][type] = "git"
+projects[context_http_headers][download][url] = "http://git.drupal.org/project/context_http_headers.git"
+projects[context_http_headers][download][revision] = "cb07de891efbbc2c5aaffe0d6f3648822a9a4dfd"
+
+projects[context_useragent][type] = "module"
+projects[context_useragent][subdir] = "contrib"
+projects[context_useragent][version] = "1.x-dev"
+projects[context_useragent][download][type] = "git"
+projects[context_useragent][download][url] = "http://git.drupal.org/project/context_useragent.git"
+projects[context_useragent][download][revision] = "8949c6d4ee7a462b49e1b08dfd7dc60f1fa7e8e8"
+
 
 ; Contributed themes
 ; ------------------------------------------------------------------------------

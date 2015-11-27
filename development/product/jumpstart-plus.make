@@ -194,8 +194,34 @@ projects[menu_attributes][type] = "module"
 projects[menu_attributes][subdir] = "contrib"
 projects[menu_attributes][version] = "1.0-rc3"
 
-; Stanford Modules - GitHub
-; -------------------------
+; Contributed modules, -dev versions specified by git commit
+; ------------------------------------------------------------------------------
+
+projects[context_list][type] = "module"
+projects[context_list][subdir] = "contrib"
+projects[context_list][version] = "1.x-dev"
+projects[context_list][download][type] = "git"
+projects[context_list][download][url] = "http://git.drupal.org/project/context_list.git"
+projects[context_list][download][revision] = "6d81d058c0fa2aa38f5c86f129b822146991a0fb"
+
+projects[context_http_headers][type] = "module"
+projects[context_http_headers][subdir] = "contrib"
+projects[context_http_headers][download][type] = "git"
+projects[context_http_headers][download][url] = "http://git.drupal.org/project/context_http_headers.git"
+projects[context_http_headers][download][revision] = "cb07de891efbbc2c5aaffe0d6f3648822a9a4dfd"
+
+projects[context_useragent][type] = "module"
+projects[context_useragent][subdir] = "contrib"
+projects[context_useragent][version] = "1.x-dev"
+projects[context_useragent][download][type] = "git"
+projects[context_useragent][download][url] = "http://git.drupal.org/project/context_useragent.git"
+projects[context_useragent][download][revision] = "8949c6d4ee7a462b49e1b08dfd7dc60f1fa7e8e8"
+
+projects[css_injector][type] = "module"
+projects[css_injector][subdir] = "contrib"
+projects[css_injector][download][type] = "git"
+projects[css_injector][download][url] = "http://git.drupal.org/project/css_injector.git"
+projects[css_injector][download][revision] = "41bee7e4421ecfc52a6b673eef6fcde875282a2b"
 
 ; Contributed themes
 ; ------------------------------------------------------------------------------
