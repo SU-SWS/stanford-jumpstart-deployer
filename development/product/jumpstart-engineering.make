@@ -3,8 +3,8 @@ api = 2
 
 projects[drupal][version] = "7.41"
 
-# Contributed modules
-# ------------------------------------------------------------------------------
+; Contributed modules
+; ------------------------------------------------------------------------------
 
 projects[admin_menu][subdir] = "contrib"
 projects[admin_menu][version] = "3.0-rc5"
@@ -194,8 +194,8 @@ projects[menu_attributes][type] = "module"
 projects[menu_attributes][subdir] = "contrib"
 projects[menu_attributes][version] = "1.0-rc3"
 
-# Contributed modules, -dev versions specified by git commit
-# ------------------------------------------------------------------------------
+; Contributed modules, -dev versions specified by git commit
+; ------------------------------------------------------------------------------
 
 projects[context_list][type] = "module"
 projects[context_list][subdir] = "contrib"
@@ -236,15 +236,15 @@ projects[always_visible][download][revision] = "a6c2dac352a6bb658644f66a3bd96b6e
 projects[always_visible][download][url] = "http://git.drupal.org/project/always_visible.git"
 
 
-# Contributed themes
-# ------------------------------------------------------------------------------
+; Contributed themes
+; ------------------------------------------------------------------------------
 
 projects[cube][version] = "1.4"
 projects[rubik][version] = "4.2"
 projects[tao][version] = "3.1"
 
-# Custom modules, github
-# ------------------------------------------------------------------------------
+; Custom modules, github
+; ------------------------------------------------------------------------------
 
 projects[erus][subdir] = "stanford"
 projects[erus][type] = "module"
@@ -360,13 +360,13 @@ projects[stanford_jumpstart_academic][download][type] = "git"
 projects[stanford_jumpstart_academic][download][url] = "git@github.com:SU-SWS/stanford_jumpstart_academic.git"
 projects[stanford_jumpstart_academic][download][branch] = "7.x-4.x"
 
-# projects[stanford_jumpstart_home][type] = "module"
-# projects[stanford_jumpstart_home][subdir] = "stanford"
-# projects[stanford_jumpstart_home][download][type] = "git"
-# projects[stanford_jumpstart_home][download][url] = "git@github.com:SU-SWS/stanford_jumpstart_home.git"
-# projects[stanford_jumpstart_home][download][branch] = "7.x-1.x"
+; projects[stanford_jumpstart_home][type] = "module"
+; projects[stanford_jumpstart_home][subdir] = "stanford"
+; projects[stanford_jumpstart_home][download][type] = "git"
+; projects[stanford_jumpstart_home][download][url] = "git@github.com:SU-SWS/stanford_jumpstart_home.git"
+; projects[stanford_jumpstart_home][download][branch] = "7.x-1.x"
 
-# ACADEMIC Modules
+; ACADEMIC Modules
 
 projects[stanford_news][type] = "module"
 projects[stanford_news][subdir] = "stanford"
@@ -404,7 +404,7 @@ projects[stanford_gallery][download][type] = "git"
 projects[stanford_gallery][download][url] = "git@github.com:SU-SWS/stanford_gallery.git"
 projects[stanford_gallery][download][branch] = "7.x-2.x"
 
-# JSE Modules
+; JSE Modules
 
 projects[stanford_private_page][type] = "module"
 projects[stanford_private_page][subdir] = "stanford"
@@ -431,8 +431,8 @@ projects[stanford_jumpstart_home][download][url] = "git@github.com:SU-SOE/stanfo
 projects[stanford_jumpstart_home][download][branch] = "7.x-1.x"
 
 
-# Custom themes, github
-# ------------------------------------------------------------------------------
+; Custom themes, github
+; ------------------------------------------------------------------------------
 
 projects[open_framework][type] = theme
 projects[open_framework][download][type] = "git"
