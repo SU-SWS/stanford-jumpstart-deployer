@@ -8,6 +8,7 @@ projects[stanford][type] = "profile"
 projects[stanford][download][type] = "git"
 projects[stanford][download][url] = "git@github.com:SU-SWS/Stanford-Drupal-Profile.git"
 projects[stanford][download][branch] = "7.x-2.x"
+projects[stanford][do_recursion] = 0
 
 projects[stanford_sites_abstract][type] = "profile"
 projects[stanford_sites_abstract][download][type] = "git"
