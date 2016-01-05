@@ -67,7 +67,8 @@ projects[stanford_carousel][download][tag] = "7.x-2.2"
 projects[stanford_courses][download][tag] = "7.x-3.7"
 
 projects[stanford_events_importer][download][url] = "git@github.com:SU-VPSA/stanford_events_importer.git"
-projects[stanford_events_importer][download][tag] = "upgrade"
+projects[stanford_events_importer][download][tag] = FALSE
+projects[stanford_events_importer][download][branch] = "upgrade"
 
 projects[stanford_faq][type] = "module"
 projects[stanford_faq][download][type] = "git"
