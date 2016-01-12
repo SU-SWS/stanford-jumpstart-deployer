@@ -12,6 +12,7 @@ libraries[itasks_tasks][download][url] = "git@github.com:sherakama/itasks_tasks.
 libraries[itasks_tasks][download][branch] = "7.x-1.x"
 libraries[itasks_tasks][destination] = "tasks"
 libraries[itasks_tasks][install_path] = "sites/all"
+libraries[itasks_tasks][download][subtree] = "itasks_tasks"
 
 libraries[simplepie][download][type] = "file"
 libraries[simplepie][download][url] = "http://simplepie.org/downloads/simplepie_1.3.1.compiled.php"
