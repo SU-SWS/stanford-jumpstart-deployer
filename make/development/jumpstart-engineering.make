@@ -13,6 +13,10 @@ projects[always_visible][download][type] = "git"
 projects[always_visible][download][revision] = "a6c2dac352a6bb658644f66a3bd96b6e5805a6c1"
 projects[always_visible][download][url] = "http://git.drupal.org/project/always_visible.git"
 
+projects[contextual_view_modes][type] = "module"
+projects[contextual_view_modes][subdir] = "contrib"
+projects[contextual_view_modes][version] = "3.0"
+
 projects[menu_attributes][type] = "module"
 projects[menu_attributes][subdir] = "contrib"
 projects[menu_attributes][version] = "1.0-rc3"
@@ -71,3 +75,4 @@ projects[open_framework][download][type] = "git"
 projects[open_framework][download][url] = "git@github.com:SU-SWS/open_framework.git"
 projects[open_framework][download][tag] = 7.x-2.4+11-dev
 ;projects[open_framework][download][branch] = "7.x-2.x"
+
