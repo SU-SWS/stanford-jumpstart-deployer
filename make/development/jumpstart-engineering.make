@@ -75,3 +75,4 @@ projects[open_framework][download][type] = "git"
 projects[open_framework][download][url] = "git@github.com:SU-SWS/open_framework.git"
 projects[open_framework][download][tag] = 7.x-2.4+11-dev
 ;projects[open_framework][download][branch] = "7.x-2.x"
+
