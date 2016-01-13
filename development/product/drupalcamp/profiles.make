@@ -7,4 +7,4 @@ api = 2
 projects[stanford_drupalcamp][type] = "profile"
 projects[stanford_drupalcamp][download][type] = "git"
 projects[stanford_drupalcamp][download][url] = "git@github.com:SU-SWS/stanford_drupalcamp.git"
-projects[stanford_drupalcamp][download][branch] = "7.x-1.x-dev"
+projects[stanford_drupalcamp][download][branch] = "7.x-1.x"
