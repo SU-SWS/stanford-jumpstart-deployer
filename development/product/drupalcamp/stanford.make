@@ -118,6 +118,12 @@ projects[stanford_manage_content][download][type] = "git"
 projects[stanford_manage_content][download][url] = "git@github.com:SU-SWS/stanford_manage_content.git"
 projects[stanford_manage_content][download][branch] = "7.x-3.x-dev"
 
+projects[stanford_drupalcamp_features][type] = "module"
+projects[stanford_drupalcamp_features][subdir] = "stanford"
+projects[stanford_drupalcamp_features][download][type] = "git"
+projects[stanford_drupalcamp_features][download][url] = "git@github.com:SU-SWS/stanford_drupalcamp_features.git"
+projects[stanford_drupalcamp_features][download][branch] = "7.x-1.x"
+
 
 ; Custom Themes, GitHub
 ; ------------------------------------------------------------------------------
