@@ -10,3 +10,7 @@ libraries[stanford_sites_content_importer][download][type] = "git"
 libraries[stanford_sites_content_importer][download][url] = "git@github.com:SU-SWS/stanford_sites_content_importer"
 libraries[stanford_sites_content_importer][download][tag] = "7.x-1.1-dev+1"
 libraries[stanford_sites_content_importer][destination] = "libraries"
+
+; Until Stanford Drupal profile gets updated.
+; https://github.com/SU-SWS/Stanford-Drupal-Profile/pull/56/files
+libraries[dompdf][download][url] = https://github.com/dompdf/dompdf/releases/download/v0.6.2/dompdf-0.6.2.zip

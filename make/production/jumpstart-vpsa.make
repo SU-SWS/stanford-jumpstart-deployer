@@ -177,9 +177,6 @@ libraries[chosen][download][url] = "https://github.com/harvesthq/chosen/releases
 libraries[chosen][directory_name] = "chosen"
 libraries[chosen][destination] = "libraries"
 
-; Until Stanford Drupal profile gets updated.
-libraries[dompdf][download][url] = https://github.com/dompdf/dompdf/releases/download/v0.6.2/dompdf-0.6.2.zip
-
 ; Profiles
 ; --------
 
