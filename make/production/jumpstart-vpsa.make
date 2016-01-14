@@ -56,8 +56,7 @@ projects[stanford_affiliate_organization][download][url] = "git@github.com:SU-SW
 projects[stanford_affiliate_organization][download][tag] = "7.x-1.0"
 projects[stanford_affiliate_organization][subdir] = "stanford"
 
-projects[stanford_bean_types][download][tag] = FALSE
-projects[stanford_bean_types][download][branch] = "upgrade"
+projects[stanford_bean_types][download][tag] = "7.x-2.8"
 
 projects[stanford_capx][download][tag] = "7.x-1.3+10-php54"
 
@@ -66,8 +65,7 @@ projects[stanford_carousel][download][tag] = "7.x-2.2"
 projects[stanford_courses][download][tag] = "7.x-3.7"
 
 projects[stanford_events_importer][download][url] = "git@github.com:SU-VPSA/stanford_events_importer.git"
-projects[stanford_events_importer][download][tag] = FALSE
-projects[stanford_events_importer][download][branch] = "upgrade"
+projects[stanford_events_importer][download][tag] = "7.x-3.4-jsvpsa"
 
 projects[stanford_faq][type] = "module"
 projects[stanford_faq][download][type] = "git"
@@ -94,13 +92,13 @@ projects[stanford_image_styles][download][tag] = "7.x-3.3"
 projects[stanford_jumpstart][type] = "module"
 projects[stanford_jumpstart][download][type] = "git"
 projects[stanford_jumpstart][download][url] = "git@github.com:SU-SWS/stanford_jumpstart.git"
-projects[stanford_jumpstart][download][branch] = "upgrade"
+projects[stanford_jumpstart][download][tag] = "7.x-4.5+33-dev"
 projects[stanford_jumpstart][subdir] = "stanford"
 
 projects[stanford_jumpstart_vpsa][type] = "module"
 projects[stanford_jumpstart_vpsa][download][type] = "git"
 projects[stanford_jumpstart_vpsa][download][url] = "git@github.com:SU-SWS/stanford_jumpstart_vpsa.git"
-projects[stanford_jumpstart_vpsa][download][branch] = "upgrade"
+projects[stanford_jumpstart_vpsa][download][tag] = "7.x-4.6+8-dev"
 projects[stanford_jumpstart_vpsa][subdir] = "stanford"
 
 projects[stanford_landing_page][type] = "module"
@@ -118,7 +116,7 @@ projects[stanford_manage_content][subdir] = "stanford"
 projects[stanford_news][type] = "module"
 projects[stanford_news][download][type] = "git"
 projects[stanford_news][download][url] = "git@github.com:SU-VPSA/stanford_news.git"
-projects[stanford_news][download][branch] = "upgrade"
+projects[stanford_news][download][tag] = "7.x-3.3-jsvpsa"
 projects[stanford_news][subdir] = "stanford"
 
 projects[stanford_page][download][url] = "git@github.com:SU-VPSA/stanford_page.git"
@@ -177,6 +175,11 @@ libraries[chosen][download][url] = "https://github.com/harvesthq/chosen/releases
 libraries[chosen][directory_name] = "chosen"
 libraries[chosen][destination] = "libraries"
 
+; Until Stanford Drupal profile gets updated.
+; https://github.com/SU-SWS/Stanford-Drupal-Profile/pull/56/files
+libraries[dompdf][download][url] = https://github.com/dompdf/dompdf/releases/download/v0.6.2/dompdf-0.6.2.zip
+
+
 ; Profiles
 ; --------
 
@@ -188,12 +191,12 @@ projects[stanford_sites_abstract][download][tag] = "7.x-4.3"
 projects[stanford_sites_jumpstart][type] = "profile"
 projects[stanford_sites_jumpstart][download][type] = "git"
 projects[stanford_sites_jumpstart][download][url] = "git@github.com:SU-SWS/stanford_sites_jumpstart.git"
-projects[stanford_sites_jumpstart][download][branch] = "upgrade"
+projects[stanford_sites_jumpstart][download][tag] = "7.x-4.5+11-dev"
 
 projects[stanford_sites_jumpstart_vpsa][type] = "profile"
 projects[stanford_sites_jumpstart_vpsa][download][type] = "git"
 projects[stanford_sites_jumpstart_vpsa][download][url] = "git@github.com:SU-SWS/stanford_sites_jumpstart_vpsa.git"
-projects[stanford_sites_jumpstart_vpsa][download][branch] = "upgrade"
+projects[stanford_sites_jumpstart_vpsa][download][tag] = "7.x-4.6+14-dev"
 
 ; Patches
 ; -------
