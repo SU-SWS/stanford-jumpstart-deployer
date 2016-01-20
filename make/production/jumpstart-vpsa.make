@@ -24,12 +24,6 @@ projects[bigmenu][subdir] = "contrib"
 ; Because Dev Versions can change we want to target the specific commit hash
 ; that this build works with.
 
-projects[workbench_moderation][version] = "1.x-dev"
-projects[workbench_moderation][subdir] = "contrib"
-projects[workbench_moderation][download][type] = "git"
-projects[workbench_moderation][download][url] = "http://git.drupal.org/project/workbench_moderation.git"
-projects[workbench_moderation][download][revision] = "56d8d1dc595058396cd06358e7c7cdc9f4c5e168"
-
 projects[always_visible][type] = "module"
 projects[always_visible][subdir] = "contrib"
 projects[always_visible][download][type] = "git"
