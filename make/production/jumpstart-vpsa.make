@@ -48,8 +48,6 @@ projects[stanford_affiliate_organization][subdir] = "stanford"
 
 projects[stanford_capx][download][tag] = "7.x-1.3+10-php54"
 
-projects[stanford_courses][download][tag] = "7.x-3.7"
-
 projects[stanford_events_importer][download][url] = "git@github.com:SU-VPSA/stanford_events_importer.git"
 projects[stanford_events_importer][download][tag] = "7.x-3.3-jsvpsa"
 
@@ -70,8 +68,6 @@ projects[stanford_gallery][download][type] = "git"
 projects[stanford_gallery][download][url] = "git@github.com:SU-SWS/stanford_gallery.git"
 projects[stanford_gallery][download][tag] = "7.x-2.0+3-dev"
 projects[stanford_gallery][subdir] = "stanford"
-
-projects[stanford_image][download][tag] = "7.x-3.4"
 
 projects[stanford_jumpstart][type] = "module"
 projects[stanford_jumpstart][download][type] = "git"
@@ -124,17 +120,10 @@ projects[stanford_subsites][download][url] = "git@github.com:SU-SWS/stanford_sub
 projects[stanford_subsites][download][tag] = "7.x-2.1"
 projects[stanford_subsites][subdir] = "stanford"
 
-projects[stanford_video][download][tag] = "7.x-2.1+5-dev"
-
 ; Stanford themes - Github
 ; ------------------------
 
 ; Found in core-stanford.make
-
-projects[stanford_jordan][type] = "theme"
-projects[stanford_jordan][download][type] = "git"
-projects[stanford_jordan][download][url] = "git@github.com:SU-SWS/stanford_jordan.git"
-projects[stanford_jordan][download][branch] = "7.x-2.x"
 
 projects[stanford_framework][download][tag] = "7.x-3.2-dev+9"
 
