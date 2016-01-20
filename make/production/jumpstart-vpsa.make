@@ -49,7 +49,7 @@ projects[stanford_affiliate_organization][subdir] = "stanford"
 projects[stanford_capx][download][tag] = "7.x-1.3+10-php54"
 
 projects[stanford_events_importer][download][url] = "git@github.com:SU-VPSA/stanford_events_importer.git"
-projects[stanford_events_importer][download][tag] = "7.x-3.3-jsvpsa"
+projects[stanford_events_importer][download][tag] = "7.x-3.4-jsvpsa"
 
 projects[stanford_faq][type] = "module"
 projects[stanford_faq][download][type] = "git"
