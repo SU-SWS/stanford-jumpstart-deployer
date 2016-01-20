@@ -46,8 +46,6 @@ projects[stanford_affiliate_organization][download][url] = "git@github.com:SU-SW
 projects[stanford_affiliate_organization][download][tag] = "7.x-1.0"
 projects[stanford_affiliate_organization][subdir] = "stanford"
 
-projects[stanford_bean_types][download][tag] = "7.x-2.6"
-
 projects[stanford_capx][download][tag] = "7.x-1.3+10-php54"
 
 projects[stanford_courses][download][tag] = "7.x-3.7"
