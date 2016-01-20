@@ -4,9 +4,9 @@ api = 2
 ; Modules, themes, libraries, and patches from Stanford Drupal Profile
 ; --------------------------------------------------------------------
 
-includes[stanford_profile] = "https://raw.githubusercontent.com/SU-SWS/Stanford-Drupal-Profile/7.x-2.2/make/stanford.make"
-includes[stanford_themes] = "https://raw.githubusercontent.com/SU-SWS/Stanford-Drupal-Profile/7.x-2.2/make/stanford-themes.make"
-includes[stanford_libraries] = "https://raw.githubusercontent.com/SU-SWS/Stanford-Drupal-Profile/7.x-2.2/make/libraries.make"
+includes[stanford_profile] = "https://raw.githubusercontent.com/SU-SWS/Stanford-Drupal-Profile/uat20151005/make/stanford.make"
+includes[stanford_themes] = "https://raw.githubusercontent.com/SU-SWS/Stanford-Drupal-Profile/uat20151005/make/stanford-themes.make"
+includes[stanford_libraries] = "https://raw.githubusercontent.com/SU-SWS/Stanford-Drupal-Profile/uat20151005/make/libraries.make"
 includes[core_libraries] = "core/core-libraries.make"
 
 projects[field_formatter_settings][version] = "1.1"
@@ -197,5 +197,5 @@ projects[stanford_sites_jumpstart_vpsa][download][tag] = "7.x-4.6"
 ; Patches
 ; -------
 
-includes[stanford_patches] = "https://raw.githubusercontent.com/SU-SWS/Stanford-Drupal-Profile/7.x-2.2/make/patches.make"
+includes[stanford_patches] = "https://raw.githubusercontent.com/SU-SWS/Stanford-Drupal-Profile/uat20151005/make/patches.make"
 includes[core_patches] = "core/core-patches.make"
