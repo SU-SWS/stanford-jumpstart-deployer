@@ -56,8 +56,6 @@ projects[stanford_bean_types][download][tag] = "7.x-2.6"
 
 projects[stanford_capx][download][tag] = "7.x-1.3+10-php54"
 
-projects[stanford_carousel][download][tag] = "7.x-2.2"
-
 projects[stanford_courses][download][tag] = "7.x-3.7"
 
 projects[stanford_events_importer][download][url] = "git@github.com:SU-VPSA/stanford_events_importer.git"
@@ -82,8 +80,6 @@ projects[stanford_gallery][download][tag] = "7.x-2.0+3-dev"
 projects[stanford_gallery][subdir] = "stanford"
 
 projects[stanford_image][download][tag] = "7.x-3.4"
-
-projects[stanford_image_styles][download][tag] = "7.x-3.3"
 
 projects[stanford_jumpstart][type] = "module"
 projects[stanford_jumpstart][download][type] = "git"
@@ -142,11 +138,6 @@ projects[stanford_video][download][tag] = "7.x-2.1+5-dev"
 ; ------------------------
 
 ; Found in core-stanford.make
-
-projects[stanfordmodern][type] = "theme"
-projects[stanfordmodern][download][type] = "git"
-projects[stanfordmodern][download][url] = "git@github.com:su-ddd/stanfordmodern.git"
-projects[stanfordmodern][download][branch] = "7.x-1.x"
 
 projects[stanford_jordan][type] = "theme"
 projects[stanford_jordan][download][type] = "git"
