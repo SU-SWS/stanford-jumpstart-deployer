@@ -224,7 +224,4 @@ projects[css_injector][download][revision] = "41bee7e4421ecfc52a6b673eef6fcde875
 ; Contributed themes
 ; ------------------------------------------------------------------------------
 
-projects[cube][version] = "1.4"
-projects[rubik][version] = "4.2"
-projects[tao][version] = "3.1"
 projects[adminimal_theme][version] = "1.23"
