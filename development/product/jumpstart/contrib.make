@@ -218,6 +218,12 @@ projects[css_injector][download][type] = "git"
 projects[css_injector][download][url] = "http://git.drupal.org/project/css_injector.git"
 projects[css_injector][download][revision] = "41bee7e4421ecfc52a6b673eef6fcde875282a2b"
 
+projects[social_share][type] = "module"
+projects[social_share][subdir] = "contrib"
+projects[social_share][download][type] = "git"
+projects[social_share][download][url] = "http://git.drupal.org/project/social-share.git"
+projects[social_share][download][tag] = "7.x-2.1"
+
 
 ; Contributed themes
 ; ------------------------------------------------------------------------------
