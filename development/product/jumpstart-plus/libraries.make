@@ -4,6 +4,11 @@ api = 2
 ; Libraries
 ; ------------------------------------------------------------------------------
 
+libraries[stanford_install_tasks][download][type] = "git"
+libraries[stanford_install_tasks][download][url] = "git@github.com:SU-SWS/stanford_install_tasks.git"
+libraries[stanford_install_tasks][download][branch] = "7.x-1.x"
+libraries[stanford_install_tasks][directory_name] = "tasks"
+
 libraries[simplepie][download][type] = "file"
 libraries[simplepie][download][url] = "http://simplepie.org/downloads/simplepie_1.3.1.compiled.php"
 libraries[simplepie][download][filename] = "simplepie.compiled.php"
