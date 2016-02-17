@@ -56,8 +56,10 @@ projects[stanford_jumpstart_engineering][subdir] = "stanford"
 projects[stanford_jumpstart_home][type] = "module"
 projects[stanford_jumpstart_home][download][type] = "git"
 projects[stanford_jumpstart_home][download][url] = "git@github.com:SU-SOE/stanford_jumpstart_home.git"
+projects[stanford_jumpstart_home][download][tag] = "7.x-1.4-beta1"
 projects[stanford_jumpstart_home][download][branch] = "7.x-1.x"
 projects[stanford_jumpstart_home][subdir] = "stanford"
+
 
 projects[stanford_affiliate_organization][type] = "module"
 projects[stanford_affiliate_organization][download][type] = "git"
@@ -68,11 +70,11 @@ projects[stanford_affiliate_organization][subdir] = "stanford"
 ; Temporary until core gets updated
 projects[stanford_framework][download][type] = "git"
 projects[stanford_framework][download][url] = "git@github.com:SU-SWS/stanford_framework.git"
-projects[stanford_framework][download][tag] = 7.x-3.1+24-dev
+projects[stanford_framework][download][tag] = 7.x-3.2-beta6
 ;projects[stanford_framework][download][branch] = "7.x-3.x"
 
 projects[open_framework][download][type] = "git"
 projects[open_framework][download][url] = "git@github.com:SU-SWS/open_framework.git"
-projects[open_framework][download][tag] = 7.x-2.4+11-dev
+projects[open_framework][download][tag] = 7.x-2.5-beta1
 ;projects[open_framework][download][branch] = "7.x-2.x"
 
