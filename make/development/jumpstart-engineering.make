@@ -7,19 +7,16 @@ includes[jsa] = "jumpstart-academic.make"
 ; Contributed modules
 ; -------------------
 
-projects[always_visible][type] = "module"
 projects[always_visible][subdir] = "contrib"
 projects[always_visible][download][type] = "git"
 projects[always_visible][download][revision] = "a6c2dac352a6bb658644f66a3bd96b6e5805a6c1"
 projects[always_visible][download][url] = "http://git.drupal.org/project/always_visible.git"
 
-projects[contextual_view_modes][type] = "module"
 projects[contextual_view_modes][subdir] = "contrib"
 projects[contextual_view_modes][version] = "3.0"
 
-projects[menu_attributes][type] = "module"
 projects[menu_attributes][subdir] = "contrib"
-projects[menu_attributes][version] = "1.0-rc3"
+projects[menu_attributes][version] = "1.0"
 
 ; Stanford Modules - GitHub
 ; -------------------------
@@ -56,7 +53,6 @@ projects[stanford_jumpstart_engineering][subdir] = "stanford"
 projects[stanford_jumpstart_home][type] = "module"
 projects[stanford_jumpstart_home][download][type] = "git"
 projects[stanford_jumpstart_home][download][url] = "git@github.com:SU-SOE/stanford_jumpstart_home.git"
-projects[stanford_jumpstart_home][download][tag] = "7.x-1.4-beta1"
 projects[stanford_jumpstart_home][download][branch] = "7.x-1.x"
 projects[stanford_jumpstart_home][subdir] = "stanford"
 

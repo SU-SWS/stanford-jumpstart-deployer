@@ -7,15 +7,16 @@ includes[jsa] = "jumpstart-academic.make"
 ; Contributed modules
 ; -------------------
 
-projects[always_visible][type] = "module"
 projects[always_visible][subdir] = "contrib"
 projects[always_visible][download][type] = "git"
 projects[always_visible][download][revision] = "a6c2dac352a6bb658644f66a3bd96b6e5805a6c1"
 projects[always_visible][download][url] = "http://git.drupal.org/project/always_visible.git"
 
-projects[menu_attributes][type] = "module"
+projects[contextual_view_modes][subdir] = "contrib"
+projects[contextual_view_modes][version] = "3.0"
+
 projects[menu_attributes][subdir] = "contrib"
-projects[menu_attributes][version] = "1.0-rc3"
+projects[menu_attributes][version] = "1.0"
 
 ; Stanford Modules - GitHub
 ; -------------------------
@@ -35,12 +36,6 @@ projects[stanford_related_content][subdir] = "stanford"
 ; JSE Profiles
 ; ------------------------------------------------------------------------------
 
-// Override until JSA comes up to speed.
-projects[stanford_sites_abstract][download][branch] = FALSE
-projects[stanford_sites_abstract][download][tag] = "7.x-4.2+4-dev"
-projects[stanford_sites_jumpstart][download][tag] = "7.x-4.5+4-dev"
-projects[stanford_sites_jumpstart_academic][download][tag] = "7.x-4.5+4-dev"
-
 projects[stanford_sites_jumpstart_engineering][type] = "profile"
 projects[stanford_sites_jumpstart_engineering][download][type] = "git"
 projects[stanford_sites_jumpstart_engineering][download][url] = "git@github.com:SU-SOE/stanford_sites_jumpstart_engineering.git"
@@ -59,23 +54,29 @@ projects[stanford_jumpstart_home][type] = "module"
 projects[stanford_jumpstart_home][download][type] = "git"
 projects[stanford_jumpstart_home][download][url] = "git@github.com:SU-SOE/stanford_jumpstart_home.git"
 projects[stanford_jumpstart_home][download][branch] = FALSE
-projects[stanford_jumpstart_home][download][tag] = "7.x-1.4"
+projects[stanford_jumpstart_home][download][tag] = "7.x-1.4-beta1"
 projects[stanford_jumpstart_home][subdir] = "stanford"
+
+projects[stanford_affiliate_organization][type] = "module"
+projects[stanford_affiliate_organization][download][type] = "git"
+projects[stanford_affiliate_organization][download][url] = "git@github.com:SU-SWS/stanford_affiliate_organization.git"
+projects[stanford_affiliate_organization][download][branch] = "7.x-1.x"
+projects[stanford_affiliate_organization][subdir] = "stanford"
 
 ; Themes
 ; ------------------------------------------------------------------------------
 
 ; Temporary until core gets updated
-projects[stanford_framework][download][tag] = "7.x-3.1+24-dev"
-projects[open_framework][download][tag] = "7.x-2.4+11-dev"
+projects[stanford_framework][download][tag] = "7.x-3.2-beta6"
+projects[open_framework][download][tag] = "7.x-2.5-beta1"
 
 ; Child .make Overidden Modules
 ; ------------------------------------------------------------------------------
 
-projects[stanford_bean_types][download][tag] = "7.x-2.6"
+projects[stanford_bean_types][download][tag] = "7.x-2.8+3-dev"
 projects[stanford_capx][download][tag] = "7.x-1.3-php54"
 projects[stanford_carousel][download][tag] = "7.x-2.2"
-projects[stanford_courses][download][tag] = "7.x-3.7"
+projects[stanford_courses][download][tag] = "7.x-3.9"
 projects[stanford_event_series][download][tag] = "7.x-1.1"
 projects[stanford_image][download][tag] = "7.x-3.4"
 projects[stanford_image_styles][download][tag] = "7.x-3.3"
