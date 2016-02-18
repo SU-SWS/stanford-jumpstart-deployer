@@ -39,7 +39,7 @@ projects[stanford_related_content][subdir] = "stanford"
 
 projects[stanford_sites_jumpstart_academic][type] = "profile"
 projects[stanford_sites_jumpstart_academic][download][type] = "git"
-projects[stanford_sites_jumpstart_academic][download][url] = "git@github.com:SU-SOE/stanford_sites_jumpstart_academic.git"
+projects[stanford_sites_jumpstart_academic][download][url] = "git@github.com:SU-SWS/stanford_sites_jumpstart_academic.git"
 projects[stanford_sites_jumpstart_academic][download][tag] = "7.x-4.5.1+16-dev"
 
 projects[stanford_sites_jumpstart_engineering][type] = "profile"
@@ -58,7 +58,7 @@ projects[stanford_jumpstart_engineering][subdir] = "stanford"
 
 projects[stanford_jumpstart_home][type] = "module"
 projects[stanford_jumpstart_home][download][type] = "git"
-projects[stanford_jumpstart_home][download][url] = "git@github.com:SU-SOE/stanford_jumpstart_home.git"
+projects[stanford_jumpstart_home][download][url] = "git@github.com:SU-SWS/stanford_jumpstart_home.git"
 projects[stanford_jumpstart_home][download][branch] = FALSE
 projects[stanford_jumpstart_home][download][tag] = "7.x-1.4-beta1"
 projects[stanford_jumpstart_home][subdir] = "stanford"
