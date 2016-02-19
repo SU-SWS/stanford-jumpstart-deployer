@@ -58,7 +58,7 @@ projects[stanford_related_content][subdir] = "stanford"
 
 libraries[stanford_sites_content_importer][download][type] = "git"
 libraries[stanford_sites_content_importer][download][url] = "git@github.com:SU-SWS/stanford_sites_content_importer"
-libraries[stanford_sites_content_importer][download][branch] = "7.x-1.1+14-dev"
+libraries[stanford_sites_content_importer][download][tag] = "7.x-1.1+14-dev"
 libraries[stanford_sites_content_importer][destination] = "libraries"
 
 ; JSE Profiles
@@ -93,7 +93,7 @@ projects[stanford_jumpstart_home][subdir] = "stanford"
 projects[stanford_affiliate_organization][type] = "module"
 projects[stanford_affiliate_organization][download][type] = "git"
 projects[stanford_affiliate_organization][download][url] = "git@github.com:SU-SWS/stanford_affiliate_organization.git"
-projects[stanford_affiliate_organization][download][branch] = "7.x-1.1"
+projects[stanford_affiliate_organization][download][tag] = "7.x-1.1"
 projects[stanford_affiliate_organization][subdir] = "stanford"
 
 ; Themes
