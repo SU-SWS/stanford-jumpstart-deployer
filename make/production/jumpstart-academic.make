@@ -89,6 +89,13 @@ projects[stanfordmodern][download][branch] = "7.x-1.6"
 ; ---------
 includes[core_libraries] = "core/core-libraries.make"
 
+; Until Stanford Drupal profile gets updated.
+; https://github.com/SU-SWS/Stanford-Drupal-Profile/pull/56/files
+libraries[dompdf][download][type] = "get"
+libraries[dompdf][download][url] = https://github.com/dompdf/dompdf/releases/download/v0.6.2/dompdf-0.6.2.zip
+libraries[dompdf][directory_name] = dompdf
+libraries[dompdf][destination] = "libraries"
+
 ; Profiles
 ; --------
 
