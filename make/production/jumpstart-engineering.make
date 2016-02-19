@@ -80,9 +80,9 @@ projects[stanford_jumpstart_engineering][subdir] = "stanford"
 
 projects[stanford_jumpstart_home][type] = "module"
 projects[stanford_jumpstart_home][download][type] = "git"
-projects[stanford_jumpstart_home][download][url] = "git@github.com:SU-SWS/stanford_jumpstart_home.git"
+projects[stanford_jumpstart_home][download][url] = "git@github.com:SU-SOE/stanford_jumpstart_home.git"
 projects[stanford_jumpstart_home][download][branch] = FALSE
-projects[stanford_jumpstart_home][download][tag] = "7.x-1.4-beta1"
+projects[stanford_jumpstart_home][download][tag] = "7.x-1.4+4-dev"
 projects[stanford_jumpstart_home][subdir] = "stanford"
 
 projects[stanford_affiliate_organization][type] = "module"
