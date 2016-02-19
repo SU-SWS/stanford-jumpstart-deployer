@@ -25,6 +25,11 @@ projects[pathauto][version] = "1.3"
 ; Stanford Modules - GitHub
 ; -------------------------
 
+projects[stanford_drupal_profile][type] = "module"
+projects[stanford_drupal_profile][download][type] = "git"
+projects[stanford_drupal_profile][download][url] = "git@github.com:SU-SWS/stanford_drupal_profile.git"
+projects[stanford_drupal_profile][download][tag] = "7.x-2.2+13-dev"
+
 projects[stanford_page][type] = "module"
 projects[stanford_page][download][type] = "git"
 projects[stanford_page][download][url] = "git@github.com:SU-SWS/stanford_page.git"
