@@ -30,6 +30,12 @@ projects[stanford_drupal_profile][download][type] = "git"
 projects[stanford_drupal_profile][download][url] = "git@github.com:SU-SWS/Stanford-Drupal-Profile.git"
 projects[stanford_drupal_profile][download][tag] = "7.x-2.2+13-dev"
 
+projects[stanford_jumpstart][type] = "module"
+projects[stanford_jumpstart][download][type] = "git"
+projects[stanford_jumpstart][download][url] = "git@github.com:SU-SWS/stanford_jumpstart.git"
+projects[stanford_jumpstart][download][tag] = "7.x-4.5+42-dev"
+projects[stanford_jumpstart][subdir] = "stanford"
+
 projects[stanford_page][type] = "module"
 projects[stanford_page][download][type] = "git"
 projects[stanford_page][download][url] = "git@github.com:SU-SWS/stanford_page.git"
@@ -63,6 +69,11 @@ libraries[stanford_sites_content_importer][destination] = "libraries"
 
 ; JSE Profiles
 ; ------------------------------------------------------------------------------
+
+projects[stanford_sites_jumpstart][type] = "profile"
+projects[stanford_sites_jumpstart][download][type] = "git"
+projects[stanford_sites_jumpstart][download][url] = "git@github.com:SU-SWS/stanford_sites_jumpstart.git"
+projects[stanford_sites_jumpstart][download][tag] = "7.x-4.5+15-dev"
 
 projects[stanford_sites_jumpstart_academic][type] = "profile"
 projects[stanford_sites_jumpstart_academic][download][type] = "git"
