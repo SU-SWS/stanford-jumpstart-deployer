@@ -25,33 +25,11 @@ projects[pathauto][version] = "1.3"
 ; Stanford Modules - GitHub
 ; -------------------------
 
-projects[stanford_drupal_profile][type] = "module"
-projects[stanford_drupal_profile][download][type] = "git"
-projects[stanford_drupal_profile][download][url] = "git@github.com:SU-SWS/Stanford-Drupal-Profile.git"
-projects[stanford_drupal_profile][download][tag] = "7.x-2.2+13-dev"
-
-projects[stanford_jumpstart][type] = "module"
-projects[stanford_jumpstart][download][type] = "git"
-projects[stanford_jumpstart][download][url] = "git@github.com:SU-SWS/stanford_jumpstart.git"
-projects[stanford_jumpstart][download][tag] = "7.x-4.5+42-dev"
-projects[stanford_jumpstart][subdir] = "stanford"
-
-projects[stanford_page][type] = "module"
-projects[stanford_page][download][type] = "git"
-projects[stanford_page][download][url] = "git@github.com:SU-SWS/stanford_page.git"
-projects[stanford_page][download][tag] = "7.x-2.1+2-dev"
-
 projects[stanford_private_page][type] = "module"
 projects[stanford_private_page][download][type] = "git"
 projects[stanford_private_page][download][url] = "git@github.com:SU-SWS/stanford_private_page.git"
 projects[stanford_private_page][download][tag] = "7.x-1.0+26-dev"
 projects[stanford_private_page][subdir] = "stanford"
-
-
-projects[stanford_publication][type] = "module"
-projects[stanford_publication][download][type] = "git"
-projects[stanford_publication][download][url] = "git@github.com:SU-SWS/stanford_publication.git"
-projects[stanford_publication][download][tag] = "7.x-2.1+17-dev"
 
 projects[stanford_related_content][type] = "module"
 projects[stanford_related_content][download][type] = "git"
@@ -121,12 +99,15 @@ projects[stanford_bean_types][download][tag] = "7.x-2.8+3-dev"
 projects[stanford_capx][download][tag] = "7.x-1.3-php54"
 projects[stanford_carousel][download][tag] = "7.x-2.2+4-dev"
 projects[stanford_courses][download][tag] = "7.x-3.9"
+projects[stanford_drupal_profile][download][tag] = "7.x-2.2+13-dev"
 projects[stanford_event_series][download][tag] = "7.x-1.1"
 projects[stanford_image][download][tag] = "7.x-3.4"
 projects[stanford_image_styles][download][tag] = "7.x-3.3+5-dev"
-projects[stanford_jumpstart][download][tag] = "7.x-4.5+33-dev"
+projects[stanford_jumpstart][download][tag] = "7.x-4.5+42-dev"
 projects[stanford_landing_page][download][tag] = "7.x-1.4"
 projects[stanford_manage_content][download][tag] = "7.x-3.4"
+projects[stanford_page][download][tag] = "7.x-2.1+2-dev"
 projects[stanford_person][download][tag] = "7.x-5.0"
+projects[stanford_publication][download][tag] = "7.x-2.1+17-dev"
 projects[stanford_video][download][tag] = "7.x-2.1+5-dev"
 
