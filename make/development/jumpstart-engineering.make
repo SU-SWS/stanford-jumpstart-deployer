@@ -7,19 +7,16 @@ includes[jsa] = "jumpstart-academic.make"
 ; Contributed modules
 ; -------------------
 
-projects[always_visible][type] = "module"
 projects[always_visible][subdir] = "contrib"
 projects[always_visible][download][type] = "git"
 projects[always_visible][download][revision] = "a6c2dac352a6bb658644f66a3bd96b6e5805a6c1"
 projects[always_visible][download][url] = "http://git.drupal.org/project/always_visible.git"
 
-projects[contextual_view_modes][type] = "module"
 projects[contextual_view_modes][subdir] = "contrib"
 projects[contextual_view_modes][version] = "3.0"
 
-projects[menu_attributes][type] = "module"
 projects[menu_attributes][subdir] = "contrib"
-projects[menu_attributes][version] = "1.0-rc3"
+projects[menu_attributes][version] = "1.0"
 
 ; Stanford Modules - GitHub
 ; -------------------------
@@ -59,6 +56,7 @@ projects[stanford_jumpstart_home][download][url] = "git@github.com:SU-SOE/stanfo
 projects[stanford_jumpstart_home][download][branch] = "7.x-1.x"
 projects[stanford_jumpstart_home][subdir] = "stanford"
 
+
 projects[stanford_affiliate_organization][type] = "module"
 projects[stanford_affiliate_organization][download][type] = "git"
 projects[stanford_affiliate_organization][download][url] = "git@github.com:SU-SWS/stanford_affiliate_organization.git"
@@ -68,11 +66,11 @@ projects[stanford_affiliate_organization][subdir] = "stanford"
 ; Temporary until core gets updated
 projects[stanford_framework][download][type] = "git"
 projects[stanford_framework][download][url] = "git@github.com:SU-SWS/stanford_framework.git"
-projects[stanford_framework][download][tag] = 7.x-3.1+24-dev
+projects[stanford_framework][download][tag] = 7.x-3.2-beta6
 ;projects[stanford_framework][download][branch] = "7.x-3.x"
 
 projects[open_framework][download][type] = "git"
 projects[open_framework][download][url] = "git@github.com:SU-SWS/open_framework.git"
-projects[open_framework][download][tag] = 7.x-2.4+11-dev
+projects[open_framework][download][tag] = 7.x-2.5-beta1
 ;projects[open_framework][download][branch] = "7.x-2.x"
 
