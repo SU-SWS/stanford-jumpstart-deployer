@@ -82,7 +82,7 @@ projects[stanford_jumpstart_home][subdir] = "stanford"
 projects[stanford_affiliate_organization][type] = "module"
 projects[stanford_affiliate_organization][download][type] = "git"
 projects[stanford_affiliate_organization][download][url] = "git@github.com:SU-SWS/stanford_affiliate_organization.git"
-projects[stanford_affiliate_organization][download][tag] = "7.x-1.1"
+projects[stanford_affiliate_organization][download][tag] = "7.x-1.1+4-dev"
 projects[stanford_affiliate_organization][subdir] = "stanford"
 
 ; Themes
