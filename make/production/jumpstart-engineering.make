@@ -61,7 +61,7 @@ projects[stanford_sites_jumpstart_academic][download][tag] = "7.x-4.5.1+16-dev"
 projects[stanford_sites_jumpstart_engineering][type] = "profile"
 projects[stanford_sites_jumpstart_engineering][download][type] = "git"
 projects[stanford_sites_jumpstart_engineering][download][url] = "git@github.com:SU-SOE/stanford_sites_jumpstart_engineering.git"
-projects[stanford_sites_jumpstart_engineering][download][tag] = "7.x-1.1"
+projects[stanford_sites_jumpstart_engineering][download][tag] = "7.x-1.1+4-dev"
 
 ; JSE Modules
 ; ------------------------------------------------------------------------------
