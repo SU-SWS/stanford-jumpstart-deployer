@@ -13,6 +13,8 @@ includes[core_libraries] = "core/core-libraries.make"
 ; Contributed modules
 ; -------------------
 
+projects[field_collection][version] = "1.0-beta11"
+
 ; Stanford Modules - GitHub
 ; -------------------------
 

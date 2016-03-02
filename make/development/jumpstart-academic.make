@@ -10,6 +10,8 @@ includes[stanford_patches] = "https://raw.githubusercontent.com/SU-SWS/Stanford-
 includes[stanford_libraries] = "https://raw.githubusercontent.com/SU-SWS/Stanford-Drupal-Profile/7.x-2.x/make/libraries.make"
 includes[core_libraries] = "core/core-libraries.make"
 
+projects[field_collection][version] = "1.0-beta11"
+
 ; DEV VERSIONS
 ; -------------------
 
