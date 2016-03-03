@@ -18,8 +18,6 @@ projects[contextual_view_modes][version] = "3.0"
 projects[menu_attributes][subdir] = "contrib"
 projects[menu_attributes][version] = "1.0"
 
-projects[field_collection][version] = "1.0-beta11"
-
 ; Stanford Modules - GitHub
 ; -------------------------
 

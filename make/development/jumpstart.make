@@ -66,8 +66,6 @@ projects[context_useragent][download][type] = "git"
 projects[context_useragent][download][url] = "http://git.drupal.org/project/context_useragent.git"
 projects[context_useragent][download][revision] = "8949c6d4ee7a462b49e1b08dfd7dc60f1fa7e8e8"
 
-projects[field_collection][version] = "1.0-beta11"
-
 ; Contributed themes
 ; ------------------
 

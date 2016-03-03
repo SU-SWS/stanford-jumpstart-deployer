@@ -5,4 +5,4 @@ api = 2
 projects[ds][patch][] = "https://www.drupal.org/files/issues/ds_extras_field_group_not_rendered-2221307-18.patch"
 
 ; https://www.drupal.org/node/2221307 | Deleting host entity causes save during deletion and triggers pathauto
-projects[field_collection][patch][] = "https://www.drupal.org/files/issues/field_collection-2385985-27.patch"
+projects[field_collection][patch][] = "https://www.drupal.org/files/issues/field_collection-2385985-29.patch"
