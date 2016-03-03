@@ -1,6 +1,16 @@
-Version 7.x-1.x
+Version 7.x-4.x Stanford Jumpstart Deployer
 ---------------------------------------------------------------
 Initial Jumpstart and Jumpstart Academic deployment with install profiles.
+
+
+Version JSE-1.1       2016-03-02
+---------------------------------------------------------------
+- Updated tags for JSE PICAL 1.0
+
+
+Version jsvpsa-4.6.1  2016-01-14
+---------------------------------------------------------------
+- lots
 
 
 Version 7.x-2.x
