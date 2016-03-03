@@ -1,6 +1,6 @@
 ## Drush Make Files
 -----------------------------------------
-##### Version: JSE-1.1
+##### Version: 7.x-4.x-dev
 
 In the make directory there are 2 other directories. In the development folder you will find a deployer that 
 points to all development versions of everything. In the production folder you will find the latest tagged 
