@@ -22,6 +22,8 @@ projects[menu_attributes][version] = "1.0"
 projects[pathauto][subdir] = "contrib"
 projects[pathauto][version] = "1.3"
 
+projects[field_collection][version] = "1.0-beta11"
+
 ; Stanford Modules - GitHub
 ; -------------------------
 
