@@ -72,16 +72,7 @@ projects[open_framework][download][tag] = "7.x-2.4+11-dev"
 ; Child .make Overidden Modules
 ; ------------------------------------------------------------------------------
 
-projects[stanford_bean_types][download][tag] = "7.x-2.6"
-projects[stanford_capx][download][tag] = "7.x-1.3-php54"
-projects[stanford_carousel][download][tag] = "7.x-2.2"
-projects[stanford_courses][download][tag] = "7.x-3.7"
 projects[stanford_event_series][download][tag] = "7.x-1.1"
-projects[stanford_image][download][tag] = "7.x-3.4"
-projects[stanford_image_styles][download][tag] = "7.x-3.3"
 projects[stanford_jumpstart][download][tag] = "7.x-4.5+18-dev"
 projects[stanford_landing_page][download][tag] = "7.x-1.3"
-projects[stanford_manage_content][download][tag] = "7.x-3.3+6-dev"
-projects[stanford_person][download][tag] = "7.x-5.0-beta3"
-projects[stanford_video][download][tag] = "7.x-2.1+5-dev"
 
