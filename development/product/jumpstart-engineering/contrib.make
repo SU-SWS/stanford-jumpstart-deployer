@@ -188,9 +188,6 @@ projects[wysiwyg_filter][subdir] = "contrib"
 projects[wysiwyg_filter][version] = "1.6-rc2"
 projects[xmlsitemap][subdir] = "contrib"
 projects[xmlsitemap][version] = "2.2"
-projects[menu_attributes][type] = "module"
-projects[menu_attributes][subdir] = "contrib"
-projects[menu_attributes][version] = "1.0-rc3"
 
 ; Contributed modules, -dev versions specified by git commit
 ; ------------------------------------------------------------------------------
@@ -232,6 +229,15 @@ projects[always_visible][subdir] = "contrib"
 projects[always_visible][download][type] = "git"
 projects[always_visible][download][revision] = "a6c2dac352a6bb658644f66a3bd96b6e5805a6c1"
 projects[always_visible][download][url] = "http://git.drupal.org/project/always_visible.git"
+
+
+; Jumpstart Engineering (JSE)
+; ------------------------------------------------------------------------------
+projects[contextual_view_modes][subdir] = "contrib"
+projects[contextual_view_modes][version] = "3.0"
+projects[menu_attributes][subdir] = "contrib"
+projects[menu_attributes][version] = "1.0-rc3"
+
 
 ; Contributed themes
 ; ------------------------------------------------------------------------------

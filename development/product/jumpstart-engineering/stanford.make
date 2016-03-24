@@ -10,6 +10,13 @@ projects[erus][download][type] = "git"
 projects[erus][download][url] = "git@github.com:SU-SWS/erus.git"
 projects[erus][download][branch] = 7.x-1.x-dev
 
+
+projects[stanford_affiliate_organization][type] = "module"
+projects[stanford_affiliate_organization][download][type] = "git"
+projects[stanford_affiliate_organization][download][url] = "git@github.com:SU-SWS/stanford_affiliate_organization.git"
+projects[stanford_affiliate_organization][download][branch] = "7.x-1.x"
+projects[stanford_affiliate_organization][subdir] = "stanford"
+
 projects[stanford_bean_types][subdir] = "stanford"
 projects[stanford_bean_types][type] = "module"
 projects[stanford_bean_types][download][type] = "git"
@@ -196,22 +203,7 @@ projects[stanford_seven][download][type] = "git"
 projects[stanford_seven][download][url] = "git@github.com:SU-SWS/stanford_seven.git"
 projects[stanford_seven][download][branch] = "7.x-1.x"
 
-projects[stanfordmodern][type] = "theme"
-projects[stanfordmodern][download][type] = "git"
-projects[stanfordmodern][download][url] = "git@github.com:su-ddd/stanfordmodern.git"
-projects[stanfordmodern][download][tag] = "7.x-1.6"
-
 projects[stanford_framework][type] = "theme"
 projects[stanford_framework][download][type] = "git"
 projects[stanford_framework][download][url] = "git@github.com:SU-SWS/stanford_framework.git"
 projects[stanford_framework][download][branch] = "7.x-3.x"
-
-projects[stanford_jordan][type] = theme
-projects[stanford_jordan][download][type] = "git"
-projects[stanford_jordan][download][url] = "git@github.com:SU-SWS/stanford_jordan.git"
-projects[stanford_jordan][download][tag] = "7.x-2.1"
-
-projects[stanford_wilbur][type] = theme
-projects[stanford_wilbur][download][type] = "git"
-projects[stanford_wilbur][download][url] = git@github.com:SU-SWS/stanford_wilbur.git
-projects[stanford_wilbur][download][tag] = "7.x-2.1"
