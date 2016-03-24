@@ -36,3 +36,6 @@ projects[ds][patch][] = "https://www.drupal.org/files/issues/ds_extras_field_gro
 
 ; https://drupal.org/node/1326998 - PHP notice
 projects[context_useragent][patch][] = "https://drupal.org/files/issues/context_useragent-undefined_offset_error-1326998-3.patch"
+
+; https://www.drupal.org/node/2221307 | Deleting host entity causes save during deletion and triggers pathauto
+projects[field_collection][patch][] = "https://www.drupal.org/files/issues/field_collection-2385985-29.patch"
