@@ -4,10 +4,9 @@ api = 2
 ; Libraries
 ; ------------------------------------------------------------------------------
 
-; TODO: change to 7.x-1.x branch after this is merged.
 libraries[stanford_install_tasks][download][type] = "git"
 libraries[stanford_install_tasks][download][url] = "git@github.com:SU-SWS/stanford_install_tasks.git"
-libraries[stanford_install_tasks][download][branch] = "BASIC-1858"
+libraries[stanford_install_tasks][download][branch] = "7.x-1.x"
 libraries[stanford_install_tasks][directory_name] = "tasks"
 
 libraries[simplepie][download][type] = "file"
