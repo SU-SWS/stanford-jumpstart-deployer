@@ -116,7 +116,7 @@ projects[stanford_jumpstart_academic][type] = "module"
 projects[stanford_jumpstart_academic][subdir] = "stanford"
 projects[stanford_jumpstart_academic][download][type] = "git"
 projects[stanford_jumpstart_academic][download][url] = "git@github.com:SU-SWS/stanford_jumpstart_academic.git"
-projects[stanford_jumpstart_academic][download][branch] = "7.x-4.x"
+projects[stanford_jumpstart_academic][download][branch] = "7.x-5.x"
 
 projects[stanford_jumpstart_home][type] = "module"
 projects[stanford_jumpstart_home][subdir] = "stanford"
