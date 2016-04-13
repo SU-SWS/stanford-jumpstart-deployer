@@ -181,7 +181,7 @@ projects[stanford_jumpstart_engineering][type] = "module"
 projects[stanford_jumpstart_engineering][subdir] = "stanford"
 projects[stanford_jumpstart_engineering][download][type] = "git"
 projects[stanford_jumpstart_engineering][download][url] = "git@github.com:SU-SOE/stanford_jumpstart_engineering.git"
-projects[stanford_jumpstart_engineering][download][branch] = "7.x-1.x"
+projects[stanford_jumpstart_engineering][download][branch] = "7.x-5.x"
 
 projects[stanford_jumpstart_home][type] = "module"
 projects[stanford_jumpstart_home][subdir] = "stanford"
