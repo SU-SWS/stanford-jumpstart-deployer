@@ -1,5 +1,7 @@
 core = 7.x
 api = 2
+; Default directory should be sites/all/modules/contrib
+defaults[projects][subdir] = contrib
 
 ; Modules, themes, libraries, and patches from Stanford Drupal Profile
 ; --------------------------------------------------------------------
@@ -9,6 +11,8 @@ includes[stanford_themes] = "https://raw.githubusercontent.com/SU-SWS/Stanford-D
 includes[stanford_patches] = "https://raw.githubusercontent.com/SU-SWS/Stanford-Drupal-Profile/7.x-2.2/make/patches.make"
 includes[stanford_libraries] = "https://raw.githubusercontent.com/SU-SWS/Stanford-Drupal-Profile/7.x-2.2/make/libraries.make"
 
+; Temporary until Stanford-Drupal-Profile gets updated
+projects[field_collection][version] = "1.0-beta11"
 
 ; Stanford Modules - GitHub
 ; -------------------------

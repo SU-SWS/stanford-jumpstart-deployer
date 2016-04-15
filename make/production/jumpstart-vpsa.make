@@ -1,5 +1,7 @@
 core = 7.x
 api = 2
+; Default directory should be sites/all/modules/contrib
+defaults[projects][subdir] = contrib
 
 ; Modules, themes, libraries, and patches from Stanford Drupal Profile
 ; --------------------------------------------------------------------
@@ -9,6 +11,8 @@ includes[stanford_themes] = "https://raw.githubusercontent.com/SU-SWS/Stanford-D
 includes[stanford_libraries] = "https://raw.githubusercontent.com/SU-SWS/Stanford-Drupal-Profile/7.x-2.2/make/libraries.make"
 includes[core_libraries] = "core/core-libraries.make"
 
+
+; Additional contrib modules
 projects[field_formatter_settings][version] = "1.1"
 projects[field_formatter_settings][subdir] = "contrib"
 projects[simple_field_formatter][version] = "2.0-beta4"
@@ -21,8 +25,9 @@ projects[bigmenu][version] = "1.3"
 projects[bigmenu][subdir] = "contrib"
 projects[field_collection][version] = "1.0-beta11"
 
-; Override until Stanford-Drupal-Profile gets up to speed.
+; Overrides until Stanford-Drupal-Profile gets up to speed.
 projects[pathauto][version] = "1.3"
+projects[field_collection][version] = "1.0-beta11"
 
 ; Contrib Dev Versions
 ; Because Dev Versions can change we want to target the specific commit hash

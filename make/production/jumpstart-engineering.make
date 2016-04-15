@@ -1,3 +1,8 @@
+core = 7.x
+api = 2
+; Default directory should be sites/all/modules/contrib
+defaults[projects][subdir] = contrib
+
 ; Jumpstart Engineering (JSE)
 ; ------------------------------------------------------------------------------
 
@@ -8,21 +13,19 @@ includes[jsa] = "jumpstart-academic.make"
 ; -------------------
 
 projects[always_visible][type] = "module"
-projects[always_visible][subdir] = "contrib"
 projects[always_visible][download][type] = "git"
 projects[always_visible][download][revision] = "a6c2dac352a6bb658644f66a3bd96b6e5805a6c1"
 projects[always_visible][download][url] = "http://git.drupal.org/project/always_visible.git"
 
-projects[contextual_view_modes][subdir] = "contrib"
 projects[contextual_view_modes][version] = "3.0"
 
-projects[menu_attributes][subdir] = "contrib"
+; Temporary until Stanford-Drupal-Profile gets updated
+projects[field_collection][version] = "1.0-beta11"
+
 projects[menu_attributes][version] = "1.0"
 
-projects[pathauto][subdir] = "contrib"
 projects[pathauto][version] = "1.3"
 
-projects[field_collection][version] = "1.0-beta11"
 
 ; Stanford Modules - GitHub
 ; -------------------------
