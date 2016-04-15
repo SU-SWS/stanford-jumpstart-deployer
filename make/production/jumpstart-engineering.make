@@ -57,16 +57,19 @@ projects[stanford_sites_jumpstart][type] = "profile"
 projects[stanford_sites_jumpstart][download][type] = "git"
 projects[stanford_sites_jumpstart][download][url] = "git@github.com:SU-SWS/stanford_sites_jumpstart.git"
 projects[stanford_sites_jumpstart][download][tag] = "7.x-4.5+15-dev"
+projects[stanford_sites_jumpstart][subdir] = FALSE
 
 projects[stanford_sites_jumpstart_academic][type] = "profile"
 projects[stanford_sites_jumpstart_academic][download][type] = "git"
 projects[stanford_sites_jumpstart_academic][download][url] = "git@github.com:SU-SWS/stanford_sites_jumpstart_academic.git"
 projects[stanford_sites_jumpstart_academic][download][tag] = "7.x-4.5.1+16-dev"
+projects[stanford_sites_jumpstart_academic][subdir] = FALSE
 
 projects[stanford_sites_jumpstart_engineering][type] = "profile"
 projects[stanford_sites_jumpstart_engineering][download][type] = "git"
 projects[stanford_sites_jumpstart_engineering][download][url] = "git@github.com:SU-SOE/stanford_sites_jumpstart_engineering.git"
 projects[stanford_sites_jumpstart_engineering][download][tag] = "7.x-1.1+4-dev"
+projects[stanford_sites_jumpstart_engineering][subdir] = FALSE
 
 ; JSE Modules
 ; ------------------------------------------------------------------------------
