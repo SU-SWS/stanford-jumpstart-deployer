@@ -45,11 +45,13 @@ projects[stanford_sites_abstract][type] = "profile"
 projects[stanford_sites_abstract][download][type] = "git"
 projects[stanford_sites_abstract][download][url] = "git@github.com:SU-SWS/stanford_sites_abstract.git"
 projects[stanford_sites_abstract][download][branch] = "7.x-4.x"
+projects[stanford_sites_abstract][subdir] = FALSE
 
 projects[stanford_sites_jumpstart_personal][type] = "profile"
 projects[stanford_sites_jumpstart_personal][download][type] = "git"
 projects[stanford_sites_jumpstart_personal][download][url] = "git@github.com:SU-SWS/stanford_sites_jumpstart_personal.git"
 projects[stanford_sites_jumpstart_personal][download][branch] = 7.x-4.2
+projects[stanford_sites_jumpstart_personal][subdir] = FALSE
 
 
 ; Patches
