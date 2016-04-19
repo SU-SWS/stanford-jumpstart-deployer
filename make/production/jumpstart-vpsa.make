@@ -23,11 +23,6 @@ projects[faq][version] = "1.1"
 projects[faq][subdir] = "contrib"
 projects[bigmenu][version] = "1.3"
 projects[bigmenu][subdir] = "contrib"
-projects[field_collection][version] = "1.0-beta11"
-
-; Overrides until Stanford-Drupal-Profile gets up to speed.
-projects[pathauto][version] = "1.3"
-projects[field_collection][version] = "1.0-beta11"
 
 ; Contrib Dev Versions
 ; Because Dev Versions can change we want to target the specific commit hash
