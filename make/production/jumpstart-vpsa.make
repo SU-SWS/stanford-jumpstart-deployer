@@ -24,6 +24,15 @@ projects[faq][subdir] = "contrib"
 projects[bigmenu][version] = "1.3"
 projects[bigmenu][subdir] = "contrib"
 
+; Overrides until Stanford-Drupal-Profile gets up to speed.
+
+projects[field_collection][version] = "1.x-dev"
+projects[field_collection][subdir] = "contrib"
+projects[field_collection][download][type] = "git"
+projects[field_collection][download][url] = "http://git.drupal.org/project/field_collection.git"
+projects[field_collection][download][revision] = "7506700007baef8a6c6700cdde9c8ee89a18628b"
+
+
 ; Contrib Dev Versions
 ; Because Dev Versions can change we want to target the specific commit hash
 ; that this build works with.
