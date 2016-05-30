@@ -25,7 +25,7 @@ projects[search_krumo][subdir] = "contrib"
 projects[search_krumo][version] = "1.x-dev"
 
 projects[cron_debug][subdir] = "contrib"
-projects[cron_debug][version] = "1.x-dev"
+projects[cron_debug][version] = "1.2"
 
 projects[better_watchdog_ui][subdir] = "contrib"
 projects[better_watchdog_ui][version] = "2.x-dev"
