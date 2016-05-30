@@ -16,9 +16,6 @@ projects[features][patch][] = "https://drupal.org/files/issues/features-parent_i
 ; https://drupal.org/node/1267966 - entity tokens bugs
 projects[pathauto][patch][] = "https://drupal.org/files/pathauto_admin.patch"
 
-; https://www.drupal.org/node/1036962 | Edit link destination incorrect when using AJAX-enabled views
-projects[views][patch][] = "https://www.drupal.org/files/views-fix-destination-link-for-ajax-1036962-29.patch"
-
 ; https://www.drupal.org/node/1819538 | More link disappears when time-based views cache is enabled
 projects[views][patch][] = "https://www.drupal.org/files/issues/views-more_link_disappears_with_caching-1819538-6.patch"
 
