@@ -11,7 +11,7 @@ projects[stanford_sites_helper][subdir] = "stanford"
 projects[stanford_sites_helper][type] = "module"
 projects[stanford_sites_helper][download][type] = "git"
 projects[stanford_sites_helper][download][url] = "git@github.com:SU-SWS/stanford_sites_helper.git"
-projects[stanford_sites_helper][download][tag] = "7.x-1.5"
+projects[stanford_sites_helper][download][tag] = "7.x-1.6"
 
 projects[webauth][subdir] = "stanford"
 projects[webauth][type] = "module"
