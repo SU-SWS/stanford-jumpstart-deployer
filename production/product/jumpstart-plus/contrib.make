@@ -190,6 +190,8 @@ projects[wysiwyg_filter][subdir] = "contrib"
 projects[wysiwyg_filter][version] = "1.6-rc3"
 projects[xmlsitemap][subdir] = "contrib"
 projects[xmlsitemap][version] = "2.2"
+projects[menu_attributes][subdir] = "contrib"
+projects[menu_attributes][version] = "1.0-rc3"
 
 ; Contributed modules, -dev versions specified by git commit
 ; ------------------------------------------------------------------------------
@@ -212,7 +214,6 @@ projects[social_share][subdir] = "contrib"
 projects[social_share][download][type] = "git"
 projects[social_share][download][url] = "http://git.drupal.org/project/social-share.git"
 projects[social_share][download][tag] = "7.x-2.1"
-
 
 ; Contributed themes
 ; ------------------------------------------------------------------------------
