@@ -6,7 +6,7 @@ api = 2
 projects[s3fs][subdir] = "contrib"
 projects[s3fs][version] = "2.0"
 
-; 3.x way point.
+; https://www.drupal.org/node/2220207
 projects[simplesamlphp_auth][type] = "module"
 projects[simplesamlphp_auth][subdir] = "contrib"
 projects[simplesamlphp_auth][download][type] = "git"
