@@ -6,9 +6,12 @@ api = 2
 projects[s3fs][subdir] = "contrib"
 projects[s3fs][version] = "2.0"
 
+; 3.x way point.
+projects[simplesamlphp_auth][type] = "module"
 projects[simplesamlphp_auth][subdir] = "contrib"
-projects[simplesamlphp_auth][version] = "2.0-alpha2"
-projects[simplesamlphp_auth][patch][] = "https://www.drupal.org/files/simplesamlphp_auth-fixnewdrupalusers-1824194-6.patch"
+projects[simplesamlphp_auth][download][type] = "git"
+projects[simplesamlphp_auth][download][url] = "http://git.drupal.org/project/simplesamlphp_auth.git"
+projects[simplesamlphp_auth][download][revision] = "6e92be67b007e4e9f4a071b9a82c7db8fbcee2af"
 
 projects[smtp][subdir] = "contrib"
 projects[smtp][version] = "1.2"
