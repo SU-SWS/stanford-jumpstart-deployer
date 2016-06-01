@@ -197,4 +197,3 @@ projects[stanford_wilbur][type] = theme
 projects[stanford_wilbur][download][type] = "git"
 projects[stanford_wilbur][download][url] = git@github.com:SU-SWS/stanford_wilbur.git
 projects[stanford_wilbur][download][tag] = "7.x-2.1"
-
