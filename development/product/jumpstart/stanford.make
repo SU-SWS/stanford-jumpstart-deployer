@@ -52,6 +52,12 @@ projects[stanford_events_importer][download][type] = "git"
 projects[stanford_events_importer][download][url] = "git@github.com:SU-SWS/stanford_events_importer.git"
 projects[stanford_events_importer][download][branch] = "7.x-3.x"
 
+projects[stanford_helper][subdir] = "stanford"
+projects[stanford_helper][type] = "module"
+projects[stanford_helper][download][type] = "git"
+projects[stanford_helper][download][url] = "git@github.com:SU-SWS/stanford_helper.git"
+projects[stanford_helper][download][branch] = "7.x-1.x"
+
 projects[stanford_image][subdir] = "stanford"
 projects[stanford_image][type] = "module"
 projects[stanford_image][download][type] = "git"
@@ -64,11 +70,11 @@ projects[stanford_image_styles][download][type] = "git"
 projects[stanford_image_styles][download][url] = "git@github.com:SU-SWS/stanford_image_styles.git"
 projects[stanford_image_styles][download][branch] = "7.x-3.x-dev"
 
-projects[stanford_metatag_nobots][subdir] = "stanford"
-projects[stanford_metatag_nobots][type] = "module"
-projects[stanford_metatag_nobots][download][type] = "git"
-projects[stanford_metatag_nobots][download][url] = "git@github.com:SU-SWS/stanford_metatag_nobots.git"
-projects[stanford_metatag_nobots][download][branch] = "7.x-3.x-dev"
+projects[nobots][subdir] = "stanford"
+projects[nobots][type] = "module"
+projects[nobots][download][type] = "git"
+projects[nobots][download][url] = "git@github.com:SU-SWS/nobots.git"
+projects[nobots][download][branch] = "7.x-1.x"
 
 projects[stanford_page][subdir] = "stanford"
 projects[stanford_page][type] = "module"
@@ -93,12 +99,6 @@ projects[stanford_video][type] = "module"
 projects[stanford_video][download][type] = "git"
 projects[stanford_video][download][url] = "git@github.com:SU-SWS/stanford_video.git"
 projects[stanford_video][download][branch] = "7.x-2.x-dev"
-
-projects[stanford_wysiwyg][subdir] = "stanford"
-projects[stanford_wysiwyg][type] = "module"
-projects[stanford_wysiwyg][download][type] = git
-projects[stanford_wysiwyg][download][url] = git@github.com:SU-SWS/stanford_wysiwyg.git
-projects[stanford_wysiwyg][download][branch] = "7.x-2.x-dev"
 
 projects[stanford_easy_wysiwyg_css][type] = "module"
 projects[stanford_easy_wysiwyg_css][subdir] = "stanford"
