@@ -24,6 +24,3 @@ projects[ds][patch][] = "https://www.drupal.org/files/issues/ds_extras_field_gro
 
 ; https://www.drupal.org/node/2221307 | Deleting host entity causes save during deletion and triggers pathauto
 projects[field_collection][patch][] = "https://www.drupal.org/files/issues/field_collection-2385985-29.patch"
-
-; https://www.drupal.org/node/1169986 | Fatal error: Class 'FeedsPlugin' not found
-projects[feeds][patch][] = "https://www.drupal.org/files/issues/1169986-13-class-feedsplugin-not-found.patch"
