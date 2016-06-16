@@ -143,7 +143,7 @@ projects[stanford_gallery][download][url] = "git@github.com:SU-SWS/stanford_gall
 projects[stanford_gallery][download][branch] = "7.x-2.x"
 
 ; Academic Modules
------
+; -----
 
 projects[stanford_jumpstart_academic][type] = "module"
 projects[stanford_jumpstart_academic][subdir] = "stanford"
