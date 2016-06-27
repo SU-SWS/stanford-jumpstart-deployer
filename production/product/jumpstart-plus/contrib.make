@@ -189,7 +189,7 @@ projects[wysiwyg][version] = "2.2"
 projects[wysiwyg_filter][subdir] = "contrib"
 projects[wysiwyg_filter][version] = "1.6-rc3"
 projects[xmlsitemap][subdir] = "contrib"
-projects[xmlsitemap][version] = "2.2"
+projects[xmlsitemap][version] = "2.3"
 projects[menu_attributes][subdir] = "contrib"
 projects[menu_attributes][version] = "1.0-rc3"
 
