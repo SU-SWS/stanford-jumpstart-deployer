@@ -33,6 +33,18 @@ projects[cap_drupal][subdir] = "stanford"
 ; Stanford themes - Github
 ; ------------------------
 
+; Override default behavior of putting things in a "contrib" subdirectory. See line #4 of this .make file.
+projects[cube][subdir] = FALSE
+projects[open_framework][subdir] = FALSE
+projects[rubik][subdir] = FALSE
+projects[stanfordmodern][subdir] = FALSE
+projects[stanford_framework][subdir] = FALSE
+projects[stanford_jordan][subdir] = FALSE
+projects[stanford_light][subdir] = FALSE
+projects[stanford_seven][subdir] = FALSE
+projects[stanford_wilbur][subdir] = FALSE
+projects[tao][subdir] = FALSE
+
 
 ; Libraries
 ; ---------

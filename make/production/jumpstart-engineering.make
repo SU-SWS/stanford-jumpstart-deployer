@@ -100,6 +100,18 @@ projects[stanford_affiliate_organization][subdir] = "stanford"
 projects[stanford_framework][download][tag] = "7.x-3.2-beta6"
 projects[open_framework][download][tag] = "7.x-2.5-beta1"
 
+; Override default behavior of putting things in a "contrib" subdirectory. See line #4 of this .make file.
+projects[cube][subdir] = FALSE
+projects[open_framework][subdir] = FALSE
+projects[rubik][subdir] = FALSE
+projects[stanfordmodern][subdir] = FALSE
+projects[stanford_framework][subdir] = FALSE
+projects[stanford_jordan][subdir] = FALSE
+projects[stanford_light][subdir] = FALSE
+projects[stanford_seven][subdir] = FALSE
+projects[stanford_wilbur][subdir] = FALSE
+projects[tao][subdir] = FALSE
+
 ; Child .make Overidden Modules
 ; ------------------------------------------------------------------------------
 

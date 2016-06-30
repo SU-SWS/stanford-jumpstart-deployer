@@ -155,6 +155,18 @@ projects[stanford_video][download][tag] = "7.x-2.1+5-dev"
 
 ; Found in core-stanford.make
 
+; Override default behavior of putting things in a "contrib" subdirectory. See line #4 of this .make file.
+projects[cube][subdir] = FALSE
+projects[open_framework][subdir] = FALSE
+projects[rubik][subdir] = FALSE
+projects[stanfordmodern][subdir] = FALSE
+projects[stanford_framework][subdir] = FALSE
+projects[stanford_jordan][subdir] = FALSE
+projects[stanford_light][subdir] = FALSE
+projects[stanford_seven][subdir] = FALSE
+projects[stanford_wilbur][subdir] = FALSE
+projects[tao][subdir] = FALSE
+
 projects[stanfordmodern][type] = "theme"
 projects[stanfordmodern][download][type] = "git"
 projects[stanfordmodern][download][url] = "git@github.com:su-ddd/stanfordmodern.git"
