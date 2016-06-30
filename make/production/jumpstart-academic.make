@@ -94,6 +94,8 @@ projects[open_framework][subdir] = FALSE
 projects[rubik][subdir] = FALSE
 projects[stanford_framework][subdir] = FALSE
 projects[stanford_jordan][subdir] = FALSE
+projects[stanford_light][subdir] = FALSE
+projects[stanford_seven][subdir] = FALSE
 projects[stanford_wilbur][subdir] = FALSE
 projects[tao][subdir] = FALSE
 
