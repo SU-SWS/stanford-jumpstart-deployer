@@ -2,7 +2,7 @@ core = 7.x
 api = 2
 
 libraries[simplepie][download][type] = "file"
-libraries[simplepie][download][url] = "http://web.stanford.edu/group/webservices/simplepie.compiled.php"
+libraries[simplepie][download][url] = "http://simplepie.org/downloads/simplepie_1.3.1.compiled.php"
 libraries[simplepie][download][filename] = "simplepie.compiled.php"
 libraries[simplepie][destination] = "libraries"
 
