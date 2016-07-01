@@ -22,6 +22,21 @@ To use first select either a development or production style build, a product, a
 	drush make development/environment/mamp.make /Applications/MAMP/htdocs/jumpstart --no-core --working-copy --concurrency=4 -y
 	```
 
+Updating Version Numbers in Makefiles
+---
+Included in the root of this repository is a shell script, `sed-make.sh`. To update the version number of a module in all `*.make` files in this repo, use it like so:
+
+```
+./sed-make.sh <module> <oldversion> <newversion>
+```
+E.g.,:
+
+```
+./sed-make.sh block_class 1.3 2.3
+```
+
+Then review and commit the changes.
+
 Troubleshooting
 ---
 
