@@ -165,17 +165,11 @@ projects[stanford_gallery][download][branch] = "7.x-2.x"
 
 ; JSE Modules
 
-projects[stanford_private_page][type] = "module"
-projects[stanford_private_page][subdir] = "stanford"
-projects[stanford_private_page][download][type] = "git"
-projects[stanford_private_page][download][url] = "git@github.com:SU-SWS/stanford_private_page.git"
-projects[stanford_private_page][download][branch] = "7.x-1.x"
-
-projects[stanford_related_content][type] = "module"
-projects[stanford_related_content][subdir] = "stanford"
-projects[stanford_related_content][download][type] = "git"
-projects[stanford_related_content][download][url] = "git@github.com:SU-SWS/stanford_related_content.git"
-projects[stanford_related_content][download][branch] = "7.x-1.x"
+projects[stanford_help][type] = "module"
+projects[stanford_help][subdir] = "stanford"
+projects[stanford_help][download][type] = "git"
+projects[stanford_help][download][url] = "git@github.com:SU-SOE/stanford_help.git"
+projects[stanford_help][download][branch] = "7.x-1.x"
 
 projects[stanford_jumpstart_engineering][type] = "module"
 projects[stanford_jumpstart_engineering][subdir] = "stanford"
@@ -189,6 +183,17 @@ projects[stanford_jumpstart_home][download][type] = "git"
 projects[stanford_jumpstart_home][download][url] = "git@github.com:SU-SOE/stanford_jumpstart_home.git"
 projects[stanford_jumpstart_home][download][branch] = "7.x-1.x"
 
+projects[stanford_private_page][type] = "module"
+projects[stanford_private_page][subdir] = "stanford"
+projects[stanford_private_page][download][type] = "git"
+projects[stanford_private_page][download][url] = "git@github.com:SU-SWS/stanford_private_page.git"
+projects[stanford_private_page][download][branch] = "7.x-1.x"
+
+projects[stanford_related_content][type] = "module"
+projects[stanford_related_content][subdir] = "stanford"
+projects[stanford_related_content][download][type] = "git"
+projects[stanford_related_content][download][url] = "git@github.com:SU-SWS/stanford_related_content.git"
+projects[stanford_related_content][download][branch] = "7.x-1.x"
 
 ; Custom Themes, GitHub
 ; ------------------------------------------------------------------------------
