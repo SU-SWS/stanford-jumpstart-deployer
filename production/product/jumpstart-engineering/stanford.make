@@ -80,9 +80,7 @@ projects[stanford_gallery][download][url] = "git@github.com:SU-SWS/stanford_gall
 projects[stanford_gallery][type] = "module"
 projects[stanford_gallery][subdir] = "stanford"
 
-
-; Needs updated tag
-projects[stanford_help][download][branch] = "7.x-1.x"
+projects[stanford_help][download][tag] = "7.x-1.0"
 projects[stanford_help][download][type] = "git"
 projects[stanford_help][download][url] = "git@github.com:SU-SWS/stanford_help.git"
 projects[stanford_help][type] = "module"
@@ -112,8 +110,7 @@ projects[stanford_jumpstart_academic][download][url] = "git@github.com:SU-SWS/st
 projects[stanford_jumpstart_academic][subdir] = "stanford"
 projects[stanford_jumpstart_academic][type] = "module"
 
-; Needs updated tag
-projects[stanford_landing_page][download][tag] = "7.x-1.4"
+projects[stanford_landing_page][download][tag] = "7.x-1.4+3-dev"
 projects[stanford_landing_page][download][type] = "git"
 projects[stanford_landing_page][download][url] = "git@github.com:SU-SWS/stanford_landing_page.git"
 projects[stanford_landing_page][subdir] = "stanford"
@@ -125,15 +122,13 @@ projects[stanford_manage_content][download][url] = "git@github.com:SU-SWS/stanfo
 projects[stanford_manage_content][type] = "module"
 projects[stanford_manage_content][subdir] = "stanford"
 
-; Needs updated tag
-projects[stanford_metatag_nobots][download][branch] = "7.x-3.x-dev"
+projects[stanford_metatag_nobots][download][branch] = "7.x-3.1+4-dev"
 projects[stanford_metatag_nobots][download][type] = "git"
 projects[stanford_metatag_nobots][download][url] = "git@github.com:SU-SWS/stanford_metatag_nobots.git"
 projects[stanford_metatag_nobots][subdir] = "stanford"
 projects[stanford_metatag_nobots][type] = "module"
 
-; Needs updated tag
-projects[stanford_news][download][tag] = "7.x-3.2"
+projects[stanford_news][download][tag] = "7.x-3.3"
 projects[stanford_news][download][type] = "git"
 projects[stanford_news][download][url] = "git@github.com:SU-SWS/stanford_news.git"
 projects[stanford_news][subdir] = "stanford"
@@ -145,15 +140,13 @@ projects[stanford_page][download][url] = "git@github.com:SU-SWS/stanford_page.gi
 projects[stanford_page][subdir] = "stanford"
 projects[stanford_page][type] = "module"
 
-; Needs updated tag
-projects[stanford_person][download][tag] = "7.x-5.1"
+projects[stanford_person][download][tag] = "7.x-5.2"
 projects[stanford_person][download][type] = "git"
 projects[stanford_person][download][url] = "git@github.com:SU-SWS/stanford_person.git"
 projects[stanford_person][subdir] = "stanford"
 projects[stanford_person][type] = "module"
 
-; Needs updated tag
-projects[stanford_private_page][download][tag] = "7.x-1.0+26-dev"
+projects[stanford_private_page][download][tag] = "7.x-1.1"
 projects[stanford_private_page][download][type] = "git"
 projects[stanford_private_page][download][url] = "git@github.com:SU-SWS/stanford_private_page.git"
 projects[stanford_private_page][subdir] = "stanford"
@@ -192,13 +185,13 @@ projects[stanford_wysiwyg][type] = "module"
 
 ; SU-SOE Modules
 
-projects[stanford_jumpstart_engineering][download][branch] = "7.x-5.x"
+projects[stanford_jumpstart_engineering][download][branch] = "7.x-5.0"
 projects[stanford_jumpstart_engineering][download][type] = "git"
 projects[stanford_jumpstart_engineering][download][url] = "git@github.com:SU-SOE/stanford_jumpstart_engineering.git"
 projects[stanford_jumpstart_engineering][subdir] = "stanford"
 projects[stanford_jumpstart_engineering][type] = "module"
 
-projects[stanford_jumpstart_home][download][branch] = "7.x-1.x"
+projects[stanford_jumpstart_home][download][branch] = "7.x-1.4+8-dev"
 projects[stanford_jumpstart_home][download][type] = "git"
 projects[stanford_jumpstart_home][download][url] = "git@github.com:SU-SOE/stanford_jumpstart_home.git"
 projects[stanford_jumpstart_home][subdir] = "stanford"
@@ -213,8 +206,9 @@ projects[open_framework][download][type] = "git"
 projects[open_framework][download][url] = "git@github.com:SU-SWS/open_framework.git"
 projects[open_framework][type] = theme
 
-; Needs updated tag
-projects[stanford_seven][download][branch] = "7.x-1.x"
+; This commit hash is == 7.x-1.1+3-dev
+;projects[stanford_seven][download][branch] = "7.x-1.1+3-dev"
+projects[stanford_seven][download][revision] = 16af320804e969b70db7f815f3ec5166b471b084
 projects[stanford_seven][download][type] = "git"
 projects[stanford_seven][download][url] = "git@github.com:SU-SWS/stanford_seven.git"
 projects[stanford_seven][type] = theme
