@@ -168,7 +168,7 @@ projects[stanford_gallery][download][branch] = "7.x-2.x"
 projects[stanford_help][type] = "module"
 projects[stanford_help][subdir] = "stanford"
 projects[stanford_help][download][type] = "git"
-projects[stanford_help][download][url] = "git@github.com:SU-SOE/stanford_help.git"
+projects[stanford_help][download][url] = "git@github.com:SU-SWS/stanford_help.git"
 projects[stanford_help][download][branch] = "7.x-1.x"
 
 projects[stanford_jumpstart_engineering][type] = "module"
