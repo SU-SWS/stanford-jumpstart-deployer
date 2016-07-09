@@ -19,9 +19,6 @@ projects[features][patch][] = "https://drupal.org/files/issues/features-parent_i
 ; https://drupal.org/node/1267966 - entity tokens bugs
 projects[pathauto][patch][] = "https://drupal.org/files/pathauto_admin.patch"
 
-; https://www.drupal.org/node/1036962 | Edit link destination incorrect when using AJAX-enabled views
-projects[views][patch][] = "https://www.drupal.org/files/views-fix-destination-link-for-ajax-1036962-29.patch"
-
 ; https://www.drupal.org/node/550428 No empty tags patch.
 projects[wysiwyg][patch][] = "https://drupal.org/files/wysiwyg-non-empty-tags.550428.79.patch"
 
