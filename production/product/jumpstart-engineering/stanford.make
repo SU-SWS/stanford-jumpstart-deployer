@@ -207,7 +207,7 @@ projects[open_framework][download][url] = "git@github.com:SU-SWS/open_framework.
 projects[open_framework][type] = theme
 
 ; This commit is == 7.x-1.1+3-dev and 7.x-1.2
-projects[stanford_seven][download][branch] = "7.x-1.2"
+projects[stanford_seven][download][tag] = "7.x-1.2"
 projects[stanford_seven][download][type] = "git"
 projects[stanford_seven][download][url] = "git@github.com:SU-SWS/stanford_seven.git"
 projects[stanford_seven][type] = theme
