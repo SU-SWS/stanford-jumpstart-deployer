@@ -206,9 +206,8 @@ projects[open_framework][download][type] = "git"
 projects[open_framework][download][url] = "git@github.com:SU-SWS/open_framework.git"
 projects[open_framework][type] = theme
 
-; This commit hash is == 7.x-1.1+3-dev
-;projects[stanford_seven][download][branch] = "7.x-1.1+3-dev"
-projects[stanford_seven][download][revision] = 16af320804e969b70db7f815f3ec5166b471b084
+; This commit is == 7.x-1.1+3-dev and 7.x-1.2
+projects[stanford_seven][download][branch] = "7.x-1.2"
 projects[stanford_seven][download][type] = "git"
 projects[stanford_seven][download][url] = "git@github.com:SU-SWS/stanford_seven.git"
 projects[stanford_seven][type] = theme
