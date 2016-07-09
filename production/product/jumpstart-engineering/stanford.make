@@ -185,13 +185,13 @@ projects[stanford_wysiwyg][type] = "module"
 
 ; SU-SOE Modules
 
-projects[stanford_jumpstart_engineering][download][branch] = "7.x-5.0"
+projects[stanford_jumpstart_engineering][download][tag] = "7.x-5.0"
 projects[stanford_jumpstart_engineering][download][type] = "git"
 projects[stanford_jumpstart_engineering][download][url] = "git@github.com:SU-SOE/stanford_jumpstart_engineering.git"
 projects[stanford_jumpstart_engineering][subdir] = "stanford"
 projects[stanford_jumpstart_engineering][type] = "module"
 
-projects[stanford_jumpstart_home][download][branch] = "7.x-1.4+8-dev"
+projects[stanford_jumpstart_home][download][tag] = "7.x-1.4+8-dev"
 projects[stanford_jumpstart_home][download][type] = "git"
 projects[stanford_jumpstart_home][download][url] = "git@github.com:SU-SOE/stanford_jumpstart_home.git"
 projects[stanford_jumpstart_home][subdir] = "stanford"
