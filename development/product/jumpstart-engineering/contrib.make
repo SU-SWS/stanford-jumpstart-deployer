@@ -54,6 +54,8 @@ projects[context_respect][subdir] = "contrib"
 projects[context_respect][version] = "1.3"
 projects[context_useragent][subdir] = "contrib"
 projects[context_useragent][version] = "1.x-dev"
+projects[contextual_view_modes][subdir] = "contrib"
+projects[contextual_view_modes][version] = "3.0"
 projects[css_injector][subdir] = "contrib"
 projects[css_injector][version] = "1.10"
 projects[ctools][subdir] = "contrib"
@@ -124,6 +126,8 @@ projects[libraries][subdir] = "contrib"
 projects[libraries][version] = "2.3"
 projects[link][subdir] = "contrib"
 projects[link][version] = "1.4"
+projects[menu_attributes][subdir] = "contrib"
+projects[menu_attributes][version] = "1.0"
 projects[menu_block][subdir] = "contrib"
 projects[menu_block][version] = "2.7"
 projects[menu_position][subdir] = "contrib"
@@ -205,15 +209,6 @@ projects[xmlsitemap][version] = "2.3"
 
 ; Contributed modules, -dev versions specified by git commit
 ; ------------------------------------------------------------------------------
-
-
-
-; Jumpstart Engineering (JSE)
-; ------------------------------------------------------------------------------
-projects[contextual_view_modes][subdir] = "contrib"
-projects[contextual_view_modes][version] = "3.0"
-projects[menu_attributes][subdir] = "contrib"
-projects[menu_attributes][version] = "1.0"
 
 
 ; Contributed themes
