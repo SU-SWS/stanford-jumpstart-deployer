@@ -13,7 +13,7 @@ projects[erus][download][url] = "git@github.com:SU-SWS/erus.git"
 projects[erus][subdir] = "stanford"
 projects[erus][type] = "module"
 
-projects[nobots][download][tag] = "7.x-1.0"
+projects[nobots][download][tag] = "7.x-1.0+7-dev"
 projects[nobots][download][type] = "git"
 projects[nobots][download][url] = "git@github.com:SU-SWS/nobots.git"
 projects[nobots][subdir] = "stanford"
