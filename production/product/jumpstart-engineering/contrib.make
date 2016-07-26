@@ -200,8 +200,6 @@ projects[workbench][subdir] = "contrib"
 projects[workbench][version] = "1.2"
 projects[workbench_access][subdir] = "contrib"
 projects[workbench_access][version] = "1.4"
-projects[workbench_moderation][subdir] = "contrib"
-projects[workbench_moderation][version] = "1.4"
 projects[wysiwyg][subdir] = "contrib"
 projects[wysiwyg][version] = "2.2"
 projects[wysiwyg_filter][subdir] = "contrib"
@@ -211,6 +209,13 @@ projects[xmlsitemap][version] = "2.3"
 
 ; Contributed modules, -dev versions specified by git commit
 ; ------------------------------------------------------------------------------
+
+projects[workbench_moderation][type] = "module"
+projects[workbench_moderation][subdir] = "contrib"
+projects[workbench_moderation][download][type] = "git"
+projects[workbench_moderation][download][url] = "http://git.drupal.org/project/workbench_moderation.git"
+projects[workbench_moderation][download][revision] = "56d8d1dc595058396cd06358e7c7cdc9f4c5e168"
+
 
 
 ; Contributed themes
