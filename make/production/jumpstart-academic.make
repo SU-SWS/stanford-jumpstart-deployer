@@ -60,6 +60,12 @@ projects[stanford_event_series][download][url] = "git@github.com:SU-SWS/stanford
 projects[stanford_event_series][download][branch] = "7.x-1.0"
 projects[stanford_event_series][subdir] = "stanford"
 
+projects[stanford_person][type] = "module"
+projects[stanford_person][download][type] = "git"
+projects[stanford_person][download][url] = "git@github.com:SU-SWS/stanford_person.git"
+projects[stanford_person][download][tag] = "7.x-5.2"
+projects[stanford_person][subdir] = "stanford"
+
 projects[stanford_publication][type] = "module"
 projects[stanford_publication][download][type] = "git"
 projects[stanford_publication][download][url] = "git@github.com:SU-SWS/stanford_publication.git"
