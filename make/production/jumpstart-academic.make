@@ -13,6 +13,8 @@ includes[stanford_libraries] = "https://raw.githubusercontent.com/SU-SWS/Stanfor
 
 ; Temporary until Stanford-Drupal-Profile gets updated
 projects[field_collection][version] = "1.0-beta11"
+projects[default_image_ft][subdir] = "contrib"
+projects[default_image_ft][version] = "1.6"
 
 ; Stanford Modules - GitHub
 ; -------------------------
