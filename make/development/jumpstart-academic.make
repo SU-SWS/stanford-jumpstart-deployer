@@ -13,6 +13,9 @@ includes[core_libraries] = "core/core-libraries.make"
 ; DEV VERSIONS
 ; -------------------
 
+projects[default_image_ft][subdir] = "contrib"
+projects[default_image_ft][version] = "1.6"
+
 ; The remote stanford profile defines a number of core stanford resources.
 ; Here we alter them to use the development branch instead of a release tag.
 
@@ -160,5 +163,3 @@ projects[stanford_sites_jumpstart_academic][download][branch] = "7.x-4.x"
 
 includes[stanford_patches] = "https://raw.githubusercontent.com/SU-SWS/Stanford-Drupal-Profile/7.x-2.x/make/patches.make"
 includes[core_patches] = "core/core-patches.make"
-
-

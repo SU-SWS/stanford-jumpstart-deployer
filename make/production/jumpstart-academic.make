@@ -6,13 +6,15 @@ defaults[projects][subdir] = contrib
 ; Modules, themes, libraries, and patches from Stanford Drupal Profile
 ; --------------------------------------------------------------------
 
-includes[stanford_profile] = "https://raw.githubusercontent.com/SU-SWS/Stanford-Drupal-Profile/7.x-2.3/make/stanford.make"
-includes[stanford_themes] = "https://raw.githubusercontent.com/SU-SWS/Stanford-Drupal-Profile/7.x-2.3/make/stanford-themes.make"
-includes[stanford_patches] = "https://raw.githubusercontent.com/SU-SWS/Stanford-Drupal-Profile/7.x-2.3/make/patches.make"
-includes[stanford_libraries] = "https://raw.githubusercontent.com/SU-SWS/Stanford-Drupal-Profile/7.x-2.3/make/libraries.make"
+includes[stanford_profile] = "https://raw.githubusercontent.com/SU-SWS/Stanford-Drupal-Profile/7.x-2.4/make/stanford.make"
+includes[stanford_themes] = "https://raw.githubusercontent.com/SU-SWS/Stanford-Drupal-Profile/7.x-2.4/make/stanford-themes.make"
+includes[stanford_patches] = "https://raw.githubusercontent.com/SU-SWS/Stanford-Drupal-Profile/7.x-2.4/make/patches.make"
+includes[stanford_libraries] = "https://raw.githubusercontent.com/SU-SWS/Stanford-Drupal-Profile/7.x-2.4/make/libraries.make"
 
 ; Temporary until Stanford-Drupal-Profile gets updated
 projects[field_collection][version] = "1.0-beta11"
+projects[default_image_ft][subdir] = "contrib"
+projects[default_image_ft][version] = "1.6"
 
 ; Stanford Modules - GitHub
 ; -------------------------
@@ -33,13 +35,13 @@ projects[stanford_gallery][subdir] = "stanford"
 projects[stanford_jumpstart][type] = "module"
 projects[stanford_jumpstart][download][type] = "git"
 projects[stanford_jumpstart][download][url] = "git@github.com:SU-SWS/stanford_jumpstart.git"
-projects[stanford_jumpstart][download][tag] = "7.x-4.5+30-dev"
+projects[stanford_jumpstart][download][tag] = "7.x-4.6"
 projects[stanford_jumpstart][subdir] = "stanford"
 
 projects[stanford_jumpstart_academic][type] = "module"
 projects[stanford_jumpstart_academic][download][type] = "git"
 projects[stanford_jumpstart_academic][download][url] = "git@github.com:SU-SWS/stanford_jumpstart_academic.git"
-projects[stanford_jumpstart_academic][download][branch] = "7.x-4.5.1"
+projects[stanford_jumpstart_academic][download][branch] = "7.x-4.6"
 projects[stanford_jumpstart_academic][subdir] = "stanford"
 
 projects[stanford_jumpstart_home][type] = "module"
@@ -59,6 +61,12 @@ projects[stanford_event_series][download][type] = "git"
 projects[stanford_event_series][download][url] = "git@github.com:SU-SWS/stanford_event_series.git"
 projects[stanford_event_series][download][branch] = "7.x-1.0"
 projects[stanford_event_series][subdir] = "stanford"
+
+projects[stanford_person][type] = "module"
+projects[stanford_person][download][type] = "git"
+projects[stanford_person][download][url] = "git@github.com:SU-SWS/stanford_person.git"
+projects[stanford_person][download][tag] = "7.x-5.2"
+projects[stanford_person][subdir] = "stanford"
 
 projects[stanford_publication][type] = "module"
 projects[stanford_publication][download][type] = "git"
@@ -122,19 +130,16 @@ projects[stanford_sites_abstract][subdir] = FALSE
 projects[stanford_sites_jumpstart][type] = "profile"
 projects[stanford_sites_jumpstart][download][type] = "git"
 projects[stanford_sites_jumpstart][download][url] = "git@github.com:SU-SWS/stanford_sites_jumpstart.git"
-projects[stanford_sites_jumpstart][download][tag] = "7.x-4.5+7-dev"
+projects[stanford_sites_jumpstart][download][tag] = "7.x-4.6"
 projects[stanford_sites_jumpstart][subdir] = FALSE
 
 projects[stanford_sites_jumpstart_academic][type] = "profile"
 projects[stanford_sites_jumpstart_academic][download][type] = "git"
 projects[stanford_sites_jumpstart_academic][download][url] = "git@github.com:SU-SWS/stanford_sites_jumpstart_academic.git"
-projects[stanford_sites_jumpstart_academic][download][tag] = "7.x-4.5.1"
+projects[stanford_sites_jumpstart_academic][download][tag] = "7.x-4.6"
 projects[stanford_sites_jumpstart_academic][subdir] = FALSE
 
 ; Patches
 ; -------
 
 includes[core_patches] = "core/core-patches.make"
-
-
-

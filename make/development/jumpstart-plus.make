@@ -13,6 +13,9 @@ includes[core_libraries] = "core/core-libraries.make"
 ; DEV VERSIONS
 ; -------------------
 
+projects[default_image_ft][subdir] = "contrib"
+projects[default_image_ft][version] = "1.6"
+
 ; The remote stanford profile defines a number of core stanford resources.
 ; Here we alter them to use the development branch instead of a release tag.
 

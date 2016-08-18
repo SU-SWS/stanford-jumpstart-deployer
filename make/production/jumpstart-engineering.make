@@ -26,6 +26,8 @@ projects[menu_attributes][version] = "1.0"
 
 projects[pathauto][version] = "1.3"
 
+projects[default_image_ft][subdir] = "contrib"
+projects[default_image_ft][version] = "1.6"
 
 ; Stanford Modules - GitHub
 ; -------------------------
@@ -130,4 +132,3 @@ projects[stanford_page][download][tag] = "7.x-2.1+2-dev"
 projects[stanford_person][download][tag] = "7.x-5.0"
 projects[stanford_publication][download][tag] = "7.x-2.1+17-dev"
 projects[stanford_video][download][tag] = "7.x-2.1+5-dev"
-
