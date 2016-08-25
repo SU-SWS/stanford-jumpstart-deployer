@@ -200,7 +200,7 @@ projects[stanford_jumpstart_home][type] = "module"
 ; Custom Themes, GitHub
 ; ------------------------------------------------------------------------------
 
-projects[open_framework][download][tag] = "7.x-2.5-beta4"
+projects[open_framework][download][tag] = "7.x-2.5"
 projects[open_framework][download][type] = "git"
 projects[open_framework][download][url] = "git@github.com:SU-SWS/open_framework.git"
 projects[open_framework][type] = theme
@@ -211,7 +211,7 @@ projects[stanford_seven][download][type] = "git"
 projects[stanford_seven][download][url] = "git@github.com:SU-SWS/stanford_seven.git"
 projects[stanford_seven][type] = theme
 
-projects[stanford_framework][download][tag] = "7.x-3.2-beta9"
+projects[stanford_framework][download][tag] = "7.x-3.2"
 projects[stanford_framework][download][type] = "git"
 projects[stanford_framework][download][url] = "git@github.com:SU-SWS/stanford_framework.git"
 projects[stanford_framework][type] = "theme"

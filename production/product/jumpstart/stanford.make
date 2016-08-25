@@ -136,7 +136,7 @@ projects[stanford_jumpstart_home][download][tag] = "7.x-1.4"
 projects[open_framework][type] = theme
 projects[open_framework][download][type] = "git"
 projects[open_framework][download][url] = "git@github.com:SU-SWS/open_framework.git"
-projects[open_framework][download][tag] = "7.x-2.5-beta3"
+projects[open_framework][download][tag] = "7.x-2.5"
 
 projects[stanford_seven][type] = theme
 projects[stanford_seven][download][type] = "git"
@@ -151,14 +151,14 @@ projects[stanfordmodern][download][tag] = "7.x-1.6"
 projects[stanford_framework][type] = "theme"
 projects[stanford_framework][download][type] = "git"
 projects[stanford_framework][download][url] = "git@github.com:SU-SWS/stanford_framework.git"
-projects[stanford_framework][download][tag] = "7.x-3.2-beta8"
+projects[stanford_framework][download][tag] = "7.x-3.2"
 
 projects[stanford_jordan][type] = theme
 projects[stanford_jordan][download][type] = "git"
 projects[stanford_jordan][download][url] = "git@github.com:SU-SWS/stanford_jordan.git"
-projects[stanford_jordan][download][tag] = "7.x-2.1"
+projects[stanford_jordan][download][tag] = "7.x-3.0"
 
 projects[stanford_wilbur][type] = theme
 projects[stanford_wilbur][download][type] = "git"
 projects[stanford_wilbur][download][url] = git@github.com:SU-SWS/stanford_wilbur.git
-projects[stanford_wilbur][download][tag] = "7.x-2.1"
+projects[stanford_wilbur][download][tag] = "7.x-3.0"
