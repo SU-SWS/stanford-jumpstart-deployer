@@ -55,7 +55,7 @@ projects[stanford_date_formats][download][url] = "git@github.com:SU-SWS/stanford
 projects[stanford_date_formats][subdir] = "stanford"
 projects[stanford_date_formats][type] = "module"
 
-projects[stanford_date_timepicker][download][tag] = "7.x-1.2-dev+3"
+projects[stanford_date_timepicker][download][tag] = "7.x-1.3"
 projects[stanford_date_timepicker][download][type] = "git"
 projects[stanford_date_timepicker][download][url] = "git@github.com:SU-SWS/stanford_date_timepicker.git"
 projects[stanford_date_timepicker][subdir] = "stanford"
