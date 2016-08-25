@@ -67,8 +67,7 @@ projects[stanford_easy_wysiwyg_css][download][url] = "git@github.com:SU-SWS/stan
 projects[stanford_easy_wysiwyg_css][subdir] = "stanford"
 projects[stanford_easy_wysiwyg_css][type] = "module"
 
-; This commit hash is == 3.2-dev+2
-projects[stanford_events_importer][download][revision] = "ebd4a6489c4610241b5d2215d42da1333fc0824d"
+projects[stanford_events_importer][download][tag] = "7.x-3.3"
 projects[stanford_events_importer][download][type] = "git"
 projects[stanford_events_importer][download][url] = "git@github.com:SU-SWS/stanford_events_importer.git"
 projects[stanford_events_importer][subdir] = "stanford"

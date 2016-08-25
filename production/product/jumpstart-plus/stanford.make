@@ -46,12 +46,11 @@ projects[stanford_date_timepicker][download][type] = "git"
 projects[stanford_date_timepicker][download][url] = "git@github.com:SU-SWS/stanford_date_timepicker.git"
 projects[stanford_date_timepicker][download][tag] = "7.x-1.3"
 
-; This commit hash is == 3.2-dev+2
 projects[stanford_events_importer][subdir] = "stanford"
 projects[stanford_events_importer][type] = "module"
 projects[stanford_events_importer][download][type] = "git"
 projects[stanford_events_importer][download][url] = "git@github.com:SU-SWS/stanford_events_importer.git"
-projects[stanford_events_importer][download][revision] = "ebd4a6489c4610241b5d2215d42da1333fc0824d"
+projects[stanford_events_importer][download][tag] = "7.x-3.3"
 
 projects[stanford_helper][subdir] = "stanford"
 projects[stanford_helper][type] = "module"
