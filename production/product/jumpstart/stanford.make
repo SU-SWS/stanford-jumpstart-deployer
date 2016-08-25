@@ -26,7 +26,7 @@ projects[stanford_carousel][subdir] = "stanford"
 projects[stanford_carousel][type] = "module"
 projects[stanford_carousel][download][type] = "git"
 projects[stanford_carousel][download][url] = "git@github.com:SU-SWS/stanford_carousel.git"
-projects[stanford_carousel][download][branch] = "7.x-2.3"
+projects[stanford_carousel][download][tag] = "7.x-2.3"
 
 projects[stanford_courses][subdir] = "stanford"
 projects[stanford_courses][type] = "module"
