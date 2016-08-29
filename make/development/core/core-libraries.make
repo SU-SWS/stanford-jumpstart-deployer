@@ -12,5 +12,5 @@ libraries[stanford_sites_content_importer][download][branch] = "7.x-1.x"
 libraries[stanford_sites_content_importer][destination] = "libraries"
 
 ; Until Stanford Drupal profile gets updated.
-; https://github.com/SU-SWS/Stanford-Drupal-Profile/pull/56/files
-libraries[dompdf][download][url] = https://github.com/dompdf/dompdf/releases/download/v0.6.2/dompdf-0.6.2.zip
+; https://github.com/SU-SWS/Stanford-Drupal-Profile/pull/65/files
+libraries[feeds_jsonpath_parser][download][url] = "https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/jsonpath/jsonpath-0.8.1.php"
