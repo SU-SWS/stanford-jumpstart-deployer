@@ -21,7 +21,7 @@ projects[anchorage_helper][subdir] = "stanford"
 projects[anchorage_helper][type] = "module"
 projects[anchorage_helper][download][type] = "git"
 projects[anchorage_helper][download][url] = "git@github.com:SU-SWS/anchorage_helper.git"
-projects[anchorage_helper][download][branch] = "7.x-1.x"
+projects[anchorage_helper][download][branch] = "7.x-2.x"
 
 projects[stanford_ssp][subdir] = "stanford"
 projects[stanford_ssp][type] = "module"
