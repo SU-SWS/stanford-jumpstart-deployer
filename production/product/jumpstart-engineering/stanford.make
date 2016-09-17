@@ -80,6 +80,12 @@ projects[stanford_event_series][download][url] = "git@github.com:SU-SWS/stanford
 projects[stanford_event_series][subdir] = "stanford"
 projects[stanford_event_series][type] = "module"
 
+projects[stanford_feeds_helper][download][branch] = "7.x-1.2"
+projects[stanford_feeds_helper][download][type] = "git"
+projects[stanford_feeds_helper][download][url] = "git@github.com:SU-SWS/stanford_feeds_helper.git"
+projects[stanford_feeds_helper][subdir] = "stanford"
+projects[stanford_feeds_helper][type] = "module"
+
 projects[stanford_gallery][download][tag] = "7.x-2.1"
 projects[stanford_gallery][download][type] = "git"
 projects[stanford_gallery][download][url] = "git@github.com:SU-SWS/stanford_gallery.git"
