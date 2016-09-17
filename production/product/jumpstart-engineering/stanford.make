@@ -86,7 +86,7 @@ projects[stanford_feeds_helper][download][url] = "git@github.com:SU-SWS/stanford
 projects[stanford_feeds_helper][subdir] = "stanford"
 projects[stanford_feeds_helper][type] = "module"
 
-projects[stanford_gallery][download][tag] = "7.x-2.1"
+projects[stanford_gallery][download][tag] = "7.x-2.2"
 projects[stanford_gallery][download][type] = "git"
 projects[stanford_gallery][download][url] = "git@github.com:SU-SWS/stanford_gallery.git"
 projects[stanford_gallery][type] = "module"
@@ -96,7 +96,7 @@ projects[stanford_help][download][tag] = "7.x-1.1"
 projects[stanford_help][download][type] = "git"
 projects[stanford_help][download][url] = "git@github.com:SU-SWS/stanford_help.git"
 projects[stanford_help][type] = "module"
-projects[stanford_help][7.x-4.1-devsubdir] = "stanford"
+projects[stanford_help][subdir] = "stanford"
 
 projects[stanford_image][download][tag] = "7.x-3.5+6-dev"
 projects[stanford_image][download][type] = "git"
