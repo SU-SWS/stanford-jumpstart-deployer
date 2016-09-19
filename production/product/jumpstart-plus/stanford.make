@@ -20,7 +20,7 @@ projects[stanford_capx][type] = module
 projects[stanford_capx][subdir] = stanford
 projects[stanford_capx][download][type] = "git"
 projects[stanford_capx][download][url] = "git@github.com:SU-SWS/stanford_capx.git"
-projects[stanford_capx][download][tag] = "7.x-2.0-rc1-php54"
+projects[stanford_capx][download][tag] = "7.x-2.0-php54"
 
 projects[stanford_carousel][subdir] = "stanford"
 projects[stanford_carousel][type] = "module"
@@ -32,7 +32,7 @@ projects[stanford_courses][subdir] = "stanford"
 projects[stanford_courses][type] = "module"
 projects[stanford_courses][download][type] = "git"
 projects[stanford_courses][download][url] = "git@github.com:SU-SWS/stanford_courses.git"
-projects[stanford_courses][download][tag] = "7.x-3.10"
+projects[stanford_courses][download][tag] = "7.x-4.0"
 
 projects[stanford_date_formats][subdir] = "stanford"
 projects[stanford_date_formats][type] = "module"
@@ -45,6 +45,12 @@ projects[stanford_date_timepicker][type] = "module"
 projects[stanford_date_timepicker][download][type] = "git"
 projects[stanford_date_timepicker][download][url] = "git@github.com:SU-SWS/stanford_date_timepicker.git"
 projects[stanford_date_timepicker][download][tag] = "7.x-1.3"
+
+projects[stanford_event_series][type] = "module"
+projects[stanford_event_series][subdir] = "stanford"
+projects[stanford_event_series][download][type] = "git"
+projects[stanford_event_series][download][url] = "git@github.com:SU-SWS/stanford_event_series.git"
+projects[stanford_event_series][download][tag] = "7.x-1.1"
 
 projects[stanford_events_importer][subdir] = "stanford"
 projects[stanford_events_importer][type] = "module"
@@ -70,23 +76,17 @@ projects[stanford_image_styles][download][type] = "git"
 projects[stanford_image_styles][download][url] = "git@github.com:SU-SWS/stanford_image_styles.git"
 projects[stanford_image_styles][download][tag] = "7.x-3.4"
 
-projects[nobots][subdir] = "stanford"
-projects[nobots][type] = "module"
-projects[nobots][download][type] = "git"
-projects[nobots][download][url] = "git@github.com:SU-SWS/nobots.git"
-projects[nobots][download][tag] = "7.x-1.0"
-
 projects[stanford_page][subdir] = "stanford"
 projects[stanford_page][type] = "module"
 projects[stanford_page][download][type] = "git"
 projects[stanford_page][download][url] = "git@github.com:SU-SWS/stanford_page.git"
-projects[stanford_page][download][tag] = "7.x-2.1"
+projects[stanford_page][download][tag] = "7.x-2.1+2-dev"
 
 projects[stanford_person][type] = "module"
 projects[stanford_person][subdir] = "stanford"
 projects[stanford_person][download][type] = "git"
 projects[stanford_person][download][url] = "git@github.com:SU-SWS/stanford_person.git"
-projects[stanford_person][download][tag] = "7.x-5.1"
+projects[stanford_person][download][tag] = "7.x-5.2"
 
 projects[stanford_slides][subdir] = "stanford"
 projects[stanford_slides][type] = "module"
@@ -110,7 +110,7 @@ projects[stanford_landing_page][type] = "module"
 projects[stanford_landing_page][subdir] = "stanford"
 projects[stanford_landing_page][download][type] = "git"
 projects[stanford_landing_page][download][url] = "git@github.com:SU-SWS/stanford_landing_page.git"
-projects[stanford_landing_page][download][tag] = "7.x-1.4"
+projects[stanford_landing_page][download][tag] = "7.x-1.4+3-dev"
 
 ; Jumpstart
 ; --------------------------------------------------------------------------------
@@ -146,13 +146,13 @@ projects[stanford_news][type] = "module"
 projects[stanford_news][subdir] = "stanford"
 projects[stanford_news][download][type] = "git"
 projects[stanford_news][download][url] = "git@github.com:SU-SWS/stanford_news.git"
-projects[stanford_news][download][tag] = "7.x-3.2"
+projects[stanford_news][download][tag] = "7.x-3.3+8-dev"
 
 projects[stanford_gallery][type] = "module"
 projects[stanford_gallery][subdir] = "stanford"
 projects[stanford_gallery][download][type] = "git"
 projects[stanford_gallery][download][url] = "git@github.com:SU-SWS/stanford_gallery.git"
-projects[stanford_gallery][download][tag] = "7.x-2.1"
+projects[stanford_gallery][download][tag] = "7.x-2.2"
 
 ; Stanford Themes - GitHub
 ; ------------------------------------------------------------------------------

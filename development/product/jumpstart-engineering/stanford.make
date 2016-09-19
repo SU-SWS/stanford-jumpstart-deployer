@@ -12,12 +12,6 @@ projects[erus][download][url] = "git@github.com:SU-SWS/erus.git"
 projects[erus][subdir] = "stanford"
 projects[erus][type] = "module"
 
-projects[nobots][download][branch] = "7.x-1.x"
-projects[nobots][download][type] = "git"
-projects[nobots][download][url] = "git@github.com:SU-SWS/nobots.git"
-projects[nobots][subdir] = "stanford"
-projects[nobots][type] = "module"
-
 projects[stanford_affiliate_organization][download][branch] = "7.x-1.x"
 projects[stanford_affiliate_organization][download][type] = "git"
 projects[stanford_affiliate_organization][download][url] = "git@github.com:SU-SWS/stanford_affiliate_organization.git"
@@ -42,7 +36,6 @@ projects[stanford_carousel][download][url] = "git@github.com:SU-SWS/stanford_car
 projects[stanford_carousel][subdir] = "stanford"
 projects[stanford_carousel][type] = "module"
 
-projects[stanford_courses][download][branch] = "7.x-3.x-dev"
 projects[stanford_courses][download][type] = "git"
 projects[stanford_courses][download][url] = "git@github.com:SU-SWS/stanford_courses.git"
 projects[stanford_courses][subdir] = "stanford"
