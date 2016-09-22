@@ -225,5 +225,8 @@ projects[workbench_moderation][download][revision] = "56d8d1dc595058396cd06358e7
 ; ------------------------------------------------------------------------------
 
 projects[cube][version] = "1.4"
+projects[cube][type] = "theme"
 projects[rubik][version] = "4.2"
+projects[rubik][type] = "theme"
 projects[tao][version] = "3.1"
+projects[tao][type] = "theme"

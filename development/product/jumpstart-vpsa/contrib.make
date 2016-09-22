@@ -265,5 +265,8 @@ projects[always_visible][download][url] = "http://git.drupal.org/project/always_
 ; ------------------------------------------------------------------------------
 
 projects[cube][version] = "1.4"
+projects[cube][type] = "theme"
 projects[rubik][version] = "4.2"
+projects[rubik][type] = "theme"
 projects[tao][version] = "3.1"
+projects[tao][type] = "theme"

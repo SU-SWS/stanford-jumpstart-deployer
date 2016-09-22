@@ -219,5 +219,8 @@ projects[xmlsitemap][version] = "2.3"
 ; ------------------------------------------------------------------------------
 
 projects[cube][version] = "1.4"
+projects[cube][type] = "theme"
 projects[rubik][version] = "4.2"
+projects[rubik][type] = "theme"
 projects[tao][version] = "3.1"
+projects[tao][type] = "theme"
