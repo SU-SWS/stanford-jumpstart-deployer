@@ -12,12 +12,6 @@ projects[erus][download][url] = "git@github.com:SU-SWS/erus.git"
 projects[erus][subdir] = "stanford"
 projects[erus][type] = "module"
 
-projects[nobots][download][branch] = "7.x-1.x"
-projects[nobots][download][type] = "git"
-projects[nobots][download][url] = "git@github.com:SU-SWS/nobots.git"
-projects[nobots][subdir] = "stanford"
-projects[nobots][type] = "module"
-
 projects[stanford_affiliate_organization][download][branch] = "7.x-1.x"
 projects[stanford_affiliate_organization][download][type] = "git"
 projects[stanford_affiliate_organization][download][url] = "git@github.com:SU-SWS/stanford_affiliate_organization.git"
@@ -185,6 +179,12 @@ projects[stanford_wysiwyg][download][type] = git
 projects[stanford_wysiwyg][download][url] = git@github.com:SU-SWS/stanford_wysiwyg.git
 projects[stanford_wysiwyg][subdir] = "stanford"
 projects[stanford_wysiwyg][type] = "module"
+
+projects[stanford_easy_wysiwyg_css][type] = "module"
+projects[stanford_easy_wysiwyg_css][subdir] = "stanford"
+projects[stanford_easy_wysiwyg_css][download][type] = "git"
+projects[stanford_easy_wysiwyg_css][download][url] = "git@github.com:SU-SWS/stanford_easy_wysiwyg_css.git"
+projects[stanford_easy_wysiwyg_css][download][branch] = "7.x-1.x"
 
 ; SU-SOE Modules
 

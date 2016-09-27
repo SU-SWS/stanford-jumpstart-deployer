@@ -76,12 +76,6 @@ projects[stanford_image_styles][download][type] = "git"
 projects[stanford_image_styles][download][url] = "git@github.com:SU-SWS/stanford_image_styles.git"
 projects[stanford_image_styles][download][branch] = "7.x-3.x-dev"
 
-projects[nobots][subdir] = "stanford"
-projects[nobots][type] = "module"
-projects[nobots][download][type] = "git"
-projects[nobots][download][url] = "git@github.com:SU-SWS/nobots.git"
-projects[nobots][download][branch] = "7.x-1.x"
-
 projects[stanford_page][subdir] = "stanford"
 projects[stanford_page][type] = "module"
 projects[stanford_page][download][type] = "git"

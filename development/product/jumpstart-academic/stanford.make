@@ -46,6 +46,12 @@ projects[stanford_date_timepicker][download][type] = "git"
 projects[stanford_date_timepicker][download][url] = "git@github.com:SU-SWS/stanford_date_timepicker.git"
 projects[stanford_date_timepicker][download][branch] = "7.x-1.x"
 
+projects[stanford_event_series][type] = "module"
+projects[stanford_event_series][subdir] = "stanford"
+projects[stanford_event_series][download][type] = "git"
+projects[stanford_event_series][download][url] = "git@github.com:SU-SWS/stanford_event_series.git"
+projects[stanford_event_series][download][branch] = "7.x-1.1"
+
 projects[stanford_events_importer][subdir] = "stanford"
 projects[stanford_events_importer][type] = "module"
 projects[stanford_events_importer][download][type] = "git"
@@ -75,12 +81,6 @@ projects[stanford_image_styles][type] = "module"
 projects[stanford_image_styles][download][type] = "git"
 projects[stanford_image_styles][download][url] = "git@github.com:SU-SWS/stanford_image_styles.git"
 projects[stanford_image_styles][download][branch] = "7.x-3.x-dev"
-
-projects[nobots][subdir] = "stanford"
-projects[nobots][type] = "module"
-projects[nobots][download][type] = "git"
-projects[nobots][download][url] = "git@github.com:SU-SWS/nobots.git"
-projects[nobots][download][branch] = "7.x-1.x"
 
 projects[stanford_page][subdir] = "stanford"
 projects[stanford_page][type] = "module"
@@ -157,12 +157,6 @@ projects[stanford_jumpstart_academic][download][type] = "git"
 projects[stanford_jumpstart_academic][download][url] = "git@github.com:SU-SWS/stanford_jumpstart_academic.git"
 projects[stanford_jumpstart_academic][download][branch] = "7.x-5.x"
 
-projects[stanford_event_series][type] = "module"
-projects[stanford_event_series][subdir] = "stanford"
-projects[stanford_event_series][download][type] = "git"
-projects[stanford_event_series][download][url] = "git@github.com:SU-SWS/stanford_event_series.git"
-projects[stanford_event_series][download][branch] = "7.x-1.x"
-
 projects[stanford_publication][type] = "module"
 projects[stanford_publication][subdir] = "stanford"
 projects[stanford_publication][download][type] = "git"
@@ -191,14 +185,14 @@ projects[stanfordmodern][download][tag] = "7.x-1.6"
 projects[stanford_framework][type] = "theme"
 projects[stanford_framework][download][type] = "git"
 projects[stanford_framework][download][url] = "git@github.com:SU-SWS/stanford_framework.git"
-projects[stanford_framework][download][tag] = "7.x-3.2-dev+8"
+projects[stanford_framework][download][tag] = "7.x-3.2"
 
 projects[stanford_jordan][type] = theme
 projects[stanford_jordan][download][type] = "git"
 projects[stanford_jordan][download][url] = "git@github.com:SU-SWS/stanford_jordan.git"
-projects[stanford_jordan][download][tag] = "7.x-2.1"
+projects[stanford_jordan][download][tag] = "7.x-3.0"
 
 projects[stanford_wilbur][type] = theme
 projects[stanford_wilbur][download][type] = "git"
 projects[stanford_wilbur][download][url] = git@github.com:SU-SWS/stanford_wilbur.git
-projects[stanford_wilbur][download][tag] = "7.x-2.1"
+projects[stanford_wilbur][download][tag] = "7.x-3.0"
