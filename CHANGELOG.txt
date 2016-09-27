@@ -1,10 +1,19 @@
-Version 7.x-1.x
----------------------------------------------------------------
-Initial Jumpstart and Jumpstart Academic deployment with install profiles.
+Stanford Jumpstart Deployer x.x-x.x, YYYY-MM-DD
+-----------------------------------------------
 
+Stanford Jumpstart Deployer 7.x-5.0, 2016-09-27
+-----------------------------------------------
+- Initial release of the 7.x-5.x branch
 
 Version 7.x-2.x
 ---------------------------------------------------------------
 
 February 2, 2014:
 - Update all features to features 2.x
+
+
+Version 7.x-1.x
+---------------------------------------------------------------
+Initial Jumpstart and Jumpstart Academic deployment with install profiles.
+
+

@@ -1,5 +1,5 @@
 #[Stanford Jumpstart Deployer](https://github.com/SU-SWS/stanford-jumpstart-deployer)
-##### Version: 7.x-5.x
+##### Version: 7.x-5.0
 
 Maintainers: [jbickar](https://github.com/jbickar), [sherakama](https://github.com/sherakama)
 
