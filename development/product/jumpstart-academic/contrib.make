@@ -10,8 +10,6 @@ projects[admin_views][subdir] = "contrib"
 projects[admin_views][version] = "1.6"
 projects[advanced_help][subdir] = "contrib"
 projects[advanced_help][version] = "1.3"
-projects[auto_nodetitle][subdir] = "contrib"
-projects[auto_nodetitle][version] = "1.0"
 projects[backup_migrate][subdir] = "contrib"
 projects[backup_migrate][version] = "3.1"
 projects[bean][subdir] = "contrib"
@@ -198,6 +196,12 @@ projects[menu_attributes][version] = "1.0-rc3"
 ; Contributed modules, -dev versions specified by git commit
 ; ------------------------------------------------------------------------------
 
+projects[auto_nodetitle][type] = "module"
+projects[auto_nodetitle][subdir] = "contrib"
+projects[auto_nodetitle][download][type] = "git"
+projects[auto_nodetitle][download][url] = "http://git.drupal.org/project/auto_nodetitle.git"
+projects[auto_nodetitle][download][revision] = "98d66fb24d54113bbdfba0d1797239493473cd78"
+
 projects[context_list][type] = "module"
 projects[context_list][subdir] = "contrib"
 projects[context_list][version] = "1.x-dev"
@@ -216,7 +220,6 @@ projects[social_share][subdir] = "contrib"
 projects[social_share][download][type] = "git"
 projects[social_share][download][url] = "http://git.drupal.org/project/social-share.git"
 projects[social_share][download][tag] = "7.x-2.1"
-
 
 ; Contributed themes
 ; ------------------------------------------------------------------------------

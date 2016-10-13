@@ -10,8 +10,6 @@ projects[admin_views][subdir] = "contrib"
 projects[admin_views][version] = "1.6"
 projects[advanced_help][subdir] = "contrib"
 projects[advanced_help][version] = "1.3"
-projects[auto_nodetitle][subdir] = "contrib"
-projects[auto_nodetitle][version] = "1.0"
 projects[backup_migrate][subdir] = "contrib"
 projects[backup_migrate][version] = "3.1"
 projects[bean][subdir] = "contrib"
@@ -216,6 +214,18 @@ projects[field_collection][subdir] = "contrib"
 ; Contributed modules, -dev versions specified by git commit
 ; ------------------------------------------------------------------------------
 
+projects[always_visible][type] = "module"
+projects[always_visible][subdir] = "contrib"
+projects[always_visible][download][type] = "git"
+projects[always_visible][download][revision] = "a6c2dac352a6bb658644f66a3bd96b6e5805a6c1"
+projects[always_visible][download][url] = "http://git.drupal.org/project/always_visible.git"
+
+projects[auto_nodetitle][type] = "module"
+projects[auto_nodetitle][subdir] = "contrib"
+projects[auto_nodetitle][download][type] = "git"
+projects[auto_nodetitle][download][url] = "http://git.drupal.org/project/auto_nodetitle.git"
+projects[auto_nodetitle][download][revision] = "98d66fb24d54113bbdfba0d1797239493473cd78"
+
 projects[context_list][type] = "module"
 projects[context_list][subdir] = "contrib"
 projects[context_list][version] = "1.x-dev"
@@ -253,13 +263,6 @@ projects[workbench_moderation][subdir] = "contrib"
 projects[workbench_moderation][download][type] = "git"
 projects[workbench_moderation][download][url] = "http://git.drupal.org/project/workbench_moderation.git"
 projects[workbench_moderation][download][revision] = "56d8d1dc595058396cd06358e7c7cdc9f4c5e168"
-
-projects[always_visible][type] = "module"
-projects[always_visible][subdir] = "contrib"
-projects[always_visible][download][type] = "git"
-projects[always_visible][download][revision] = "a6c2dac352a6bb658644f66a3bd96b6e5805a6c1"
-projects[always_visible][download][url] = "http://git.drupal.org/project/always_visible.git"
-
 
 ; Contributed themes
 ; ------------------------------------------------------------------------------
