@@ -138,6 +138,12 @@ projects[stanford_news][download][url] = "git@github.com:SU-SWS/stanford_news.gi
 projects[stanford_news][subdir] = "stanford"
 projects[stanford_news][type] = "module"
 
+projects[nobots][download][branch] = "7.x-1.x"
+projects[nobots][download][type] = "git"
+projects[nobots][download][url] = "git@github.com:SU-SWS/nobots.git"
+projects[nobots][subdir] = "stanford"
+projects[nobots][type] = "module"
+
 projects[stanford_page][download][branch] = "7.x-2.x-dev"
 projects[stanford_page][download][type] = "git"
 projects[stanford_page][download][url] = "git@github.com:SU-SWS/stanford_page.git"
