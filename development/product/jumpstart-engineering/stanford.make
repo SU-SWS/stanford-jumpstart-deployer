@@ -192,6 +192,12 @@ projects[stanford_wysiwyg][download][url] = git@github.com:SU-SWS/stanford_wysiw
 projects[stanford_wysiwyg][subdir] = "stanford"
 projects[stanford_wysiwyg][type] = "module"
 
+projects[stanford_easy_wysiwyg_css][type] = "module"
+projects[stanford_easy_wysiwyg_css][subdir] = "stanford"
+projects[stanford_easy_wysiwyg_css][download][type] = "git"
+projects[stanford_easy_wysiwyg_css][download][url] = "git@github.com:SU-SWS/stanford_easy_wysiwyg_css.git"
+projects[stanford_easy_wysiwyg_css][download][branch] = "7.x-1.x"
+
 ; SU-SOE Modules
 
 projects[stanford_jumpstart_engineering][download][branch] = "7.x-5.x"

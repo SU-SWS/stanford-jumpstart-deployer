@@ -13,12 +13,6 @@ projects[erus][download][url] = "git@github.com:SU-SWS/erus.git"
 projects[erus][subdir] = "stanford"
 projects[erus][type] = "module"
 
-projects[nobots][download][tag] = "7.x-1.0+7-dev"
-projects[nobots][download][type] = "git"
-projects[nobots][download][url] = "git@github.com:SU-SWS/nobots.git"
-projects[nobots][subdir] = "stanford"
-projects[nobots][type] = "module"
-
 projects[stanford_affiliate_organization][download][tag] = "7.x-1.1+4-dev"
 projects[stanford_affiliate_organization][download][type] = "git"
 projects[stanford_affiliate_organization][download][url] = "git@github.com:SU-SWS/stanford_affiliate_organization.git"
@@ -55,7 +49,7 @@ projects[stanford_date_formats][download][url] = "git@github.com:SU-SWS/stanford
 projects[stanford_date_formats][subdir] = "stanford"
 projects[stanford_date_formats][type] = "module"
 
-projects[stanford_date_timepicker][download][tag] = "7.x-1.2-dev+3"
+projects[stanford_date_timepicker][download][tag] = "7.x-1.3"
 projects[stanford_date_timepicker][download][type] = "git"
 projects[stanford_date_timepicker][download][url] = "git@github.com:SU-SWS/stanford_date_timepicker.git"
 projects[stanford_date_timepicker][subdir] = "stanford"
@@ -67,8 +61,7 @@ projects[stanford_easy_wysiwyg_css][download][url] = "git@github.com:SU-SWS/stan
 projects[stanford_easy_wysiwyg_css][subdir] = "stanford"
 projects[stanford_easy_wysiwyg_css][type] = "module"
 
-; This commit hash is == 3.2-dev+2
-projects[stanford_events_importer][download][revision] = "ebd4a6489c4610241b5d2215d42da1333fc0824d"
+projects[stanford_events_importer][download][tag] = "7.x-3.3"
 projects[stanford_events_importer][download][type] = "git"
 projects[stanford_events_importer][download][url] = "git@github.com:SU-SWS/stanford_events_importer.git"
 projects[stanford_events_importer][subdir] = "stanford"
@@ -97,6 +90,12 @@ projects[stanford_help][download][type] = "git"
 projects[stanford_help][download][url] = "git@github.com:SU-SWS/stanford_help.git"
 projects[stanford_help][type] = "module"
 projects[stanford_help][subdir] = "stanford"
+
+projects[stanford_helper][subdir] = "stanford"
+projects[stanford_helper][type] = "module"
+projects[stanford_helper][download][type] = "git"
+projects[stanford_helper][download][url] = "git@github.com:SU-SWS/stanford_helper.git"
+projects[stanford_helper][download][tag] = "7.x-1.0"
 
 projects[stanford_image][download][tag] = "7.x-3.5+6-dev"
 projects[stanford_image][download][type] = "git"
@@ -222,3 +221,8 @@ projects[stanford_seven][download][tag] = "7.x-1.2"
 projects[stanford_seven][download][type] = "git"
 projects[stanford_seven][download][url] = "git@github.com:SU-SWS/stanford_seven.git"
 projects[stanford_seven][type] = theme
+
+projects[stanford_framework][download][tag] = "7.x-3.2"
+projects[stanford_framework][download][type] = "git"
+projects[stanford_framework][download][url] = "git@github.com:SU-SWS/stanford_framework.git"
+projects[stanford_framework][type] = "theme"
