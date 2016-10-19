@@ -118,6 +118,12 @@ projects[stanford_jumpstart][download][type] = "git"
 projects[stanford_jumpstart][download][url] = "git@github.com:SU-SWS/stanford_jumpstart.git"
 projects[stanford_jumpstart][download][branch] = "7.x-5.x"
 
+projects[stanford_jumpstart_lab][type] = "module"
+projects[stanford_jumpstart_lab][subdir] = "stanford"
+projects[stanford_jumpstart_lab][download][type] = "git"
+projects[stanford_jumpstart_lab][download][url] = "git@github.com:SU-SWS/stanford_jumpstart_lab.git"
+projects[stanford_jumpstart_lab][download][branch] = "7.x-5.x"
+
 projects[stanford_jumpstart_home][type] = "module"
 projects[stanford_jumpstart_home][subdir] = "stanford"
 projects[stanford_jumpstart_home][download][type] = "git"
