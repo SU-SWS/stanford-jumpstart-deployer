@@ -59,7 +59,7 @@ libraries[simplepie][destination] = "libraries"
 
 libraries[stanford_install_tasks][download][type] = "git"
 libraries[stanford_install_tasks][download][url] = "git@github.com:SU-SWS/stanford_install_tasks.git"
-libraries[stanford_install_tasks][download][branch] = "7.x-1.x"
+libraries[stanford_install_tasks][download][branch] = "SOE-1382"
 libraries[stanford_install_tasks][directory_name] = "tasks"
 
 libraries[stanford_sites_content_importer][download][type] = "git"
