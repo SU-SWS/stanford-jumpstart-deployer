@@ -138,12 +138,6 @@ projects[stanford_news][download][url] = "git@github.com:SU-SWS/stanford_news.gi
 projects[stanford_news][subdir] = "stanford"
 projects[stanford_news][type] = "module"
 
-projects[nobots][download][branch] = "7.x-1.x"
-projects[nobots][download][type] = "git"
-projects[nobots][download][url] = "git@github.com:SU-SWS/nobots.git"
-projects[nobots][subdir] = "stanford"
-projects[nobots][type] = "module"
-
 projects[stanford_page][download][branch] = "7.x-2.x-dev"
 projects[stanford_page][download][type] = "git"
 projects[stanford_page][download][url] = "git@github.com:SU-SWS/stanford_page.git"
@@ -191,12 +185,6 @@ projects[stanford_wysiwyg][download][type] = git
 projects[stanford_wysiwyg][download][url] = git@github.com:SU-SWS/stanford_wysiwyg.git
 projects[stanford_wysiwyg][subdir] = "stanford"
 projects[stanford_wysiwyg][type] = "module"
-
-projects[stanford_easy_wysiwyg_css][type] = "module"
-projects[stanford_easy_wysiwyg_css][subdir] = "stanford"
-projects[stanford_easy_wysiwyg_css][download][type] = "git"
-projects[stanford_easy_wysiwyg_css][download][url] = "git@github.com:SU-SWS/stanford_easy_wysiwyg_css.git"
-projects[stanford_easy_wysiwyg_css][download][branch] = "7.x-1.x"
 
 ; SU-SOE Modules
 
