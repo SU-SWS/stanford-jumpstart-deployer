@@ -83,6 +83,12 @@ projects[stanford_person][download][type] = "git"
 projects[stanford_person][download][url] = "git@github.com:SU-SWS/stanford_person.git"
 projects[stanford_person][download][tag] = "7.x-5.2"
 
+projects[stanford_private_page][download][tag] = "7.x-1.1"
+projects[stanford_private_page][download][type] = "git"
+projects[stanford_private_page][download][url] = "git@github.com:SU-SWS/stanford_private_page.git"
+projects[stanford_private_page][subdir] = "stanford"
+projects[stanford_private_page][type] = "module"
+
 projects[stanford_slides][subdir] = "stanford"
 projects[stanford_slides][type] = "module"
 projects[stanford_slides][download][type] = "git"
