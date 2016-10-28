@@ -66,12 +66,6 @@ projects[stanford_date_timepicker][download][url] = "git@github.com:SU-SWS/stanf
 projects[stanford_date_timepicker][subdir] = "stanford"
 projects[stanford_date_timepicker][type] = "module"
 
-projects[stanford_easy_wysiwyg_css][type] = "module"
-projects[stanford_easy_wysiwyg_css][subdir] = "stanford"
-projects[stanford_easy_wysiwyg_css][download][type] = "git"
-projects[stanford_easy_wysiwyg_css][download][url] = "git@github.com:SU-SWS/stanford_easy_wysiwyg_css.git"
-projects[stanford_easy_wysiwyg_css][download][branch] = "7.x-1.x"
-
 projects[stanford_events_importer][download][branch] = "7.x-3.x"
 projects[stanford_events_importer][download][type] = "git"
 projects[stanford_events_importer][download][url] = "git@github.com:SU-SWS/stanford_events_importer.git"
@@ -185,6 +179,12 @@ projects[stanford_wysiwyg][download][type] = git
 projects[stanford_wysiwyg][download][url] = git@github.com:SU-SWS/stanford_wysiwyg.git
 projects[stanford_wysiwyg][subdir] = "stanford"
 projects[stanford_wysiwyg][type] = "module"
+
+projects[stanford_easy_wysiwyg_css][type] = "module"
+projects[stanford_easy_wysiwyg_css][subdir] = "stanford"
+projects[stanford_easy_wysiwyg_css][download][type] = "git"
+projects[stanford_easy_wysiwyg_css][download][url] = "git@github.com:SU-SWS/stanford_easy_wysiwyg_css.git"
+projects[stanford_easy_wysiwyg_css][download][branch] = "7.x-1.x"
 
 ; SU-SOE Modules
 
