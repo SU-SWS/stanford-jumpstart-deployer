@@ -15,7 +15,7 @@ To use first select either a development or production style build, a product, a
 
 1. First you build the product.   
 	```
-	drush make development/product/jumpstart.make /Applications/MAMP/htdocs/jumpstart --working-copy --concurrency=4 -y
+	drush make development/product/jumpstart/jumpstart.make /Applications/MAMP/htdocs/jumpstart --working-copy --concurrency=4 -y
 	```
 2. Then you build the environment on top of the product build.   
 	```
