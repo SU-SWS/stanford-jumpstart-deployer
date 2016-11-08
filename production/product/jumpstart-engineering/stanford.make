@@ -151,7 +151,7 @@ projects[stanford_person][download][url] = "git@github.com:SU-SWS/stanford_perso
 projects[stanford_person][subdir] = "stanford"
 projects[stanford_person][type] = "module"
 
-projects[stanford_private_page][download][tag] = "7.x-1.1"
+projects[stanford_private_page][download][tag] = "7.x-1.1+7-dev"
 projects[stanford_private_page][download][type] = "git"
 projects[stanford_private_page][download][url] = "git@github.com:SU-SWS/stanford_private_page.git"
 projects[stanford_private_page][subdir] = "stanford"
@@ -163,7 +163,7 @@ projects[stanford_publication][download][url] = "git@github.com:SU-SWS/stanford_
 projects[stanford_publication][type] = "module"
 projects[stanford_publication][subdir] = "stanford"
 
-projects[stanford_related_content][download][tag] = "7.x-1.0-alpha2"
+projects[stanford_related_content][download][tag] = "7.x-1.0-alpha3"
 projects[stanford_related_content][download][type] = "git"
 projects[stanford_related_content][download][url] = "git@github.com:SU-SWS/stanford_related_content.git"
 projects[stanford_related_content][type] = "module"
@@ -190,13 +190,13 @@ projects[stanford_wysiwyg][type] = "module"
 
 ; SU-SOE Modules
 
-projects[stanford_jumpstart_engineering][download][tag] = "7.x-5.1"
+projects[stanford_jumpstart_engineering][download][tag] = "7.x-5.2"
 projects[stanford_jumpstart_engineering][download][type] = "git"
 projects[stanford_jumpstart_engineering][download][url] = "git@github.com:SU-SOE/stanford_jumpstart_engineering.git"
 projects[stanford_jumpstart_engineering][subdir] = "stanford"
 projects[stanford_jumpstart_engineering][type] = "module"
 
-projects[stanford_jumpstart_home][download][tag] = "7.x-1.4+8-dev"
+projects[stanford_jumpstart_home][download][tag] = "7.x-1.5"
 projects[stanford_jumpstart_home][download][type] = "git"
 projects[stanford_jumpstart_home][download][url] = "git@github.com:SU-SOE/stanford_jumpstart_home.git"
 projects[stanford_jumpstart_home][subdir] = "stanford"
