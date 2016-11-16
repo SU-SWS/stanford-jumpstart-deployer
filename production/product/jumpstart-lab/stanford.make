@@ -83,6 +83,12 @@ projects[stanford_person][download][type] = "git"
 projects[stanford_person][download][url] = "git@github.com:SU-SWS/stanford_person.git"
 projects[stanford_person][download][tag] = "7.x-5.2"
 
+projects[stanford_private_page][download][tag] = "7.x-1.1"
+projects[stanford_private_page][download][type] = "git"
+projects[stanford_private_page][download][url] = "git@github.com:SU-SWS/stanford_private_page.git"
+projects[stanford_private_page][subdir] = "stanford"
+projects[stanford_private_page][type] = "module"
+
 projects[stanford_slides][subdir] = "stanford"
 projects[stanford_slides][type] = "module"
 projects[stanford_slides][download][type] = "git"
@@ -140,11 +146,11 @@ projects[stanford_gallery][download][tag] = "7.x-2.2"
 ; Academic Modules
 ; -----
 
-projects[stanford_jumpstart_academic][type] = "module"
-projects[stanford_jumpstart_academic][subdir] = "stanford"
-projects[stanford_jumpstart_academic][download][type] = "git"
-projects[stanford_jumpstart_academic][download][url] = "git@github.com:SU-SWS/stanford_jumpstart_academic.git"
-projects[stanford_jumpstart_academic][download][tag] = "7.x-5.0"
+projects[stanford_jumpstart_lab][type] = "module"
+projects[stanford_jumpstart_lab][subdir] = "stanford"
+projects[stanford_jumpstart_lab][download][type] = "git"
+projects[stanford_jumpstart_lab][download][url] = "git@github.com:SU-SWS/stanford_jumpstart_lab.git"
+projects[stanford_jumpstart_lab][download][tag] = "7.x-5.0"
 
 projects[stanford_event_series][type] = "module"
 projects[stanford_event_series][subdir] = "stanford"
