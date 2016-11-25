@@ -20,7 +20,7 @@ projects[stanford_capx][type] = module
 projects[stanford_capx][subdir] = stanford
 projects[stanford_capx][download][type] = "git"
 projects[stanford_capx][download][url] = "git@github.com:SU-SWS/stanford_capx.git"
-projects[stanford_capx][download][branch] = "php54"
+projects[stanford_capx][download][branch] = "php54-2.x"
 
 projects[stanford_carousel][subdir] = "stanford"
 projects[stanford_carousel][type] = "module"

@@ -24,7 +24,7 @@ projects[stanford_bean_types][download][url] = "git@github.com:SU-SWS/stanford_b
 projects[stanford_bean_types][subdir] = "stanford"
 projects[stanford_bean_types][type] = "module"
 
-projects[stanford_capx][download][branch] = "php54"
+projects[stanford_capx][download][branch] = "php54-2.x"
 projects[stanford_capx][download][type] = "git"
 projects[stanford_capx][download][url] = "git@github.com:SU-SWS/stanford_capx.git"
 projects[stanford_capx][subdir] = stanford

@@ -20,7 +20,7 @@ projects[stanford_capx][type] = module
 projects[stanford_capx][subdir] = stanford
 projects[stanford_capx][download][type] = "git"
 projects[stanford_capx][download][url] = "git@github.com:SU-SWS/stanford_capx.git"
-projects[stanford_capx][download][branch] = "php54"
+projects[stanford_capx][download][branch] = "php54-2.x"
 
 projects[stanford_carousel][subdir] = "stanford"
 projects[stanford_carousel][type] = "module"
@@ -33,7 +33,6 @@ projects[stanford_conference][type] = "module"
 projects[stanford_conference][download][type] = "git"
 projects[stanford_conference][download][url] = "https://github.com/SU-SWS/stanford_conference.git"
 projects[stanford_conference][download][branch] = "7.x-1.x"
-
 
 projects[stanford_courses][subdir] = "stanford"
 projects[stanford_courses][type] = "module"
