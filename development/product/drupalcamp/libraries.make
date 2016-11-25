@@ -8,7 +8,7 @@ api = 2
 ; ------------------------------------------------------------------------------
 
 libraries[itasks_tasks][download][type] = "git"
-libraries[itasks_tasks][download][url] = "git@github.com:sherakama/itasks_tasks.git"
+libraries[itasks_tasks][download][url] = "git@github.com:SU-SWS/stanford_install_tasks.git"
 libraries[itasks_tasks][download][branch] = "7.x-1.x"
 libraries[itasks_tasks][directory_name] = "tasks"
 
