@@ -103,7 +103,7 @@ projects[stanford_image][download][url] = "git@github.com:SU-SWS/stanford_image.
 projects[stanford_image][subdir] = "stanford"
 projects[stanford_image][type] = "module"
 
-projects[stanford_image_styles][download][tag] = "7.x-3.4+6-dev"
+projects[stanford_image_styles][download][tag] = "7.x-3.4+13-dev"
 projects[stanford_image_styles][download][type] = "git"
 projects[stanford_image_styles][download][url] = "git@github.com:SU-SWS/stanford_image_styles.git"
 projects[stanford_image_styles][subdir] = "stanford"
@@ -190,7 +190,7 @@ projects[stanford_wysiwyg][type] = "module"
 
 ; SU-SOE Modules
 
-projects[stanford_jumpstart_engineering][download][tag] = "7.x-5.2"
+projects[stanford_jumpstart_engineering][download][tag] = "7.x-5.2+29-dev"
 projects[stanford_jumpstart_engineering][download][type] = "git"
 projects[stanford_jumpstart_engineering][download][url] = "git@github.com:SU-SOE/stanford_jumpstart_engineering.git"
 projects[stanford_jumpstart_engineering][type] = "module"
