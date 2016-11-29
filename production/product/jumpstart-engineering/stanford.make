@@ -91,11 +91,11 @@ projects[stanford_help][download][url] = "git@github.com:SU-SWS/stanford_help.gi
 projects[stanford_help][type] = "module"
 projects[stanford_help][subdir] = "stanford"
 
-projects[stanford_helper][subdir] = "stanford"
-projects[stanford_helper][type] = "module"
+projects[stanford_helper][download][tag] = "7.x-1.0"
 projects[stanford_helper][download][type] = "git"
 projects[stanford_helper][download][url] = "git@github.com:SU-SWS/stanford_helper.git"
-projects[stanford_helper][download][tag] = "7.x-1.0"
+projects[stanford_helper][subdir] = "stanford"
+projects[stanford_helper][type] = "module"
 
 projects[stanford_image][download][tag] = "7.x-3.5+6-dev"
 projects[stanford_image][download][type] = "git"
@@ -172,14 +172,14 @@ projects[stanford_related_content][subdir] = "stanford"
 projects[stanford_slides][download][tag] = "7.x-3.1"
 projects[stanford_slides][download][type] = "git"
 projects[stanford_slides][download][url] = "git@github.com:SU-SWS/stanford_slides.git"
-projects[stanford_slides][subdir] = "stanford"
 projects[stanford_slides][type] = "module"
+projects[stanford_slides][subdir] = "stanford"
 
 projects[stanford_video][download][tag] = "7.x-2.2"
 projects[stanford_video][download][type] = "git"
 projects[stanford_video][download][url] = "git@github.com:SU-SWS/stanford_video.git"
-projects[stanford_video][subdir] = "stanford"
 projects[stanford_video][type] = "module"
+projects[stanford_video][subdir] = "stanford"
 
 projects[stanford_wysiwyg][download][tag] = "7.x-2.4"
 projects[stanford_wysiwyg][download][type] = git
@@ -193,14 +193,14 @@ projects[stanford_wysiwyg][type] = "module"
 projects[stanford_jumpstart_engineering][download][tag] = "7.x-5.2"
 projects[stanford_jumpstart_engineering][download][type] = "git"
 projects[stanford_jumpstart_engineering][download][url] = "git@github.com:SU-SOE/stanford_jumpstart_engineering.git"
-projects[stanford_jumpstart_engineering][subdir] = "stanford"
 projects[stanford_jumpstart_engineering][type] = "module"
+projects[stanford_jumpstart_engineering][subdir] = "stanford"
 
 projects[stanford_jumpstart_home][download][tag] = "7.x-1.5"
 projects[stanford_jumpstart_home][download][type] = "git"
 projects[stanford_jumpstart_home][download][url] = "git@github.com:SU-SOE/stanford_jumpstart_home.git"
-projects[stanford_jumpstart_home][subdir] = "stanford"
 projects[stanford_jumpstart_home][type] = "module"
+projects[stanford_jumpstart_home][subdir] = "stanford"
 
 
 ; Custom Themes, GitHub
