@@ -29,4 +29,4 @@ projects[ds][patch][] = "https://www.drupal.org/files/issues/ds_extras_field_gro
 projects[field_collection][patch][] = "https://www.drupal.org/files/issues/field_collection-2385985-29.patch"
 
 ; https://www.drupal.org/node/2713921 | Cannot install on mysql 5.7+
-projects[jw_player][patch][] = "https://www.drupal.org/files/issues/jw-player-mysql57-2713921-8.patch"
+projects[jw_player][patch][] = "https://www.drupal.org/files/issues/jw-player-not-null-2.patch"
