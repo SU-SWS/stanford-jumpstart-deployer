@@ -109,7 +109,7 @@ projects[stanford_image_styles][download][url] = "git@github.com:SU-SWS/stanford
 projects[stanford_image_styles][subdir] = "stanford"
 projects[stanford_image_styles][type] = "module"
 
-projects[stanford_jumpstart][download][tag] = "7.x-5.2"
+projects[stanford_jumpstart][download][tag] = "7.x-5.3"
 projects[stanford_jumpstart][download][type] = "git"
 projects[stanford_jumpstart][download][url] = "git@github.com:SU-SWS/stanford_jumpstart.git"
 projects[stanford_jumpstart][type] = "module"
@@ -163,7 +163,7 @@ projects[stanford_publication][download][url] = "git@github.com:SU-SWS/stanford_
 projects[stanford_publication][type] = "module"
 projects[stanford_publication][subdir] = "stanford"
 
-projects[stanford_related_content][download][tag] = "7.x-1.0-alpha3"
+projects[stanford_related_content][download][tag] = "7.x-1.0"
 projects[stanford_related_content][download][type] = "git"
 projects[stanford_related_content][download][url] = "git@github.com:SU-SWS/stanford_related_content.git"
 projects[stanford_related_content][type] = "module"
