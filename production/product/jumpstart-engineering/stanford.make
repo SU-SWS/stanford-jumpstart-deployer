@@ -190,7 +190,7 @@ projects[stanford_wysiwyg][type] = "module"
 
 ; SU-SOE Modules
 
-projects[stanford_jumpstart_engineering][download][tag] = "7.x-5.2+29-dev"
+projects[stanford_jumpstart_engineering][download][tag] = "7.x-5.2+34-dev"
 projects[stanford_jumpstart_engineering][download][type] = "git"
 projects[stanford_jumpstart_engineering][download][url] = "git@github.com:SU-SOE/stanford_jumpstart_engineering.git"
 projects[stanford_jumpstart_engineering][type] = "module"
@@ -206,7 +206,7 @@ projects[stanford_jumpstart_home][subdir] = "stanford"
 ; Custom Themes, GitHub
 ; ------------------------------------------------------------------------------
 
-projects[open_framework][download][tag] = "7.x-2.5+4-dev"
+projects[open_framework][download][tag] = "7.x-2.5+9-dev"
 projects[open_framework][download][type] = "git"
 projects[open_framework][download][url] = "git@github.com:SU-SWS/open_framework.git"
 projects[open_framework][type] = theme
