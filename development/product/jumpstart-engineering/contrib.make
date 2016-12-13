@@ -221,7 +221,7 @@ projects[auto_nodetitle][download][revision] = "98d66fb24d54113bbdfba0d179723949
 projects[jw_player][type] = "module"
 projects[jw_player][subdir] = "contrib"
 projects[jw_player][download][type] = "git"
-projects[jw_player][download][url] = "git://git.drupal.org/project/jw_player.git"
+projects[jw_player][download][url] = "http://git.drupal.org/project/jw_player.git"
 projects[jw_player][download][revision] = "7c80005d4f3c569b105adad0ad558c921c419e7e"
 
 ; Contributed themes
