@@ -112,7 +112,7 @@ projects[libraries][subdir] = "contrib"
 projects[libraries][version] = "2.3"
 projects[link][subdir] = "contrib"
 projects[link][version] = "1.4"
-projects[menu_attributes][subdir] = "contrib"⏎
+projects[menu_attributes][subdir] = "contrib"
 projects[menu_attributes][version] = "1.0"
 projects[menu_block][subdir] = "contrib"
 projects[menu_block][version] = "2.7"
@@ -124,7 +124,7 @@ projects[module_filter][subdir] = "contrib"
 projects[module_filter][version] = "2.0"
 projects[mollom][subdir] = "contrib"
 projects[mollom][version] = "2.15"
-projects[newrelic_appname][subdir] = "contrib"⏎
+projects[newrelic_appname][subdir] = "contrib"
 projects[newrelic_appname][version] = "1.0-alpha1"
 projects[nobots][subdir] = "contrib"
 projects[nobots][version] = "1.0"
@@ -235,10 +235,10 @@ projects[social_share][download][type] = "git"
 projects[social_share][download][url] = "http://git.drupal.org/project/social-share.git"
 projects[social_share][download][tag] = "7.x-2.1"
 
-projects[token_tweaks][type] = "module"⏎
-projects[token_tweaks][subdir] = "contrib"⏎
-projects[token_tweaks][download][type] = "git"⏎
-projects[token_tweaks][download][url] = "http://git.drupal.org/project/token_tweaks.git"⏎
+projects[token_tweaks][type] = "module"
+projects[token_tweaks][subdir] = "contrib"
+projects[token_tweaks][download][type] = "git"
+projects[token_tweaks][download][url] = "http://git.drupal.org/project/token_tweaks.git"
 projects[token_tweaks][download][revision] = "7232bbad4f53131021fefd490ba7f411b2287ea5"
 
 ; Contributed themes
