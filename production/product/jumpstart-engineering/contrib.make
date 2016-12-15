@@ -118,8 +118,6 @@ projects[job_scheduler][subdir] = "contrib"
 projects[job_scheduler][version] = "2.0-alpha3"
 projects[js_injector][subdir] = "contrib"
 projects[js_injector][version] = "2.1"
-projects[jw_player][subdir] = "contrib"
-projects[jw_player][version] = "2.0-beta2"
 projects[libraries][subdir] = "contrib"
 projects[libraries][version] = "2.3"
 projects[link][subdir] = "contrib"
@@ -172,6 +170,8 @@ projects[social_share][subdir] = "contrib"
 projects[social_share][version] = "2.3"
 projects[strongarm][subdir] = "contrib"
 projects[strongarm][version] = "2.0"
+projects[switch][subdir] = "contrib"
+projects[switch][version] = "1.0"
 projects[taxonomy_manager][subdir] = "contrib"
 projects[taxonomy_manager][version] = "1.0"
 projects[token][subdir] = "contrib"
@@ -212,11 +212,17 @@ projects[xmlsitemap][version] = "2.3"
 ; Contributed modules, -dev versions specified by git commit
 ; ------------------------------------------------------------------------------
 
-projects[auto_nodetitle][type] = "module"
-projects[auto_nodetitle][subdir] = "contrib"
+projects[auto_nodetitle][download][revision] = "98d66fb24d54113bbdfba0d1797239493473cd78"
 projects[auto_nodetitle][download][type] = "git"
 projects[auto_nodetitle][download][url] = "http://git.drupal.org/project/auto_nodetitle.git"
-projects[auto_nodetitle][download][revision] = "98d66fb24d54113bbdfba0d1797239493473cd78"
+projects[auto_nodetitle][subdir] = "contrib"
+projects[auto_nodetitle][type] = "module"
+
+projects[jw_player][download][revision] = "7c80005d4f3c569b105adad0ad558c921c419e7e"
+projects[jw_player][download][type] = "git"
+projects[jw_player][download][url] = "http://git.drupal.org/project/jw_player.git"
+projects[jw_player][subdir] = "contrib"
+projects[jw_player][type] = "module"
 
 ; Contributed themes
 ; ------------------------------------------------------------------------------
