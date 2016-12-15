@@ -188,7 +188,6 @@ projects[workbench_access][subdir] = "contrib"
 projects[workbench_access][version] = "1.4"
 projects[workbench_moderation][subdir] = "contrib"
 projects[workbench_moderation][version] = "3.0"
-
 projects[wysiwyg][subdir] = "contrib"
 projects[wysiwyg][version] = "2.2"
 projects[wysiwyg_filter][subdir] = "contrib"
