@@ -58,7 +58,7 @@ libraries[simplepie][download][type] = "file"
 libraries[simplepie][download][url] = "http://simplepie.org/downloads/simplepie_1.3.1.compiled.php"
 
 libraries[stanford_install_tasks][directory_name] = "tasks"
-libraries[stanford_install_tasks][download][tag] = "7.x-1.0-alpha1"
+libraries[stanford_install_tasks][download][tag] = "7.x-1.0-alpha2"
 libraries[stanford_install_tasks][download][type] = "git"
 libraries[stanford_install_tasks][download][url] = "git@github.com:SU-SWS/stanford_install_tasks.git"
 

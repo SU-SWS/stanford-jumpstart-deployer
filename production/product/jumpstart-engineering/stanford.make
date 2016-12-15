@@ -102,7 +102,7 @@ projects[stanford_image][download][url] = "git@github.com:SU-SWS/stanford_image.
 projects[stanford_image][subdir] = "stanford"
 projects[stanford_image][type] = "module"
 
-projects[stanford_image_styles][download][tag] = "7.x-3.4+13-dev"
+projects[stanford_image_styles][download][tag] = "7.x-3.4+16-dev"
 projects[stanford_image_styles][download][type] = "git"
 projects[stanford_image_styles][download][url] = "git@github.com:SU-SWS/stanford_image_styles.git"
 projects[stanford_image_styles][subdir] = "stanford"
@@ -132,7 +132,7 @@ projects[stanford_manage_content][download][url] = "git@github.com:SU-SWS/stanfo
 projects[stanford_manage_content][subdir] = "stanford"
 projects[stanford_manage_content][type] = "module"
 
-projects[stanford_news][download][tag] = "7.x-3.4+2-dev"
+projects[stanford_news][download][tag] = "7.x-3.4+4-dev"
 projects[stanford_news][download][type] = "git"
 projects[stanford_news][download][url] = "git@github.com:SU-SWS/stanford_news.git"
 projects[stanford_news][subdir] = "stanford"
@@ -144,7 +144,7 @@ projects[stanford_page][download][url] = "git@github.com:SU-SWS/stanford_page.gi
 projects[stanford_page][subdir] = "stanford"
 projects[stanford_page][type] = "module"
 
-projects[stanford_person][download][tag] = "7.x-5.2"
+projects[stanford_person][download][tag] = "7.x-5.2+19-dev"
 projects[stanford_person][download][type] = "git"
 projects[stanford_person][download][url] = "git@github.com:SU-SWS/stanford_person.git"
 projects[stanford_person][subdir] = "stanford"
@@ -162,7 +162,7 @@ projects[stanford_publication][download][url] = "git@github.com:SU-SWS/stanford_
 projects[stanford_publication][subdir] = "stanford"
 projects[stanford_publication][type] = "module"
 
-projects[stanford_related_content][download][tag] = "7.x-1.0"
+projects[stanford_related_content][download][tag] = "7.x-1.0+6-dev"
 projects[stanford_related_content][download][type] = "git"
 projects[stanford_related_content][download][url] = "git@github.com:SU-SWS/stanford_related_content.git"
 projects[stanford_related_content][subdir] = "stanford"
@@ -188,7 +188,7 @@ projects[stanford_wysiwyg][type] = "module"
 
 ; SU-SOE Modules
 
-projects[stanford_jumpstart_engineering][download][tag] = "7.x-5.2+38-dev"
+projects[stanford_jumpstart_engineering][download][tag] = "7.x-5.2+42-dev"
 projects[stanford_jumpstart_engineering][download][type] = "git"
 projects[stanford_jumpstart_engineering][download][url] = "git@github.com:SU-SOE/stanford_jumpstart_engineering.git"
 projects[stanford_jumpstart_engineering][subdir] = "stanford"
