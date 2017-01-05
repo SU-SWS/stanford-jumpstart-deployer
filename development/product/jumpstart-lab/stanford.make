@@ -31,7 +31,7 @@ projects[stanford_carousel][download][branch] = "7.x-2.x"
 projects[stanford_conference][subdir] = "stanford"
 projects[stanford_conference][type] = "module"
 projects[stanford_conference][download][type] = "git"
-projects[stanford_conference][download][url] = "https://github.com/SU-SWS/stanford_conference.git"
+projects[stanford_conference][download][url] = "git@github.com:SU-SWS/stanford_conference.git"
 projects[stanford_conference][download][branch] = "7.x-1.x"
 
 projects[stanford_courses][subdir] = "stanford"
