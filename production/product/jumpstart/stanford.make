@@ -134,7 +134,7 @@ projects[stanford_landing_page][type] = "module"
 projects[stanford_landing_page][subdir] = "stanford"
 projects[stanford_landing_page][download][type] = "git"
 projects[stanford_landing_page][download][url] = "git@github.com:SU-SWS/stanford_landing_page.git"
-projects[stanford_landing_page][download][tag] = "7.x-1.4+3-dev"
+projects[stanford_landing_page][download][tag] = "7.x-1.5"
 
 projects[stanford_manage_content][type] = "module"
 projects[stanford_manage_content][subdir] = "stanford"
