@@ -154,6 +154,13 @@ projects[stanford_jumpstart_home][download][url] = "git@github.com:SU-SWS/stanfo
 projects[stanford_jumpstart_home][download][branch] = "7.x-1.x"
 projects[stanford_jumpstart_home][subdir] = "stanford"
 
+projects[stanford_alt_check][type] = "module"
+projects[stanford_alt_check][download][type] = "git"
+projects[stanford_alt_check][download][url] = "git@github.com:SU-SWS/stanford_alt_check.git"
+projects[stanford_alt_check][download][branch] = "7.x-1.x"
+projects[stanford_alt_check][subdir] = "stanford"
+
+
 ; Custom Themes, GitHub
 ; ------------------------------------------------------------------------------
 

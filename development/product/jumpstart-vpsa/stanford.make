@@ -130,6 +130,13 @@ projects[stanford_easy_wysiwyg_css][download][type] = "git"
 projects[stanford_easy_wysiwyg_css][download][url] = "git@github.com:SU-SWS/stanford_easy_wysiwyg_css.git"
 projects[stanford_easy_wysiwyg_css][download][branch] = "7.x-1.x"
 
+projects[stanford_alt_check][type] = "module"
+projects[stanford_alt_check][download][type] = "git"
+projects[stanford_alt_check][download][url] = "git@github.com:SU-SWS/stanford_alt_check.git"
+projects[stanford_alt_check][download][branch] = "7.x-1.x"
+projects[stanford_alt_check][subdir] = "stanford"
+
+
 ; JUMPSTART Modules
 
 projects[stanford_jumpstart][type] = "module"
