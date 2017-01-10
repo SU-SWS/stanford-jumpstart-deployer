@@ -58,6 +58,12 @@ projects[stanford_events_importer][download][type] = "git"
 projects[stanford_events_importer][download][url] = "git@github.com:SU-SWS/stanford_events_importer.git"
 projects[stanford_events_importer][download][tag] = "7.x-3.3"
 
+projects[stanford_feeds_helper][subdir] = "stanford"
+projects[stanford_feeds_helper][type] = "module"
+projects[stanford_feeds_helper][download][type] = "git"
+projects[stanford_feeds_helper][download][url] = "git@github.com:SU-SWS/stanford_feeds_helper.git"
+projects[stanford_feeds_helper][download][tag] = "7.x-1.2"
+
 projects[stanford_gallery][type] = "module"
 projects[stanford_gallery][subdir] = "stanford"
 projects[stanford_gallery][download][type] = "git"

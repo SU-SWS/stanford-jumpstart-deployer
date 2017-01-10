@@ -18,6 +18,12 @@ projects[stanford_affiliate_organization][download][url] = "git@github.com:SU-SW
 projects[stanford_affiliate_organization][subdir] = "stanford"
 projects[stanford_affiliate_organization][type] = "module"
 
+projects[stanford_alt_check][type] = "module"
+projects[stanford_alt_check][download][type] = "git"
+projects[stanford_alt_check][download][url] = "git@github.com:SU-SWS/stanford_alt_check.git"
+projects[stanford_alt_check][download][branch] = "7.x-1.x"
+projects[stanford_alt_check][subdir] = "stanford"
+
 projects[stanford_bean_types][download][branch] = "7.x-3.x"
 projects[stanford_bean_types][download][type] = "git"
 projects[stanford_bean_types][download][url] = "git@github.com:SU-SWS/stanford_bean_types.git"

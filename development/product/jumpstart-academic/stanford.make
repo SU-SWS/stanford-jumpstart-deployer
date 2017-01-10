@@ -58,6 +58,12 @@ projects[stanford_events_importer][download][type] = "git"
 projects[stanford_events_importer][download][url] = "git@github.com:SU-SWS/stanford_events_importer.git"
 projects[stanford_events_importer][download][branch] = "7.x-3.x"
 
+projects[stanford_feeds_helper][subdir] = "stanford"
+projects[stanford_feeds_helper][type] = "module"
+projects[stanford_feeds_helper][download][type] = "git"
+projects[stanford_feeds_helper][download][url] = "git@github.com:SU-SWS/stanford_feeds_helper.git"
+projects[stanford_feeds_helper][download][tag] = "7.x-1.2"
+
 projects[stanford_helper][subdir] = "stanford"
 projects[stanford_helper][type] = "module"
 projects[stanford_helper][download][type] = "git"
@@ -147,6 +153,12 @@ projects[stanford_gallery][subdir] = "stanford"
 projects[stanford_gallery][download][type] = "git"
 projects[stanford_gallery][download][url] = "git@github.com:SU-SWS/stanford_gallery.git"
 projects[stanford_gallery][download][branch] = "7.x-2.x"
+
+projects[stanford_alt_check][type] = "module"
+projects[stanford_alt_check][download][type] = "git"
+projects[stanford_alt_check][download][url] = "git@github.com:SU-SWS/stanford_alt_check.git"
+projects[stanford_alt_check][download][branch] = "7.x-1.x"
+projects[stanford_alt_check][subdir] = "stanford"
 
 ; Academic Modules
 ; -----
