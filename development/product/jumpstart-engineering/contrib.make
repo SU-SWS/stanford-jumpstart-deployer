@@ -216,17 +216,17 @@ projects[xmlsitemap][version] = "2.3"
 ; Contributed modules, -dev versions specified by git commit
 ; ------------------------------------------------------------------------------
 
-projects[auto_nodetitle][type] = "module"
-projects[auto_nodetitle][subdir] = "contrib"
+projects[auto_nodetitle][download][revision] = "98d66fb24d54113bbdfba0d1797239493473cd78"
 projects[auto_nodetitle][download][type] = "git"
 projects[auto_nodetitle][download][url] = "http://git.drupal.org/project/auto_nodetitle.git"
-projects[auto_nodetitle][download][revision] = "98d66fb24d54113bbdfba0d1797239493473cd78"
+projects[auto_nodetitle][subdir] = "contrib"
+projects[auto_nodetitle][type] = "module"
 
-projects[jw_player][type] = "module"
-projects[jw_player][subdir] = "contrib"
+projects[jw_player][download][revision] = "7c80005d4f3c569b105adad0ad558c921c419e7e"
 projects[jw_player][download][type] = "git"
 projects[jw_player][download][url] = "http://git.drupal.org/project/jw_player.git"
-projects[jw_player][download][revision] = "7c80005d4f3c569b105adad0ad558c921c419e7e"
+projects[jw_player][subdir] = "contrib"
+projects[jw_player][type] = "module"
 
 projects[token_tweaks][type] = "module"
 projects[token_tweaks][subdir] = "contrib"
