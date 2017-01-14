@@ -31,7 +31,7 @@ projects[stanford_carousel][download][branch] = "7.x-2.x"
 projects[stanford_conference][subdir] = "stanford"
 projects[stanford_conference][type] = "module"
 projects[stanford_conference][download][type] = "git"
-projects[stanford_conference][download][url] = "https://github.com/SU-SWS/stanford_conference.git"
+projects[stanford_conference][download][url] = "git@github.com:SU-SWS/stanford_conference.git"
 projects[stanford_conference][download][branch] = "7.x-1.x"
 
 projects[stanford_courses][subdir] = "stanford"
@@ -159,6 +159,13 @@ projects[stanford_gallery][subdir] = "stanford"
 projects[stanford_gallery][download][type] = "git"
 projects[stanford_gallery][download][url] = "git@github.com:SU-SWS/stanford_gallery.git"
 projects[stanford_gallery][download][branch] = "7.x-2.x"
+
+projects[stanford_alt_check][type] = "module"
+projects[stanford_alt_check][download][type] = "git"
+projects[stanford_alt_check][download][url] = "git@github.com:SU-SWS/stanford_alt_check.git"
+projects[stanford_alt_check][download][branch] = "7.x-1.x"
+projects[stanford_alt_check][subdir] = "stanford"
+
 
 ; Academic Modules
 ; -----
