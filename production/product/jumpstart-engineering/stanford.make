@@ -4,7 +4,6 @@ api = 2
 ; Custom Modules, GitHub
 ; ------------------------------------------------------------------------------
 
-
 ; SU-SWS Modules
 
 projects[erus][download][tag] = "7.x-1.1"
@@ -82,20 +81,20 @@ projects[stanford_feeds_helper][type] = "module"
 projects[stanford_gallery][download][tag] = "7.x-2.2"
 projects[stanford_gallery][download][type] = "git"
 projects[stanford_gallery][download][url] = "git@github.com:SU-SWS/stanford_gallery.git"
-projects[stanford_gallery][type] = "module"
 projects[stanford_gallery][subdir] = "stanford"
+projects[stanford_gallery][type] = "module"
 
 projects[stanford_help][download][tag] = "7.x-1.1"
 projects[stanford_help][download][type] = "git"
 projects[stanford_help][download][url] = "git@github.com:SU-SWS/stanford_help.git"
-projects[stanford_help][type] = "module"
 projects[stanford_help][subdir] = "stanford"
+projects[stanford_help][type] = "module"
 
-projects[stanford_helper][subdir] = "stanford"
-projects[stanford_helper][type] = "module"
+projects[stanford_helper][download][tag] = "7.x-1.0"
 projects[stanford_helper][download][type] = "git"
 projects[stanford_helper][download][url] = "git@github.com:SU-SWS/stanford_helper.git"
-projects[stanford_helper][download][tag] = "7.x-1.0"
+projects[stanford_helper][subdir] = "stanford"
+projects[stanford_helper][type] = "module"
 
 projects[stanford_image][download][tag] = "7.x-3.5+6-dev"
 projects[stanford_image][download][type] = "git"
@@ -103,17 +102,17 @@ projects[stanford_image][download][url] = "git@github.com:SU-SWS/stanford_image.
 projects[stanford_image][subdir] = "stanford"
 projects[stanford_image][type] = "module"
 
-projects[stanford_image_styles][download][tag] = "7.x-3.4+6-dev"
+projects[stanford_image_styles][download][tag] = "7.x-3.4+16-dev"
 projects[stanford_image_styles][download][type] = "git"
 projects[stanford_image_styles][download][url] = "git@github.com:SU-SWS/stanford_image_styles.git"
 projects[stanford_image_styles][subdir] = "stanford"
 projects[stanford_image_styles][type] = "module"
 
-projects[stanford_jumpstart][download][tag] = "7.x-5.2"
+projects[stanford_jumpstart][download][tag] = "7.x-5.3"
 projects[stanford_jumpstart][download][type] = "git"
 projects[stanford_jumpstart][download][url] = "git@github.com:SU-SWS/stanford_jumpstart.git"
-projects[stanford_jumpstart][type] = "module"
 projects[stanford_jumpstart][subdir] = "stanford"
+projects[stanford_jumpstart][type] = "module"
 
 projects[stanford_jumpstart_academic][download][tag] = "7.x-5.0+8-dev"
 projects[stanford_jumpstart_academic][download][type] = "git"
@@ -121,7 +120,7 @@ projects[stanford_jumpstart_academic][download][url] = "git@github.com:SU-SWS/st
 projects[stanford_jumpstart_academic][subdir] = "stanford"
 projects[stanford_jumpstart_academic][type] = "module"
 
-projects[stanford_landing_page][download][tag] = "7.x-1.4+3-dev"
+projects[stanford_landing_page][download][tag] = "7.x-1.5"
 projects[stanford_landing_page][download][type] = "git"
 projects[stanford_landing_page][download][url] = "git@github.com:SU-SWS/stanford_landing_page.git"
 projects[stanford_landing_page][subdir] = "stanford"
@@ -130,10 +129,10 @@ projects[stanford_landing_page][type] = "module"
 projects[stanford_manage_content][download][tag] = "7.x-3.4"
 projects[stanford_manage_content][download][type] = "git"
 projects[stanford_manage_content][download][url] = "git@github.com:SU-SWS/stanford_manage_content.git"
-projects[stanford_manage_content][type] = "module"
 projects[stanford_manage_content][subdir] = "stanford"
+projects[stanford_manage_content][type] = "module"
 
-projects[stanford_news][download][tag] = "7.x-3.3+8-dev"
+projects[stanford_news][download][tag] = "7.x-3.4+4-dev"
 projects[stanford_news][download][type] = "git"
 projects[stanford_news][download][url] = "git@github.com:SU-SWS/stanford_news.git"
 projects[stanford_news][subdir] = "stanford"
@@ -145,7 +144,7 @@ projects[stanford_page][download][url] = "git@github.com:SU-SWS/stanford_page.gi
 projects[stanford_page][subdir] = "stanford"
 projects[stanford_page][type] = "module"
 
-projects[stanford_person][download][tag] = "7.x-5.2"
+projects[stanford_person][download][tag] = "7.x-5.2+19-dev"
 projects[stanford_person][download][type] = "git"
 projects[stanford_person][download][url] = "git@github.com:SU-SWS/stanford_person.git"
 projects[stanford_person][subdir] = "stanford"
@@ -160,14 +159,14 @@ projects[stanford_private_page][type] = "module"
 projects[stanford_publication][download][tag] = "7.x-2.2"
 projects[stanford_publication][download][type] = "git"
 projects[stanford_publication][download][url] = "git@github.com:SU-SWS/stanford_publication.git"
-projects[stanford_publication][type] = "module"
 projects[stanford_publication][subdir] = "stanford"
+projects[stanford_publication][type] = "module"
 
-projects[stanford_related_content][download][tag] = "7.x-1.0-alpha3"
+projects[stanford_related_content][download][tag] = "7.x-1.0+6-dev"
 projects[stanford_related_content][download][type] = "git"
 projects[stanford_related_content][download][url] = "git@github.com:SU-SWS/stanford_related_content.git"
-projects[stanford_related_content][type] = "module"
 projects[stanford_related_content][subdir] = "stanford"
+projects[stanford_related_content][type] = "module"
 
 projects[stanford_slides][download][tag] = "7.x-3.1"
 projects[stanford_slides][download][type] = "git"
@@ -187,26 +186,24 @@ projects[stanford_wysiwyg][download][url] = git@github.com:SU-SWS/stanford_wysiw
 projects[stanford_wysiwyg][subdir] = "stanford"
 projects[stanford_wysiwyg][type] = "module"
 
-
 ; SU-SOE Modules
 
-projects[stanford_jumpstart_engineering][download][tag] = "7.x-5.2"
+projects[stanford_jumpstart_engineering][download][tag] = "7.x-5.2+42-dev"
 projects[stanford_jumpstart_engineering][download][type] = "git"
 projects[stanford_jumpstart_engineering][download][url] = "git@github.com:SU-SOE/stanford_jumpstart_engineering.git"
 projects[stanford_jumpstart_engineering][subdir] = "stanford"
 projects[stanford_jumpstart_engineering][type] = "module"
 
-projects[stanford_jumpstart_home][download][tag] = "7.x-1.5"
+projects[stanford_jumpstart_home][download][tag] = "7.x-1.5+5-dev"
 projects[stanford_jumpstart_home][download][type] = "git"
 projects[stanford_jumpstart_home][download][url] = "git@github.com:SU-SOE/stanford_jumpstart_home.git"
 projects[stanford_jumpstart_home][subdir] = "stanford"
 projects[stanford_jumpstart_home][type] = "module"
 
-
 ; Custom Themes, GitHub
 ; ------------------------------------------------------------------------------
 
-projects[open_framework][download][tag] = "7.x-2.5+4-dev"
+projects[open_framework][download][tag] = "7.x-2.5+9-dev"
 projects[open_framework][download][type] = "git"
 projects[open_framework][download][url] = "git@github.com:SU-SWS/open_framework.git"
 projects[open_framework][type] = theme
@@ -221,8 +218,3 @@ projects[stanford_seven][download][tag] = "7.x-1.2"
 projects[stanford_seven][download][type] = "git"
 projects[stanford_seven][download][url] = "git@github.com:SU-SWS/stanford_seven.git"
 projects[stanford_seven][type] = theme
-
-projects[stanford_framework][download][tag] = "7.x-3.2"
-projects[stanford_framework][download][type] = "git"
-projects[stanford_framework][download][url] = "git@github.com:SU-SWS/stanford_framework.git"
-projects[stanford_framework][type] = "theme"

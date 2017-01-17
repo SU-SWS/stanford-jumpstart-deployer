@@ -62,7 +62,6 @@ libraries[proj4js][download][url] = http://download.osgeo.org/proj4js/proj4js-1.
 libraries[proj4js][directory_name] = proj4js
 libraries[proj4js][destination] = "libraries"
 
-; TODO set back to 7.x-1.x after testing
 libraries[stanford_sites_content_importer][download][type] = "git"
 libraries[stanford_sites_content_importer][download][url] = "git@github.com:SU-SWS/stanford_sites_content_importer"
 libraries[stanford_sites_content_importer][download][branch] = "7.x-2.x"
