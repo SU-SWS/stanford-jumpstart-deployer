@@ -162,7 +162,7 @@ projects[stanford_publication][download][url] = "git@github.com:SU-SWS/stanford_
 projects[stanford_publication][subdir] = "stanford"
 projects[stanford_publication][type] = "module"
 
-projects[stanford_related_content][download][tag] = "7.x-1.0+6-dev"
+projects[stanford_related_content][download][tag] = "7.x-1.0+16-dev"
 projects[stanford_related_content][download][type] = "git"
 projects[stanford_related_content][download][url] = "git@github.com:SU-SWS/stanford_related_content.git"
 projects[stanford_related_content][subdir] = "stanford"
