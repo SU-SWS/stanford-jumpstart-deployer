@@ -24,7 +24,7 @@ projects[stanford_bean_types][download][url] = "git@github.com:SU-SWS/stanford_b
 projects[stanford_bean_types][subdir] = "stanford"
 projects[stanford_bean_types][type] = "module"
 
-projects[stanford_capx][download][tag] = "7.x-2.1-beta1-php54"
+projects[stanford_capx][download][tag] = "7.x-2.1-php54"
 projects[stanford_capx][download][type] = "git"
 projects[stanford_capx][download][url] = "git@github.com:SU-SWS/stanford_capx.git"
 projects[stanford_capx][subdir] = stanford
@@ -36,7 +36,7 @@ projects[stanford_carousel][download][url] = "git@github.com:SU-SWS/stanford_car
 projects[stanford_carousel][subdir] = "stanford"
 projects[stanford_carousel][type] = "module"
 
-projects[stanford_courses][download][tag] = "7.x-4.1"
+projects[stanford_courses][download][tag] = "7.x-4.1+19-dev
 projects[stanford_courses][download][type] = "git"
 projects[stanford_courses][download][url] = "git@github.com:SU-SWS/stanford_courses.git"
 projects[stanford_courses][subdir] = "stanford"
@@ -72,7 +72,7 @@ projects[stanford_event_series][download][url] = "git@github.com:SU-SWS/stanford
 projects[stanford_event_series][subdir] = "stanford"
 projects[stanford_event_series][type] = "module"
 
-projects[stanford_feeds_helper][download][branch] = "7.x-1.2"
+projects[stanford_feeds_helper][download][branch] = "7.x-1.2+5-dev"
 projects[stanford_feeds_helper][download][type] = "git"
 projects[stanford_feeds_helper][download][url] = "git@github.com:SU-SWS/stanford_feeds_helper.git"
 projects[stanford_feeds_helper][subdir] = "stanford"
@@ -96,7 +96,7 @@ projects[stanford_helper][download][url] = "git@github.com:SU-SWS/stanford_helpe
 projects[stanford_helper][subdir] = "stanford"
 projects[stanford_helper][type] = "module"
 
-projects[stanford_image][download][tag] = "7.x-3.5+6-dev"
+projects[stanford_image][download][tag] = "7.x-3.5+10-dev
 projects[stanford_image][download][type] = "git"
 projects[stanford_image][download][url] = "git@github.com:SU-SWS/stanford_image.git"
 projects[stanford_image][subdir] = "stanford"
@@ -108,7 +108,7 @@ projects[stanford_image_styles][download][url] = "git@github.com:SU-SWS/stanford
 projects[stanford_image_styles][subdir] = "stanford"
 projects[stanford_image_styles][type] = "module"
 
-projects[stanford_jumpstart][download][tag] = "7.x-5.3"
+projects[stanford_jumpstart][download][tag] = "7.x-5.3+9-dev"
 projects[stanford_jumpstart][download][type] = "git"
 projects[stanford_jumpstart][download][url] = "git@github.com:SU-SWS/stanford_jumpstart.git"
 projects[stanford_jumpstart][subdir] = "stanford"
@@ -194,7 +194,7 @@ projects[stanford_jumpstart_engineering][download][url] = "git@github.com:SU-SOE
 projects[stanford_jumpstart_engineering][subdir] = "stanford"
 projects[stanford_jumpstart_engineering][type] = "module"
 
-projects[stanford_jumpstart_home][download][tag] = "7.x-1.5+5-dev"
+projects[stanford_jumpstart_home][download][tag] = "7.x-1.6"
 projects[stanford_jumpstart_home][download][type] = "git"
 projects[stanford_jumpstart_home][download][url] = "git@github.com:SU-SOE/stanford_jumpstart_home.git"
 projects[stanford_jumpstart_home][subdir] = "stanford"
