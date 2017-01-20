@@ -36,7 +36,7 @@ projects[stanford_carousel][download][url] = "git@github.com:SU-SWS/stanford_car
 projects[stanford_carousel][subdir] = "stanford"
 projects[stanford_carousel][type] = "module"
 
-projects[stanford_courses][download][tag] = "7.x-4.1+19-dev
+projects[stanford_courses][download][tag] = "7.x-4.1+19-dev"
 projects[stanford_courses][download][type] = "git"
 projects[stanford_courses][download][url] = "git@github.com:SU-SWS/stanford_courses.git"
 projects[stanford_courses][subdir] = "stanford"
@@ -96,7 +96,7 @@ projects[stanford_helper][download][url] = "git@github.com:SU-SWS/stanford_helpe
 projects[stanford_helper][subdir] = "stanford"
 projects[stanford_helper][type] = "module"
 
-projects[stanford_image][download][tag] = "7.x-3.5+10-dev
+projects[stanford_image][download][tag] = "7.x-3.5+10-dev"
 projects[stanford_image][download][type] = "git"
 projects[stanford_image][download][url] = "git@github.com:SU-SWS/stanford_image.git"
 projects[stanford_image][subdir] = "stanford"
