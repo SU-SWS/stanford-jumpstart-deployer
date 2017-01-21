@@ -174,7 +174,7 @@ projects[stanford_slides][download][url] = "git@github.com:SU-SWS/stanford_slide
 projects[stanford_slides][subdir] = "stanford"
 projects[stanford_slides][type] = "module"
 
-projects[stanford_video][download][tag] = "7.x-2.2+6-dev
+projects[stanford_video][download][tag] = "7.x-2.2+6-dev"
 projects[stanford_video][download][type] = "git"
 projects[stanford_video][download][url] = "git@github.com:SU-SWS/stanford_video.git"
 projects[stanford_video][subdir] = "stanford"
