@@ -4,9 +4,11 @@ api = 2
 ; Libraries
 ; ------------------------------------------------------------------------------
 
+; One commit after release 7.x-1.0-alpha3
+; I didn't feel like it was meaningful to punch a tag for a typo change.
 libraries[stanford_install_tasks][download][type] = "git"
 libraries[stanford_install_tasks][download][url] = "git@github.com:SU-SWS/stanford_install_tasks.git"
-libraries[stanford_install_tasks][download][branch] = "7.x-1.x"
+libraries[stanford_install_tasks][download][revision] = "f66c4fed828866bb5e0d2a1c7e8382a472607867"
 libraries[stanford_install_tasks][directory_name] = "tasks"
 
 libraries[simplepie][download][type] = "file"
@@ -62,8 +64,7 @@ libraries[proj4js][download][url] = http://download.osgeo.org/proj4js/proj4js-1.
 libraries[proj4js][directory_name] = proj4js
 libraries[proj4js][destination] = "libraries"
 
-; TODO set back to 7.x-1.x after testing
 libraries[stanford_sites_content_importer][download][type] = "git"
 libraries[stanford_sites_content_importer][download][url] = "git@github.com:SU-SWS/stanford_sites_content_importer"
-libraries[stanford_sites_content_importer][download][branch] = "7.x-2.x"
+libraries[stanford_sites_content_importer][download][tag] = "7.x-2.0"
 libraries[stanford_sites_content_importer][destination] = "libraries"
