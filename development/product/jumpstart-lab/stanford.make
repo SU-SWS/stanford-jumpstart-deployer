@@ -170,12 +170,6 @@ projects[stanford_alt_check][subdir] = "stanford"
 ; Academic Modules
 ; -----
 
-projects[stanford_jumpstart_academic][type] = "module"
-projects[stanford_jumpstart_academic][subdir] = "stanford"
-projects[stanford_jumpstart_academic][download][type] = "git"
-projects[stanford_jumpstart_academic][download][url] = "git@github.com:SU-SWS/stanford_jumpstart_academic.git"
-projects[stanford_jumpstart_academic][download][branch] = "7.x-5.x"
-
 projects[stanford_event_series][type] = "module"
 projects[stanford_event_series][subdir] = "stanford"
 projects[stanford_event_series][download][type] = "git"
@@ -187,7 +181,6 @@ projects[stanford_publication][subdir] = "stanford"
 projects[stanford_publication][download][type] = "git"
 projects[stanford_publication][download][url] = "git@github.com:SU-SWS/stanford_publication.git"
 projects[stanford_publication][download][branch] = "7.x-2.x-dev"
-
 
 ; Custom Themes, GitHub
 ; ------------------------------------------------------------------------------
