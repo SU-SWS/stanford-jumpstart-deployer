@@ -18,6 +18,12 @@ projects[stanford_affiliate_organization][download][url] = "git@github.com:SU-SW
 projects[stanford_affiliate_organization][subdir] = "stanford"
 projects[stanford_affiliate_organization][type] = "module"
 
+projects[stanford_alt_check][download][tag] = "7.x-1.0-alpha1"
+projects[stanford_alt_check][download][type] = "git"
+projects[stanford_alt_check][download][url] = "git@github.com:SU-SWS/stanford_alt_check.git"
+projects[stanford_alt_check][subdir] = "stanford"
+projects[stanford_alt_check][type] = "module"
+
 projects[stanford_bean_types][download][tag] = "7.x-3.0+8-dev"
 projects[stanford_bean_types][download][type] = "git"
 projects[stanford_bean_types][download][url] = "git@github.com:SU-SWS/stanford_bean_types.git"
@@ -72,7 +78,7 @@ projects[stanford_event_series][download][url] = "git@github.com:SU-SWS/stanford
 projects[stanford_event_series][subdir] = "stanford"
 projects[stanford_event_series][type] = "module"
 
-projects[stanford_feeds_helper][download][branch] = "7.x-1.2+5-dev"
+projects[stanford_feeds_helper][download][tag] = "7.x-1.2+5-dev"
 projects[stanford_feeds_helper][download][type] = "git"
 projects[stanford_feeds_helper][download][url] = "git@github.com:SU-SWS/stanford_feeds_helper.git"
 projects[stanford_feeds_helper][subdir] = "stanford"
@@ -132,7 +138,7 @@ projects[stanford_manage_content][download][url] = "git@github.com:SU-SWS/stanfo
 projects[stanford_manage_content][subdir] = "stanford"
 projects[stanford_manage_content][type] = "module"
 
-projects[stanford_news][download][tag] = "7.x-3.4+4-dev"
+projects[stanford_news][download][tag] = "7.x-3.5"
 projects[stanford_news][download][type] = "git"
 projects[stanford_news][download][url] = "git@github.com:SU-SWS/stanford_news.git"
 projects[stanford_news][subdir] = "stanford"
@@ -188,7 +194,7 @@ projects[stanford_wysiwyg][type] = "module"
 
 ; SU-SOE Modules
 
-projects[stanford_jumpstart_engineering][download][tag] = "7.x-5.2+42-dev"
+projects[stanford_jumpstart_engineering][download][tag] = "7.x-5.3+3-dev"
 projects[stanford_jumpstart_engineering][download][type] = "git"
 projects[stanford_jumpstart_engineering][download][url] = "git@github.com:SU-SOE/stanford_jumpstart_engineering.git"
 projects[stanford_jumpstart_engineering][subdir] = "stanford"
