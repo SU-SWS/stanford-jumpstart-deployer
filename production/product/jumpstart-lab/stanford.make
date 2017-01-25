@@ -34,6 +34,12 @@ projects[stanford_carousel][download][type] = "git"
 projects[stanford_carousel][download][url] = "git@github.com:SU-SWS/stanford_carousel.git"
 projects[stanford_carousel][download][tag] = "7.x-2.3"
 
+projects[stanford_conference][subdir] = "stanford"
+projects[stanford_conference][type] = "module"
+projects[stanford_conference][download][type] = "git"
+projects[stanford_conference][download][url] = "git@github.com:SU-SWS/stanford_conference.git"
+projects[stanford_conference][download][tag] = "7.x-1.0-beta1"
+
 projects[stanford_courses][subdir] = "stanford"
 projects[stanford_courses][type] = "module"
 projects[stanford_courses][download][type] = "git"

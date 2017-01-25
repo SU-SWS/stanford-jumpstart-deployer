@@ -4,8 +4,6 @@ api = 2
 ; Libraries
 ; ------------------------------------------------------------------------------
 
-; One commit after release 7.x-1.0-alpha3
-; I didn't feel like it was meaningful to punch a tag for a typo change.
 libraries[stanford_install_tasks][download][type] = "git"
 libraries[stanford_install_tasks][download][url] = "git@github.com:SU-SWS/stanford_install_tasks.git"
 libraries[stanford_install_tasks][download][revision] = "f66c4fed828866bb5e0d2a1c7e8382a472607867"
