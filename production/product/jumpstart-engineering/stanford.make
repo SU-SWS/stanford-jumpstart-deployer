@@ -138,7 +138,7 @@ projects[stanford_manage_content][download][url] = "git@github.com:SU-SWS/stanfo
 projects[stanford_manage_content][subdir] = "stanford"
 projects[stanford_manage_content][type] = "module"
 
-projects[stanford_news][download][tag] = "7.x-3.5"
+projects[stanford_news][download][tag] = "7.x-3.6+23-dev"
 projects[stanford_news][download][type] = "git"
 projects[stanford_news][download][url] = "git@github.com:SU-SWS/stanford_news.git"
 projects[stanford_news][subdir] = "stanford"
@@ -194,7 +194,7 @@ projects[stanford_wysiwyg][type] = "module"
 
 ; SU-SOE Modules
 
-projects[stanford_jumpstart_engineering][download][tag] = "7.x-5.3+3-dev"
+projects[stanford_jumpstart_engineering][download][tag] = "7.x-5.4+12-dev"
 projects[stanford_jumpstart_engineering][download][type] = "git"
 projects[stanford_jumpstart_engineering][download][url] = "git@github.com:SU-SOE/stanford_jumpstart_engineering.git"
 projects[stanford_jumpstart_engineering][subdir] = "stanford"
