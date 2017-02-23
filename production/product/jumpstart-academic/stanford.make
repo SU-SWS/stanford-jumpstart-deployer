@@ -128,7 +128,7 @@ projects[stanford_manage_content][type] = "module"
 projects[stanford_manage_content][subdir] = "stanford"
 projects[stanford_manage_content][download][type] = "git"
 projects[stanford_manage_content][download][url] = "git@github.com:SU-SWS/stanford_manage_content.git"
-projects[stanford_manage_content][download][tag] = "7.x-3.4"
+projects[stanford_manage_content][download][tag] = "7.x-3.5"
 
 projects[stanford_news][type] = "module"
 projects[stanford_news][subdir] = "stanford"
