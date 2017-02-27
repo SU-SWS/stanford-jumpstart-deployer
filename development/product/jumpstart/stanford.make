@@ -86,7 +86,7 @@ projects[stanford_image_styles][subdir] = "stanford"
 projects[stanford_image_styles][type] = "module"
 projects[stanford_image_styles][download][type] = "git"
 projects[stanford_image_styles][download][url] = "git@github.com:SU-SWS/stanford_image_styles.git"
-projects[stanford_image_styles][download][branch] = "7.x-3.x-dev"
+projects[stanford_image_styles][download][branch] = "7.x-4.x"
 
 projects[stanford_news][type] = "module"
 projects[stanford_news][subdir] = "stanford"
