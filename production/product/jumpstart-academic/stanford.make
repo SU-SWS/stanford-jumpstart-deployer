@@ -14,7 +14,7 @@ projects[stanford_bean_types][subdir] = "stanford"
 projects[stanford_bean_types][type] = "module"
 projects[stanford_bean_types][download][type] = "git"
 projects[stanford_bean_types][download][url] = "git@github.com:SU-SWS/stanford_bean_types.git"
-projects[stanford_bean_types][download][tag] = "7.x-3.0"
+projects[stanford_bean_types][download][tag] = "7.x-3.1-alpha1"
 
 projects[stanford_capx][type] = module
 projects[stanford_capx][subdir] = stanford
@@ -110,7 +110,7 @@ projects[stanford_landing_page][type] = "module"
 projects[stanford_landing_page][subdir] = "stanford"
 projects[stanford_landing_page][download][type] = "git"
 projects[stanford_landing_page][download][url] = "git@github.com:SU-SWS/stanford_landing_page.git"
-projects[stanford_landing_page][download][tag] = "7.x-1.5"
+projects[stanford_landing_page][download][tag] = "7.x-1.6-beta1"
 
 projects[stanford_jumpstart][type] = "module"
 projects[stanford_jumpstart][subdir] = "stanford"
