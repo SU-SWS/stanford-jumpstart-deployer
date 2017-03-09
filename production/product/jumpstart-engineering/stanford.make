@@ -66,7 +66,7 @@ projects[stanford_easy_wysiwyg_css][download][url] = "git@github.com:SU-SWS/stan
 projects[stanford_easy_wysiwyg_css][subdir] = "stanford"
 projects[stanford_easy_wysiwyg_css][type] = "module"
 
-projects[stanford_events_importer][download][tag] = "7.x-3.4"
+projects[stanford_events_importer][download][tag] = "7.x-3.5"
 projects[stanford_events_importer][download][type] = "git"
 projects[stanford_events_importer][download][url] = "git@github.com:SU-SWS/stanford_events_importer.git"
 projects[stanford_events_importer][subdir] = "stanford"
@@ -132,7 +132,7 @@ projects[stanford_landing_page][download][url] = "git@github.com:SU-SWS/stanford
 projects[stanford_landing_page][subdir] = "stanford"
 projects[stanford_landing_page][type] = "module"
 
-projects[stanford_manage_content][download][tag] = "7.x-3.4"
+projects[stanford_manage_content][download][tag] = "7.x-3.5"
 projects[stanford_manage_content][download][type] = "git"
 projects[stanford_manage_content][download][url] = "git@github.com:SU-SWS/stanford_manage_content.git"
 projects[stanford_manage_content][subdir] = "stanford"

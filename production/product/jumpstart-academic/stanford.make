@@ -14,7 +14,7 @@ projects[stanford_bean_types][subdir] = "stanford"
 projects[stanford_bean_types][type] = "module"
 projects[stanford_bean_types][download][type] = "git"
 projects[stanford_bean_types][download][url] = "git@github.com:SU-SWS/stanford_bean_types.git"
-projects[stanford_bean_types][download][tag] = "7.x-3.0"
+projects[stanford_bean_types][download][tag] = "7.x-3.1-alpha1"
 
 projects[stanford_capx][type] = module
 projects[stanford_capx][subdir] = stanford
@@ -50,7 +50,7 @@ projects[stanford_events_importer][subdir] = "stanford"
 projects[stanford_events_importer][type] = "module"
 projects[stanford_events_importer][download][type] = "git"
 projects[stanford_events_importer][download][url] = "git@github.com:SU-SWS/stanford_events_importer.git"
-projects[stanford_events_importer][download][tag] = "7.x-3.4"
+projects[stanford_events_importer][download][tag] = "7.x-3.5"
 
 projects[stanford_feeds_helper][subdir] = "stanford"
 projects[stanford_feeds_helper][type] = "module"
@@ -128,7 +128,7 @@ projects[stanford_manage_content][type] = "module"
 projects[stanford_manage_content][subdir] = "stanford"
 projects[stanford_manage_content][download][type] = "git"
 projects[stanford_manage_content][download][url] = "git@github.com:SU-SWS/stanford_manage_content.git"
-projects[stanford_manage_content][download][tag] = "7.x-3.4"
+projects[stanford_manage_content][download][tag] = "7.x-3.5"
 
 projects[stanford_news][type] = "module"
 projects[stanford_news][subdir] = "stanford"

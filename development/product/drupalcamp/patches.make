@@ -30,3 +30,6 @@ projects[jw_player][patch][] = "https://www.drupal.org/files/issues/jw-player-my
 
 ; https://www.drupal.org/node/2567431 | PHP 7 critical error fix
 projects[feeds_tamper][patch][] = "https://www.drupal.org/files/issues/feeds_tamper-fix-params-default-value-callback-2567431-2-7.x.patch"
+
+; https://www.drupal.org/node/1904174 | Context pulling out css injector files when aggregation enabled
+projects[context][patch][] = "https://www.drupal.org/files/issues/context_css_injector_1.diff"

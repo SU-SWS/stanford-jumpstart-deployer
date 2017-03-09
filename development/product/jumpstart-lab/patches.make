@@ -27,3 +27,7 @@ projects[feeds_tamper][patch][] = "https://www.drupal.org/files/issues/feeds_tam
 
 ; https://www.drupal.org/node/2713921 | Cannot install on mysql 5.7+
 projects[jw_player][patch][] = "https://www.drupal.org/files/issues/jw-player-mysql57-2713921-8.patch"
+
+; https://www.drupal.org/node/1904174 | Context pulling out css injector files when aggregation enabled
+projects[context][patch][] = "https://www.drupal.org/files/issues/context_css_injector_1.diff"
+
