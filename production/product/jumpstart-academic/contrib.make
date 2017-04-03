@@ -198,6 +198,8 @@ projects[wysiwyg_filter][subdir] = "contrib"
 projects[wysiwyg_filter][version] = "1.6-rc3"
 projects[xmlsitemap][subdir] = "contrib"
 projects[xmlsitemap][version] = "2.3"
+projects[view_unpublished][subdir] = "contrib"
+projects[view_unpublished][version] = "1.2"
 
 ; Contributed modules, -dev versions specified by git commit
 ; ------------------------------------------------------------------------------
