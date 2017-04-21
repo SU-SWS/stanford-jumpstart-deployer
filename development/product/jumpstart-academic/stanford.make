@@ -70,6 +70,12 @@ projects[stanford_helper][download][type] = "git"
 projects[stanford_helper][download][url] = "git@github.com:SU-SWS/stanford_helper.git"
 projects[stanford_helper][download][branch] = "7.x-1.x"
 
+projects[stanford_field_formatters][subdir] = "stanford"
+projects[stanford_field_formatters][type] = "module"
+projects[stanford_field_formatters][download][type] = "git"
+projects[stanford_field_formatters][download][url] = "git@github.com:SU-SWS/stanford_field_formatters.git"
+projects[stanford_field_formatters][download][branch] = "7.x-1.x"
+
 projects[stanford_feeds_helper][subdir] = "stanford"
 projects[stanford_feeds_helper][type] = "module"
 projects[stanford_feeds_helper][download][type] = "git"

@@ -14,7 +14,7 @@ projects[stanford_bean_types][subdir] = "stanford"
 projects[stanford_bean_types][type] = "module"
 projects[stanford_bean_types][download][type] = "git"
 projects[stanford_bean_types][download][url] = "git@github.com:SU-SWS/stanford_bean_types.git"
-projects[stanford_bean_types][download][tag] = "7.x-3.1-alpha1"
+projects[stanford_bean_types][download][tag] = "7.x-3.2-alpha1"
 
 projects[stanford_capx][type] = module
 projects[stanford_capx][subdir] = stanford
@@ -63,6 +63,12 @@ projects[stanford_helper][type] = "module"
 projects[stanford_helper][download][type] = "git"
 projects[stanford_helper][download][url] = "git@github.com:SU-SWS/stanford_helper.git"
 projects[stanford_helper][download][tag] = "7.x-1.0"
+
+projects[stanford_field_formatters][subdir] = "stanford"
+projects[stanford_field_formatters][type] = "module"
+projects[stanford_field_formatters][download][type] = "git"
+projects[stanford_field_formatters][download][url] = "git@github.com:SU-SWS/stanford_field_formatters.git"
+projects[stanford_field_formatters][download][tag] = "7.x-1.0"
 
 projects[stanford_image][subdir] = "stanford"
 projects[stanford_image][type] = "module"
@@ -155,7 +161,7 @@ projects[stanford_jumpstart_academic][type] = "module"
 projects[stanford_jumpstart_academic][subdir] = "stanford"
 projects[stanford_jumpstart_academic][download][type] = "git"
 projects[stanford_jumpstart_academic][download][url] = "git@github.com:SU-SWS/stanford_jumpstart_academic.git"
-projects[stanford_jumpstart_academic][download][tag] = "7.x-5.1-alpha1"
+projects[stanford_jumpstart_academic][download][tag] = "7.x-5.1-alpah2"
 
 projects[stanford_event_series][type] = "module"
 projects[stanford_event_series][subdir] = "stanford"
@@ -191,7 +197,7 @@ projects[stanfordmodern][download][tag] = "7.x-1.6"
 projects[stanford_framework][type] = "theme"
 projects[stanford_framework][download][type] = "git"
 projects[stanford_framework][download][url] = "git@github.com:SU-SWS/stanford_framework.git"
-projects[stanford_framework][download][tag] = "7.x-3.3"
+projects[stanford_framework][download][tag] = "7.x-3.4"
 
 projects[stanford_jordan][type] = theme
 projects[stanford_jordan][download][type] = "git"
