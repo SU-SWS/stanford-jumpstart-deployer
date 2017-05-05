@@ -218,7 +218,7 @@ projects[faq][subdir] = "contrib"
 projects[bigmenu][version] = "1.3"
 projects[bigmenu][subdir] = "contrib"
 
-projects[field_collection][version] = "1.0-beta10"
+projects[field_collection][version] = "7.x-1.0-beta12"
 projects[field_collection][subdir] = "contrib"
 
 ; Contributed modules, -dev versions specified by git commit
