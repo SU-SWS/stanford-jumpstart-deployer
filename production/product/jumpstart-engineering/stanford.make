@@ -24,7 +24,7 @@ projects[stanford_alt_check][download][url] = "git@github.com:SU-SWS/stanford_al
 projects[stanford_alt_check][subdir] = "stanford"
 projects[stanford_alt_check][type] = "module"
 
-projects[stanford_bean_types][download][tag] = "7.x-3.0+8-dev"
+projects[stanford_bean_types][download][tag] = "7.x-3.2-alpha1"
 projects[stanford_bean_types][download][type] = "git"
 projects[stanford_bean_types][download][url] = "git@github.com:SU-SWS/stanford_bean_types.git"
 projects[stanford_bean_types][subdir] = "stanford"
