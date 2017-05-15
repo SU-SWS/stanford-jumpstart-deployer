@@ -55,7 +55,7 @@
 
 env:
   global:
-    - ENABLE_MODULES=""
+    - ENABLE_MODULES="stanford_bean_types-7.x-3.2-alpha2 stanford_field_formatters"
     - DISABLE_MODULES="webauth"
     - ONLY_TEST=""
     - DEPLOYER_BRANCH=""
@@ -63,14 +63,7 @@ env:
     - CLICKY_BRANCH=""
     - SCRIPTS_BRANCH=""
   matrix:
-    - PRODUCT_VERSION="development" PRODUCT_NAME="jumpstart-academic"
-    - PRODUCT_VERSION="development" PRODUCT_NAME="jumpstart-plus"
-    - PRODUCT_VERSION="development" PRODUCT_NAME="jumpstart-lab"
-    - PRODUCT_VERSION="development" PRODUCT_NAME="jumpstart"
     - PRODUCT_VERSION="production" PRODUCT_NAME="jumpstart-academic"
-    - PRODUCT_VERSION="production" PRODUCT_NAME="jumpstart-plus"
-    - PRODUCT_VERSION="production" PRODUCT_NAME="jumpstart-lab"
-    - PRODUCT_VERSION="production" PRODUCT_NAME="jumpstart"
 
 language: php
 php:
