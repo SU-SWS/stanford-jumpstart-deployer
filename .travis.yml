@@ -55,7 +55,7 @@
 
 env:
   global:
-    - ENABLE_MODULES="stanford_bean_types-7.x-3.2-alpha2 stanford_field_formatters"
+    - ENABLE_MODULES="stanford_bean_types-7.x-3.2-alpha2 stanford_field_formatters views-7.x-3.14"
     - DISABLE_MODULES="webauth"
     - ONLY_TEST=""
     - DEPLOYER_BRANCH=""
