@@ -166,6 +166,12 @@ projects[stanford_alt_check][download][type] = "git"
 projects[stanford_alt_check][download][url] = "git@github.com:SU-SWS/stanford_alt_check.git"
 projects[stanford_alt_check][download][branch] = "7.x-1.x"
 
+projects[stanford_fwb][subdir] = "stanford"
+projects[stanford_fwb][type] = "module"
+projects[stanford_fwb][download][type] = "git"
+projects[stanford_fwb][download][url] = "git@github.com:SU-SWS/stanford_fwb.git"
+projects[stanford_fwb][download][branch] = "7.x-1.x"
+
 ; Academic Modules
 ; -----
 

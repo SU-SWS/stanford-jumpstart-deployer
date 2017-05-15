@@ -14,7 +14,7 @@ projects[stanford_bean_types][subdir] = "stanford"
 projects[stanford_bean_types][type] = "module"
 projects[stanford_bean_types][download][type] = "git"
 projects[stanford_bean_types][download][url] = "git@github.com:SU-SWS/stanford_bean_types.git"
-projects[stanford_bean_types][download][tag] = "7.x-3.2-alpha1"
+projects[stanford_bean_types][download][tag] = "7.x-3.2-alpha2"
 
 projects[stanford_capx][type] = module
 projects[stanford_capx][subdir] = stanford
@@ -92,7 +92,7 @@ projects[stanford_person][type] = "module"
 projects[stanford_person][subdir] = "stanford"
 projects[stanford_person][download][type] = "git"
 projects[stanford_person][download][url] = "git@github.com:SU-SWS/stanford_person.git"
-projects[stanford_person][download][tag] = "7.x-5.2"
+projects[stanford_person][download][tag] = "7.x-5.3-alpha1"
 
 projects[stanford_slides][subdir] = "stanford"
 projects[stanford_slides][type] = "module"
@@ -153,6 +153,12 @@ projects[stanford_alt_check][subdir] = "stanford"
 projects[stanford_alt_check][download][type] = "git"
 projects[stanford_alt_check][download][url] = "git@github.com:SU-SWS/stanford_alt_check.git"
 projects[stanford_alt_check][download][tag] = "7.x-1.1-alpha1"
+
+projects[stanford_fwb][subdir] = "stanford"
+projects[stanford_fwb][type] = "module"
+projects[stanford_fwb][download][type] = "git"
+projects[stanford_fwb][download][url] = "git@github.com:SU-SWS/stanford_fwb.git"
+projects[stanford_fwb][download][tag] = "7.x-1.0"
 
 ; Academic Modules
 ; -----

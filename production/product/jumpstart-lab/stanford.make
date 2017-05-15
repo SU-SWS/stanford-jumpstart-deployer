@@ -20,7 +20,7 @@ projects[stanford_bean_types][subdir] = "stanford"
 projects[stanford_bean_types][type] = "module"
 projects[stanford_bean_types][download][type] = "git"
 projects[stanford_bean_types][download][url] = "git@github.com:SU-SWS/stanford_bean_types.git"
-projects[stanford_bean_types][download][tag] = "7.x-3.2-alpha1"
+projects[stanford_bean_types][download][tag] = "7.x-3.2-alpha2"
 
 projects[stanford_capx][type] = module
 projects[stanford_capx][subdir] = stanford
@@ -104,7 +104,7 @@ projects[stanford_person][type] = "module"
 projects[stanford_person][subdir] = "stanford"
 projects[stanford_person][download][type] = "git"
 projects[stanford_person][download][url] = "git@github.com:SU-SWS/stanford_person.git"
-projects[stanford_person][download][tag] = "7.x-5.2+19-dev"
+projects[stanford_person][download][tag] = "7.x-5.3-alpha1"
 
 projects[stanford_private_page][download][tag] = "7.x-1.1+7-dev"
 projects[stanford_private_page][download][type] = "git"
@@ -165,6 +165,12 @@ projects[stanford_gallery][subdir] = "stanford"
 projects[stanford_gallery][download][type] = "git"
 projects[stanford_gallery][download][url] = "git@github.com:SU-SWS/stanford_gallery.git"
 projects[stanford_gallery][download][tag] = "7.x-2.2"
+
+projects[stanford_fwb][subdir] = "stanford"
+projects[stanford_fwb][type] = "module"
+projects[stanford_fwb][download][type] = "git"
+projects[stanford_fwb][download][url] = "git@github.com:SU-SWS/stanford_fwb.git"
+projects[stanford_fwb][download][tag] = "7.x-1.0"
 
 ; Lab Modules
 ; -----
