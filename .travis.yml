@@ -55,12 +55,12 @@
 
 env:
   global:
-    - ENABLE_MODULES="stanford_bean_types-7.x-3.2-alpha2 stanford_field_formatters"
+    - ENABLE_MODULES="stanford_bean_types-7.x-3.2-alpha2 ds_bean_fields stanford_bean_types_permissions stanford_icon_grid stanford_field_formatters-7.x-1.x"
     - DISABLE_MODULES="webauth"
     - ONLY_TEST=""
     - DEPLOYER_BRANCH=""
     - DRUPAL_PROFILE_BRANCH=""
-    - CLICKY_BRANCH="jse-audit"
+    - CLICKY_BRANCH="HSDO-557-text-icon-grid"
     - SCRIPTS_BRANCH=""
   matrix:
     - PRODUCT_VERSION="production" PRODUCT_NAME="jumpstart-academic"
