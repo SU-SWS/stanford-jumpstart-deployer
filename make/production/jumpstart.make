@@ -6,10 +6,11 @@ defaults[projects][subdir] = contrib
 ; Modules, themes, libraries, and patches from Stanford Drupal Profile
 ; --------------------------------------------------------------------
 
-includes[stanford_profile] = "https://raw.githubusercontent.com/SU-SWS/Stanford-Drupal-Profile/7.x-2.4/make/stanford.make"
-includes[stanford_themes] = "https://raw.githubusercontent.com/SU-SWS/Stanford-Drupal-Profile/7.x-2.4/make/stanford-themes.make"
-includes[stanford_patches] = "https://raw.githubusercontent.com/SU-SWS/Stanford-Drupal-Profile/7.x-2.4/make/patches.make"
-includes[stanford_libraries] = "https://raw.githubusercontent.com/SU-SWS/Stanford-Drupal-Profile/7.x-2.4/make/libraries.make"
+; Commit hash is just after 7.x-2.5 release of profile.
+includes[stanford_profile] = "https://raw.githubusercontent.com/SU-SWS/Stanford-Drupal-Profile/01a0e8e79592fdbe425d7450f1ffd43e9ae8d4ec/make/stanford.make"
+includes[stanford_themes] = "https://raw.githubusercontent.com/SU-SWS/Stanford-Drupal-Profile/01a0e8e79592fdbe425d7450f1ffd43e9ae8d4ec/make/stanford-themes.make"
+includes[stanford_patches] = "https://raw.githubusercontent.com/SU-SWS/Stanford-Drupal-Profile/01a0e8e79592fdbe425d7450f1ffd43e9ae8d4ec/make/patches.make"
+includes[stanford_libraries] = "https://raw.githubusercontent.com/SU-SWS/Stanford-Drupal-Profile/01a0e8e79592fdbe425d7450f1ffd43e9ae8d4ec/make/libraries.make"
 
 ; Stanford Modules - GitHub
 ; -------------------------

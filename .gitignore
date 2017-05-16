@@ -27,3 +27,6 @@ Thumbs.db
 .svn
 .CVS
 cgi-bin
+
+# For jbickar
+boom.sh
