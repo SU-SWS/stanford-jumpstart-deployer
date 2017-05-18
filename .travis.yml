@@ -58,24 +58,31 @@ env:
     - ENABLE_MODULES=""
     - DISABLE_MODULES="webauth"
     - ONLY_TEST=""
+    - BEHAT_TAG="deploy"
     - DEPLOYER_BRANCH=""
     - DRUPAL_PROFILE_BRANCH=""
     - CLICKY_BRANCH=""
     - SCRIPTS_BRANCH=""
   matrix:
-    - PRODUCT_VERSION="development" PRODUCT_NAME="jumpstart-academic"
-    - PRODUCT_VERSION="development" PRODUCT_NAME="jumpstart-plus"
+    # Jumpstart Labs
     - PRODUCT_VERSION="development" PRODUCT_NAME="jumpstart-lab"
-    - PRODUCT_VERSION="development" PRODUCT_NAME="jumpstart"
-    - PRODUCT_VERSION="production" PRODUCT_NAME="jumpstart-academic"
-    - PRODUCT_VERSION="production" PRODUCT_NAME="jumpstart-plus"
     - PRODUCT_VERSION="production" PRODUCT_NAME="jumpstart-lab"
+    # Jumpstart Academic
+    - PRODUCT_VERSION="development" PRODUCT_NAME="jumpstart-academic"
+    - PRODUCT_VERSION="production" PRODUCT_NAME="jumpstart-academic"
+    # Jumpstart Plus
+    - PRODUCT_VERSION="development" PRODUCT_NAME="jumpstart-plus"
+    - PRODUCT_VERSION="production" PRODUCT_NAME="jumpstart-plus"
+    # Jumpstart
+    - PRODUCT_VERSION="development" PRODUCT_NAME="jumpstart"
     - PRODUCT_VERSION="production" PRODUCT_NAME="jumpstart"
+
 
 language: php
 php:
   - '5.6'
 
+group: deprecated-2017Q1
 sudo: required
 
 cache:
