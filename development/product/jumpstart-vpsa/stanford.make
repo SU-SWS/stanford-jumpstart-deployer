@@ -70,6 +70,12 @@ projects[stanford_events_importer][download][type] = "git"
 projects[stanford_events_importer][download][url] = "git@github.com:SU-VPSA/stanford_events_importer.git"
 projects[stanford_events_importer][download][branch] = "7.x-3.x-jsvpsa"
 
+projects[stanford_field_formatters][subdir] = "stanford"
+projects[stanford_field_formatters][type] = "module"
+projects[stanford_field_formatters][download][type] = "git"
+projects[stanford_field_formatters][download][url] = "git@github.com:SU-SWS/stanford_field_formatters.git"
+projects[stanford_field_formatters][download][branch] = "7.x-1.x"
+
 projects[stanford_image][subdir] = "stanford"
 projects[stanford_image][type] = "module"
 projects[stanford_image][download][type] = "git"

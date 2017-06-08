@@ -84,6 +84,12 @@ projects[stanford_feeds_helper][download][url] = "git@github.com:SU-SWS/stanford
 projects[stanford_feeds_helper][subdir] = "stanford"
 projects[stanford_feeds_helper][type] = "module"
 
+projects[stanford_field_formatters][subdir] = "stanford"
+projects[stanford_field_formatters][type] = "module"
+projects[stanford_field_formatters][download][type] = "git"
+projects[stanford_field_formatters][download][url] = "git@github.com:SU-SWS/stanford_field_formatters.git"
+projects[stanford_field_formatters][download][branch] = "7.x-1.x"
+
 projects[stanford_gallery][download][branch] = "7.x-2.x"
 projects[stanford_gallery][download][type] = "git"
 projects[stanford_gallery][download][url] = "git@github.com:SU-SWS/stanford_gallery.git"
