@@ -20,7 +20,7 @@ projects[stanford_capx][type] = module
 projects[stanford_capx][subdir] = stanford
 projects[stanford_capx][download][type] = "git"
 projects[stanford_capx][download][url] = "git@github.com:SU-SWS/stanford_capx.git"
-projects[stanford_capx][download][tag] = "7.x-2.0-php54"
+projects[stanford_capx][download][tag] = "7.x-2.2-alpha2-php54"
 
 projects[stanford_carousel][subdir] = "stanford"
 projects[stanford_carousel][type] = "module"
@@ -62,7 +62,7 @@ projects[stanford_feeds_helper][subdir] = "stanford"
 projects[stanford_feeds_helper][type] = "module"
 projects[stanford_feeds_helper][download][type] = "git"
 projects[stanford_feeds_helper][download][url] = "git@github.com:SU-SWS/stanford_feeds_helper.git"
-projects[stanford_feeds_helper][download][tag] = "7.x-1.2"
+projects[stanford_feeds_helper][download][tag] = "7.x-1.2+5-dev"
 
 projects[stanford_field_formatters][subdir] = "stanford"
 projects[stanford_field_formatters][type] = "module"
