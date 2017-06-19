@@ -22,6 +22,12 @@ projects[stanford_bean_types][download][type] = "git"
 projects[stanford_bean_types][download][url] = "git@github.com:SU-SWS/stanford_bean_types.git"
 projects[stanford_bean_types][download][branch] = "7.x-2.x-dev"
 
+projects[stanford_capx][type] = module
+projects[stanford_capx][subdir] = stanford
+projects[stanford_capx][download][type] = "git"
+projects[stanford_capx][download][url] = "git@github.com:SU-SWS/stanford_capx.git"
+projects[stanford_capx][download][branch] = "php54-2.x"
+
 projects[stanford_carousel][subdir] = "stanford"
 projects[stanford_carousel][type] = "module"
 projects[stanford_carousel][download][type] = "git"
@@ -64,6 +70,12 @@ projects[stanford_feeds_helper][download][type] = "git"
 projects[stanford_feeds_helper][download][url] = "git@github.com:SU-SWS/stanford_feeds_helper.git"
 projects[stanford_feeds_helper][download][branch] = "7.x-1.x"
 
+projects[stanford_field_formatters][subdir] = "stanford"
+projects[stanford_field_formatters][type] = "module"
+projects[stanford_field_formatters][download][type] = "git"
+projects[stanford_field_formatters][download][url] = "git@github.com:SU-SWS/stanford_field_formatters.git"
+projects[stanford_field_formatters][download][branch] = "7.x-1.x"
+
 projects[stanford_gallery][type] = "module"
 projects[stanford_gallery][subdir] = "stanford"
 projects[stanford_gallery][download][type] = "git"
@@ -76,12 +88,6 @@ projects[stanford_helper][download][type] = "git"
 projects[stanford_helper][download][url] = "git@github.com:SU-SWS/stanford_helper.git"
 projects[stanford_helper][download][branch] = "7.x-1.0"
 
-projects[stanford_news][subdir] = "stanford"
-projects[stanford_news][type] = "module"
-projects[stanford_news][download][type] = "git"
-projects[stanford_news][download][url] = "git@github.com:SU-SWS/stanford_news.git"
-projects[stanford_news][download][branch] = "7.x-3.x-dev"
-
 projects[stanford_image][subdir] = "stanford"
 projects[stanford_image][type] = "module"
 projects[stanford_image][download][type] = "git"
@@ -93,6 +99,12 @@ projects[stanford_image_styles][type] = "module"
 projects[stanford_image_styles][download][type] = "git"
 projects[stanford_image_styles][download][url] = "git@github.com:SU-SWS/stanford_image_styles.git"
 projects[stanford_image_styles][download][branch] = "7.x-4.x"
+
+projects[stanford_news][subdir] = "stanford"
+projects[stanford_news][type] = "module"
+projects[stanford_news][download][type] = "git"
+projects[stanford_news][download][url] = "git@github.com:SU-SWS/stanford_news.git"
+projects[stanford_news][download][branch] = "7.x-3.x-dev"
 
 projects[stanford_page][subdir] = "stanford"
 projects[stanford_page][type] = "module"

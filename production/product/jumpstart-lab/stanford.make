@@ -70,17 +70,17 @@ projects[stanford_feeds_helper][download][type] = "git"
 projects[stanford_feeds_helper][download][url] = "git@github.com:SU-SWS/stanford_feeds_helper.git"
 projects[stanford_feeds_helper][download][tag] = "7.x-1.2+5-dev"
 
-projects[stanford_helper][subdir] = "stanford"
-projects[stanford_helper][type] = "module"
-projects[stanford_helper][download][type] = "git"
-projects[stanford_helper][download][url] = "git@github.com:SU-SWS/stanford_helper.git"
-projects[stanford_helper][download][tag] = "7.x-1.0"
-
 projects[stanford_field_formatters][subdir] = "stanford"
 projects[stanford_field_formatters][type] = "module"
 projects[stanford_field_formatters][download][type] = "git"
 projects[stanford_field_formatters][download][url] = "git@github.com:SU-SWS/stanford_field_formatters.git"
 projects[stanford_field_formatters][download][tag] = "7.x-1.1"
+
+projects[stanford_helper][subdir] = "stanford"
+projects[stanford_helper][type] = "module"
+projects[stanford_helper][download][type] = "git"
+projects[stanford_helper][download][url] = "git@github.com:SU-SWS/stanford_helper.git"
+projects[stanford_helper][download][tag] = "7.x-1.0"
 
 projects[stanford_image][subdir] = "stanford"
 projects[stanford_image][type] = "module"
