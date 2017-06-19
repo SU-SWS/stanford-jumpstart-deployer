@@ -160,6 +160,18 @@ projects[stanford_fwb][download][type] = "git"
 projects[stanford_fwb][download][url] = "git@github.com:SU-SWS/stanford_fwb.git"
 projects[stanford_fwb][download][tag] = "7.x-1.0"
 
+projects[stanford_story_page][subdir] = "stanford"
+projects[stanford_story_page][type] = "module"
+projects[stanford_story_page][download][type] = "git"
+projects[stanford_story_page][download][url] = "git@github.com:SU-SWS/stanford_story_page.git"
+projects[stanford_story_page][download][tag] = "7.x-1.0"
+
+projects[stanford_paragraph_types][subdir] = "stanford"
+projects[stanford_paragraph_types][type] = "module"
+projects[stanford_paragraph_types][download][type] = "git"
+projects[stanford_paragraph_types][download][url] = "git@github.com:SU-SWS/stanford_paragraph_types.git"
+projects[stanford_paragraph_types][download][tag] = "7.x-1.0"
+
 ; Academic Modules
 ; -----
 
