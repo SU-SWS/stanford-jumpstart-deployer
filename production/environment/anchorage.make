@@ -7,7 +7,7 @@ projects[s3fs][subdir] = "contrib"
 projects[s3fs][version] = "2.0"
 
 projects[smtp][subdir] = "contrib"
-projects[smtp][version] = "1.2"
+projects[smtp][version] = "1.7"
 
 ; Custom modules, github
 projects[anchorage_helper][subdir] = "stanford"
