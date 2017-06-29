@@ -14,7 +14,7 @@ projects[stanford_bean_types][subdir] = "stanford"
 projects[stanford_bean_types][type] = "module"
 projects[stanford_bean_types][download][type] = "git"
 projects[stanford_bean_types][download][url] = "git@github.com:SU-SWS/stanford_bean_types.git"
-projects[stanford_bean_types][download][tag] = "7.x-3.2-alpha2"
+projects[stanford_bean_types][download][tag] = "7.x-3.2"
 
 projects[stanford_capx][type] = module
 projects[stanford_capx][subdir] = stanford
@@ -26,7 +26,7 @@ projects[stanford_carousel][subdir] = "stanford"
 projects[stanford_carousel][type] = "module"
 projects[stanford_carousel][download][type] = "git"
 projects[stanford_carousel][download][url] = "git@github.com:SU-SWS/stanford_carousel.git"
-projects[stanford_carousel][download][tag] = "7.x-2.3"
+projects[stanford_carousel][download][tag] = "7.x-2.4-alpha1"
 
 projects[stanford_courses][subdir] = "stanford"
 projects[stanford_courses][type] = "module"
@@ -122,7 +122,7 @@ projects[stanford_jumpstart][type] = "module"
 projects[stanford_jumpstart][subdir] = "stanford"
 projects[stanford_jumpstart][download][type] = "git"
 projects[stanford_jumpstart][download][url] = "git@github.com:SU-SWS/stanford_jumpstart.git"
-projects[stanford_jumpstart][download][tag] = "7.x-5.5-beta1"
+projects[stanford_jumpstart][download][tag] = "7.x-5.5-beta2"
 
 projects[stanford_jumpstart_home][type] = "module"
 projects[stanford_jumpstart_home][subdir] = "stanford"
@@ -159,6 +159,18 @@ projects[stanford_fwb][type] = "module"
 projects[stanford_fwb][download][type] = "git"
 projects[stanford_fwb][download][url] = "git@github.com:SU-SWS/stanford_fwb.git"
 projects[stanford_fwb][download][tag] = "7.x-1.0"
+
+projects[stanford_story_page][subdir] = "stanford"
+projects[stanford_story_page][type] = "module"
+projects[stanford_story_page][download][type] = "git"
+projects[stanford_story_page][download][url] = "git@github.com:SU-SWS/stanford_story_page.git"
+projects[stanford_story_page][download][tag] = "7.x-1.0"
+
+projects[stanford_paragraph_types][subdir] = "stanford"
+projects[stanford_paragraph_types][type] = "module"
+projects[stanford_paragraph_types][download][type] = "git"
+projects[stanford_paragraph_types][download][url] = "git@github.com:SU-SWS/stanford_paragraph_types.git"
+projects[stanford_paragraph_types][download][tag] = "7.x-1.0"
 
 ; Academic Modules
 ; -----
