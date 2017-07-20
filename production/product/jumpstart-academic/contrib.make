@@ -192,6 +192,8 @@ projects[views_field_view][subdir] = "contrib"
 projects[views_field_view][version] = "1.2"
 projects[views_select_sort][subdir] = "contrib"
 projects[views_select_sort][version] = "1.0-alpha1"
+projects[views_selective_filters][subdir] = "contrib"
+projects[views_selective_filters][version] = "1.5"
 projects[views_slideshow][subdir] = "contrib"
 projects[views_slideshow][version] = "3.1"
 projects[webform][subdir] = "contrib"
@@ -210,6 +212,8 @@ projects[xmlsitemap][subdir] = "contrib"
 projects[xmlsitemap][version] = "2.3"
 projects[view_unpublished][subdir] = "contrib"
 projects[view_unpublished][version] = "1.2"
+projects[views_selective_filters][subdir] = "contrib"
+projects[views_selective_filters][version] = "1.5"
 
 ; Contributed modules, -dev versions specified by git commit
 ; ------------------------------------------------------------------------------
