@@ -212,8 +212,6 @@ projects[xmlsitemap][subdir] = "contrib"
 projects[xmlsitemap][version] = "2.3"
 projects[view_unpublished][subdir] = "contrib"
 projects[view_unpublished][version] = "1.2"
-projects[views_selective_filters][subdir] = "contrib"
-projects[views_selective_filters][version] = "1.5"
 
 ; Contributed modules, -dev versions specified by git commit
 ; ------------------------------------------------------------------------------
