@@ -20,7 +20,7 @@ projects[stanford_bean_types][subdir] = "stanford"
 projects[stanford_bean_types][type] = "module"
 projects[stanford_bean_types][download][type] = "git"
 projects[stanford_bean_types][download][url] = "git@github.com:SU-SWS/stanford_bean_types.git"
-projects[stanford_bean_types][download][tag] = "7.x-3.2"
+projects[stanford_bean_types][download][tag] = "7.x-3.3"
 
 projects[stanford_capx][type] = module
 projects[stanford_capx][subdir] = stanford
@@ -44,7 +44,7 @@ projects[stanford_courses][subdir] = "stanford"
 projects[stanford_courses][type] = "module"
 projects[stanford_courses][download][type] = "git"
 projects[stanford_courses][download][url] = "git@github.com:SU-SWS/stanford_courses.git"
-projects[stanford_courses][download][tag] = "7.x-4.0"
+projects[stanford_courses][download][tag] = "7.x-4.3"
 
 projects[stanford_date_formats][subdir] = "stanford"
 projects[stanford_date_formats][type] = "module"
@@ -140,7 +140,7 @@ projects[stanford_jumpstart][type] = "module"
 projects[stanford_jumpstart][subdir] = "stanford"
 projects[stanford_jumpstart][download][type] = "git"
 projects[stanford_jumpstart][download][url] = "git@github.com:SU-SWS/stanford_jumpstart.git"
-projects[stanford_jumpstart][download][tag] = "7.x-5.5-beta2"
+projects[stanford_jumpstart][download][tag] = "7.x-5.5-beta3"
 
 projects[stanford_jumpstart_home][type] = "module"
 projects[stanford_jumpstart_home][subdir] = "stanford"
