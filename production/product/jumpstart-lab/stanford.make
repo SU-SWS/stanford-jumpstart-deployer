@@ -44,7 +44,7 @@ projects[stanford_courses][subdir] = "stanford"
 projects[stanford_courses][type] = "module"
 projects[stanford_courses][download][type] = "git"
 projects[stanford_courses][download][url] = "git@github.com:SU-SWS/stanford_courses.git"
-projects[stanford_courses][download][tag] = "7.x-4.2"
+projects[stanford_courses][download][tag] = "7.x-4.3"
 
 projects[stanford_date_formats][subdir] = "stanford"
 projects[stanford_date_formats][type] = "module"
