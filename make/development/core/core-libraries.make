@@ -2,7 +2,7 @@ core = 7.x
 api = 2
 
 libraries[simplepie][download][type] = "file"
-libraries[simplepie][download][url] = "http://simplepie.org/downloads/simplepie_1.3.1.compiled.php"
+libraries[simplepie][download][url] = "https://gist.githubusercontent.com/sherakama/8ba5e152c2c8944a5a4a1ab604f87761/raw/d6f30a47ca48e5d73c3e7218a45d0c3ac9393b53/simplepie.compiled.php"
 libraries[simplepie][download][filename] = "simplepie.compiled.php"
 libraries[simplepie][destination] = "libraries"
 
