@@ -1,10 +1,9 @@
 # [Stanford Jumpstart Deployer](https://github.com/SU-SWS/stanford-jumpstart-deployer)
-##### Version: 7.x-5.0
+##### Version: 7.x-5.0-dev
 
 Maintainers: [jbickar](https://github.com/jbickar), [sherakama](https://github.com/sherakama)
 
 This repository is used to build (drush make) Jumpstart Drupal websites.
-
 
 Installation
 ---

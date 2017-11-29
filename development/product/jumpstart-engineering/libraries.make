@@ -31,10 +31,11 @@ libraries[icalcreator][download][revision] = "e3dbec2cb3bb91a8bde989e467567ae883
 libraries[icalcreator][download][type] = "git"
 libraries[icalcreator][download][url] = "https://github.com/iCalcreator/iCalcreator.git"
 
+libraries[jquery_cycle][download][type] = "get"
+libraries[jquery_cycle][download][url] = "http://malsup.com/jquery/cycle/release/jquery.cycle.zip?v2.99"
+libraries[jquery_cycle][download][subtree] = "src"
 libraries[jquery_cycle][destination] = "libraries"
 libraries[jquery_cycle][directory_name] = "jquery.cycle"
-libraries[jquery_cycle][download][type] = "get"
-libraries[jquery_cycle][download][url] = "http://malsup.github.com/jquery.cycle.all.js"
 
 libraries[jqueryuitimepicker][destination] = "libraries"
 libraries[jqueryuitimepicker][directory_name] = "jquery-ui-timepicker"
@@ -55,7 +56,7 @@ libraries[proj4js][download][url] = http://download.osgeo.org/proj4js/proj4js-1.
 libraries[simplepie][destination] = "libraries"
 libraries[simplepie][download][filename] = "simplepie.compiled.php"
 libraries[simplepie][download][type] = "file"
-libraries[simplepie][download][url] = "http://simplepie.org/downloads/simplepie_1.3.1.compiled.php"
+libraries[simplepie][download][url] = "https://gist.githubusercontent.com/sherakama/8ba5e152c2c8944a5a4a1ab604f87761/raw/d6f30a47ca48e5d73c3e7218a45d0c3ac9393b53/simplepie.compiled.php"
 
 libraries[stanford_install_tasks][directory_name] = "tasks"
 libraries[stanford_install_tasks][download][branch] = "7.x-1.x"
