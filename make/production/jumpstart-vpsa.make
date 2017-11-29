@@ -222,7 +222,7 @@ projects[stanford_sites_jumpstart][subdir] = FALSE
 projects[stanford_sites_jumpstart_vpsa][type] = "profile"
 projects[stanford_sites_jumpstart_vpsa][download][type] = "git"
 projects[stanford_sites_jumpstart_vpsa][download][url] = "git@github.com:SU-SWS/stanford_sites_jumpstart_vpsa.git"
-projects[stanford_sites_jumpstart_vpsa][download][tag] = "7.x-4.6+14-dev"
+projects[stanford_sites_jumpstart_vpsa][download][tag] = "7.x-4.7-alpha1"
 projects[stanford_sites_jumpstart_vpsa][subdir] = FALSE
 
 ; Patches
