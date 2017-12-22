@@ -68,7 +68,7 @@ projects[stanford_field_formatters][subdir] = "stanford"
 projects[stanford_field_formatters][type] = "module"
 projects[stanford_field_formatters][download][type] = "git"
 projects[stanford_field_formatters][download][url] = "git@github.com:SU-SWS/stanford_field_formatters.git"
-projects[stanford_field_formatters][download][tag] = "7.x-1.1"
+projects[stanford_field_formatters][download][tag] = "7.x-1.2"
 
 projects[stanford_image][subdir] = "stanford"
 projects[stanford_image][type] = "module"
@@ -170,7 +170,7 @@ projects[stanford_paragraph_types][subdir] = "stanford"
 projects[stanford_paragraph_types][type] = "module"
 projects[stanford_paragraph_types][download][type] = "git"
 projects[stanford_paragraph_types][download][url] = "git@github.com:SU-SWS/stanford_paragraph_types.git"
-projects[stanford_paragraph_types][download][tag] = "7.x-1.1"
+projects[stanford_paragraph_types][download][tag] = "7.x-1.2"
 
 ; Academic Modules
 ; -----
@@ -179,7 +179,7 @@ projects[stanford_jumpstart_academic][type] = "module"
 projects[stanford_jumpstart_academic][subdir] = "stanford"
 projects[stanford_jumpstart_academic][download][type] = "git"
 projects[stanford_jumpstart_academic][download][url] = "git@github.com:SU-SWS/stanford_jumpstart_academic.git"
-projects[stanford_jumpstart_academic][download][tag] = "7.x-5.1-alpha2"
+projects[stanford_jumpstart_academic][download][tag] = "7.x-5.1-alpha3"
 
 projects[stanford_event_series][type] = "module"
 projects[stanford_event_series][subdir] = "stanford"
