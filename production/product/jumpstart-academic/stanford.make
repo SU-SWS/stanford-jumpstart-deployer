@@ -184,7 +184,7 @@ projects[stanford_jumpstart_academic][download][tag] = "7.x-5.1-alpha3"
 projects[stanford_event_series][type] = "module"
 projects[stanford_event_series][subdir] = "stanford"
 projects[stanford_event_series][download][type] = "git"
-projects[stanford_event_series][download][url] = "git@github.com:SU-SWS/stanford_event_series.git"q
+projects[stanford_event_series][download][url] = "git@github.com:SU-SWS/stanford_event_series.git"
 projects[stanford_event_series][download][tag] = "7.x-1.1"
 
 projects[stanford_publication][type] = "module"
