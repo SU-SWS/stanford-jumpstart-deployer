@@ -6,10 +6,10 @@ defaults[projects][subdir] = contrib
 ; Modules, themes, libraries, and patches from Stanford Drupal Profile
 ; --------------------------------------------------------------------
 
-; Commit hash is just after 7.x-2.5 release of profile.
-includes[stanford_profile] = "https://raw.githubusercontent.com/SU-SWS/Stanford-Drupal-Profile/e860a46dc6f97ff5f1173cd962cc4a9ef740b590/make/stanford.make"
-includes[stanford_themes] = "https://raw.githubusercontent.com/SU-SWS/Stanford-Drupal-Profile/e860a46dc6f97ff5f1173cd962cc4a9ef740b590/make/stanford-themes.make"
-includes[stanford_libraries] = "https://raw.githubusercontent.com/SU-SWS/Stanford-Drupal-Profile/e860a46dc6f97ff5f1173cd962cc4a9ef740b590/make/libraries.make"
+; Commit hash is just after 7.x-2.6 release of profile.
+includes[stanford_profile] = "https://raw.githubusercontent.com/SU-SWS/Stanford-Drupal-Profile/fdbf690ee3503687f77615bb80b21549b6eb0690/make/stanford.make"
+includes[stanford_themes] = "https://raw.githubusercontent.com/SU-SWS/Stanford-Drupal-Profile/fdbf690ee3503687f77615bb80b21549b6eb0690/make/stanford-themes.make"
+includes[stanford_libraries] = "https://raw.githubusercontent.com/SU-SWS/Stanford-Drupal-Profile/fdbf690ee3503687f77615bb80b21549b6eb0690/make/libraries.make"
 includes[core_libraries] = "core/core-libraries.make"
 
 
@@ -228,5 +228,5 @@ projects[stanford_sites_jumpstart_vpsa][subdir] = FALSE
 ; Patches
 ; -------
 
-includes[stanford_patches] = "https://raw.githubusercontent.com/SU-SWS/Stanford-Drupal-Profile/e860a46dc6f97ff5f1173cd962cc4a9ef740b590/make/patches.make"
+includes[stanford_patches] = "https://raw.githubusercontent.com/SU-SWS/Stanford-Drupal-Profile/fdbf690ee3503687f77615bb80b21549b6eb0690/make/patches.make"
 includes[core_patches] = "core/core-patches.make"
