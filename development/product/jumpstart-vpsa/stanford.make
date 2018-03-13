@@ -193,7 +193,7 @@ projects[stanford_private_page][type] = "module"
 projects[stanford_private_page][subdir] = "stanford"
 projects[stanford_private_page][download][type] = "git"
 projects[stanford_private_page][download][url] = "git@github.com:SU-SWS/stanford_private_page.git"
-projects[stanford_private_page][download][branch] = "7.x-1.x"
+projects[stanford_private_page][download][branch] = "7.x-2.x"
 
 projects[stanford_landing_page][type] = "module"
 projects[stanford_landing_page][subdir] = "stanford"
