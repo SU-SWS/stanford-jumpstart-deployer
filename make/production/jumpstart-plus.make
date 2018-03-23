@@ -7,10 +7,10 @@ defaults[projects][subdir] = contrib
 ; --------------------------------------------------------------------
 
 ; Commit hash is just after 7.x-2.6 release of profile.
-includes[stanford_profile] = "https://raw.githubusercontent.com/SU-SWS/Stanford-Drupal-Profile/fdbf690ee3503687f77615bb80b21549b6eb0690/make/stanford.make"
-includes[stanford_themes] = "https://raw.githubusercontent.com/SU-SWS/Stanford-Drupal-Profile/fdbf690ee3503687f77615bb80b21549b6eb0690/make/stanford-themes.make"
-includes[stanford_patches] = "https://raw.githubusercontent.com/SU-SWS/Stanford-Drupal-Profile/fdbf690ee3503687f77615bb80b21549b6eb0690/make/patches.make"
-includes[stanford_libraries] = "https://raw.githubusercontent.com/SU-SWS/Stanford-Drupal-Profile/fdbf690ee3503687f77615bb80b21549b6eb0690/make/libraries.make"
+includes[stanford_profile] = "https://raw.githubusercontent.com/SU-SWS/Stanford-Drupal-Profile/6236256a5835b7448a8ddf3754df2cd6dd53e294/make/stanford.make"
+includes[stanford_themes] = "https://raw.githubusercontent.com/SU-SWS/Stanford-Drupal-Profile/6236256a5835b7448a8ddf3754df2cd6dd53e294/make/stanford-themes.make"
+includes[stanford_patches] = "https://raw.githubusercontent.com/SU-SWS/Stanford-Drupal-Profile/6236256a5835b7448a8ddf3754df2cd6dd53e294/make/patches.make"
+includes[stanford_libraries] = "https://raw.githubusercontent.com/SU-SWS/Stanford-Drupal-Profile/6236256a5835b7448a8ddf3754df2cd6dd53e294/make/libraries.make"
 
 ; Temporary until Stanford-Drupal-Profile gets updated
 projects[field_collection][version] = "1.0-beta11"
