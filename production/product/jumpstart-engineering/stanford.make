@@ -220,7 +220,7 @@ projects[open_framework][download][type] = "git"
 projects[open_framework][download][url] = "git@github.com:SU-SWS/open_framework.git"
 projects[open_framework][type] = theme
 
-projects[stanford_framework][download][tag] = "7.x-3.2"
+projects[stanford_framework][download][tag] = "7.x-3.6"
 projects[stanford_framework][download][type] = "git"
 projects[stanford_framework][download][url] = "git@github.com:SU-SWS/stanford_framework.git"
 projects[stanford_framework][type] = "theme"
