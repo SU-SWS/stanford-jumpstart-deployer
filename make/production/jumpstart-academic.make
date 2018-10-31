@@ -78,7 +78,7 @@ projects[stanford_publication][subdir] = "stanford"
 projects[stanford_manage_content][type] = "module"
 projects[stanford_manage_content][download][type] = "git"
 projects[stanford_manage_content][download][url] = "git@github.com:SU-SWS/stanford_manage_content.git"
-projects[stanford_manage_content][download][tag] = "7.x-3.4"
+projects[stanford_manage_content][download][tag] = "7.x-3.6"
 projects[stanford_manage_content][subdir] = "stanford"
 
 projects[stanford_landing_page][type] = "module"
