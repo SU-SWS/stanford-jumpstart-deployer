@@ -7,9 +7,9 @@ defaults[projects][subdir] = contrib
 ; --------------------------------------------------------------------
 
 ; Commit hash is just after 7.x-2.6 release of profile.
-includes[stanford_profile] = "https://raw.githubusercontent.com/SU-SWS/Stanford-Drupal-Profile/daf17e2a095970c69951d53063769d401265f75b/make/stanford.make"
-includes[stanford_themes] = "https://raw.githubusercontent.com/SU-SWS/Stanford-Drupal-Profile/daf17e2a095970c69951d53063769d401265f75b/make/stanford-themes.make"
-includes[stanford_libraries] = "https://raw.githubusercontent.com/SU-SWS/Stanford-Drupal-Profile/daf17e2a095970c69951d53063769d401265f75b/make/libraries.make"
+includes[stanford_profile] = "https://raw.githubusercontent.com/SU-SWS/Stanford-Drupal-Profile/9200d405dc1fe3bd0c1d5761e4a2376fd7db0327/make/stanford.make"
+includes[stanford_themes] = "https://raw.githubusercontent.com/SU-SWS/Stanford-Drupal-Profile/9200d405dc1fe3bd0c1d5761e4a2376fd7db0327/make/stanford-themes.make"
+includes[stanford_libraries] = "https://raw.githubusercontent.com/SU-SWS/Stanford-Drupal-Profile/9200d405dc1fe3bd0c1d5761e4a2376fd7db0327/make/libraries.make"
 includes[core_libraries] = "core/core-libraries.make"
 
 
@@ -228,5 +228,5 @@ projects[stanford_sites_jumpstart_vpsa][subdir] = FALSE
 ; Patches
 ; -------
 
-includes[stanford_patches] = "https://raw.githubusercontent.com/SU-SWS/Stanford-Drupal-Profile/daf17e2a095970c69951d53063769d401265f75b/make/patches.make"
+includes[stanford_patches] = "https://raw.githubusercontent.com/SU-SWS/Stanford-Drupal-Profile/9200d405dc1fe3bd0c1d5761e4a2376fd7db0327/make/patches.make"
 includes[core_patches] = "core/core-patches.make"
